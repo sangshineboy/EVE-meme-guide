@@ -1,0 +1,11 @@
+<li class="card" data-key="{{ m | searchKey }}" data-category="{{ m.category }}" data-confidence="{{ m.confidence }}" data-labels="{{ (m.labels or []) | join(',') }}" data-title="{{ m.title }}" data-sources="{{ m | sourceCount }}">
+  <a class="card-link" href="{{ ('/m/' + m.slug + '/') | url }}">
+    <h3 class="card-title">{{ m.title }}</h3>
+    <p class="card-summary">{{ m.summary }}</p>
+    <p class="card-foot">
+      <span class="badge badge-cat">{{ m.category }}</span>
+      <span class="badge badge-conf badge-{{ m.confidence }}">{{ m.confidence }}</span>
+      <span class="card-src">源 {{ m | sourceCount }}</span>
+    </p>
+  </a>
+</li>

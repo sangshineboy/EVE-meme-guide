@@ -1,0 +1,15 @@
+# 影响力哥 —— 取材记录
+
+- 取材日期：2026-10-13 ｜ 证据等级：已确认
+- 参考仓：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main
+
+## 已核来源 / 覆盖与缺口
+
+- **服务器归属**：本条属国服（晨曦）旧事。若本站要严格只收宁静服口径，应撤下或明确另标；目前按来源写清服务器后保留。
+- 来源是自媒体整理文（网易号），不是当事人原帖；原话「相信我，我有这个影响力」为二手转述。
+- 未核：论坛原帖链接与发布时间；FBP 战局的具体结果与时间线。
+- 站内来源：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/domityphoon/domityphoon.md
+
+## 排除记录
+
+（搜过但没用上的、明确不属于本条的，写在这里，避免下轮重复搜。）

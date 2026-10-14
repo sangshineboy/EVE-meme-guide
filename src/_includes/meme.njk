@@ -1,0 +1,47 @@
+---
+layout: base.njk
+bodyClass: page-meme
+---
+{%- set prev = collections.memes | getPreviousCollectionItem(page) -%}
+{%- set next = collections.memes | getNextCollectionItem(page) -%}
+<nav class="back" data-pagefind-ignore>
+  <a href="{{ '/' | url }}" id="back-link">← 返回目录</a>
+</nav>
+
+<article class="meme" data-pagefind-body>
+  <header class="meme-head">
+    <p class="meme-kicker" data-pagefind-ignore>
+      <span class="badge badge-cat">{{ category }}</span>
+      <span class="badge badge-conf badge-{{ confidence }}">{{ confidence }}</span>
+    </p>
+    <h1 class="meme-title"><span data-pagefind-meta="title">{{ title }}</span></h1>
+    {% if aliases and aliases.length %}
+    <p class="meme-aliases" data-pagefind-ignore>也叫：{% for a in aliases %}<span>{{ a }}</span>{% if not loop.last %}、{% endif %}{% endfor %}</p>
+    {% endif %}
+    {% if labels and labels.length %}
+    <p class="meme-tags" data-pagefind-ignore>{% for t in labels %}<a class="chip" href="{{ ('/tags/' + (t | tagSlug) + '/') | url }}">{{ t }}</a>{% endfor %}</p>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+
+  <footer class="meme-foot">
+    <p class="meme-meta">
+      来源 {{ page | sourceCount }} 条{% if updated_at %} · 核对日期 <time datetime="{{ updated_at | formatDate }}">{{ updated_at | formatDate }}</time>{% endif %}
+    </p>
+    {% if related and related.length %}
+    <nav class="related" data-pagefind-ignore>
+      <span>相关词条：</span>
+      {% for rel in related %}<a href="{{ ('/m/' + rel + '/') | url }}">{{ rel }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+    </nav>
+    {% endif %}
+  </footer>
+</article>
+
+<nav class="pager" aria-label="按词条名翻页" data-pagefind-ignore>
+  {% if prev %}<a class="pager-prev" href="{{ prev.url | url }}" rel="prev"><small>前一条</small>{{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+  <a class="pager-random" href="{{ '/random/' | url }}">随机</a>
+  {% if next %}<a class="pager-next" href="{{ next.url | url }}" rel="next"><small>后一条</small>{{ next.data.title }}</a>{% else %}<span></span>{% endif %}
+</nav>

@@ -1,0 +1,19 @@
+---
+layout: base.njk
+bodyClass: page-random
+pageTitle: 随机一条 — EVE 梗指南
+eleventyExcludeFromCollections: true
+permalink: "/random/index.html"
+---
+{%- set all = collections.memes -%}
+{%- set slugs = all | slugsOf -%}
+<section class="intro">
+  <h1>随机翻一条</h1>
+  <p>共 {{ all.length }} 条词条，每次打开随机挑一条。</p>
+  <p><a class="big-link" href="{{ ('/m/' + slugs[0] + '/') | url }}" id="random-link">点这里翻一条 →</a></p>
+</section>
+<script>
+  const slugs = {{ slugs | json | safe }};
+  const a = document.getElementById("random-link");
+  a.href = a.href.replace(/\/m\/[^/]+\//, "/m/" + slugs[Math.floor(Math.random() * slugs.length)] + "/");
+</script>

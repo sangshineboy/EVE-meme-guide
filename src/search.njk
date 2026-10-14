@@ -1,0 +1,21 @@
+---
+layout: base.njk
+bodyClass: page-search
+pageTitle: 全文搜索 — EVE 梗指南
+pageDescription: 全文搜索 EVE 梗、黑话、名场面与出处。
+---
+<section class="intro">
+  <h1>全文搜索</h1>
+  <p>搜词条名、别名、正文与分类都能命中。中文分词有限，短词直接搜更容易中。</p>
+</section>
+<div id="search" class="search-box"></div>
+<link href="{{ '/pagefind/pagefind-ui.css' | url }}" rel="stylesheet">
+<script src="{{ '/pagefind/pagefind-ui.js' | url }}"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    new PagefindUI({ element: "#search", showSubResults: true, translations: {
+      placeholder: "搜梗、黑话、人名、事件…",
+      zero_results: "没有结果：换个短词，或去[黑话索引]看看别的叫法",
+    }});
+  });
+</script>

@@ -1,0 +1,28 @@
+---
+layout: base.njk
+bodyClass: page-sources
+pageTitle: 出处总表 — EVE 梗指南
+pageDescription: 全站词条引用过的公开来源，按站点归拢。
+---
+{%- set rows = collections.memes | sourceIndex -%}
+<section class="intro">
+  <h1>出处总表</h1>
+  <p>全站 {{ collections.memes.length }} 条词条共引用 {{ rows.length }} 条来源（同一链接在多条词条里出现会重复列出）。按站点归拢，方便核对与批量回查。</p>
+</section>
+
+{% if rows.length %}
+<table class="src-table">
+  <thead><tr><th>来源</th><th>站点</th><th>用于词条</th></tr></thead>
+  <tbody>
+  {%- for r in rows %}
+    <tr>
+      <td><a href="{{ r.url }}" rel="noopener">{{ r.title }}</a></td>
+      <td class="src-host">{{ r.url | hostname }}</td>
+      <td><a href="{{ ('/m/' + r.meme.slug + '/') | url }}">{{ r.meme.title }}</a></td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="empty">还没有词条登记来源。</p>
+{% endif %}
