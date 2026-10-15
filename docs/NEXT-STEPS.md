@@ -115,6 +115,26 @@ node .cache/read-tieba-forum.mjs "eve欧服" 2 20   # 翻吧列表发现新帖
 
 详见 [docs/shared-sources/tieba-access.md](shared-sources/tieba-access.md)。
 
+### Git 推送：本机必须用 schannel 后端
+
+本机 git 用 openssl 后端时**证书链验证直接失败**（`SSL certificate problem: unable to get local issuer certificate`），
+表现为「推不上去」，其实与账号密码无关。临时用法（不改全局配置）：
+
+```bash
+git -c http.sslBackend=schannel fetch EVE-meme-guide
+git -c http.sslBackend=schannel push -u EVE-meme-guide main
+```
+
+想一劳永逸可以自行 `git config --global http.sslBackend schannel`。
+
+**仓库现状**：远端 `sangshineboy/EVE-meme-guide` 的 `main` 已与本项目同步；本地 `master` 已合并进 `main` 并删除。
+远端建仓时自带的 MIT `LICENSE`（署名 sangshineboy）**已保留，未被覆盖**。
+
+### 线上站点还需你做一步
+
+[.github/workflows/deploy.yml](../.github/workflows/deploy.yml) 已就绪，但 **GitHub Pages 需要在仓库 Settings → Pages 里把 Source 选成「GitHub Actions」**才会开始发布；
+另外**私有仓库的 Pages 可用性取决于账号套餐**（免费账号通常只能对公开仓库发布）。这两点都不在代码里，只能由维护者在网页上确认。
+
 ---
 
 ## 7. 建议的下一步顺序

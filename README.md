@@ -78,3 +78,7 @@ src/memes/<slug>/
 **来源政策**：本站的事实与出处只取自公开网页（原帖、官方新闻与论坛、媒体报道、社区 wiki、可查的 KM/API 数据），不接受任何第三方整理仓库的内容；已有的词条如混入过这类引用，发现即删并用公开来源重立。自查命令：`grep -rn "EVE-Online-Tranquility-Chinese-Personas" src docs` 应为空。
 
 如你是文中当事人，认为内容有误或不当，请开 Issue，维护者处理。
+
+## 许可
+
+代码与站点结构采用 [MIT 许可](LICENSE)（Copyright (c) 2026 sangshineboy）。词条正文与取材记录引用的是公开社区内容，转载或引用请保留每条的出处链接。
