@@ -1,0 +1,54 @@
+---
+layout: base.njk
+bodyClass: page-index
+---
+{%- set memes = collections.memes -%}
+<section class="intro">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}共收 <strong>{{ memes.length }}</strong> 条。</p>
+  <p class="intro-note">每条词条都在正文里给出处，分「已确认」与「社区流传」两档：前者有可核对的原始来源，后者只有社区通行说法。<a href="{{ '/sources/' | url }}">出处总表 →</a></p>
+</section>
+
+<div class="toolbar" role="search">
+  <input id="filter" type="search" placeholder="筛选：词条名、别名、标签、分类…" autocomplete="off" aria-label="按词条名或标签筛选">
+  <button id="order" type="button" aria-pressed="false" title="排序方式：按名称 / 按来源数">名称 ↑</button>
+  <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌">随机排序</button>
+</div>
+
+<div class="tag-wrap">
+  <nav class="tag-bar" id="cat-bar" aria-label="按分类筛选">
+    <button type="button" class="chip is-active" data-filter-cat="" aria-pressed="true">全部分类<small>{{ memes.length }}</small></button>
+    {%- for g in memes | groupByCategory %}
+    <button type="button" class="chip" data-filter-cat="{{ g.category }}" aria-pressed="false">{{ g.category }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
+  <nav class="tag-bar" id="conf-bar" aria-label="按证据等级筛选">
+    <button type="button" class="chip is-active" data-filter-conf="" aria-pressed="true">全部等级</button>
+    {%- for g in memes | groupByConfidence %}
+    <button type="button" class="chip" data-filter-conf="{{ g.confidence }}" aria-pressed="false">{{ g.confidence }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
+  <nav class="tag-bar" id="scope-bar" aria-label="按端游／手游筛选">
+    <button type="button" class="chip is-active" data-filter-scope="" aria-pressed="true">端游＋手游</button>
+    {%- for g in memes | groupByScope %}
+    <button type="button" class="chip" data-filter-scope="{{ g.scope }}" aria-pressed="false">{{ g.scope }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
+  <nav class="tag-bar" id="server-bar" aria-label="按服务器筛选">
+    <button type="button" class="chip is-active" data-filter-server="" aria-pressed="true">全部服务器</button>
+    {%- for g in memes | groupByServer %}
+    <button type="button" class="chip" data-filter-server="{{ g.server }}" aria-pressed="false">{{ g.server }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
+</div>
+<p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
+
+<ol id="roster" class="cards">
+{%- for g in memes | groupByCategory %}
+  {%- for m in g.items %}
+    {% include "card.njk" %}
+  {%- endfor %}
+{%- endfor %}
+</ol>
+
+<script src="{{ '/assets/js/roster.js' | url }}?v={{ site.build }}" defer></script>

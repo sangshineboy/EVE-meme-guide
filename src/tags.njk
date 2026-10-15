@@ -1,0 +1,13 @@
+---
+layout: base.njk
+bodyClass: page-tags
+pageTitle: 标签 — EVE 梗指南
+pageDescription: 按标签浏览 EVE 梗词条。
+---
+<section class="intro">
+  <h1>标签</h1>
+  <p>标签表示玩法、势力、年代或题材，用来横向串起词条。点进去看该标签下的全部词条。</p>
+</section>
+<p class="tag-cloud">
+  {%- for g in tagMap %}<a class="chip" href="{{ ('/tags/' + (g.name | tagSlug) + '/') | url }}">{{ g.name }}<small>{{ g.items.length }}</small></a>{% endfor %}
+</p>

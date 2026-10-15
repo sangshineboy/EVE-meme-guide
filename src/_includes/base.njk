@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle or site.title }}</title>
+  <meta name="description" content="{{ pageDescription or site.description }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
+</head>
+<body class="{{ bodyClass or 'page-plain' }}">
+  <header class="site-head" data-pagefind-ignore>
+    <a class="brand" href="{{ '/' | url }}">
+      <span class="seal" aria-hidden="true">{{ site.seal }}</span>
+      <span class="brand-text">
+        <strong>{{ site.title }}</strong>
+        <small>{{ site.subtitle }}</small>
+      </span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/search/' | url }}">搜索</a>
+      <a href="{{ '/lexicon/' | url }}">黑话索引</a>
+      <a href="{{ '/sources/' | url }}">出处总表</a>
+      <a href="{{ '/random/' | url }}">随机一条</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-foot" data-pagefind-ignore>
+    <p>{{ site.title }} —— 社区词条，非官方资料。词条分「已确认」与「社区流传」两档，出处逐条列在每页正文与<a href="{{ '/sources/' | url }}">出处总表</a>。EVE Online 及相关名称为 CCP Games 所有，本站与 CCP 无关。</p>
+    <p class="foot-note">内容来自公开社区资料，多为一说之辞；发现错误或想补一条，改 <code>src/memes/&lt;slug&gt;/</code> 即可，构建时会自动校验格式。</p>
+  </footer>
+</body>
+</html>

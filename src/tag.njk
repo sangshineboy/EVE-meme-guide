@@ -1,0 +1,21 @@
+---
+layout: base.njk
+bodyClass: page-tag
+pagination:
+  data: tagMap
+  size: 1
+  alias: group
+permalink: "/tags/{{ group.name | tagSlug }}/"
+eleventyComputed:
+  pageTitle: (d) => `标签：${d.group.name} — EVE 梗指南`
+  pageDescription: (d) => `标签「${d.group.name}」下的 EVE 梗词条。`
+---
+<section class="intro">
+  <h1>标签：{{ group.name }}</h1>
+  <p>共 {{ group.items.length }} 条词条。 <a href="{{ '/tags/' | url }}">全部标签 →</a></p>
+</section>
+<ol class="cards">
+{%- for m in group.items %}
+  {% include "card.njk" %}
+{%- endfor %}
+</ol>

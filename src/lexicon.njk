@@ -1,0 +1,28 @@
+---
+layout: base.njk
+bodyClass: page-lexicon
+pageTitle: 黑话与别名索引 — EVE 梗指南
+pageDescription: 按别名、英文原词和黑话查 EVE 梗词条。
+---
+{%- set rows = collections.memes | aliasIndex -%}
+<section class="intro">
+  <h1>黑话与别名索引</h1>
+  <p>同一件事在群里可能有三四个叫法。这里把全部别名、英文原词与变体摊平，按名称排序；点进去就是词条。</p>
+</section>
+
+{% if rows.length %}
+<table class="lex-table">
+  <thead><tr><th>别名 / 黑话</th><th>对应词条</th><th>分类</th></tr></thead>
+  <tbody>
+  {%- for r in rows %}
+    <tr>
+      <td class="lex-alias">{{ r.alias }}</td>
+      <td><a href="{{ ('/m/' + r.meme.slug + '/') | url }}">{{ r.meme.title }}</a></td>
+      <td><span class="badge badge-cat">{{ r.meme.category }}</span></td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="empty">还没有词条登记别名。</p>
+{% endif %}
