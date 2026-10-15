@@ -1,7 +1,13 @@
 name: 构建与发布
 
-# - PR：只构建（校验格式、能否生成），不发布
-# - 推送到 main：构建并发布到 GitHub Pages
+# 默认行为：**只构建校验**（每次 push / PR 都跑，能立刻看出格式或渲染是否坏掉）。
+# 发布到 GitHub Pages 需要显式打开开关，因为：
+#   · 私有仓库 + 免费账号不支持 Pages；
+#   · 未开启 Pages 时，configure-pages 步骤会直接失败，让每次 push 都变红。
+#
+# 要发布时：仓库 Settings → Secrets and variables → Actions → Variables
+#   新增仓库变量 ENABLE_PAGES = true
+# 再去 Settings → Pages 把 Source 选成 "GitHub Actions"。
 on:
   push:
     branches: [main]
@@ -30,19 +36,26 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run doctor && npm test
+
+      # 只有显式开启时才准备 Pages（否则此步会失败）
       - id: pages
-        if: github.event_name != 'pull_request'
+        if: vars.ENABLE_PAGES == 'true'
         uses: actions/configure-pages@v5
+
       - run: npm run build
         env:
-          PATH_PREFIX: ${{ steps.pages.outputs.base_path }}/
-      - if: github.event_name != 'pull_request'
+          # 未开启 Pages 时按根路径构建（与 npm run serve 口径一致）
+          PATH_PREFIX: ${{ vars.ENABLE_PAGES == 'true' && steps.pages.outputs.base_path || '/' }}
+
+      - if: vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      - if: vars.ENABLE_PAGES != 'true'
+        run: echo "未开启发布（ENABLE_PAGES != true）：本次只做构建校验。要上线请看本文件顶部说明。"
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
