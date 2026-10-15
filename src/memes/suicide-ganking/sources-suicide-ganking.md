@@ -6,7 +6,7 @@
 ## 已核来源 / 覆盖与缺口
 
 - 机制来源：[EVE University Wiki · Suicide ganking](https://wiki.eveuniversity.org/Suicide_ganking)、[Timers](https://wiki.eveuniversity.org/Timers)（英文社区 wiki，非 CCP 官方）。
-- 中文叫法与社区用法：参考仓术语表与列传素材（https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas）。
+- 中文叫法以中文社区通行用法为准（见正文来源）。
 - CONCORD 响应时间（0.5 星系约 19 秒 / 1.0 星系约 6 秒）是**玩家实测**说法，CCP 未公布官方数值。
 - 未核：具体强暴案例的 KM 与损失，若要写案例需另查 zKillboard。
 

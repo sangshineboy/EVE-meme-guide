@@ -28,6 +28,18 @@ bodyClass: page-index
     <button type="button" class="chip" data-filter-conf="{{ g.confidence }}" aria-pressed="false">{{ g.confidence }}<small>{{ g.items.length }}</small></button>
     {%- endfor %}
   </nav>
+  <nav class="tag-bar" id="scope-bar" aria-label="按端游／手游筛选">
+    <button type="button" class="chip is-active" data-filter-scope="" aria-pressed="true">端游＋手游</button>
+    {%- for g in memes | groupByScope %}
+    <button type="button" class="chip" data-filter-scope="{{ g.scope }}" aria-pressed="false">{{ g.scope }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
+  <nav class="tag-bar" id="server-bar" aria-label="按服务器筛选">
+    <button type="button" class="chip is-active" data-filter-server="" aria-pressed="true">全部服务器</button>
+    {%- for g in memes | groupByServer %}
+    <button type="button" class="chip" data-filter-server="{{ g.server }}" aria-pressed="false">{{ g.server }}<small>{{ g.items.length }}</small></button>
+    {%- endfor %}
+  </nav>
 </div>
 <p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
 

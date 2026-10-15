@@ -4,6 +4,8 @@ title: 引导之手俱乐部洗劫（GHSC heist）
 aliases: [Guiding Hand Social Club, GHSC, Ubiqua Seraph heist, Mirial 刺杀, EVE 史上最大公司盗窃]
 category: 名场面
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 历史, 间谍]
 related: [band-of-brothers-disbanded]
 updated_at: 2026-10-13
@@ -29,3 +31,14 @@ GHSC 创始人 Istvaan Shogaatsu 把自家生意描述为「非常规佣兵服�
 ## 为什么好笑
 
 别人抢劫靠火力，他靠简历。一家公司被从内部搬空之后，整个新伊甸的 CEO 都开始检查自己的权限设置——这大概是 EVE 里最贵的一次「安全培训」。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+讲权限管理的老玩家，最后总会落到这个故事上：
+
+> 那家公司是被自己人搬空的
+> 简历比火力好用的年代，从 2005 年就开始了
+
+用来说明「EVE 里最大的损失通常不是打出来的」。

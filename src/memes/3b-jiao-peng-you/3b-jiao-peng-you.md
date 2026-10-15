@@ -4,7 +4,10 @@ title: 3B 交朋友（49 城手续费）
 aliases: [49城3B交朋友, 认爸爸, 叫爷爷, 5% 手续费, 3B 买个教训]
 category: 名场面
 confidence: 已确认
+scope: 端游
+server: 国服
 labels: [国服, 组织政治, 贴吧]
+related: [kfc, ying-xiang-li-ge]
 updated_at: 2026-10-13
 ---
 
@@ -24,11 +27,11 @@ KK 在后续帖里解释：真黑整条船，NC、FRT 会走外交要 VINDI 赔�
 
 - [贴吧原帖：婊一婊 VINDI 旗下华人团 49 城的 CEO](https://tieba.baidu.com/p/7075391049) —— 贴吧
 - [贴吧后续帖：KK 的解释](https://tieba.baidu.com/p/7076172050) —— 贴吧
-- [godhand-kk.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/godhand-kk/godhand-kk.md) —— 站内人物素材
-- [treenewbee-ribbons.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/treenewbee-ribbons/treenewbee-ribbons.md) —— 站内人物素材（李疯子）
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 「3B 交朋友」后来被用来形容一切**先谈感情后收费**的操作：
 
 > 这波是 3B 交朋友

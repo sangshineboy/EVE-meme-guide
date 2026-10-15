@@ -4,8 +4,10 @@ title: 虫洞之神 Bob
 aliases: [Bob, Praise Bob, the wormhole god, Church of Bob, 虫洞之神]
 category: 社区文化
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 虫洞, 社区文化]
-related: [cyno]
+related: [cyno, bao-chuan-zeng-yu-you-yuan-ren]
 updated_at: 2026-10-13
 ---
 
@@ -29,3 +31,14 @@ Bob 是玩家自己发明的神灵：虫洞空间（J-space）的守护神，嗜
 ## 为什么好笑
 
 虫洞玩家常年待在一个没有本地、没有救援、随时可能被人从另一头钻进来的地方。既然没人管，就自己封一个神，炸了船就说他收下了。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+虫洞圈的日常祝祷与甩锅，都归给 Bob：
+
+> Praise Bob
+> 洞滚歪了？Bob 收下了祭品
+
+常见仪式是把太空舱弹到恒星旁边当献祭——成了叫灵验，没成叫 Bob 胃口不好。

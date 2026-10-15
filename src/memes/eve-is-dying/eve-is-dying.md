@@ -4,8 +4,10 @@ title: EVE 要凉了（EVE is dying）
 aliases: [EVE is dying, EVE 要凉, 药丸, 💊, dead game]
 category: 社区文化
 confidence: 已确认
+scope: 端游
+server: 未标
 labels: [社区文化, 老梗]
-related: [spreadsheets-in-space]
+related: [spreadsheets-in-space, eve-quan-tui]
 updated_at: 2026-10-13
 ---
 
@@ -30,6 +32,8 @@ EVE 玩家社区的「世界末日预报」。版本更新、在线人数波动�
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 典型句式：
 
 > 这版本改完 EVE 要凉了

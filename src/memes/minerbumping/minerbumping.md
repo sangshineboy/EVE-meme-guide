@@ -4,6 +4,8 @@ title: 撞矿工运动（MinerBumping / 新秩序）
 aliases: [MinerBumping, New Order of Highsec, James 315, the Code, bumping, 撞矿工]
 category: 社区文化
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 高安, 社区文化]
 related: [hulkageddon]
 updated_at: 2026-10-13
@@ -29,3 +31,14 @@ MinerBumping 是玩家 James 315 约在 2012 年发起的高安运动（站点�
 ## 为什么好笑
 
 在 EVE 里，骚扰也可以有章程、有教义、有股份排行榜。把「撞你一下」做成宗教，需要的不是火力，是文案。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+新人第一次听说「撞矿工」时的标准对话：
+
+> 他为什么要撞我？
+> 因为你在错误的地方非法采矿，按照《Code》
+
+反对者叫它霸凌，支持者叫它执法——双方都能引经据典。

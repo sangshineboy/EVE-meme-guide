@@ -40,3 +40,23 @@ test("AGENTS.md 与 CLAUDE.md 逐字一致", async () => {
   ]);
   assert.ok(a.equals(b), "AGENTS.md 与 CLAUDE.md 不一致：改一处必须同步另一处");
 });
+
+// 回归：Eleventy 默认给的是 markdown-it "default" preset——不含表格、删除线，也不开 breaks。
+// 一旦有人删掉 eleventy.config.js 里的 amendLibrary，正文里的单换行会被静默合并（中文写作全站变形）。
+test("Markdown 渲染配置为 breaks + 表格/删除线", async () => {
+  const cfg = await readFile(new URL("../eleventy.config.js", import.meta.url), "utf8");
+  assert.match(cfg, /amendLibrary\(\s*"md"/, "eleventy.config.js 必须 amendLibrary(\"md\")");
+  assert.match(cfg, /breaks:\s*true/, "必须设置 breaks: true（单个换行即换行）");
+  assert.match(cfg, /enable\(\[[^\]]*"table"/, "必须启用 table（否则 Markdown 表格不渲染）");
+});
+
+test("每个「怎么用」小节都标注了示例性质", async () => {
+  const { readAll } = await import("./loader.mjs");
+  const offenders = [];
+  for (const e of readAll()) {
+    if (e.error) continue;
+    if (!/^##\s+怎么用\s*$/m.test(e.body)) continue;
+    if (!e.body.includes("说明性写法")) offenders.push(e.slug);
+  }
+  assert.deepEqual(offenders, [], "这些词条的「怎么用」缺少示例性质说明");
+});

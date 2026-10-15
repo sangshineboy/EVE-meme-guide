@@ -4,6 +4,8 @@ title: 烧掉吉他（Burn Jita）
 aliases: [Burn Jita, Jita Burn, the burning of Jita, 烧吉他]
 category: 名场面
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 高安, 贸易枢纽]
 related: [suicide-ganking, hulkageddon]
 updated_at: 2026-10-13
@@ -25,9 +27,12 @@ CCP 事后 devblog 记录：Jita 在线被顶到 1500–2300 人，服务器被�
 
 - [CCP devblog：Observing the "Burn Jita" Player Event（2012-05-02）](https://www.eveonline.com/news/view/observing-the-burn-jita-player-event) —— CCP 官方，含在线人数与伤害统计
 - [Guinness World Records：Largest player attack on high-sec space in EVE Online](https://www.guinnessworldrecords.com/world-records/422840-largest-player-attack-on-high-sec-space-in-eve-online) —— 吉尼斯世界纪录
+- [Guinness World Records：Largest player attack on high-sec space in EVE Online](https://www.guinnessworldrecords.com/world-records/422840-largest-player-attack-on-high-sec-space-in-eve-online) —— 吉尼斯世界纪录官方条目
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 「烧吉他」现在泛指**在贸易枢纽搞事**，也常被拿来调侃价格波动：
 
 > 这价格，是又有人在烧吉他吗

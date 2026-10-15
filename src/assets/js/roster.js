@@ -7,9 +7,13 @@ const orderBtn = document.getElementById("order");
 const shuffleBtn = document.getElementById("shuffle");
 const catBtns = [...document.querySelectorAll("[data-filter-cat]")];
 const confBtns = [...document.querySelectorAll("[data-filter-conf]")];
+const scopeBtns = [...document.querySelectorAll("[data-filter-scope]")];
+const serverBtns = [...document.querySelectorAll("[data-filter-server]")];
 
 let category = "";
 let confidence = "";
+let scope = "";
+let server = "";
 let order = "title"; // title | sources
 let desc = false;
 let shuffled = null;
@@ -24,13 +28,17 @@ function apply() {
     const okQ = !q || key.includes(q);
     const okCat = !category || card.dataset.category === category;
     const okConf = !confidence || card.dataset.confidence === confidence;
-    const visible = okQ && okCat && okConf;
+    const okScope = !scope || card.dataset.scope === scope;
+    const okServer = !server || card.dataset.server === server;
+    const visible = okQ && okCat && okConf && okScope && okServer;
     card.hidden = !visible;
     if (visible) shown++;
   }
   const parts = [];
   if (q) parts.push(`关键词「${input.value.trim()}」`);
   if (category) parts.push(`分类 ${category}`);
+  if (scope) parts.push(scope);
+  if (server) parts.push(server);
   if (confidence) parts.push(`等级 ${confidence}`);
   status.hidden = false;
   status.textContent = parts.length ? `${parts.join(" · ")}：${shown} 条` : `共 ${shown} 条`;
@@ -51,28 +59,25 @@ function sortCards() {
 }
 
 input.addEventListener("input", apply);
-for (const btn of catBtns) {
-  btn.addEventListener("click", () => {
-    category = btn.dataset.filterCat;
-    for (const b of catBtns) {
-      const active = b === btn;
-      b.classList.toggle("is-active", active);
-      b.setAttribute("aria-pressed", String(active));
-    }
-    apply();
-  });
+
+/** 一组筛选按钮：点击后互斥高亮，并写回对应状态变量 */
+function wire(buttons, dataKey, set) {
+  for (const btn of buttons) {
+    btn.addEventListener("click", () => {
+      set(btn.dataset[dataKey]);
+      for (const b of buttons) {
+        const active = b === btn;
+        b.classList.toggle("is-active", active);
+        b.setAttribute("aria-pressed", String(active));
+      }
+      apply();
+    });
+  }
 }
-for (const btn of confBtns) {
-  btn.addEventListener("click", () => {
-    confidence = btn.dataset.filterConf;
-    for (const b of confBtns) {
-      const active = b === btn;
-      b.classList.toggle("is-active", active);
-      b.setAttribute("aria-pressed", String(active));
-    }
-    apply();
-  });
-}
+wire(catBtns, "filterCat", (v) => (category = v));
+wire(confBtns, "filterConf", (v) => (confidence = v));
+wire(scopeBtns, "filterScope", (v) => (scope = v));
+wire(serverBtns, "filterServer", (v) => (server = v));
 orderBtn.addEventListener("click", () => {
   if (order === "title" && !desc) {
     order = "sources";

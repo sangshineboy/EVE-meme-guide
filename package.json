@@ -10,6 +10,7 @@
     "find": "node scripts/find-meme.mjs",
     "new": "node scripts/new-meme.mjs",
     "check": "node scripts/validate-memes.mjs",
+    "clean": "node -e \"require('node:fs').rmSync('_site',{recursive:true,force:true})\"",
     "gen:lexicon": "node tools/gen-lexicon.mjs",
     "gen:pending": "node tools/gen-pending.mjs",
     "gen:docs": "npm run gen:lexicon && npm run gen:pending",

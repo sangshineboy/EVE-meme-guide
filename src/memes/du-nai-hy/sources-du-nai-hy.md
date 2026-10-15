@@ -1,13 +1,31 @@
 # 毒奶（HY 的祝福） —— 取材记录
 
-- 取材日期：2026-10-13 ｜ 证据等级：已确认
-- 参考仓：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main
+- 取材日期：2026-10-14 ｜ 证据等级：已确认
+- 来源政策：禁止引用任何第三方整理仓库；事实与出处只能来自公开网页
 
-## 已核来源 / 覆盖与缺口
+## 已核来源
 
-- 「毒奶」的具体应验案例散在回帖里，未逐条核到日期与战果；正文只写声誉，不写「因为他说了所以输了」的因果。
-- 站内来源：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/linkin-hy/linkin-hy.md、https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/darkdez-ever/darkdez-ever.md
+| 来源 | 读出什么 | 覆盖 / 缺口 |
+| --- | --- | --- |
+| [【5月5日最新】伏羲公司(Fuxi Legion)招新](https://forums.winterco.org/t/topic/14508)（凛冬论坛，2018-03-18，作者 **Link_Noel**） | 原文「伏羲为联盟群培养和输送了大量新鲜血液（大佬），这里还有有宇宙级毒奶HY（奶谁谁死）；联盟级摄像师H叔（娘）」 | **关键更正**：该帖不是 HY 本人发的，也不是伏羲公司账号发的；帖内写的 CEO 是 Gary CHGS，联系人是 Link Noel |
+| [《新伊甸的往事》第 3 楼](https://forums.winterco.org/t/topic/25836)（凛冬论坛，2025-12-03） | 「盘大事件逼走 LINKIN HY（影枫 HY）」——坐实「影枫」称呼 | 未通读全帖 |
+| [凛冬论坛站内搜索：毒奶HY](https://forums.winterco.org/search.json?q=%E6%AF%92%E5%A5%B6HY) | 全站仅 3 条命中，只有 topic 14508 含该梗，另两条为补损制度与编年史 | 搜索接口可达，但**论坛正文本环境无法直连**（部分页面只能靠 .json 端点） |
+
+## 本轮修正的错误（上一版写错的）
+
+- **「伏羲自己的招新帖」→「伏羲招新帖（作者 Link_Noel，非 HY 本人）」**：旧写法把帖子归属搞错了。
+- **删除「玩家角色 Gary CHGS」这一定性**：Gary CHGS 只是 2018 年那篇帖子里写的 CEO，不能据此认定 HY 的角色名。
+- **删除「HY 打过仗、写过《启示录》、点评 PH 盟主更像个政客」等履历细节**：本轮未能为这些说法找到可点开的公开出处。
+- **删除「D佬被认证为继 HY 后的下一任大法师」**：未核到公开来源。
+- **明确写出「无应验案例可考」**：公开网页上没有任何一例「HY 夸了谁、那人随后就输」被记录。
+
+## 待核
+
+- 「毒奶」这个名号最早出现的时间与其他用例（本轮只有 2018 年招新帖一处）。
+- HY 的角色名与「伏羲 CEO」在时间线上的准确对应（2018 年帖写 CEO 为 Gary CHGS，2020 年后的帖写伏羲 CEO 为 LINKIN HY，两者关系未核）。
+- 更早的伏羲招新帖 topic 645：本轮请求超时，未取到正文，不引用。
 
 ## 排除记录
 
-（搜过但没用上的、明确不属于本条的，写在这里，避免下轮重复搜。）
+- 未写任何「因为他说了所以输了」的因果案例——写不了，公开资料里没有。
+- 已删除所有第三方整理仓库的引用。

@@ -72,6 +72,32 @@ export default function (eleventyConfig) {
       );
   });
 
+  // 适用范围（端游/手游/通用）→ 词条
+  eleventyConfig.addFilter("groupByScope", (memes) => {
+    const groups = new Map();
+    for (const raw of memes) {
+      const m = d(raw);
+      if (!groups.has(m.scope)) groups.set(m.scope, []);
+      groups.get(m.scope).push(m);
+    }
+    return [...groups]
+      .map(([scope, items]) => ({ scope, items }))
+      .sort((a, b) => site.scopeOrder.indexOf(a.scope) - site.scopeOrder.indexOf(b.scope));
+  });
+
+  // 服务器归属 → 词条
+  eleventyConfig.addFilter("groupByServer", (memes) => {
+    const groups = new Map();
+    for (const raw of memes) {
+      const m = d(raw);
+      if (!groups.has(m.server)) groups.set(m.server, []);
+      groups.get(m.server).push(m);
+    }
+    return [...groups]
+      .map(([server, items]) => ({ server, items }))
+      .sort((a, b) => site.serverOrder.indexOf(a.server) - site.serverOrder.indexOf(b.server));
+  });
+
   // 全部别名（黑话索引页用）
   eleventyConfig.addFilter("aliasIndex", (memes) => {
     const rows = [];
@@ -118,7 +144,7 @@ export default function (eleventyConfig) {
   // 供筛选用的检索串（首页即时筛选）
   eleventyConfig.addFilter("searchKey", (raw) => {
     const m = d(raw);
-    return [m.title, ...(m.aliases ?? []), m.category, m.confidence, ...(m.labels ?? []), m.summary]
+    return [m.title, ...(m.aliases ?? []), m.category, m.confidence, m.scope, m.server, ...(m.labels ?? []), m.summary]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -149,6 +175,15 @@ export default function (eleventyConfig) {
     } catch {
       return "";
     }
+  });
+
+  // Markdown 渲染设置。
+  // 注意：Eleventy 默认给的是 markdown-it 的 "default" preset，**不含**表格、删除线、
+  // 也不开 `breaks`——不显式设置的话，中文写作里「单个换行即换行」的习惯会失效，
+  // 一行一句的引用/口诀会被合并成一段。这里显式打开。
+  eleventyConfig.amendLibrary("md", (md) => {
+    md.set({ breaks: true, linkify: false, html: true });
+    md.enable(["table", "strikethrough"]);
   });
 
   return {

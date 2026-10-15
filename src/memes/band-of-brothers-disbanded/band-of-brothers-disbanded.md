@@ -4,6 +4,8 @@ title: 蜜蜂联盟解散（BoB disband）
 aliases: [BoB disband, Band of Brothers, There is no BoB, mittani says hi, Black Nova Corp]
 category: 历史事件
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 历史, 间谍]
 related: [guiding-hand-social-club-heist, world-war-bee]
 updated_at: 2026-10-13
@@ -24,7 +26,19 @@ updated_at: 2026-10-13
 来源交代一次，然后接着讲事。
 
 - [EVE 官方新闻：Band of Brothers Alliance Disbanded（2009-02-05）](https://www.eveonline.com/news/view/band-of-brothers-alliance-disbanded) —— CCP 官方
+- [Has EVE’s most powerful alliance fallen?](https://www.engadget.com/2009-06-18-has-eves-most-powerful-alliance-fallen.html) —— Engadget（2009-06-18），事件后的媒体复盘
 
 ## 为什么好笑
 
 一个统治 nullsec 的联盟，死因不是打不过，而是有人拿到了按钮。EVE 的战争史里，最贵的损失往往签在信任上。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+英文社区至今仍在用这句当梗收尾：
+
+> There is no BoB
+> 一个联盟的名字，被对手抢注走了
+
+中文圈讲这段时，重点通常落在「间谍能爬到总监层」这件事上。

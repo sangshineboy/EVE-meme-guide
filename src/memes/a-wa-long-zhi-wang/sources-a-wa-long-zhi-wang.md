@@ -1,14 +1,32 @@
 # 阿瓦隆之王 —— 取材记录
 
-- 取材日期：2026-10-13 ｜ 证据等级：已确认
-- 参考仓：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main
+- 取材日期：2026-10-14 ｜ 证据等级：已确认
+- 来源政策：禁止引用任何第三方整理仓库；事实与出处只能来自公开网页
 
-## 已核来源 / 覆盖与缺口
+## 已核来源
 
-- 录音原始音频未取得、未复听，正文只用二手转述里的原话片段，没有逐字复原录音内容。
-- 未核：录音的确切时间与场合；「破圈两大素材」是帖主说法，按说法记。
-- 站内来源：https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/linkin-hy/linkin-hy.md、https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/newbeegogogo/newbeegogogo.md
+| 来源 | 读出什么 | 覆盖 / 缺口 |
+| --- | --- | --- |
+| [《新伊甸的往事》topic 25836 第 3 楼](https://forums.winterco.org/t/topic/25836)（凛冬论坛，2025-12-03） | 原句「在 HY『阿瓦隆之王』录音和 H叔视频破圈之初，FRT 成了人们心中伟大的华人之光象征，并对 FRT 报以深深的同情，OSY 社区因此获得了大量国服移民人口」 | 「两大素材并列」是帖主说法，按说法记；未自行排他化成「仅此两件」 |
+| [H叔攻略 V7.0 topic 6325](https://forums.winterco.org/t/topic/6325)（凛冬论坛，2020-06-21） | 「伏羲的CEO LINKIN HY（对,就是那个阿瓦隆之王,说王侯将相宁有种乎的HY）」 | 同一句也见于 V6.2（[topic 4621](https://forums.winterco.org/t/topic/4621)，2020-04-09）与 V7.1（[topic 7785](https://forums.winterco.org/t/topic/7785)，2020-09-14） |
+| [topic 13639 第 21 楼](https://forums.winterco.org/t/topic/13639)（凛冬论坛，2017-11-17） | 「据我所知当时阿瓦隆之王也很菜，至少在 YY 经常听到水哥 troll HY」 | **目前可查的最早公开文字记录**，据此只能写「不晚于 2017-11」 |
+| [B 站视频 BV1x64y1F7ZD](https://www.bilibili.com/video/BV1x64y1F7ZD/) | 标题《【EVE Online】俄罗斯主播战败日记 - LINKIN HY 在静寂谷的日子》 | 只核对标题 |
+| [ESI 角色 985265753（LINKIN HY）](https://esi.evetech.net/latest/characters/985265753/?datasource=tranquility) | 本人简介：「朝为田舍郎，暮登天子堂；将相本无种，男儿当自强。」 | 措辞与「王侯将相宁有种乎」不同，正文并列写出以免混淆；该角色 2010-01-09 建号，现不属 FRT/伏羲序列 |
+
+## 本轮修正的错误（上一版写错的）
+
+- **「录音里他喊王侯将相宁有种乎」→ 明确标为社区转述**：找不到录音本体、转录或第三方报道；四处论坛用例都是括号注释式的提及。
+- **「2017 年前后录音流传」→ 改为「不晚于 2017 年 11 月该称呼已在社区流通」**：原时间点没有公开锚点。
+- **删掉「帖主还追问想看 HY 写的完整版 EVE 启示录」**：本轮未核到该句位置，不再引用。
+- **不再断言录音的具体场合与内容**。
+
+## 待核
+
+- 录音本体（音频或转录）：凛冬论坛站内搜索「阿瓦隆」共 5 条命中，全部为文字提及，无音频附件；B 站、贴吧、知乎、媒体均未找到独立记载。**检索提示**：搜「阿瓦隆之王」会被同名手游淹没，需用站内搜索。
+- 「阿瓦隆」这个地名与录音内容的对应关系（是否有游戏内含义）。
+- 录音的确切时间：只能确定称呼在 2017-11 已在流通。
 
 ## 排除记录
 
-（搜过但没用上的、明确不属于本条的，写在这里，避免下轮重复搜。）
+- 未把搜索结果里的同名手游页面当作梗来源。
+- 已删除所有第三方整理仓库的引用。

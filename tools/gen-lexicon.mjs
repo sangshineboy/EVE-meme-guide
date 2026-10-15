@@ -1,68 +1,70 @@
-// 生成 docs/lexicon.md：从参考仓术语表里挑出「看梗会用到的词」，并保留出处归属。
+// 生成 docs/lexicon.md：术语与别名索引。
+//
+// 数据源只有一个：本仓库的词条（src/memes/<slug>/<slug>.md）。
+// 不再依赖任何外部整理表——别人的整理成果不是本项目的来源。
 //
 //   node tools/gen-lexicon.mjs
-//
-// 说明：舰船译名（备注以「舰船名；」开头的词条）不重复搬运，
-// 只保留机制、玩法、组织、术语类词条，并按「参考仓 + 原表」注明来源。
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readAll } from "../scripts/loader.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const REF = path.join(root, "..", "EVE-Online-Tranquility-Chinese-Personas", "docs", "glossary.md");
 const OUT = path.join(root, "docs", "lexicon.md");
-const REF_URL =
-  "https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/docs/glossary.md";
+const entries = readAll().filter((e) => !e.error);
 
-if (!fs.existsSync(REF)) {
-  console.error(`找不到参考仓术语表：${REF}\n请确认 ../EVE-Online-Tranquility-Chinese-Personas 存在。`);
-  process.exit(1);
+// 术语 = 词条主名 + 别名，按名称排序；别名指向所属词条
+const rows = [];
+const seen = new Set();
+for (const e of entries) {
+  for (const name of [e.data.title, ...(e.data.aliases ?? [])]) {
+    const key = name.trim().toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    rows.push({
+      name: name.trim(),
+      isTitle: name === e.data.title,
+      category: e.data.category,
+      slug: e.slug,
+      title: e.data.title,
+    });
+  }
 }
+rows.sort((a, b) => a.name.localeCompare(b.name, "zh"));
 
-const rows = fs
-  .readFileSync(REF, "utf8")
-  .split("\n")
-  .filter((l) => l.startsWith("| ") && !l.startsWith("| 英文") && !l.startsWith("| ---"))
-  .map((l) => l.slice(1, -1).split("|").map((c) => c.trim()))
-  .map(([term, cn, avoid, note, status]) => ({ term, cn, avoid, note, status }))
-  .filter((r) => r.term && r.cn && r.note);
+// 分类统计
+const byCat = new Map();
+for (const e of entries) byCat.set(e.data.category, (byCat.get(e.data.category) ?? 0) + 1);
 
-const isShip = (r) => r.note.startsWith("舰船名；");
-const terms = rows.filter((r) => !isShip(r));
-const ships = rows.filter(isShip);
+const table = [
+  "| 名称 / 黑话 / 别名 | 词条 | 分类 |",
+  "| --- | --- | --- |",
+  ...rows.map(
+    (r) =>
+      `| ${r.name.replace(/\|/g, "\\|")}${r.isTitle ? "" : " *（别名）*"} | [${r.title}](../src/memes/${r.slug}/${r.slug}.md) | ${r.category} |`,
+  ),
+].join("\n");
 
-const esc = (s) => String(s).replace(/\|/g, "\\|");
-const table = (list) =>
-  [
-    "| 英文 / 黑话 | 中文（社区说法） | 不要译作 | 备注 | 状态 |",
-    "| --- | --- | --- | --- | --- |",
-    ...list.map(
-      (r) => `| ${esc(r.term)} | ${esc(r.cn)} | ${esc(r.avoid === "—" ? "—" : r.avoid)} | ${esc(r.note)} | ${esc(r.status)} |`,
-    ),
-  ].join("\n");
+const doc = `# 术语与别名索引（生成文件）
 
-const doc = `# 术语表（生成文件）
+> 由 \`node tools/gen-lexicon.mjs\` 从本仓库词条生成，**不要手改**；要加词就写词条（\`npm run new\`），改完重新生成。
+> 生成时间：${new Date().toISOString().slice(0, 10)} ｜ 词条 ${entries.length} 条 ｜ 名称 ${rows.length} 个
 
-> 本文件由 \`node tools/gen-lexicon.mjs\` 从参考仓术语表生成，**不要手改**；要加词请改下面说明的来源表，再重新生成。
-> 来源：[EVE-Online-Tranquility-Chinese-Personas/docs/glossary.md](${REF_URL})（CCP SDE 中文船名 + 社区通行说法）。
+## 这份表怎么用
 
-用途：写梗词条时统一称谓。表里没有的词，正文先保留原词或写一条有上下文的说明，**不要自造译名**。
+- 它是**本仓库词条的名字总表**：同一件事在群里可能有三四个叫法，全都列在这里，避免重复立条。
+- 别名用斜体标出；点「词条」列进正条。
+- 表里没有的词，正文请保留英文原词或照抄社区通行写法，**不要自造译名**。
 
-- 原表共 ${rows.length} 条，其中舰船译名 ${ships.length} 条、其他术语 ${terms.length} 条。
-- 舰船译名不在这里重复搬运，需要时查 [原表](${REF_URL})；本站只收「因某条船形成的说法」（见词条分类「舰船」）。
-- **已确认** = 社区说法明确；**待复核** = 解释够读者理解上下文，但不强制据此改写正文。
+## 词条分布
 
-## 机制、玩法与组织类术语（${terms.length} 条）
+${[...byCat].map(([c, n]) => `- ${c}：${n} 条`).join("\n")}
 
-${table(terms)}
+## 全部名称（${rows.length}）
 
-## 舰船译名索引（${ships.length} 条，仅列名）
-
-> 完整备注见[原表](${REF_URL})。
-
-${ships.map((r) => `- **${esc(r.term)}** → ${esc(r.cn)}`).join("\n")}
+${table}
 `;
 
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, doc);
-console.log(`已生成 ${path.relative(root, OUT)}：术语 ${terms.length} 条、舰船 ${ships.length} 条。`);
+console.log(`已生成 ${path.relative(root, OUT)}：${entries.length} 条词条、${rows.length} 个名称。`);

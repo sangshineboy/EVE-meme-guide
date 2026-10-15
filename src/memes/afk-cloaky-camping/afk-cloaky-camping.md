@@ -4,6 +4,8 @@ title: AFK 隐身蹲守（薛定谔的热投手）
 aliases: [AFK cloaky camping, Schrodinger's Hot Dropper, cloaky camper, hot drop, 热投, 隐身蹲守]
 category: 机制
 confidence: 已确认
+scope: 端游
+server: 未标
 labels: [欧服, 机制, 心理战]
 related: [cyno, nullsec-local-blackout]
 updated_at: 2026-10-13
@@ -29,3 +31,14 @@ AFK cloaky camping 指有人开着隐身船赖在你家星系什么都不做，�
 ## 为什么好笑
 
 一个人 AFK 挂着不动，就能让整个星系停摆——这是 EVE 里性价比最高的心理战。你怕的不是他，是你不知道他在不在。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+被蹲的人与蹲人的人各有说法，聊天里通常是这种对话：
+
+> 本地那个隐身的是谁？
+> 薛定谔的热投手，别管他，你该干嘛干嘛
+
+也有人反过来用它夸人：能把一个星系的人吓到不敢刷怪，本身就是战术胜利。

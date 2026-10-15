@@ -4,8 +4,10 @@ title: nullsec 停电（本地频道关闭）
 aliases: [Nullsec Blackout, local blackout, the Blackout, Chaos Era, 停电]
 category: 机制
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 机制, 历史]
-related: [afk-cloaky-camping]
+related: [afk-cloaky-camping, world-war-bee]
 updated_at: 2026-10-13
 ---
 
@@ -24,9 +26,12 @@ updated_at: 2026-10-13
 来源交代一次，然后接着讲事。
 
 - [EVE 官方新闻：Nullsec Blackout Concludes（2019-09-16）](https://www.eveonline.com/news/view/2019-09-16-nullsec-blackout-concludes) —— CCP 官方，宣布结束与效果总结
+- [Nullsec Local Blackout Incoming During July!](https://www.eveonline.com/zh/news/view/nullsec-local-blackout-incoming-during-july) —— CCP 官方公告（简体中文版），停电开始时的说明
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 「停电」在中文圈也用来泛指**信息被砍掉之后的黑暗期**：
 
 > 这版本一停电，挖矿的都学会看本地了

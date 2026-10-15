@@ -90,6 +90,11 @@ a:hover { text-decoration: underline; }
 .badge-cat { border-color: var(--accent-soft); color: var(--accent); background: var(--accent-soft); }
 .badge-已确认 { border-color: transparent; background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
 .badge-社区流传 { border-color: transparent; background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
+.badge-scope { font-weight: 600; }
+.badge-scope-端游 { border-color: transparent; background: color-mix(in srgb, var(--accent) 16%, transparent); color: var(--accent); }
+.badge-scope-手游 { border-color: transparent; background: color-mix(in srgb, #c07be0 18%, transparent); color: #a35cc4; }
+.badge-scope-通用 { border-color: transparent; background: color-mix(in srgb, var(--fg-dim) 16%, transparent); color: var(--fg-dim); }
+.badge-server { font-family: var(--mono); font-size: 11.5px; }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; margin: 0 6px 6px 0;
   border: 1px solid var(--line); border-radius: 999px; background: var(--bg-soft);

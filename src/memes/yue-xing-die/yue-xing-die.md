@@ -4,6 +4,8 @@ title: 月行爹
 aliases: [月行爹, 有本事就来搞我啊]
 category: 舰长轶事
 confidence: 已确认
+scope: 端游
+server: 国服
 labels: [国服, 晨曦, 组织政治]
 related: [ying-xiang-li-ge, awox]
 updated_at: 2026-10-13
@@ -24,8 +26,18 @@ updated_at: 2026-10-13
 来源交代一次，然后接着讲事。
 
 - [《新伊甸最有影响力的舰长，倾倒万千萌新》](https://www.163.com/dy/article/FRVVITE40546J714.html) —— 网易号「EVE 领航员」（国服「晨曦名人堂」系列）
-- [domityphoon.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/domityphoon/domityphoon.md) —— 站内人物素材
 
 ## 为什么好笑
 
 打蓝（Awox）本来是最伤感情的操作，他打完还顺手把话说到位——「有本事就来搞我」。盟友没来搞他，录音先来了。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+形容「打完盟友还理直气壮」的场面，最省事的引用方式：
+
+> 有本事，就来搞我啊
+> （后来）经其他 CEO 调解，双方化解了恩怨
+
+在复述联盟内斗时，它常被当作「事情闹大的那一刻」。

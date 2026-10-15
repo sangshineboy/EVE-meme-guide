@@ -1,33 +1,51 @@
 ---
 slug: qian-ren-yao-qing
-title: 千人邀请（H叔的一千张 PLEX）
-aliases: [H叔, 千人邀请, 一千张 PLEX, hitncl, Cyncia Geass]
+title: 千人邀请（一千张 PLEX）
+aliases: [H叔, 千人邀请, 一千张 PLEX, hitncl, Cyncia Geass, H叔视频]
 category: 历史事件
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 招新, 历史]
-related: [a-wa-long-zhi-wang]
-updated_at: 2026-10-13
+related: [a-wa-long-zhi-wang, du-nai-hy]
+updated_at: 2026-10-14
 ---
 
-七个月发一千张 PLEX，钱是 CCP 出的。
+七个月发一千张 PLEX，账是他自己算的，钱是 CCP 出的。
 
 ## 这个梗
 
-2017 年 2 月，H叔（Cyncia Geass）被凯特叫回欧服，当时 OSY 白天本地在线只有二十多人，天天被附近的俄国人轮流收割。他重操旧业写新人教程，从 2 月 7 日的起步计划 1.0 一路更到 9 月的 5.x 版，同时按邀请发 PLEX：3 月 13 日第 100 张，4 月 8 日第 200 张，7 月 17 日第 500 张，9 月 22 日**第 1000 张**，最后一百张只用了七天。
+2017 年，中文圈玩家「H叔」（角色 Cyncia Geass，新浪博客与 B 站 ID 都叫 hitncl）被 Kate 叫回欧服。那时的 OSY 白天冷清得可怜——按他自己的说法，本地在线只有二十多人，几乎每天被附近的俄国人轮流收割，组舰队最多凑四十人，对面分分钟拉出六十多人的小马队。
 
-他自算这一千份合人民币十五万。争议他在纪念帖末尾自己招了：为什么只给愿意付现金的朋友发邀请——因为新人充卡他只能拿到一个月游戏时间，自掏 ISK 返还一千份需要一万两千亿，折合十二万人民币，「于是我觉得还是继续让 CCP 来付这个钱吧」。
-
-拉新成绩是真的，账也是真的：一千个新人和十五万，最后各有各的付款人。
+他的办法是写新人教程加发 PLEX 邀请：教程从 2 月 7 日的《新编新人 0.0 起步计划》1.0 版一路更新到 5.x，同时按邀请进度发 PLEX。到 9 月 22 日，他发完了**第 1000 张**——从第 900 张到第 1000 张只用了七天，是全程最快的一段。
 
 ## 出处与来历
 
-来源交代一次，然后接着讲事。
+主来源是他本人在凛冬社区发的纪念帖，里面逐条列了里程碑与账目：
 
-- [千人邀请纪念帖](https://forums.winterco.org/t/topic/14125) —— 凛冬论坛（WINTERCO），本人自述与账目
-- [新人教程相关帖](https://forums.winterco.org/t/topic/3336) —— 凛冬论坛（WINTERCO）
-- [cyncia-geass.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/cyncia-geass/cyncia-geass.md) —— 站内人物素材
-- [queen-kate.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/queen-kate/queen-kate.md) —— 站内人物素材（凯特）
+- [【创造历史】千人邀请纪念！OSY 华人社区发展史！](https://forums.winterco.org/t/topic/14125) —— 凛冬社区（WINTERCO），本人 2017-09-23 发布，含全部里程碑与自算账目
+- [《从零开始》5.5 版](https://forums.winterco.org/t/topic/13939) —— 同一作者的教程帖（2017-07-17），写「已成功帮助 500 位玩家落户欧服」
+- [B 站视频 av9012287](https://api.bilibili.com/x/web-interface/view?aid=9012287) —— 纪念帖内嵌的战报视频，UP 主 hitncl，简介回链他的贴吧教程，可佐证身份链
+- [zKillboard 角色页 480362957](https://zkillboard.com/character/480362957/) —— Cyncia Geass 角色确实存在
+- [The EVE Online Recruit a Friend Program](https://www.eveonline.com/news/view/the-eve-online-recruit-a-friend-program-everyone-wins) —— CCP 官方招募公告（2016-11），用来对照「邀请奖励」的官方口径
+
+里程碑（均取自纪念帖）：2 月 13 日第 1 张、3 月 13 日第 100 张、4 月 8 日第 200 张、5 月 15 日第 300 张、6 月 15 日第 400 张、7 月 17 日第 500 张、9 月 1 日第 800 张、9 月 15 日第 900 张、9 月 22 日第 1000 张。
+
+他在帖尾自己把这笔账摊开算了：这一千份 PLEX 总共价值人民币 15 万。争议也在这里——他解释为什么只给愿意付现金的朋友发邀请：按他的说法，如果被邀请的新人用 PLEX 充卡，邀请人只能拿到一个月游戏时间；要自掏 ISK 按八成返还一千份，需要准备 12000 亿 ISK，按当时 500 PLEX 约 150 元人民币折算，等于 12 万人民币，换来的是「83.333333 年的游戏时间」。原话收尾：「于是我觉得还是继续让 CCP 来付这个钱吧。」
+
+**口径要说清**：上面这套「PLEX 充卡也算邀请奖励」的规则是 H叔本人的解释；CCP 官方招募公告与条款只写「用有效付款方式升级后邀请人可得 30 天游戏时间或 1 PLEX」，并把 PLEX 之类游戏内货币排除在有效付款方式之外。
 
 ## 为什么好笑
 
-别人招新讲福利，他招新讲报销方式。把「让 CCP 付钱」说得这么坦荡，是 EVE 招新史上少见的诚实。
+别人招新讲福利，他招新讲报销方式。一千个新人、十五万人民币、八十三年的游戏时间——三笔账摆在同一个帖子里，最后落点是一句「还是让 CCP 来付这个钱吧」。在 EVE 的招新史上，这大概是账算得最清楚的一次白嫖。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+招新帖的参照物，以及「算账」这门手艺的代表作：
+
+> 你发几张卡了？
+> 别提了，还是让 CCP 来付这个钱吧
+
+后来常被用来调侃一切「用别人的钱做慈善」的操作。

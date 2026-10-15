@@ -4,8 +4,10 @@ title: 影响力哥
 aliases: [影响力哥, 夺米台风, 台风阿姨, DomiTyphoon]
 category: 舰长轶事
 confidence: 已确认
+scope: 端游
+server: 国服
 labels: [国服, 晨曦, 名人堂]
-related: [yue-xing-die]
+related: [yue-xing-die, 3b-jiao-peng-you, wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li]
 updated_at: 2026-10-13
 ---
 
@@ -24,10 +26,11 @@ updated_at: 2026-10-13
 来源交代一次，然后接着讲事。
 
 - [《新伊甸最有影响力的舰长，倾倒万千萌新》](https://www.163.com/dy/article/FRVVITE40546J714.html) —— 网易号「EVE 领航员」（属国服「晨曦名人堂」系列）
-- [domityphoon.md](https://github.com/dddd4512kk-source/EVE-Online-Tranquility-Chinese-Personas/blob/main/src/people/domityphoon/domityphoon.md) —— 站内人物素材（含欧服时期记录）
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 用来形容**嘴上先赢、战报后补**的场面：
 
 > 相信我，我有这个影响力

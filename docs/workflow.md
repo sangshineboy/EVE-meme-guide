@@ -10,7 +10,7 @@
 
 ```
         ┌──────────── 取材 ────────────┐
-查重 → 本地资料 / 公开网络 → 归档摘要 + 出处
+查重 → 本仓库词条 + 公开网络 → 归档摘要 + 出处
         └──────────────┬───────────────┘
                        ↓
               写词条：<slug>.md（正文只留结论与出处）
@@ -32,14 +32,15 @@
 
 | 部件 | 文件 | 职责 |
 | --- | --- | --- |
-| 词条规格 | `scripts/schema.mjs` | 字段白名单、分类与等级枚举、正文小节、来源与一句话定义规则。**改规格只改这里** |
+| 词条规格 | `scripts/schema.mjs` | 字段白名单、分类/等级/适用范围/服务器枚举、正文小节、来源与一句话定义规则。**改规格只改这里** |
 | 词条加载 | `scripts/loader.mjs` | 命令行侧的读取（校验、查重、生成清单都用它） |
 | 站点数据 | `src/_data/memes.js` | Eleventy 侧读取：解析 front matter、抽出正文里的来源链接与一句话定义 |
 | 校验 | `scripts/validate-memes.mjs` | 逐条校验 + 全局查重（slug、别名）+ related 引用是否存在 |
 | 建条目 | `scripts/new-meme.mjs` | 从模板生成 `<slug>.md` 与 `sources-<slug>.md` |
 | 查重 | `scripts/find-meme.mjs` | 在标题、别名、标签、分类、正文里找关键词 |
 | 环境预检 | `scripts/doctor.mjs` | Node 版本、依赖、规格文件、`AGENTS.md`/`CLAUDE.md` 一致性 |
-| 术语表生成 | `tools/gen-lexicon.mjs` | 从参考仓术语表生成 `docs/lexicon.md`（舰船译名只留索引） |
+| **B 站采集** | `tools/bili.mjs` | `search` / `video` / `replies` / `collect`：走公开数据接口搜视频、读热评；内置 3 秒间隔与 20 次/轮预算 |
+| 术语表生成 | `tools/gen-lexicon.mjs` | 从本仓库词条生成 `docs/lexicon.md`（术语与别名总表） |
 | 待补清单生成 | `tools/gen-pending.mjs` | 从词条数据生成 `docs/pending.md`（谁还欠来源/别名/用法） |
 
 **为什么规格只有一个文件**：校验脚本、站点数据、建条目脚本三处都必须遵守同一套字段。规格写进 `schema.mjs` 后，三处引用同一份枚举，就不会出现「校验放行了、站点读不出来」这类漂移。
@@ -57,7 +58,7 @@ npm run find -- "关键词"
 命中已有词条就**补充**它（加料、加来源、改 `updated_at`），不要另立重复条目。别名会参与查重，所以「同一个梗的不同叫法」不会变成两条。
 
 ### 步骤 2：取材
-先查本仓库与工作区里的既有资料（参考仓术语表、334 篇列传与素材、共享事件摘要），确有必要再联网。
+先查本仓库已有词条（`npm run find`），确有必要再联网。**来源只能是公开网页**：原帖、官方新闻与论坛、媒体报道、社区 wiki、可查的 KM/API 数据。**不得引用任何第三方整理仓库的内容**（含其术语表、列传、事件摘要），见 AGENTS.md 第 3 节的禁止条款。
 
 - 来源只认三类：**本地资料路径**、**可点击 URL**、**可查的公开数据**（KM / API）。
 - 遇 403 / 429 / 412 / 验证码，停止该站点并记录状态码，不换路径硬刷（见 AGENTS.md 第 3 节）。
@@ -122,6 +123,6 @@ npm run serve     # 预览
 | 加一个站点页面 | 新增 `src/<page>.njk`；需要新过滤逻辑时加到 `eleventy.config.js` |
 | 换站名、印章字 | `src/_data/site.js` |
 | 换配色 | `src/assets/css/site.css` 顶部的 CSS 变量 |
-| 术语表要加词 | 在 `docs/lexicon.md` 顶部说明的**来源表**里加，再跑 `node tools/gen-lexicon.mjs` |
+| 术语与别名总表要更新 | 改词条本身，再跑 `node tools/gen-lexicon.mjs`（表是生成的，不手改） |
 
 改完任何一处，都要 `npm run check && npm test && npm run build` 三连。

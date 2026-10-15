@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { validateEntry, CATEGORIES } from "./schema.mjs";
+import { validateEntry, CATEGORIES, SCOPES, SERVERS } from "./schema.mjs";
 
 const base = (over = {}) => ({
   slug: "test-meme",
@@ -9,6 +9,8 @@ const base = (over = {}) => ({
     title: "测试梗",
     category: CATEGORIES[0],
     confidence: "已确认",
+    scope: SCOPES[0],
+    server: SERVERS[0],
     ...over,
   },
   body: [
@@ -47,6 +49,20 @@ test("非法分类被拒绝", () => {
   const e = base({ category: "随便写的" });
   const errs = validateEntry({ ...e, slug: e.data.slug });
   assert.ok(errs.some((x) => x.includes("category")));
+});
+
+test("非法 scope / server 被拒绝", () => {
+  const e1 = base({ scope: "页游" });
+  assert.ok(validateEntry({ ...e1, slug: e1.data.slug }).some((x) => x.includes("scope")));
+  const e2 = base({ server: "台服" });
+  assert.ok(validateEntry({ ...e2, slug: e2.data.slug }).some((x) => x.includes("server")));
+});
+
+test("缺少 scope / server 被拒绝", () => {
+  const e = base({ scope: undefined, server: undefined });
+  const errs = validateEntry({ ...e, slug: e.data.slug });
+  assert.ok(errs.some((x) => x.includes("scope")));
+  assert.ok(errs.some((x) => x.includes("server")));
 });
 
 test("缺少必填小节与来源被拒绝", () => {

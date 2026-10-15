@@ -16,6 +16,12 @@ export const CATEGORIES = [
 /** 证据等级：只有两档，避免“大概也许”式含糊 */
 export const CONFIDENCE = ["已确认", "社区流传"];
 
+/** 适用范围：端游 / 手游（EVE 端游与「无尽银河」手游的梗不通用，必须分开标） */
+export const SCOPES = ["端游", "手游", "通用"];
+
+/** 服务器归属：国服（晨曦）/ 欧服（宁静）/ 未标（来源没交代服务器时不猜） */
+export const SERVERS = ["国服", "欧服", "未标"];
+
 /** 词条文件里必须出现的正文小节（第二项是“找不到就报错”的必填标记） */
 export const REQUIRED_SECTIONS = ["这个梗", "出处与来历"];
 export const OPTIONAL_SECTIONS = ["怎么用", "变体与近亲", "为什么好笑"];
@@ -27,6 +33,8 @@ export const FIELDS = {
   aliases: "可选，别名 / 英文原词 / 常见变体，字符串列表",
   category: `必填，取值只能是：${CATEGORIES.join(" / ")}`,
   confidence: `必填，取值只能是：${CONFIDENCE.join(" / ")}`,
+  scope: `必填，取值只能是：${SCOPES.join(" / ")}（端游 / 手游「无尽银河」/ 通用）`,
+  server: `必填，取值只能是：${SERVERS.join(" / ")}（来源没交代服务器就写 未标，不要猜）`,
   labels: "可选，标签列表（不能含 / \\ ? # %）。注意：字段名用 labels，不要用 tags——Eleventy 会用 tags 建集合",
   related: "可选，相关词条 slug 列表",
   updated_at: "可选，YYYY-MM-DD，本次取材核对日期",
@@ -90,6 +98,12 @@ export function validateEntry({ data, body, slug, files = [] }) {
   }
   if (!CONFIDENCE.includes(data.confidence)) {
     errs.push(`confidence "${data.confidence ?? ""}" 无效（只能是 ${CONFIDENCE.join(" / ")}）`);
+  }
+  if (!SCOPES.includes(data.scope)) {
+    errs.push(`scope "${data.scope ?? ""}" 无效（只能是 ${SCOPES.join(" / ")}）`);
+  }
+  if (!SERVERS.includes(data.server)) {
+    errs.push(`server "${data.server ?? ""}" 无效（只能是 ${SERVERS.join(" / ")}）`);
   }
   if (data.aliases != null && !isStringList(data.aliases)) errs.push("aliases 必须是字符串列表");
   if (data.related != null && !isOptionalStringList(data.related)) errs.push("related 必须是字符串列表");

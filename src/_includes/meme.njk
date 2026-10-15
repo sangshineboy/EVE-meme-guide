@@ -12,6 +12,8 @@ bodyClass: page-meme
   <header class="meme-head">
     <p class="meme-kicker" data-pagefind-ignore>
       <span class="badge badge-cat">{{ category }}</span>
+      <span class="badge badge-scope badge-scope-{{ scope }}">{{ scope }}</span>
+      <span class="badge badge-server">{{ server }}</span>
       <span class="badge badge-conf badge-{{ confidence }}">{{ confidence }}</span>
     </p>
     <h1 class="meme-title"><span data-pagefind-meta="title">{{ title }}</span></h1>

@@ -4,8 +4,10 @@ title: 骗术文化（Scamming）
 aliases: [scamming, scams, EVE allows scamming, the trillion ISK scam, 合同骗局]
 category: 社区文化
 confidence: 已确认
+scope: 端游
+server: 未标
 labels: [欧服, 社区文化, 经济]
-related: [guiding-hand-social-club-heist]
+related: [guiding-hand-social-club-heist, pian-eve-wan-jia-bu-hua-suan, tan-wu-tou-qie-bang-jia-hui-lu-du-shi-you-xi-yi-bu-fen]
 updated_at: 2026-10-13
 ---
 
@@ -30,6 +32,8 @@ EVE 最反直觉的一条社区共识是：**骗人是玩法，不是违规**。
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 老玩家给新人的第一条建议通常是这条：
 
 > 合同读完再点确定

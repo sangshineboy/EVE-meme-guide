@@ -4,8 +4,10 @@ title: M2-XFE 大屠杀（超旗监狱）
 aliases: [Massacre at M2-XFE, M2-XFE, M2, WWB2, the Titan graveyard, I was there, 超旗监狱, 泰坦越狱]
 category: 历史事件
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 超旗, 吉尼斯, 大战]
-related: [world-war-bee]
+related: [world-war-bee, fei-pin-ji-du-zhi-yao-zhou]
 updated_at: 2026-10-13
 ---
 
@@ -31,6 +33,8 @@ CCP 随后在 M2-XFE 建了纪念碑，并凭「最昂贵电子游戏战斗」�
 
 ## 怎么用
 
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
 「我在场」是 EVE 老玩家最有底气的一句话，因为它对应的是一晚几十万亿的账单：
 
 > 那场我在场

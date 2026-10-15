@@ -4,8 +4,10 @@ title: 蜜蜂世界大战（World War Bee）
 aliases: [World War Bee, WWB, the Casino War, Battle of M-OEE8]
 category: 组织政治
 confidence: 已确认
+scope: 端游
+server: 欧服
 labels: [欧服, 大战, 历史]
-related: [massacre-at-m2-xfe]
+related: [massacre-at-m2-xfe, band-of-brothers-disbanded, nullsec-local-blackout]
 updated_at: 2026-10-13
 ---
 
@@ -27,3 +29,14 @@ Polygon 当年 6 月发了长篇解释文，标题直白：「EVE Online 的世�
 ## 为什么好笑
 
 一场没有官方剧本的玩家战争，最后是官方出来做专题、写导语。EVE 的公关部门大概是最像战地记者的那一类。
+
+## 怎么用
+
+
+*说明：本节示例是常见句式的说明性写法，不是社区原话；带具体人名、数字或事件的句子会标明出处。*
+提起大战规模时的最高档参照物：
+
+> 这算什么，WWB 那才叫世界大战
+> 官方都给这场战争开专题页了
+
+它也常被用来解释「为什么 EVE 的经济和人口会随着一场战争起伏」。
