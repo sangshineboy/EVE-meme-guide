@@ -28,6 +28,9 @@ export default function (eleventyConfig) {
 
   // 站点样式与脚本
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // 自定义域名：GitHub 要求产物里有 CNAME 文件，否则每次部署后自定义域名会被清掉。
+  // 源文件放 src/CNAME，这里复制到 _site/CNAME。
+  eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.ignores.add("src/memes/*/sources-*.md");
   eleventyConfig.ignores.add("src/memes/_*");
 

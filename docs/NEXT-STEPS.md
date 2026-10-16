@@ -147,6 +147,28 @@ git -c http.sslBackend=schannel push -u EVE-meme-guide main
 
 ⚠️ `_site/` 里的资源引用是绝对路径（`/assets/...`、`/pagefind/...`），所以**不能双击 `index.html` 打开**，必须走 HTTP：`npm run serve`（http://localhost:8080/）。
 
+### 自定义域名：`eve梗指南.top`（进行中）
+
+中文域名是 IDN，**DNS 面板与 GitHub 里都必须填 punycode 形式**：
+
+```
+eve梗指南.top  →  xn--eve-0i3e503eduh.top
+```
+
+雨云 DNS 面板要加 **5 条记录**：
+
+| 类型 | 主机名称 | 记录值 | 说明 |
+| --- | --- | --- | --- |
+| A | `@` | `185.199.108.153` | 根域名必须用 A 记录，不能 CNAME |
+| A | `@` | `185.199.109.153` | 四条一起加，GitHub 靠它做冗余 |
+| A | `@` | `185.199.110.153` | |
+| A | `@` | `185.199.111.153` | |
+| CNAME | `www` | `sangshineboy.github.io` | 让 www 子域也能用并自动签证书 |
+
+然后：**Settings → Pages → Custom domain** 填 `xn--eve-0i3e503eduh.top` → 等 DNS 检查通过 → 勾 **Enforce HTTPS**。
+
+仓库侧已就绪：`src/CNAME`（内容即上面的 punycode）经 `eleventy.config.js` 的 passthrough 复制到 `_site/CNAME`——**没有这个文件，GitHub 会在下次部署后清掉自定义域名设置**。
+
 ---
 
 ## 7. 建议的下一步顺序

@@ -1,17 +1,19 @@
 # 待补清单（生成文件）
 
 > 由 `node tools/gen-pending.mjs` 从词条数据生成，**不要手改**；要清掉某一行，就去改对应词条。
-> 生成时间：2026-10-14 ｜ 词条总数 51（社区流传 23 · 已确认 28）
+> 生成时间：2026-10-16 ｜ 词条总数 56（社区流传 24 · 已确认 32）
 
-仍有 26 条词条欠东西，按欠得多的排在前面：
+仍有 28 条词条欠东西，按欠得多的排在前面：
 
 | 词条 | 分类 | 等级 | 来源数 | 还欠 |
 | --- | --- | --- | --- | --- |
 | [爱万王，不万古](../src/memes/ai-wan-wang-bu-wan-gu/ai-wan-wang-bu-wan-gu.md) | 社区文化 | 社区流传 | 1 | 找一条可核对来源；补相关词条 |
+| [洗机库](../src/memes/xi-ji-ku/xi-ji-ku.md) | 玩法 | 社区流传 | 2 | 找一条可核对来源；补相关词条 |
 | [00 税猪与低安精英](../src/memes/00-shui-zhu/00-shui-zhu.md) | 社区文化 | 社区流传 | 2 | 找一条可核对来源 |
 | [八年深情惜囧森](../src/memes/ba-nian-shen-qing-xi-jiong-sen/ba-nian-shen-qing-xi-jiong-sen.md) | 历史事件 | 社区流传 | 1 | 找一条可核对来源 |
 | [宝船赠与有缘人](../src/memes/bao-chuan-zeng-yu-you-yuan-ren/bao-chuan-zeng-yu-you-yuan-ren.md) | 玩法 | 社区流传 | 1 | 找一条可核对来源 |
 | [诚实守信三个V](../src/memes/cheng-shi-shou-xin-san-ge-v/cheng-shi-shou-xin-san-ge-v.md) | 组织政治 | 社区流传 | 1 | 找一条可核对来源 |
+| [断层（grid 边界）](../src/memes/duan-ceng/duan-ceng.md) | 机制 | 已确认 | 3 | 补相关词条 |
 | [费品级只要周（超旗造价梗）](../src/memes/fei-pin-ji-du-zhi-yao-zhou/fei-pin-ji-du-zhi-yao-zhou.md) | 舰船 | 社区流传 | 1 | 找一条可核对来源 |
 | [开着贵船要死了（别开你赔不起的船）](../src/memes/kai-gui-ji-yao-shi-le/kai-gui-ji-yao-shi-le.md) | 玩法 | 社区流传 | 1 | 找一条可核对来源 |
 | [你可以刷我的人，但不能刷我的怪](../src/memes/shua-wo-de-ren-bu-neng-shua-wo-de-guai/shua-wo-de-ren-bu-neng-shua-wo-de-guai.md) | 名场面 | 社区流传 | 1 | 找一条可核对来源 |
