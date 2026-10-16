@@ -130,16 +130,20 @@ git -c http.sslBackend=schannel push -u EVE-meme-guide main
 **仓库现状**：远端 `sangshineboy/EVE-meme-guide` 的 `main` 已与本项目同步；本地 `master` 已合并进 `main` 并删除。
 远端建仓时自带的 MIT `LICENSE`（署名 sangshineboy）**已保留，未被覆盖**。
 
-### 线上站点：目前**故意不发布**（维护者决定，2026-10-15）
+### 线上站点：✅ 已上线（2026-10-16）
 
-仓库保持私有。原因是词条里有大量对具名玩家的讥讽、爆料与未证实的「社区流传」指控，公开等于连出处一起被搜索引擎收录。
+**网址**：https://sangshineboy.github.io/EVE-meme-guide/
 
-代码侧已按这个决定调整：`deploy.yml` **默认只构建校验**（每次 push / PR 都跑，红了就说明格式或渲染坏了），**发布需要显式打开开关**：
+- 仓库已转为 **public**（免费账号的私有仓库不支持 Pages，这是上线的前提）；
+- 发布链路：推送 `main` → Actions 构建（`npm ci` → `doctor` → `test` → `check` → `eleventy` → `pagefind`）→ 上传 artifact → `deploy-pages` 发布；
+- `PATH_PREFIX` 由 `configure-pages` 自动注入，所以线上路径带 `/<仓库名>/` 前缀，本地则是根路径——**这是正常的**，不要手改。
 
-1. 仓库 Settings → Secrets and variables → Actions → **Variables**，新增 `ENABLE_PAGES = true`；
-2. Settings → **Pages** → Source 选 `GitHub Actions`。
+**踩过的两个坑（都已修）**：
 
-⚠️ **私有仓库 + 免费账号不支持 Pages**。真要上线只有两条路：把仓库转公开，或改用 Cloudflare Pages / Netlify（它们能读私有仓库，需要维护者注册并授权）。
+1. **测试命令在 CI 上直接退出**：原来的 `node --test --test-isolation=none` 里，`--test-isolation` 是新版 Node 才有的选项，CI 的 Node 22 判为未知参数、整条命令失败。现已改为 `scripts/run-tests.mjs`——它在**当前进程内 import** 测试文件，既不 spawn（避开沙箱 EPERM），也不依赖新选项。
+2. **没开 Pages 时工作流会红**：`configure-pages` 在 Pages 未启用时直接报错。现在用仓库变量 `ENABLE_PAGES` 控制：不设或不为 `true` 时**只构建校验**，设成 `true` 才上传并发布。
+
+**想临时停掉发布**：把仓库变量 `ENABLE_PAGES` 改成 `false`（或删掉），push 就只做校验、不再改动线上。
 
 ⚠️ `_site/` 里的资源引用是绝对路径（`/assets/...`、`/pagefind/...`），所以**不能双击 `index.html` 打开**，必须走 HTTP：`npm run serve`（http://localhost:8080/）。
 
