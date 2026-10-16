@@ -206,7 +206,7 @@ docs/                     词条模板、术语表、工作流说明、共享来
 - **中文没有词干**：Pagefind 对 `zh-cn` 不支持 stemming，搜索是精确子串匹配；词条别名写全一点能显著改善可搜性。
 - 部分标签以 `.` 开头（如 `.FPC`），Windows 下用 `Get-ChildItem -Recurse` 遍历 `_site/tags/` 会报路径错误；Linux/CI 无影响。
 - Node 版本要求 `>=20.11 <21 || >=21.2`；低版本跑 Eleventy 3 会报路径错误。
-- `npm test` 用 `node --test --test-isolation=none`：默认的按文件隔离会为每个测试文件 spawn 子进程，在受限沙箱（管道 stdio 被拒）下报 `spawn EPERM`。CI 上两种方式都可。
+- `npm test` 走 `scripts/run-tests.mjs`：它在**当前进程内直接 import** 测试文件，不 spawn 子进程。起因是 `node --test` 会为每个测试文件起子进程，受限沙箱下管道 stdio 被拒（`spawn EPERM`），而 `--test-isolation=none` 又是新版 Node 才有的选项、**CI 的 Node 22 不认识会直接退出**。该入口按 `*.test.mjs` 自动发现，改测试文件名不用同步改它。
 - 改 `AGENTS.md` 必须同步 `CLAUDE.md`，否则 `npm test` 失败。
 - **删掉词条或改了 slug 之后，必须 `npm run clean` 再构建**：Eleventy 不清理输出目录，旧页面会留在 `_site/` 里并被 Pagefind 索引，导致搜索能搜到已撤下的内容。
 - `docs/lexicon.md` 与 `docs/pending.md` 都是**生成文件**：要改内容就改词条或 `tools/` 里的脚本，手改会在下次生成时被覆盖。

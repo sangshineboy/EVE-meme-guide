@@ -5,7 +5,7 @@
   "description": "EVE 梗指南 — EVE Online 中文社区梗、黑话与名场面词条库（静态站）",
   "scripts": {
     "doctor": "node scripts/doctor.mjs",
-    "test": "node --test --test-isolation=none scripts/*.test.mjs",
+    "test": "node scripts/run-tests.mjs",
     "prebuild": "npm run doctor",
     "find": "node scripts/find-meme.mjs",
     "new": "node scripts/new-meme.mjs",
