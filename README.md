@@ -67,7 +67,7 @@ src/memes/<slug>/
 
 ## 文档
 
-- [AGENTS.md](AGENTS.md) —— 代理与维护者规范（**唯一权威说明**，[CLAUDE.md](CLAUDE.md) 是逐字副本）
+- [AGENTS.md](AGENTS.md) —— 代理与维护者规范（**唯一权威说明**）
 - [docs/workflow.md](docs/workflow.md) —— 工作流：部件职责、一条梗的完整生命周期、哪里会自动拦住你
 - [docs/meme-template.md](docs/meme-template.md) —— 词条模板
 - [docs/lexicon.md](docs/lexicon.md) —— 术语表（由脚本生成）

@@ -147,7 +147,8 @@ export default function (eleventyConfig) {
   // 供筛选用的检索串（首页即时筛选）
   eleventyConfig.addFilter("searchKey", (raw) => {
     const m = d(raw);
-    return [m.title, ...(m.aliases ?? []), m.category, m.confidence, m.scope, m.server, ...(m.labels ?? []), m.summary]
+    // 不再拼 confidence：证据等级已从界面移除，检索键里留着会让「已确认」还能筛出东西
+    return [m.title, ...(m.aliases ?? []), m.category, m.scope, m.server, ...(m.labels ?? []), m.summary]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();

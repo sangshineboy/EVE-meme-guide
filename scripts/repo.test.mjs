@@ -33,12 +33,10 @@ test("slug 与别名不重复", () => {
   assert.deepEqual(dup, []);
 });
 
-test("AGENTS.md 与 CLAUDE.md 逐字一致", async () => {
-  const [a, b] = await Promise.all([
-    readFile(new URL("../AGENTS.md", import.meta.url)),
-    readFile(new URL("../CLAUDE.md", import.meta.url)),
-  ]);
-  assert.ok(a.equals(b), "AGENTS.md 与 CLAUDE.md 不一致：改一处必须同步另一处");
+test("AGENTS.md 存在且非空（唯一权威说明）", async () => {
+  const a = await readFile(new URL("../AGENTS.md", import.meta.url), "utf8");
+  assert.ok(a.trim().length > 1000, "AGENTS.md 内容异常（过短或为空）");
+  assert.match(a, /本仓库唯一的权威说明/, "AGENTS.md 缺少权威说明声明");
 });
 
 // 回归：Eleventy 默认给的是 markdown-it "default" preset——不含表格、删除线，也不开 breaks。

@@ -17,7 +17,7 @@
                        ↓
         npm run check      字段、结构、来源、素材、查重（离线，会失败）
                        ↓
-        npm test           脚本与仓库基线（AGENTS/CLAUDE 一致性）
+        npm test           脚本与仓库基线（规范文件完整性、词条校验等）
                        ↓
         npm run build      Eleventy 渲染 + Pagefind 建索引 → _site/
                        ↓
@@ -38,7 +38,7 @@
 | 校验 | `scripts/validate-memes.mjs` | 逐条校验 + 全局查重（slug、别名）+ related 引用是否存在 |
 | 建条目 | `scripts/new-meme.mjs` | 从模板生成 `<slug>.md` 与 `sources-<slug>.md` |
 | 查重 | `scripts/find-meme.mjs` | 在标题、别名、标签、分类、正文里找关键词 |
-| 环境预检 | `scripts/doctor.mjs` | Node 版本、依赖、规格文件、`AGENTS.md`/`CLAUDE.md` 一致性 |
+| 环境预检 | `scripts/doctor.mjs` | Node 版本、依赖、规格文件完整性 |
 | **B 站采集** | `tools/bili.mjs` | `search` / `video` / `replies` / `collect`：走公开数据接口搜视频、读热评；内置 3 秒间隔与 20 次/轮预算 |
 | 术语表生成 | `tools/gen-lexicon.mjs` | 从本仓库词条生成 `docs/lexicon.md`（术语与别名总表） |
 | 待补清单生成 | `tools/gen-pending.mjs` | 从词条数据生成 `docs/pending.md`（谁还欠来源/别名/用法） |
@@ -108,7 +108,7 @@ npm run serve     # 预览
 | 忘了建 `sources-<slug>.md` | `npm run check` | 「缺少素材文件 …」 |
 | 两条词条的别名撞了 | `npm run check` | 「别名重复："…" 同时属于 … 与 …」 |
 | `related` 指向不存在的词条 | `npm run check` | 「related 指向不存在的词条 …」 |
-| 改了 `AGENTS.md` 没同步 `CLAUDE.md` | `npm test` / `npm run doctor` | 「AGENTS.md 与 CLAUDE.md 不一致」 |
+| `AGENTS.md` 被误删或内容被截断 | `npm test` | 「AGENTS.md 内容异常」/「缺少权威说明声明」 |
 | 词汇量/风格问题（刹车句、来源辩护） | 不会自动拦 | 靠 AGENTS.md 第 4 节人工通读 |
 
 ---

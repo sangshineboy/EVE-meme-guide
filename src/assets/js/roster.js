@@ -1,4 +1,4 @@
-// 首页即时筛选、排序与随机排序。标签、分类、证据等级三种条件叠加。
+// 首页即时筛选、排序与随机排序。关键词、分类、端游/手游、服务器四种条件叠加。
 const roster = document.getElementById("roster");
 const cards = [...roster.querySelectorAll(".card")];
 const input = document.getElementById("filter");
@@ -6,12 +6,10 @@ const status = document.getElementById("filter-status");
 const orderBtn = document.getElementById("order");
 const shuffleBtn = document.getElementById("shuffle");
 const catBtns = [...document.querySelectorAll("[data-filter-cat]")];
-const confBtns = [...document.querySelectorAll("[data-filter-conf]")];
 const scopeBtns = [...document.querySelectorAll("[data-filter-scope]")];
 const serverBtns = [...document.querySelectorAll("[data-filter-server]")];
 
 let category = "";
-let confidence = "";
 let scope = "";
 let server = "";
 let order = "title"; // title | sources
@@ -27,10 +25,9 @@ function apply() {
     const key = normalize(card.dataset.key);
     const okQ = !q || key.includes(q);
     const okCat = !category || card.dataset.category === category;
-    const okConf = !confidence || card.dataset.confidence === confidence;
     const okScope = !scope || card.dataset.scope === scope;
     const okServer = !server || card.dataset.server === server;
-    const visible = okQ && okCat && okConf && okScope && okServer;
+    const visible = okQ && okCat && okScope && okServer;
     card.hidden = !visible;
     if (visible) shown++;
   }
@@ -39,7 +36,6 @@ function apply() {
   if (category) parts.push(`分类 ${category}`);
   if (scope) parts.push(scope);
   if (server) parts.push(server);
-  if (confidence) parts.push(`等级 ${confidence}`);
   status.hidden = false;
   status.textContent = parts.length ? `${parts.join(" · ")}：${shown} 条` : `共 ${shown} 条`;
 }
@@ -75,7 +71,6 @@ function wire(buttons, dataKey, set) {
   }
 }
 wire(catBtns, "filterCat", (v) => (category = v));
-wire(confBtns, "filterConf", (v) => (confidence = v));
 wire(scopeBtns, "filterScope", (v) => (scope = v));
 wire(serverBtns, "filterServer", (v) => (server = v));
 orderBtn.addEventListener("click", () => {

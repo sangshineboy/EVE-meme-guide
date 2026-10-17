@@ -9,6 +9,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const memes = path.join(root, "src/memes");
 
 export function build(entries, today) {
+  // YAML 会把 425、68.75e 这类值解析成数字/科学计数，别名一律用引号包起来
+  const q = (s) => JSON.stringify(String(s));
   let n = 0;
   for (const e of entries) {
     const dir = path.join(memes, e.slug);
@@ -17,7 +19,7 @@ export function build(entries, today) {
       "---",
       `slug: ${e.slug}`,
       `title: ${/[:"#]/.test(e.title) ? JSON.stringify(e.title) : e.title}`,
-      `aliases: [${(e.aliases ?? []).join(", ")}]`,
+      `aliases: [${(e.aliases ?? []).map(q).join(", ")}]`,
       `category: ${e.category}`,
       `confidence: ${e.confidence}`,
       `scope: ${e.scope ?? "端游"}`,

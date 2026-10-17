@@ -6,7 +6,7 @@ bodyClass: page-index
 <section class="intro">
   <h1>{{ site.title }}</h1>
   <p>{{ site.description }}共收 <strong>{{ memes.length }}</strong> 条。</p>
-  <p class="intro-note">每条词条都在正文里给出处，分「已确认」与「社区流传」两档：前者有可核对的原始来源，后者只有社区通行说法。<a href="{{ '/sources/' | url }}">出处总表 →</a></p>
+  <p class="intro-note">每条词条都在正文里列出出处（原帖、官方公告或媒体报道），逐条可点。<a href="{{ '/sources/' | url }}">出处总表 →</a></p>
 </section>
 
 <div class="toolbar" role="search">
@@ -20,12 +20,6 @@ bodyClass: page-index
     <button type="button" class="chip is-active" data-filter-cat="" aria-pressed="true">全部分类<small>{{ memes.length }}</small></button>
     {%- for g in memes | groupByCategory %}
     <button type="button" class="chip" data-filter-cat="{{ g.category }}" aria-pressed="false">{{ g.category }}<small>{{ g.items.length }}</small></button>
-    {%- endfor %}
-  </nav>
-  <nav class="tag-bar" id="conf-bar" aria-label="按证据等级筛选">
-    <button type="button" class="chip is-active" data-filter-conf="" aria-pressed="true">全部等级</button>
-    {%- for g in memes | groupByConfidence %}
-    <button type="button" class="chip" data-filter-conf="{{ g.confidence }}" aria-pressed="false">{{ g.confidence }}<small>{{ g.items.length }}</small></button>
     {%- endfor %}
   </nav>
   <nav class="tag-bar" id="scope-bar" aria-label="按端游／手游筛选">
