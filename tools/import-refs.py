@@ -43,12 +43,13 @@ def add(term, desc, source, group, url):
     rows.append({"term": term, "desc": desc[:150], "source": source, "group": group, "url": url})
 
 
-# ---------- 1) 163百科《游戏习语》 ----------
-p = find("163百科-游戏习语.xlsx")
+# ---------- 1) 163百科《游戏习语》（资料区通用格式：小节 / 条目号 / 正文） ----------
+p = find("163百科-48-游戏习语.xlsx")
 if p:
-    ws = load_workbook(p, data_only=True)["习语一览"]
+    ws = load_workbook(p, data_only=True)["内容"]
     for r in list(ws.iter_rows(values_only=True))[1:]:
-        _, group, term, desc, _video = r[:5]
+        group, _no, text = r[:3]
+        term, _, desc = str(text or "").partition(" —— ")
         add(term, desc, "百科·习语", group, "https://evepc.baike.163.com/ziliao/48.html")
 
 # ---------- 2) 手游黑话科普 ----------
@@ -86,18 +87,22 @@ for p in sorted(REF.rglob("B站视频转录/*.md")) if REF.exists() else []:
                 "https://www.bilibili.com/video/BV1dC4y1X7eP/" if part == "上集"
                 else "https://www.bilibili.com/video/BV1pN4y1474K/")
 
-# ---------- 4) 163百科《EVE的各种梗》：梗名与别名 ----------
-p = find("163百科-EVE的各种梗.xlsx")
+# ---------- 4) 163百科《EVE的各种梗》：梗名与别名（资料区通用格式） ----------
+p = find("163百科-66-EVE的各种梗.xlsx")
 if p:
-    ws = load_workbook(p, data_only=True)["梗一览"]
+    ws = load_workbook(p, data_only=True)["内容"]
     for r in list(ws.iter_rows(values_only=True))[1:]:
-        no, name, alias, body, _len, status, _link = r[:7]
-        desc = re.sub(r"\s+", " ", str(body or ""))
-        if status != "有解释":
+        status, no, text = r[:3]
+        head, _, desc = str(text or "").partition(" —— ")
+        # 变形：梗名（别名：A、B）  或  梗名
+        m = re.match(r"^(.*?)（别名：(.*?)）$", head)
+        name, aliases = (m.group(1), [a for a in m.group(2).split("、") if a]) if m else (head, [])
+        desc = re.sub(r"\s+", " ", desc)
+        if not desc or "仅列名" in desc:
             desc = "（百科仅列名，未给解释）"
         url = "https://evepc.baike.163.com/ziliao/66.html"
         add(name, desc[:160], f"百科·梗#{no}", "梗名", url)
-        for a in re.split(r"\s*[/／]\s*", str(alias or "")):
+        for a in aliases:
             add(a, desc[:160], f"百科·梗#{no}（别名）", "梗名", url)
 
 # ---------- 去重：同名词条合并来源 ----------
