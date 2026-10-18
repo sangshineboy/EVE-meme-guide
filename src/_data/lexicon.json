@@ -1,0 +1,5527 @@
+{
+ "generated": "2026-10-18",
+ "stats": {
+  "terms": 472,
+  "entries": 58,
+  "linked": 162,
+  "refTerms": 380
+ },
+ "groups": [
+  {
+   "name": "梗名",
+   "count": 121
+  },
+  {
+   "name": "名场面",
+   "count": 42
+  },
+  {
+   "name": "游戏通用类",
+   "count": 34
+  },
+  {
+   "name": "组织政治",
+   "count": 31
+  },
+  {
+   "name": "视频黑话",
+   "count": 31
+  },
+  {
+   "name": "玩法",
+   "count": 28
+  },
+  {
+   "name": "社区文化",
+   "count": 26
+  },
+  {
+   "name": "舰长轶事",
+   "count": 26
+  },
+  {
+   "name": "游戏物品类",
+   "count": 25
+  },
+  {
+   "name": "舰船类",
+   "count": 25
+  },
+  {
+   "name": "日常",
+   "count": 20
+  },
+  {
+   "name": "游戏缩写类",
+   "count": 18
+  },
+  {
+   "name": "战斗常用",
+   "count": 17
+  },
+  {
+   "name": "装备",
+   "count": 15
+  },
+  {
+   "name": "舰船",
+   "count": 9
+  },
+  {
+   "name": "星域",
+   "count": 3
+  },
+  {
+   "name": "手游黑话",
+   "count": 1
+  }
+ ],
+ "rows": [
+  {
+   "term": "0.0",
+   "desc": "安全等级≤0的星系，对相互攻击没有任何限制，完全由玩家控制的地区，eve核心所在。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "星域",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "1R",
+   "desc": "一个字母的计量单位：1R = 68.75 亿，用来骂联盟高层侵吞资产。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "r-rac",
+    "title": "R",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "1v bug矿",
+   "desc": "指当年烈火天书打了一个月战争的那个空间站因为有BUG能无限递送重导导弹因为而获得了大量的矿石，而这些矿石又通过RMT卖给了烈火造船打天书，最终这个BUG在空间站被打下后才得被玩家曝光后才得以修复",
+   "sources": [
+    "百科·梗#173"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "1VN",
+   "desc": "从《真三国无双》借来的词：一个人打一群。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wu-shuang",
+    "title": "无双",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "25",
+   "desc": "二五仔，指叛徒，反骨仔，也有二五二五，生龙活虎的说法，多用来嘲讽那些不断25的军团",
+   "sources": [
+    "百科·梗#27"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "25 / 二五仔",
+   "desc": "叛徒、反骨仔，专指不断换阵营的军团。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "er-wu-zai",
+    "title": "25 / 二五仔",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "25仔",
+   "desc": "叛徒、反骨仔，专指不断换阵营的军团。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "er-wu-zai",
+    "title": "25 / 二五仔",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "300E 滚滚",
+   "desc": "出自PIBC主席军用馒头在会战极限动员会议的语录，要求手下军团不上前线交300E，不然就滚出联盟。多见于敌对势力调侃馒头。原话是：别TM给我扯什么后勤军团有特权，是后勤军团每个月给我上交300E的矿再说，交不起就滚，挖不出来还想要特权？给我滚，滚远点！",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#23"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "300e-gun-gun",
+    "title": "300E 滚滚",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "3V",
+   "desc": "VENI VIDI VICI",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "425",
+   "desc": "425mm 磁轨炮的绰号，附一首控诉它打不中的长诗。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "keng-die-425",
+    "title": "坑爹 425",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "49会战",
+   "desc": "49-U6U馒大林格勒战役是第二次生死之战中南北联盟轴心国对泛银河商业共同体(简称PIBC)争夺逑瑞斯东部节点49-U6U星系馒大林格勒而进行的战役，时间自2014年2月28日到3月26日为止。馒大林格勒战役是第二次生死之战逑瑞斯东部战线的转折点，同盟国3P联军完全的掌握了战斗的主导权。从伤亡数字来",
+   "sources": [
+    "百科·梗#61"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "4w5 科长",
+   "desc": "玩家雪寒顿悟在ECF论坛上的某贴中说自己的月入45000元的科长，由于玩家觉得他在炫耀，因而出名。",
+   "sources": [
+    "词条",
+    "百科·梗#40"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "4w5-ke-zhang",
+    "title": "4w5 科长",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "68.75e",
+   "desc": "一个字母的计量单位：1R = 68.75 亿，用来骂联盟高层侵吞资产。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "r-rac",
+    "title": "R",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "80隐轰",
+   "desc": "一首打油诗的最后一句：守家靠隐轰。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yin-hong-shou-zhu-quan",
+    "title": "隐轰守主权",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "爱玩玩不玩滚",
+   "desc": "「爱玩玩不玩滚」的拼音缩写，老玩家回应玻璃心萌新的标准答案。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "awwbwg",
+    "title": "awwbwg",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "爱万王不万古",
+   "desc": "「爱玩玩不玩滚」的拼音缩写，老玩家回应玻璃心萌新的标准答案。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "awwbwg",
+    "title": "awwbwg",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "爱洗机库幽灵妖",
+   "desc": "RAC联盟前任CEO幽灵老妖，在期EVE历程中多次将军团机库或军团个人的机库洗劫一空",
+   "sources": [
+    "百科·梗#78"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "八年深情惜囧森",
+   "desc": "FDK联盟前任CEO johsonzyb，在14年元旦时带领FDK联盟背叛盟友PIBC，参与到联军阵营对PIBC的围攻中，八年盟友终变敌对。帮助萌新叫杀手：杀手军团，吉他宣战党，因为其经常喜欢宣战新手团并打劫，美其名曰帮助新人。嘲讽之意",
+   "sources": [
+    "百科·梗#79"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "巴戈龙",
+   "desc": "材料音作“八个龙”，指突袭者势力战列舰。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "白名",
+   "desc": "路人，但有可能是敌对小号或攻击性极强，非高安区白名一律当红减处理。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "帮助萌新叫杀手",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#80"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "宝船赠有缘人",
+   "desc": "此话多用于嘲讽那些入了虫洞没带探针的人。 因为如果不带针入洞，不自爆蛋这辈子也别想出去了。除非你在洞主之家频道发布求救信息并给予高额的报酬，而且得看人家愿不愿意救你…由此，这些无人救援的船只大多留在洞里成了另类的“宝藏”。矿难的舰长们有时会选择将船名改为“宝船赠予有缘人”，然后跳船自爆蛋，将舰船留给",
+   "sources": [
+    "词条",
+    "百科·梗#34"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "bao-chuan-zeng-you-yuan-ren",
+    "title": "宝船赠有缘人",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "宝船赠与有缘人",
+   "desc": "进洞没带探针，出不去了，只好把船留给下一个人。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-zeng-you-yuan-ren",
+    "title": "宝船赠有缘人",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "北境之王黑老三",
+   "desc": "PIBC超旗总指挥，阿瑞斯军团管理，前PIBC总指挥黑色三连星，其掌管的PIBC北方部战斗力之强、超旗之多任何势力无法忽视其在北方的影响力，因为阿瑞斯军团拥有大量超级旗舰同时军团坐镇北方，常有传言称阿瑞斯会独立出PIBC，所以被称为北境之王。",
+   "sources": [
+    "百科·梗#81"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "北萌/BM",
+   "desc": "(星图拿反的)北方联盟（重组后的新北盟）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "贝斯王爷传说笑",
+   "desc": "PIBC领地贝斯星域的指挥官，军团热情的饼干的CEO，传说中的笑总，因在贝斯星域一手遮天说一不二所以被外界称为贝斯王，后因其领土和管辖权力涉及贝斯、摄魂、埃索特亚三星域也被戏称贝摄埃王。",
+   "sources": [
+    "百科·梗#82"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "避风避雨避馒头",
+   "desc": "老牌联盟PIBC的CEO军用馒头，人称主席。因为PIBC的外交事件以及各种内部纠纷均由馒头出面或背锅，就像柯南走哪哪出事一样……",
+   "sources": [
+    "百科·梗#83"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "标记",
+   "desc": "指目标标记装置，能放大敌方的信号半径。对炮台船来说，更容易打中对方、也更容易暴击；对导弹船来说更直观，可以增加导弹伤害。",
+   "sources": [
+    "百科·习语；小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "标题党",
+   "desc": "在论坛上发贴经常以标题来吸引读者，但帖子里无任何实质有价值内容或者和标题主体不符合。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "不吃超旗萨科齐",
+   "desc": "低安海盗军团，以多次用无畏剧本超旗出名",
+   "sources": [
+    "百科·梗#84"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "不吃炸鸡反BP",
+   "desc": "FBP阵营，由于军团众多成分复杂，阵营内部腐化严重，经常有总监将军团资产或产出换为RMB",
+   "sources": [
+    "百科·梗#85"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "不能运作RAC",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#86"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "不骑摩托神鸡鸡",
+   "desc": "老牌海盗联盟3V的CEO神的鸡鸡，国服著名战斗指挥。因为3V与PIBC的关系，人称鸡副主席。",
+   "sources": [
+    "百科·梗#87"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "采星者",
+   "desc": "STARCHASER INC. （虫洞联盟，无主权）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "菜",
+   "desc": "行星矿。点击行星开采界面，里面种出来的就是“菜”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "插件/插头/片片/头插/脑插",
+   "desc": "植入体",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "茶",
+   "desc": "茶隼级护卫舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "晨曦剿匪指日归",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#88"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "诚实守信巴贝尔",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#89"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "诚实守信康师傅（博）",
+   "desc": "EVE玩家康師博经常借助自己的新手军团吸引新人入团，然后怂恿新人配出神装船刷怪，最终会趁着新人刷怪的时候过去爆绿星，因为经常出现类似情况，导致经常有新人在贴吧爆料，最终康師傅获得称号-诚实守信康师傅 http://c.tieba.baidu.com/p/3104420613",
+   "sources": [
+    "百科·梗#90"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "诚实守信三个V",
+   "desc": "蓝加不可信的最老版本：先别防火防盗，防 3V。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "fang-huo-fang-dao-fang-3v",
+    "title": "防火防盗防 3V",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "吃不起饭LG",
+   "desc": "联军围攻PIBC时联军阵营FOF的ceo，原先属于PIBC联盟。人称大老板，据说现实中做生意，投入大量RMB在eve中，几年来一直试图推翻PIBC联盟的馒头主席",
+   "sources": [
+    "百科·梗#91"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "吃颗药就知道了",
+   "desc": "有人问源泉属不属于南方，馒头用全频道广播回答了他。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yuan-quan-shi-nan-fang",
+    "title": "源泉是南方",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "吃KFC",
+   "desc": "把军团物资卖了换一顿肯德基——腐败的最小单位。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "kfc",
+    "title": "KFC",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "痴汉",
+   "desc": "你在星门那头，我在星门这头，可你就是不跳。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "xing-men-chi-han",
+    "title": "星门痴汉",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "冲冲冲，杀杀杀，修我修我，我死了",
+   "desc": "用于吐糟南华军团的战术，与南华大学，有勇无谋同一意思",
+   "sources": [
+    "百科·梗#62"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "冲锋在前梅提督",
+   "desc": "隐星军团带队指挥梅林阿瑟",
+   "sources": [
+    "百科·梗#92"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "船插",
+   "desc": "指船体改装件，是战斗插和工程插的总称。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "从不二逼脾气大",
+   "desc": "PIBC联盟源泉某军团的指挥脾气要改好。其带队很坑队友",
+   "sources": [
+    "百科·梗#93"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "挫骨扬灰灭荣耀",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#94"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "打10E给死机",
+   "desc": "妇联内部的反水贴罚款：谁水帖，打 10E 给「死机」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "shi-yi-si-ji",
+    "title": "十亿死机",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "打出屎来",
+   "desc": "出自PF势力成员蓝色联邦CEO口中，当时PF击败了FBP后，蓝色联邦作为PF一员自信心极度膨胀，遂对属于FBP一员的月形联盟发出如上威胁。但最终结果是蓝色联邦在与月形的对战中屡战屡败，而其继任七月联盟更是被月形大败于U1TX创造了北方战争PF势力最大的损失记录，所以此语也经常被FBP用来反讽PF。",
+   "sources": [
+    "百科·梗#76"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "打一炮就跑",
+   "desc": "用远炮打一发就跑的战术，名字来自甩葱歌。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "shuai-cong",
+    "title": "甩葱",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "大/中/小白",
+   "desc": "涅斯托级（战列）/斯特修斯级（巡洋）/阿斯特罗级（护卫） 姐妹会舰船",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "大白",
+   "desc": "姐妹会战列舰。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "大鸡腿",
+   "desc": "俄洛巴斯级盖伦特泰坦",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "大鲸鱼",
+   "desc": "长须鲸级 外空矿业旗舰级工业舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "大蘑菇",
+   "desc": "神使级艾玛泰坦",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "大修",
+   "desc": "大型装甲维修器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "呆蓝",
+   "desc": "「快救我，我要被捏出汁了」——一句话定了一个人的外号。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "dai-lan-zhi",
+    "title": "呆蓝汁",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "呆蓝汁",
+   "desc": "「快救我，我要被捏出汁了」——一句话定了一个人的外号。",
+   "sources": [
+    "词条",
+    "百科·梗#42"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "dai-lan-zhi",
+    "title": "呆蓝汁",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "带跳",
+   "desc": "舰队队长带着舰队跃迁。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "带头大哥是月形",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#95"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "戴老板",
+   "desc": "因在CDC论坛以戴笠为头像，以马甲渗透破坏为主要游戏方式而得名。是坚定的泛北势力人员，励志光复被FBP占领的北方，与FBP体系的四万五科长是死对头",
+   "sources": [
+    "词条",
+    "百科·梗#41"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "dai-lao-ban",
+    "title": "戴老板",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "戴笠头像",
+   "desc": "以戴笠为头像、靠马甲渗透搞破坏的泛北人士。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "dai-lao-ban",
+    "title": "戴老板",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "单灭月型属七月",
+   "desc": "在PF阵营对抗FBP阵营后期，七月同盟单独对抗已经势弱的月形联盟。事后七月称自己单独灭了月形，被其同阵营盟友所不齿，嘲讽之意",
+   "sources": [
+    "百科·梗#96"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "单手灭盟步兵团",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#97"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "箪食壶浆迎王师",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#98"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "蛋",
+   "desc": "太空舱。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "蛋黄",
+   "desc": "指逃生舱里的人物有没有穿植入体,有植入体说明有蛋黄。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "导弹扰",
+   "desc": "指制导干扰器，减少目标导弹爆炸速度和飞行时间，扩大爆炸半径。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "导扰",
+   "desc": "指制导干扰器，作用是降低导弹发射器的飞行速度、爆炸速度，并提高爆炸半径；只对导弹船起作用，对炮台船不起作用。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "灯灭了",
+   "desc": "联盟的主权星系被打光——在星图上看，就是一盏盏灯灭掉。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "mie-deng",
+    "title": "灭灯",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "凳抗战熊种兔队",
+   "desc": "据说是FBP某人开组盾抗战巡口音问题变成了凳抗战熊，原话是：“DEN抗战熊重突队开组。反北P全频广播了啊，反北P全频广播了啊，北方凳抗战熊种兔队开组了啊，来的进印第安纳老斑鸠舰队，来隐星战斗YY，在重复一遍了啊。”",
+   "sources": [
+    "词条",
+    "百科·梗#48"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "deng-kang-zhan-xiong",
+    "title": "凳抗战熊种兔队",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "低安",
+   "desc": "安全等级0.1—0.4的星系，对非法互殴有限制，无警察，有星门炮。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "星域",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "低安执法有3V",
+   "desc": "老牌海盗联盟VVV，因其战斗力不可小觑同时各低安打架都喜欢掺和一下而被称为低安执法。意比美国，因为现在vvv联盟的人数下降，此言多有嘲讽之意",
+   "sources": [
+    "百科·梗#99"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "电池",
+   "desc": "指电容器电池，装备以后能够提高一定程度的舰船电容上限，在主动开启以后会得到一部分临时电量（无法被毁电影响，持续25秒）",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "屌丝鲤鱼",
+   "desc": "因为一篇《屌丝鲤鱼撸管指南》得名的玩家。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "li-yu",
+    "title": "鲤鱼",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "独立自强蓝联邦",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#100"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "堵门",
+   "desc": "在某些交通要道等待打劫过往的船只。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "堵门党",
+   "desc": "你在星门那头，我在星门这头，可你就是不跳。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "xing-men-chi-han",
+    "title": "星门痴汉",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "短反",
+   "desc": "指跃迁扰频器，它的射程较短，但是造成的跃迁干扰强度比跃迁扰断器高得多，并且能关闭目标的微型跃迁推进器（微曲），并使其无法正常使用。",
+   "sources": [
+    "百科·习语；小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "对舞监国二达达",
+   "desc": "人称二达，原PIBC量子漩涡军团管理，量子漩涡军团背叛出PIBC后，二达加入PIBC北方军团 珈蓝。",
+   "sources": [
+    "百科·梗#101"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "盾抗/甲抗",
+   "desc": "指舰船主要依靠护盾/装甲作保护，护盾/装甲拥有较高数值和高额抗性。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "盾提",
+   "desc": "护盾回充增量放大器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "盾修",
+   "desc": "护盾回充增量器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "夺米台风",
+   "desc": "因为一篇《屌丝鲤鱼撸管指南》得名的玩家。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "li-yu",
+    "title": "鲤鱼",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "恩公",
+   "desc": "索隆自述：某日我去fdk收割，遇到俩新人，没好意思爆了他，结果本地聊天发现他在fdk被各种欺负后拉他到了tga，他就开始恩公恩公的叫起来了",
+   "sources": [
+    "词条",
+    "百科·梗#54"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "en-gong",
+    "title": "恩公",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "恩公恩公",
+   "desc": "收割时放过的两个新人，后来一口一个「恩公」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "en-gong",
+    "title": "恩公",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "二五",
+   "desc": "二五仔，指叛徒，反骨仔，也有二五二五，生龙活虎的说法，多用来嘲讽那些不断25的军团",
+   "sources": [
+    "别名",
+    "B站·黑话下集；百科·梗#27（别名）"
+   ],
+   "group": "社区文化",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": {
+    "slug": "er-wu-zai",
+    "title": "25 / 二五仔",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "二五仔",
+   "desc": "叛徒、反骨仔，专指不断换阵营的军团。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "er-wu-zai",
+    "title": "25 / 二五仔",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "反冲星门",
+   "desc": "通过星门进入另一个星系，发现有人在门另一边等着干掉我，我过门后立刻回头朝向星门加速，靠近星门之后立刻过门回到之前的星系，以此逃生。 装备 缩写 英文全称 中文 简介 AB Afterburner 加力燃烧器 舰船加速 ECM Electronic Counter Measures 电子对抗,干扰设备",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "反跳",
+   "desc": "代指跃迁扰断器和跃迁扰频器两种干扰舰船跃迁的电子战设备，可以使目标无法跃迁， 故称为反跳。",
+   "sources": [
+    "百科·习语；小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "反贴门",
+   "desc": "接近星门，常用于过星门后。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "反应甲",
+   "desc": "反应式装甲增强器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "防火防盗防 3V",
+   "desc": "当时蓝色联邦被赶出00，整天在低安跳TT大航秀肌肉，3V也好长一段时间没有吃到大肉了，于是小草就把他的大航加过去打算一晚上团掉蓝老板的TT。当晚3V组了快百人的小马队，在当时可以说是到哪都能横着走的庞大武力。在抓住TT后仅仅2，3分钟就将一条A TT打爆。火力过于凶猛导致蓝老板不敢跳更多超期救援。后",
+   "sources": [
+    "词条",
+    "百科·梗#36"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fang-huo-fang-dao-fang-3v",
+    "title": "防火防盗防 3V",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "放不出的王答答",
+   "desc": "PIBC的联盟指挥王嗒嗒带多米队的时候由于口误，说反了：“放出王嗒嗒，协助无人机”。",
+   "sources": [
+    "别名",
+    "百科·梗#3（别名）"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fang-chu-wang-da-da",
+    "title": "放出王嗒嗒，协助无人机",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "放出王嗒嗒，协助无人机",
+   "desc": "PIBC的联盟指挥王嗒嗒带多米队的时候由于口误，说反了：“放出王嗒嗒，协助无人机”。",
+   "sources": [
+    "词条",
+    "百科·梗#3"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fang-chu-wang-da-da",
+    "title": "放出王嗒嗒，协助无人机",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "放风筝",
+   "desc": "指利用导弹或其他武器的射程优势将敌人置于对方的有效射程外,PVE最常用的战术 (当发射导弹时,对方也在向你的方向高速飞行,导弹是有飞行时间的 这也增加了你的导弹射程 - 在你原有的射程的基础上 增加 &lt;对方速度&gt; x &lt;你的导弹飞行时间&gt;) 但是如果敌人有网(减速),就不好用",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "飞不起来",
+   "desc": "在CCTV-7的防务新观察 之 百年星舰节目中，张召忠指着乌鸦级的模型说“（这个在在大气层内）飞不起来”而得名 http://www.acfun.tv/v/ac441880",
+   "sources": [
+    "词条",
+    "百科·梗#60"
+   ],
+   "group": "舰船",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fei-bu-qi-lai",
+    "title": "飞不起来",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "飞不起来级",
+   "desc": "局座在电视上指着乌鸦级模型说：这个在大气层内飞不起来。",
+   "sources": [
+    "别名",
+    "百科·习语"
+   ],
+   "group": "舰船",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": {
+    "slug": "fei-bu-qi-lai",
+    "title": "飞不起来",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "飞袖子",
+   "desc": "救援没赶上，最后给一颗蛋挂上了摇修。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yao-xiu-fei-xiu-li-de-dan",
+    "title": "摇修飞袖李的蛋",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "风华正茂油条妹",
+   "desc": "PIBC北方FDF军团的第一代CEO",
+   "sources": [
+    "百科·梗#102"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "妇联",
+   "desc": "復仇者联盟(已灭灯)（已团灭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "盖子",
+   "desc": "莫德团战列舰“巴盖斯”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "高安",
+   "desc": "安全等级0.5—1.0的星系，禁止非法互殴，有警察。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "星域",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "高安强暴",
+   "desc": "在高安违法开火，为的是货柜里的东西，或者只是找刺激。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "qiang-bao",
+    "title": "强爆",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "高速党",
+   "desc": "指使用提升舰船速度和减轻舰船质量的装备后速度极快，在高速环绕的情况下，由于被环绕目标的炮转速或者导弹的飞行速度不足,对高速船无法造成有效的伤害。现时，国服EVE已经更新版本，高速船被削弱，高速船已经逐渐淡出。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "歌唱和平索恩公",
+   "desc": "TGA联盟CEO天神索隆，经常举办联盟歌会，并且亲自上麦唱歌，关键是唱歌还很好听。由于TGA歌会时各势力都会来参加，并无势力恩仇参与其中，索隆被比喻成日本动漫Macross（超时空要塞）中的歌姬明美，人称索恩公，歌唱和平的索明美",
+   "sources": [
+    "百科·梗#103"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "歌会麦序",
+   "desc": "一场 YY 歌会调麦序，最后打成联军被围的会战。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "sha-mei-mei-zhan-zheng",
+    "title": "傻妹妹战争",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "格兰屌多",
+   "desc": "绝地富豪团，因为性别比例被叫成了「屌多」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "ge-lan-diao-duo-tuan",
+    "title": "格兰屌多团",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "格兰屌多团",
+   "desc": "格兰亚多团有绝地富豪团之称，内部人口众多，主要以男人为主，由于这个性别方面的问题，格兰亚多别称叫格兰屌多",
+   "sources": [
+    "词条",
+    "百科·梗#7"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "ge-lan-diao-duo-tuan",
+    "title": "格兰屌多团",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "格兰亚多",
+   "desc": "绝地富豪团，因为性别比例被叫成了「屌多」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "ge-lan-diao-duo-tuan",
+    "title": "格兰屌多团",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "嗝",
+   "desc": "与KFC有异曲同工之妙，用来嘲讽高层吃KFC过多",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#21"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "ge",
+    "title": "嗝",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "耕地",
+   "desc": "刷怪的统称。在高安耕地，可以选择去“马场”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "攻导",
+   "desc": "攻击型导弹",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "古兔子",
+   "desc": "古斯塔斯，npc海盗势力，由其图标像带着一个兔耳朵而得名。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "钴蓝无敌大月形",
+   "desc": "地处钴蓝星域的月形联盟，因为其原先声称的30小航的slowcat无敌理论。",
+   "sources": [
+    "百科·梗#104"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "怪",
+   "desc": "NPC海盗",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "怪损",
+   "desc": "被NPC海盗船只打爆。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "官员",
+   "desc": "一种特殊的NPC海盗，比Boss级别更高，赏金更多，掉落的装备除了有势力装备之外，还有更为昂贵的官员装备。这些海盗势力的军官一般会在其势力范围内出现，出现几率较低。有时候也会出现在无主权星系，但是几率十分低。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "光明磊落三个V",
+   "desc": "当时蓝色联邦被赶出00，整天在低安跳TT大航秀肌肉，3V也好长一段时间没有吃到大肉了，于是小草就把他的大航加过去打算一晚上团掉蓝老板的TT。当晚3V组了快百人的小马队，在当时可以说是到哪都能横着走的庞大武力。在抓住TT后仅仅2，3分钟就将一条A TT打爆。火力过于凶猛导致蓝老板不敢跳更多超期救援。后",
+   "sources": [
+    "别名",
+    "百科·梗#36（别名）"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fang-huo-fang-dao-fang-3v",
+    "title": "防火防盗防 3V",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "锅",
+   "desc": "指无人机伤害增效装置，用于提高无人机的输出伤害。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "过门",
+   "desc": "过星门。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "过门吃屎空V白",
+   "desc": "复仇者联盟（戏称妇联）的空v白带队，为防止大家手滑过门说：“谁过门谁吃屎，我先过。”然后自己过门侦查。（http://v.youku.com/v_show/id_XNTg1ODk3NTQ4.html）",
+   "sources": [
+    "别名",
+    "百科·梗#2（别名）"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shei-guo-men-shei-chi-shi",
+    "title": "谁过门谁吃屎，我先过",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "海奥格",
+   "desc": "奥格诺级海军型 艾玛巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "海鸟/海乌鸦",
+   "desc": "乌鸦级海军型战列舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "海启示",
+   "desc": "启示级海军型 艾玛巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "海万",
+   "desc": "万王宝座级海军型战列舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "海灾",
+   "desc": "灾难级海军型战列舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "和平发展属魔神",
+   "desc": "前FBP阵营ceo，后随军团25去了RAC，现在AFK中",
+   "sources": [
+    "百科·梗#105"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "河蚌",
+   "desc": "一个叫“另外半边天”的玩家，在EVE贴吧询问：“如何训练河蚌或与河蚌建立友谊？”http://tieba.baidu.com/p/3172274742",
+   "sources": [
+    "词条",
+    "百科·梗#18"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "he-bang",
+    "title": "河蚌",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "河联社主编（阿叉波波）",
+   "desc": "ECF多个知名长篇的作者，开始的立场为坚定的FBP立场，高级政工，历经南北生死之战后。。。居然成了泛北的坚定拥趸。。。。“主编注意你的立场”特指此人。现贴出其作品一篇 义勇军，齐发难， 天兵天将来助拳。 一请1V天上人，二请蓝太倭书记。 三请酒神魔大帝，四请步兵QQ星。 五请隐星梅提督，六请屌团萨科",
+   "sources": [
+    "百科·梗#174"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "黑煤窑",
+   "desc": "指早期某些军团大量招收新人然后把新人骗到00星系打NPC，并低价收购装备和合金（旧版本的无人机掉合金材料，可以化矿），因此这些军团被称为黑煤窑，贬义。",
+   "sources": [
+    "百科·梗#70"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "红盾/红甲",
+   "desc": "指自适应全能力场和自适应装甲增强器，主动开启后会大幅度提高舰船护盾抗性或者装甲抗性。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "红罐凉茶",
+   "desc": "某EVER在网吧看到了另一个EVER，经过仔细观察，发现那货是前两天爆他神装噩梦的海盗，于是怒火中烧，便买了瓶王老吉…丢过去http://tieba.baidu.com/p/2386275149",
+   "sources": [
+    "词条",
+    "百科·梗#16"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "hong-guan-liang-cha",
+    "title": "红罐凉茶",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "红减",
+   "desc": "处于非宣战状态的敌对，低安主动对齐开火会导致你进入违法状态，高安对其开火会遭受警察追击。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "猴子党",
+   "desc": "曾经红及一时，在论坛有一批玩家集体使用悠嘻猴图片作为论坛头像形成一定党派风格，固有人称之为：猴子党。",
+   "sources": [
+    "百科·梗#171"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "后勤",
+   "desc": "在舰队中负责维修队友的船只。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "互帮互助荷兰人",
+   "desc": "杀手军团管理低调的荷兰人",
+   "sources": [
+    "百科·梗#106"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "黄盾/黄甲",
+   "desc": "指反应式护盾力场和反应式装甲增强器，主动开启后提高一定程度护盾或装甲抗性，该抗性会随着受到的伤害类型而改变抗性。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "毁电",
+   "desc": "指能量中和器，在射程内能够削减目标一部分电量，当舰船电容器没电时，将无法开启任何需要消耗电量的武器装备。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "毁能/毁电",
+   "desc": "能量中和器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "毁天灭地是威尔",
+   "desc": "就是传说中的DF WILL大神。。",
+   "sources": [
+    "百科·梗#107"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "火锅骑士大雨C",
+   "desc": "TGA联盟指挥 clouds",
+   "sources": [
+    "百科·梗#108"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "火力",
+   "desc": "在舰队中负责输出伤害的船只。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "鸡窝",
+   "desc": "冥府级米玛塔尔超级航母",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "吉他",
+   "desc": "最大的贸易中心星系名。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "吉他安民属鱼类",
+   "desc": "吉他宣战军团粉红鱼雷打水沟，专门通过宣战军团在吉他堵空间站",
+   "sources": [
+    "百科·梗#109"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "吉他霸主为金鳞",
+   "desc": "吉他宣战军团，金鳞盛宴，号称要把eve新人都打出游戏，与杀手是宣战关系",
+   "sources": [
+    "百科·梗#110"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "吉他科长四万五",
+   "desc": "玩家雪寒顿悟在ECF论坛上的某贴中说自己的月入45000元的科长，由于玩家觉得他在炫耀，因而出名。",
+   "sources": [
+    "别名",
+    "百科·梗#40（别名）"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "4w5-ke-zhang",
+    "title": "4w5 科长",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "集火",
+   "desc": "多人同时攻击某一个目标。",
+   "sources": [
+    "小米·手游黑话；B站·黑话下集"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "寂静谷主熊老师",
+   "desc": "PIBC暗月军团幕后黑手，军团驻地静寂谷，人称熊老师",
+   "sources": [
+    "百科·梗#111"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "加力",
+   "desc": "加力燃烧器的简称，是一种不会被短暂关停的加速器，开启时没有信号放大的缺点；材料提到常用于 PVP 小船绕林等场景。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "家祭无忘告乃翁",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#112"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "架子",
+   "desc": "指导弹或鱼雷架子（发射器）。作者说这个黑话没几个人知道，也没几个人说。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "坚持到底是神父",
+   "desc": "原七月同盟CEO，在联军围攻PIBC时，联军阵营的七月同盟最先被PIBC击溃，ceo神父未等七月彻底溃败便离开游戏，不再上线，将联盟至于不顾，加速了七月的溃败。嘲讽之意",
+   "sources": [
+    "百科·梗#113"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "坚若磐石团灭黑",
+   "desc": "这个口号是从pf阵营对抗FBP阵营时流传起来的，因为老黑指挥的常规舰队往往舰船并不精良，常会被首先击溃，但是老黑指挥非常扎实稳当，他的舰队坚韧十足",
+   "sources": [
+    "百科·梗#114"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "舰刺",
+   "desc": "刺客级舰队型巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "舰镰",
+   "desc": "镰刀级舰队型巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "僵尸跳，超旗爆",
+   "desc": "老僵尸是星河联邦方在论坛最活跃的政工，每当他发表言论后必有超旗被爆的事件，此定律已经成为宇宙真理，最有名的一次是他表示年终奖是10条超旗，几天后的ZO一战，星联方损失泰坦加大航超越10条，成为星联战率转折点，无数星联勇士恨的牙痒痒，可惜不知道他游戏ID。http://tieba.baidu.com/",
+   "sources": [
+    "百科·梗#75"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "交不起就滚",
+   "desc": "馒头在动员会上开的价：不上前线，就每月交 300E。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "300e-gun-gun",
+    "title": "300E 滚滚",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "接战至死",
+   "desc": "不打算活着回来的舰队：接战就打到死。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "yu-sui-dui",
+    "title": "玉碎队",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "金鹏小马切糕队",
+   "desc": "已故先帝魔神大大组的队伍，曾经的切糕队组出过满编…团灭过PIBC重甲队，最开始所向无敌，不过因为这种队伍实在补不起，后期就没这个兵种了",
+   "sources": [
+    "百科·梗#74"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "进退果敢时尚凝",
+   "desc": "前PF阵营中FDK著名指挥，因为他果敢的指挥和扎实的打法饱受赞扬，现已AFK",
+   "sources": [
+    "百科·梗#115"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "警察",
+   "desc": "统合部，会无情摧毁一切高安罪犯，绝无逃脱可能。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "酒胆雄心魔特勒",
+   "desc": "参见和平发展属魔神，是一个人。因为魔神经常喝酒之后带队，此时带队风格勇猛异常，常常因此而胜利。",
+   "sources": [
+    "百科·梗#116"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "绝代娇花千寻琳",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#117"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "绝地总兵王答答",
+   "desc": "PIBC南方部绝地之域的总指挥官王答答，因掌管整个绝地之域星域的所有军团作战，被称为绝地总兵",
+   "sources": [
+    "百科·梗#118"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "绝世毒妇爱因娘",
+   "desc": "PIBC阿瑞斯军团管理，因为他的座舰M泰坦拉格纳洛克级的辉煌战绩而出名，另外该舰已经在49超旗决战中沉没",
+   "sources": [
+    "百科·梗#119"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "军团无人机",
+   "desc": "不是天上飞的那种，是奉命在论坛里咬人的那种。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wu-ren-ji-ma-jia",
+    "title": "无人机（论坛水军）",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "开抗性",
+   "desc": "指开启主动抗性装备，游戏内大部分抗性装备都需要消耗电量主动开启后才有效果。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "开坛作法老僵尸",
+   "desc": "老僵尸是星河联邦方在论坛最活跃的政工，每当他发表言论后必有超旗被爆的事件，此定律已经成为宇宙真理，最有名的一次是他表示年终奖是10条超旗，几天后的ZO一战，星联方损失泰坦加大航超越10条，成为星联战率转折点，无数星联勇士恨的牙痒痒，可惜不知道他游戏ID。http://tieba.baidu.com/",
+   "sources": [
+    "百科·梗#75（别名）"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "开推子",
+   "desc": "开启舰船身上的微型跃迁推进器装备。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "开无双",
+   "desc": "从《真三国无双》借来的词：一个人打一群。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wu-shuang",
+    "title": "无双",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "看我的口型",
+   "desc": "2014-10-26萨科齐主权退增强，pibc集结200+人马过去但是一个指挥都没有。结果馒头亲自带小航队，被妇联吊打，结果馒头说：“看我这口型，你们都去吃屎！这很重要！我再重复一遍，你们都去吃屎！待会我让黑总再重复下我的口型，你们都去吃屎！” http://www.bilibili.com/vid",
+   "sources": [
+    "词条",
+    "百科·梗#52"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "kan-wo-de-kou-xing",
+    "title": "看我的口型",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "抗战熊",
+   "desc": "因为口音，一支「盾抗战巡重突队」变成了「凳抗战熊种兔队」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "deng-kang-zhan-xiong",
+    "title": "凳抗战熊种兔队",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "可以刷 FDK 的人，不可以刷 FDK 的怪",
+   "desc": "这是个古老的故事……远古时代FDK由于立盟时主打商业，自称EVE的自由港，战斗力并不强，人称肉盟，后来在00区域被当时的FBP挤压，面临生存压力。某天FBP的矿工CH驾驶泰坦跳入FDK腹地2R，用末日武器击毁了一艘FDK的小航，之后在本地堂而皇之的刷怪。之后泰坦被抓，FDK最终决定用超旗捍卫尊严。当",
+   "sources": [
+    "词条",
+    "百科·梗#8"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "ke-yi-shua-fdk-de-ren",
+    "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "可以刷我的人，但不能刷我的怪",
+   "desc": "被打到家门口的一方的底线：人你可以刷，怪是我的。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "ke-yi-shua-fdk-de-ren",
+    "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "肯德基",
+   "desc": "把军团物资卖了换一顿肯德基——腐败的最小单位。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "kfc",
+    "title": "KFC",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "坑爹 425",
+   "desc": "此话所指425为425mm磁轨炮，由于之前425炮的属性比较抗爹因而得名。并有一诗说明原因： 坑爹四二五，联邦之耻辱， 磁轨专业五，打怪似爱抚， 翻阅炮击簿，心酸二百五， 计算机无数，炮塔似铁固， 右键看转速，零点零三五， 擦过多如鼠，超强指可数， 膛中联邦蛋，动热七比五， 凝眸向猎物，动热乃低属，",
+   "sources": [
+    "词条",
+    "百科·梗#15"
+   ],
+   "group": "舰船",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "keng-die-425",
+    "title": "坑爹 425",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "坑爹四二五",
+   "desc": "425mm 磁轨炮的绰号，附一首控诉它打不中的长诗。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "keng-die-425",
+    "title": "坑爹 425",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "筷子",
+   "desc": "刽子手级护卫舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "矿工之友赛德娜",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#120"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "溃不成军七月盟",
+   "desc": "联军围攻PIBC时，3P方选择集中全力攻打七月，并迅速兵临七月首都，七月基本放弃抵抗，被形容溃不成军",
+   "sources": [
+    "百科·梗#121"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "垃圾",
+   "desc": "刷异常掉落的衍生等级装备。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "蓝回",
+   "desc": "指的是玩家深蓝决战到底或者蓝色联邦联盟，这个是从蓝二，蓝井引申出来更高级的版本，因为回字每个角度看都是好几个二，意指四面八方都是二。 http://tieba.baidu.com/p/3604631862",
+   "sources": [
+    "百科·梗#66"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "蓝加",
+   "desc": "签订互不侵犯条约的友军。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "蓝老板喊人",
+   "desc": "约好单挑、谁喊人谁孙子，结果快输了就把小弟喊来了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "sun-zi-lian-meng",
+    "title": "孙子联盟",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "蓝星",
+   "desc": "同联盟的友军。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "狼哭鬼嚎小女王",
+   "desc": "老牌海盗联盟VVV成员，军团：两毒舰队。因为他在歌会时鬼哭狼嚎的唱歌而出名",
+   "sources": [
+    "百科·梗#122"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "老僵尸法力无边",
+   "desc": "老僵尸是星河联邦方在论坛最活跃的政工，每当他发表言论后必有超旗被爆的事件，此定律已经成为宇宙真理，最有名的一次是他表示年终奖是10条超旗，几天后的ZO一战，星联方损失泰坦加大航超越10条，成为星联战率转折点，无数星联勇士恨的牙痒痒，可惜不知道他游戏ID。http://tieba.baidu.com/",
+   "sources": [
+    "百科·梗#75（别名）"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "老娘的大雕饥渴难耐，TM还有心思开会",
+   "desc": "军团CEO全体下线的语录",
+   "sources": [
+    "百科·梗#65"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "老杨，我跟你说，老杨",
+   "desc": "RAC在决定参与流水不腐户枢不蠹的围攻PIBC事件前，开总监会议讨论是否要调整战略方向进攻PIBC而不是防守TGA，DF的CEO老杨极力劝阻，认为TGA会在RAC进攻PIBC时大举入侵，这时步兵说：“老杨，你听我说，老杨，他TGA要是打过来，我龙鳞地盘都不要了回头就灭了他。”这句话由于RAC的战败和",
+   "sources": [
+    "词条",
+    "百科·梗#4"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "lao-yang-wo-gen-ni-shuo",
+    "title": "老杨，我跟你说，老杨",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "老杨烦不烦",
+   "desc": "在全频道广播里被骂到忍不住的一句回嘴，最后骂散了一个联盟。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "lao-yang-ni-fan-bu-fan",
+    "title": "老杨你烦不烦",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "老杨你烦不烦",
+   "desc": "钻石武力CEO（DF杨威利福）因为不满RAC在49-U6U馒大林格勒保卫战中时任RAC CEO（幽灵狂傲）的指挥，在RAC的YY进行全频道广播对幽灵狂傲进行语言攻击并要求幽灵狂傲对DF道歉，幽灵狂傲忍不住对老杨说的话。最终导致DF退出RAC加入北盟 http://www.acfun.tv/v/ac1",
+   "sources": [
+    "词条",
+    "百科·梗#59"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "lao-yang-ni-fan-bu-fan",
+    "title": "老杨你烦不烦",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "老杨我跟你说",
+   "desc": "一句保证「TGA 打过来我连地盘都不要」，后来成了笑谈。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "lao-yang-wo-gen-ni-shuo",
+    "title": "老杨，我跟你说，老杨",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "鲤鱼",
+   "desc": "玩家夺米台风在贴吧发布发布《屌丝鲤鱼撸管指南》后得名http://tieba.baidu.com/p/1527377283",
+   "sources": [
+    "词条",
+    "百科·梗#17"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "li-yu",
+    "title": "鲤鱼",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "力挽狂澜屋蓝君",
+   "desc": "前七月同盟舰队指挥屋蓝，因为他的自大和在七月灭亡中的无甚作为，嘲讽之意",
+   "sources": [
+    "百科·梗#123"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "历史发明嫩骷髅",
+   "desc": "FBP阵营的ECF政工，因为其发帖内容多有不实，被称为历史发明家",
+   "sources": [
+    "百科·梗#124"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "立体炸弹战列",
+   "desc": "高槽塞满立体炸弹的战列，蹲在星门等着把路过的船连人带蛋一起炸。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "zha-dan-kuang-mo",
+    "title": "炸弹狂魔",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "另外半边天",
+   "desc": "贴吧上的一问：如何训练河蚌，或与河蚌建立友谊？",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "he-bang",
+    "title": "河蚌",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "绿星",
+   "desc": "同军团的友军。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "论坛无人机",
+   "desc": "不是天上飞的那种，是奉命在论坛里咬人的那种。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wu-ren-ji-ma-jia",
+    "title": "无人机（论坛水军）",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "落地",
+   "desc": "跃迁已经到达目的地。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "马甲",
+   "desc": "指敌对势力派遣的间谍。",
+   "sources": [
+    "小米·手游黑话；B站·黑话下集"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "马甲渗透",
+   "desc": "以戴笠为头像、靠马甲渗透搞破坏的泛北人士。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "dai-lao-ban",
+    "title": "戴老板",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "买水果",
+   "desc": "意为用RMB来买isk的行为。典故：当年有个叫金融衍生品（已被永封）的玩家在游戏频道内卖ISK，结果有玩家提醒说RMT违法，让他换个台词，比如说卖水果多少多少斤，之后就一直沿用下来了。",
+   "sources": [
+    "词条",
+    "百科·梗#13"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "mai-shui-guo",
+    "title": "买水果",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "卖水果",
+   "desc": "RMT 的暗语：卖的不是水果，是 ISK。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "mai-shui-guo",
+    "title": "买水果",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "馒大林格勒会战",
+   "desc": "49-U6U馒大林格勒战役是第二次生死之战中南北联盟轴心国对泛银河商业共同体(简称PIBC)争夺逑瑞斯东部节点49-U6U星系馒大林格勒而进行的战役，时间自2014年2月28日到3月26日为止。馒大林格勒战役是第二次生死之战逑瑞斯东部战线的转折点，同盟国3P联军完全的掌握了战斗的主导权。从伤亡数字来",
+   "sources": [
+    "百科·梗#61（别名）"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "馒头/馒主席/馒大林",
+   "desc": "PIBC的CEO&lt;军用馒头&gt;",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "蜜蜂",
+   "desc": "无人机(Drone)",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "秒跳",
+   "desc": "飞船的速度达到满足跃迁的最低速度，即刻启动跃迁模式(启动跃迁需要速度，而以这个速度的最小值就起动的跃迁)",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "灭灯",
+   "desc": "指一个联盟所有的主权星系被攻占，自己没有任何主权星系。 在星图上看，就是一个一个的星系(灯)一个一个灭掉。",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·习语；百科·梗#19"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": {
+    "slug": "mie-deng",
+    "title": "灭灯",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "南北指挥耶V稣",
+   "desc": "COA联盟指挥 耶v稣，因为其爆了4条泰坦而出名。在联军围攻PIBC是是南北联军指挥之一，其带队非常糟糕",
+   "sources": [
+    "百科·梗#125"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "南部乞丐茶叶神",
+   "desc": "PIBC格拉亚多军团的富豪，EVE国服著名富豪之一",
+   "sources": [
+    "百科·梗#126"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "南华大学，有勇无谋",
+   "desc": "ECF论坛上的superhyb玩家，游戏ID南华上将，经常发贴写玩EVE的心得，因为头像是南华大学，所以被叫南华大学。某日某时上将在YY鬼嚎：“泰坦！！我看见了泰坦！！在空间站门口50KM！！”众人：“总指挥好像说过弯刀能秒小航啊 不知道泰坦能不能秒掉呢？”过了几秒，上将：“泰坦跑了！！”指挥：“你",
+   "sources": [
+    "百科·梗#68"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "脑插",
+   "desc": "永久提升技能训练速度的植入体。脑插分为绿、蓝、紫，作者认为只买绿色的性价比最高。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "你好，东部联邦",
+   "desc": "PIBC的自由骑士军团以前驻防求瑞斯，后来准备在源泉买站，结果通敌被踢，被踢后自由CEO加入东部联邦并发表了著名邮件《你好，东部联邦》表示要搞一中队超旗打回泉源，最终自由骑士成为星联十九常，东部联邦关闭，西联惶恐不安，馒头指示阿瑞斯猛造超旗应对威胁",
+   "sources": [
+    "百科·梗#77"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "你们都去吃屎",
+   "desc": "馒头带小航队被打崩之后，全频道让所有人「看我的口型」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "kan-wo-de-kou-xing",
+    "title": "看我的口型",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "你需要热力学I",
+   "desc": "泰坦被集火，想超载抗性，屏幕弹出「你需要热力学 I 才能超载」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "ye-su-de-re-li-xue",
+    "title": "耶稣的热力学",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "捏出汁",
+   "desc": "「快救我，我要被捏出汁了」——一句话定了一个人的外号。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "dai-lan-zhi",
+    "title": "呆蓝汁",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "怒火白虎",
+   "desc": "馒头在庆功会上的告诫：小心「心中的白虎」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "xin-zhong-de-bai-hu",
+    "title": "心中的白虎",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "判死刑",
+   "desc": "审判，SMU，月形快捷客运联合体",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "泡泡",
+   "desc": "一般代指跃迁扰断立场发生器或拦截泡发射器产生的球型跃迁扰断场，外形十分 像一个大泡泡，能使进过的舰船被迫脱离跃迁状态。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "炮扰",
+   "desc": "指索敌扰断器，降低炮台类武器的跟踪速度和射程。作者特别提醒：导弹不属于炮台，所以导弹船不受炮扰影响。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "炮台船",
+   "desc": "包括加农炮、激光炮、磁轨炮，以及非常小众的裂解炮。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "皮",
+   "desc": "皮特/皮特姆系列装备简称(例如皮超大X=皮特超大型护盾回充增量器 X型)",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "皮球",
+   "desc": "惯性稳定器的简称，因为外形长得很像皮球。装在船上时，被动效果是少量减少起跳准备时间，主动开启时大量减少船体起跳准备时间。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "骗红",
+   "desc": "发现敌军贴近星门时，主动攻击他，让他反击。骗到红之后，对方就不能过门了；这时可以喊支援过门击杀。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "前程似锦",
+   "desc": "吐糟某人的发音http://tieba.baidu.com/p/3191618177",
+   "sources": [
+    "百科·梗#64"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "强爆",
+   "desc": "指在高安违法攻击他人以获得货柜中物品或仅仅寻找刺激的行为。",
+   "sources": [
+    "词条",
+    "百科·梗#53"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "qiang-bao",
+    "title": "强爆",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "强爆货柜",
+   "desc": "在高安违法开火，为的是货柜里的东西，或者只是找刺激。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "qiang-bao",
+    "title": "强爆",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "强捞",
+   "desc": "通常指在高安星系用探针扫出任务党的任务空间，然后不经人允许便进去打捞，由于打捞行为并不违法同时有高安星系的规则保护，任务党对强捞这种做法往往无可奈何",
+   "sources": [
+    "词条",
+    "百科·梗#45"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "qiang-lao",
+    "title": "强捞",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "强捞残骸",
+   "desc": "用探针扫出别人的任务空间，进去把残骸捞了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "qiang-lao",
+    "title": "强捞",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "抢捞",
+   "desc": "用探针扫出别人的任务空间，进去把残骸捞了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "qiang-lao",
+    "title": "强捞",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "轻拦",
+   "desc": "拦截型驱逐舰，可以装备拦截泡发射器（固定泡泡），一般用于抓人。",
+   "sources": [
+    "小米·手游黑话；B站·黑话下集"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "清正廉洁老幽灵",
+   "desc": "RAC联盟前任CEO幽灵老妖，在期EVE历程中多次将军团机库或军团个人的机库洗劫一空",
+   "sources": [
+    "百科·梗#78（别名）"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "请把渔夫哥哥埋在静寂谷",
+   "desc": "渔夫是当时知名的FBP官方视频录制者，静寂谷保卫战期间在一次视频中打出了人在塔在，请把我埋在静寂谷。后来静寂谷全境失守，后来用这个调侃FBP",
+   "sources": [
+    "百科·梗#73"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "穷困屌丝烈火帝",
+   "desc": "上古时代SPEED神话的幕后老板，成立了北方联盟，传说投入数十W RMB于游戏中为了在EVE战胜宿敌天书的珈蓝神殿，2006年国庆期间，其5个敌对联盟数千艘战舰踏入北盟主星领土，妄图一举摧垮SPEED神话首星，不分昼夜持续了五天之久的10.1会战打响，最终北盟在这次防御战中取得胜利。2007年劳动节",
+   "sources": [
+    "百科·梗#127"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "全抗",
+   "desc": "全能力场/电压式适应性纳米薄膜/适应性纳米附甲，参见抗性装备。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "热力学I",
+   "desc": "泰坦被集火，想超载抗性，屏幕弹出「你需要热力学 I 才能超载」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "ye-su-de-re-li-xue",
+    "title": "耶稣的热力学",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "热情好客埃玛克",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#128"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "人生赢家是星锁",
+   "desc": "来自一张截图，图上说的是49超旗决战时候的超旗指挥性总（人称沸腾水皇）：（PIBC被围攻的时候）星锁可怜兮兮地来找他，性总说：“你为啥觉得我会帮你”，星锁说：“我只能找你了。”后来性总发现他还有妹子因为星锁现实中已经结婚了嘛，工作也很不错，房子也有了。",
+   "sources": [
+    "百科·梗#129"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "人在塔在",
+   "desc": "12年北方战争FBP静寂谷首星JZV保卫战，魔神大大喊出的口号，苦战四个月最终主动放弃。http://www.tudou.com/programs/view/VFP8PZNnIHo/",
+   "sources": [
+    "百科·梗#71"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "日薄西山斐德克",
+   "desc": "FBP势力在发动对FDK联盟的作战前曾有FBP军团CEO在论坛发帖《FDK的夕阳有点红》、《FDK灭灯前的一点杂谈》。言论中充满对于FDK的蔑视。而后FBP势力战败，此言论也就成为了PF势力反讽FBP的一句宣传语。http://bbs.eve-china.com/forum.php?mod=view",
+   "sources": [
+    "别名",
+    "百科·梗#24（别名）"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fdk-xi-yang-you-dian-hong",
+    "title": "FDK 夕阳有点红",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "日不完",
+   "desc": "材料音作“扔不完”，指各族免费送的初始船。进入一个没有船的空间站时，系统会送你一艘。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "萨沙",
+   "desc": "萨沙共和国，npc海盗势力。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "杀人放火神鸡鸡",
+   "desc": "老牌海盗联盟3V的CEO神的鸡鸡，国服著名战斗指挥。因为3V与PIBC的关系，人称鸡副主席。",
+   "sources": [
+    "百科·梗#87（别名）"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "杀手",
+   "desc": "专业杀手军团联盟",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "傻妹妹",
+   "desc": "一场 YY 歌会调麦序，最后打成联军被围的会战。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "sha-mei-mei-zhan-zheng",
+    "title": "傻妹妹战争",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "傻妹妹战争",
+   "desc": "2012年10月2日，Smilence承办YY6860歌会，歌会上承办方数次调整麦序导致其他军团歌手无法唱歌，引发天籁梦想军团红线的不满，双方在300人面前发生口角，特别是Smilence特邀的某名歌手对红线出言不逊。随后军团要求Smilence军团YY全频广播道歉，游戏联盟频道道歉，ECF发帖道歉",
+   "sources": [
+    "词条",
+    "百科·梗#22"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "sha-mei-mei-zhan-zheng",
+    "title": "傻妹妹战争",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "闪红",
+   "desc": "犯罪状态，任何人都可以合法攻击，开船进高安一定会死。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "蛇",
+   "desc": "古斯塔斯势力战列舰“响尾蛇”。响尾蛇船体有盾抗性加成，所以非常肉。有的大佬会用响尾蛇打副本冲榜，作者举例提到 B 站 UP 主朔雪。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "谁过门谁吃屎，我先过",
+   "desc": "复仇者联盟（戏称妇联）的空v白带队，为防止大家手滑过门说：“谁过门谁吃屎，我先过。”然后自己过门侦查。（http://v.youku.com/v_show/id_XNTg1ODk3NTQ4.html）",
+   "sources": [
+    "词条",
+    "百科·梗#2"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shei-guo-men-shei-chi-shi",
+    "title": "谁过门谁吃屎，我先过",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "谁喊人谁孙子",
+   "desc": "约好单挑、谁喊人谁孙子，结果快输了就把小弟喊来了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "sun-zi-lian-meng",
+    "title": "孙子联盟",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "谁怂谁死",
+   "desc": "在49超旗决战焦灼之时，联军阵营中的COA联盟的CEO全体下线，也就是大家说的下线女王，在YY全屏广播号召联军超旗进场填油时喊的：谁怂谁死。最终联军颓势稍显之时，女王的座舰-万古级率先逃离战场，此话沦为笑谈",
+   "sources": [
+    "词条",
+    "百科·梗#5"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shei-song-shei-si",
+    "title": "谁怂谁死",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "申请纷飞放松下",
+   "desc": "海盗联盟VVV的联盟总监&指挥放松一下，人称小草/马甲艹，因为其马甲行为和蓝+抓人出名，梗：来自放松一下的新申请",
+   "sources": [
+    "百科·梗#130"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "神机妙算奶牛布",
+   "desc": "FDK联盟总监亚布，人称大奶牛亚布，因为他经常8开万古。因为其对游戏数据和舰船配置的敏感而出名",
+   "sources": [
+    "百科·梗#131"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "圣捞",
+   "desc": "当初黑夜出来之前，圣卒唯一一条可以配出8高槽的巡洋舰，而且再加上那个对牵引光束进行加成的电子子系统使得圣卒成了那个时候最专业的打捞船，同时由于圣卒是4族T3中相对来说比较糟糕的船，通常用圣捞来嘲讽该船的无用",
+   "sources": [
+    "词条",
+    "百科·梗#44"
+   ],
+   "group": "舰船",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "sheng-lao",
+    "title": "圣捞",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "圣捞船",
+   "desc": "圣卒最实用的形态：一条专职打捞的 T3。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "sheng-lao",
+    "title": "圣捞",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "圣卒打捞船",
+   "desc": "圣卒最实用的形态：一条专职打捞的 T3。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "sheng-lao",
+    "title": "圣捞",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "胜利当属TGA",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#132"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "十亿死机",
+   "desc": "低安海盗团体妇联内部规定，禁止水论坛和水本地，水的人打10E isk给玩家“死机”，于是每次有妇联人水，便会这样说，意即别水了",
+   "sources": [
+    "词条",
+    "百科·梗#58"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shi-yi-si-ji",
+    "title": "十亿死机",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "势力装",
+   "desc": "在击杀BOSS、官员后获得的特殊装备",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "势力装与死亡装",
+   "desc": "势力装右上角是绿色的，死亡装右上角是蓝色的。上集内容到这里结束。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "收割",
+   "desc": "有组织的一小队人针对性的对某些地区的玩家进行PVP活动。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "守家靠隐轰",
+   "desc": "一首打油诗的最后一句：守家靠隐轰。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yin-hong-shou-zhu-quan",
+    "title": "隐轰守主权",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "刷怪",
+   "desc": "打异常空间的海盗。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "刷书",
+   "desc": "去低安刷任务书。书可以在市场买到。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "刷FDK的怪",
+   "desc": "被打到家门口的一方的底线：人你可以刷，怪是我的。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "ke-yi-shua-fdk-de-ren",
+    "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "甩葱",
+   "desc": "EVE中的一种战术,多指使用1400或其他大型远距炮台锁定打一发就跑的战术。历史：会战是以重甲近战为主流的，很多小队选择用甩葱战术来保证自己在战场的生存和击杀。然而TGA联盟在更换联盟舰队为盾抗425C3之后也选择了甩葱式打法，而月型联盟仍是近战甲抗，这就造成了两家舰队在交战距离和机动上步调无法保持",
+   "sources": [
+    "词条",
+    "百科·梗#26"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shuai-cong",
+    "title": "甩葱",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "甩葱战术",
+   "desc": "用远炮打一发就跑的战术，名字来自甩葱歌。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "shuai-cong",
+    "title": "甩葱",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "水分至高星空萌",
+   "desc": "kelly星空，原FDK成员，现加入pibc阿瑞斯军团。因为其在ecf上大量水分，却又不因势力问题去做无脑喷子。",
+   "sources": [
+    "百科·梗#133"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "水果",
+   "desc": "RMT 的暗语：卖的不是水果，是 ISK。",
+   "sources": [
+    "别名",
+    "百科·习语"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": {
+    "slug": "mai-shui-guo",
+    "title": "买水果",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "说道做到就下线",
+   "desc": "在49超旗决战焦灼之时，联军阵营中的COA联盟的CEO全体下线，也就是大家说的下线女王，在YY全屏广播号召联军超旗进场填油时喊的：谁怂谁死。最终联军颓势稍显之时，女王的座舰-万古级率先逃离战场，此话沦为笑谈",
+   "sources": [
+    "别名",
+    "百科·梗#5（别名）"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "shei-song-shei-si",
+    "title": "谁怂谁死",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "死亡装",
+   "desc": "在死亡空间中获得的特殊装备。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "四万五科长",
+   "desc": "在论坛上说自己是月入四万五的科长，然后就被记住了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "4w5-ke-zhang",
+    "title": "4w5 科长",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "随便锁一个",
+   "desc": "老外 ID 全是外文读不出来，指挥怒了：随便锁一个打！",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "sui-bian-suo-yi-ge-da",
+    "title": "随便锁一个打",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "随便锁一个打",
+   "desc": "有段时间OF的老外们远征国服。一天，蓝色联邦在星门处拦截到一支老外军团的舰队，舰队指挥蓝老板（人称蓝二/蓝井）欲点名集火，但因为老外们的ID全是外语，该舰队指挥无法读出，一怒之下大骂“艹，随便锁一个打！”http://v.youku.com/v_show/id_XMjgwMzgyMzQ0.html",
+   "sources": [
+    "词条",
+    "百科·梗#51"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "sui-bian-suo-yi-ge-da",
+    "title": "随便锁一个打",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "孙子联盟",
+   "desc": "某次蓝老板跟别人约战，说好单挑，谁喊人谁孙子，但是决斗的最后时刻蓝老板发现自己可能要输，于是喊小弟进场群殴了对手，从此为蓝色联邦赢得了孙子联盟的称号。http://tieba.baidu.com/p/1125806634",
+   "sources": [
+    "词条",
+    "百科·梗#50"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "sun-zi-lian-meng",
+    "title": "孙子联盟",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "损管/损控",
+   "desc": "损伤控制",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "损控",
+   "desc": "指损伤控制，装备后被动小幅度提高护盾，装甲，结构抗性，主动开启后大幅度提高所有抗性",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "损失惨重泛银河",
+   "desc": "在PIBC、FDK、3V和FBP的对抗中，由于大家印象中3V是海盗FDK是肉盟，往往以PIBC为主体代称。每场会战结束后对于战斗的结果双方经常各持一词，由于实际上PIBC方常常取得战斗胜利，FBP方对战争结果的描述“PIBC损失惨重”渐渐变为一种嘲讽，渐渐的不管谁输谁赢大家都会说PIBC损失惨重。 ",
+   "sources": [
+    "别名",
+    "百科·梗#9（别名）"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "pibc-sun-shi-can-zhong",
+    "title": "PIBC 损失惨重",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "索敌计算机（索敌）",
+   "desc": "提升自身炮台类武器的射程和跟踪速度；导弹也有自己的加成装置。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "索明美/恩公",
+   "desc": "前星河V联邦CEO&lt;天神索隆&gt;唱歌好听",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "锁一个打",
+   "desc": "老外 ID 全是外文读不出来，指挥怒了：随便锁一个打！",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "sui-bian-suo-yi-ge-da",
+    "title": "随便锁一个打",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "泰坦先锋脾气君",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#134"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "坦克船",
+   "desc": "指通过提升舰船抗性，增加护盾/装甲HP而配置出的高防御高HP的舰船，主要用于进入死亡空间复合体后承担吸引火力责任的舰船。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "坦克误国",
+   "desc": "会战打不动，因为人都去打坦克世界了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wu-guo",
+    "title": "误国",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "探索党",
+   "desc": "驾驶探索船(例如：苍鹭级)在广大的0.0星空里四处插针的黑客，他们通常表现的飘逸和坚毅。同时他们也很乐意受雇于您，当然您要拥有足够数量的ISK供他们玩乐。",
+   "sources": [
+    "百科·梗#170"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "特纳需要支援",
+   "desc": "七月联盟建立之后，特纳方面防守压力很大，后特纳一次损失6超旗。当时几个联盟共同阵线YY不时传出“特纳需要支援，特纳需要支援”的全频广播，后被各方势力政工拿来嘲笑七月联盟。",
+   "sources": [
+    "百科·梗#63"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "特纳寨主二球莫",
+   "desc": "PIBC特纳星域的的SM军团CEO球莫名堂，人称二球",
+   "sources": [
+    "百科·梗#135"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "天下布武斐德克",
+   "desc": "一首反讽打油诗里的句子，专用来戳 PIBC 的联盟管理。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yong-bu-fen-lie-fan-yin-he",
+    "title": "永不分裂泛银河",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "跳刀",
+   "desc": "大型/中型微型跳跃引擎",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "跳一百",
+   "desc": "跃迁到目标位置100km的地方。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "贴门",
+   "desc": "去接近某个星门。严谨说法是“贴近某某星门”；如果只说“贴门”，默认指最近的那个星门。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "铁血阵线TUF",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#136"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "偷菜",
+   "desc": "顾名思义偷星际资源，玩家收取星际资源的时候本地资源会发射仓方式投入太空，附近玩家可以拾取发射仓。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "推子",
+   "desc": "代指微型跃迁推进器和加力燃烧推进器两种装备，用于提高舰船飞行速度，使其飞得更快，但是在一般pvp作战中推子都通指微型跃迁推进器，当然也有喊微曲的。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "娃娃万岁伽玛安",
+   "desc": "前FDK联盟ceo，著名指挥，后离开fdk自建战斗联盟特武",
+   "sources": [
+    "百科·梗#137"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "王嗒嗒",
+   "desc": "PIBC 指挥一句口误，把自己喊成了无人机。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "fang-chu-wang-da-da",
+    "title": "放出王嗒嗒，协助无人机",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "王老吉",
+   "desc": "在网吧认出爆过自己的海盗，买了罐王老吉砸过去。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hong-guan-liang-cha",
+    "title": "红罐凉茶",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "王师",
+   "desc": "指TGA的前身FBP，当时FBP的版图曾到达星图北方，可惜后来被反攻回去，因此留下了“王师北定中原日，家祭无忘告乃翁”的名句和“王师”之称。FBP之所以叫王师，更主要的是FBP一向以追求皿煮自油为基调，宣扬BP为毒菜砖制，要打倒毒菜，追求皿煮。所以才被称为王师。",
+   "sources": [
+    "词条",
+    "百科·梗#33"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "wang-shi",
+    "title": "王师",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "王师北定中原日",
+   "desc": "对 FBP 的称呼，一半来自版图，一半来自口号。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wang-shi",
+    "title": "王师",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "王师北定中原日，家祭无忘告乃翁",
+   "desc": "指TGA的前身FBP，当时FBP的版图曾到达星图北方，可惜后来被反攻回去，因此留下了“王师北定中原日，家祭无忘告乃翁”的名句和“王师”之称。FBP之所以叫王师，更主要的是FBP一向以追求皿煮自油为基调，宣扬BP为毒菜砖制，要打倒毒菜，追求皿煮。所以才被称为王师。",
+   "sources": [
+    "别名",
+    "百科·梗#33（别名）"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "wang-shi",
+    "title": "王师",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "网",
+   "desc": "停滞缠绕光束",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "网吧砸人",
+   "desc": "在网吧认出爆过自己的海盗，买了罐王老吉砸过去。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hong-guan-liang-cha",
+    "title": "红罐凉茶",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "网住",
+   "desc": "使用停滞缠绕光束减少目标舰船飞行速度，让对方跑不动。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "网子",
+   "desc": "指停滞缠绕光束，射程较短，用于减少目标舰船飞行速度，常用于PVP战斗中干扰目标舰船飞行速度使其无法挣脱出反跳射程之外逃离或反冲星门过门逃跑。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "微曲",
+   "desc": "指微型跃迁推进器，能极大提高舰船飞行速度，但是有着高额的信号半径惩罚和电容上限减少惩罚，常用于各种pvp或者pve中。",
+   "sources": [
+    "百科·习语；小米·手游黑话"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "微驱",
+   "desc": "微型跃迁推进器的简称。它比加力提升速度更多，但会被反跳关停；除非有“青花瓷核心”（氪佬）。它还会大幅放大船体信号，使敌方炮台更容易打中自己。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "唯我七月得红颜",
+   "desc": "红颜指的是前七月同盟外交官，ID 猪咪咪，女性玩家",
+   "sources": [
+    "百科·梗#138"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "我就只配当个眼睛号",
+   "desc": "开个小号飞过去看本地有谁——顺便被 CEO 撞见了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "yan-jing-hao",
+    "title": "眼睛号",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "我是良民COA",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#139"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "我相信我有这个影响力",
+   "desc": "出自FBP势力星华军团玩家夺米台风，北方战争期间他曾威胁要入侵PIBC源泉星域，原话里 有“相信我我有这个影响力”故此得名。后来随着FBP北方战败，这样的威胁也就成为了笑柄。",
+   "sources": [
+    "词条",
+    "百科·梗#6"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
+    "title": "我相信我有这个影响力",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "我直播吃翔",
+   "desc": "一个叫史累史的玩家在贴吧和别人打赌说绕杆子1小时不可能有5E的收入，不然就直接吃翔，结果别人的确是做到了。http://tieba.baidu.com/p/2036693463",
+   "sources": [
+    "百科·梗#69"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "乌鸦飞不起来",
+   "desc": "局座在电视上指着乌鸦级模型说：这个在大气层内飞不起来。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "fei-bu-qi-lai",
+    "title": "飞不起来",
+    "category": "舰船"
+   }
+  },
+  {
+   "term": "屋蓝",
+   "desc": "开小船去抓小航，支援没到，人先没了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "yu-sui-da-jiang-jun",
+    "title": "玉碎大将军",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "无人机",
+   "desc": "指受军团/联盟的指使在论坛里攻击别人的玩家",
+   "sources": [
+    "百科·梗#57"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "无人机（论坛水军）",
+   "desc": "不是天上飞的那种，是奉命在论坛里咬人的那种。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wu-ren-ji-ma-jia",
+    "title": "无人机（论坛水军）",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "无双",
+   "desc": "无双系列里一个武将开无双能把成百的杂鱼小兵和敌将打的鸡飞狗跳…… 引申指不科学的1VN能力，EVE也是引用这个意思，比如某些船可以在特定情况下1挑多。常指那些带着加成船依靠神装和优秀的操作的PVP",
+   "sources": [
+    "词条",
+    "百科·梗#28"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "wu-shuang",
+    "title": "无双",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "梧桐佳后凤凰姐",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#140"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "武提",
+   "desc": "各种槽内增伤装置的总称。具体叫法按武器不同：加农炮叫回转，磁轨炮叫磁稳，激光炮叫散热，导弹叫弹道。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "武装矿车",
+   "desc": "指拥有一定战力的矿船。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "物产丰富COA",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#141"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "误国",
+   "desc": "这是EVE吧的说法，O-Y会战期间很多人因各种故不上线，其实好多都是去打坦克世界了，造成部分工会在EVE打军团战的时候少了很多优秀的战斗船长。为此联盟CEO魔特勒说：“你们不要去再玩那个误国的什么坦克，主权都快丢光了还有心思误国。”然后EVE吧把狗牌改成了“坦克误国”",
+   "sources": [
+    "词条",
+    "小米·手游黑话；百科·梗#30"
+   ],
+   "group": "社区文化",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": {
+    "slug": "wu-guo",
+    "title": "误国",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "误国的坦克",
+   "desc": "会战打不动，因为人都去打坦克世界了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "wu-guo",
+    "title": "误国",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "吸电",
+   "desc": "指掠能器，在射程内能够吸收目标舰船的电量给自己用，但是无法从电容比自己低的舰船中吸收到。",
+   "sources": [
+    "小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "席拉",
+   "desc": "席拉守望者",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "下线女王",
+   "desc": "全频道喊「谁怂谁死」，然后自己的座舰万古级先跑了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "shei-song-shei-si",
+    "title": "谁怂谁死",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "现实货币交易",
+   "desc": "用真钱买卖游戏内资产，EVE 里明令禁止。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "rmt",
+    "title": "RMT",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "箱子",
+   "desc": "可部署货柜的俗称",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小白",
+   "desc": "姐妹会势力护卫舰，船体颜色以白色为主，又是护卫舰，所以叫“小白”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "小德",
+   "desc": "天使势力护卫舰“德拉米尔”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "小鲸鱼",
+   "desc": "逆戟鲸级 外空矿业旗舰级工业舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小克",
+   "desc": "克洛诺斯级盖伦特掠夺舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小马",
+   "desc": "马克瑞级 盖伦特米玛塔尔混血战列舰",
+   "sources": [
+    "百科·习语；B站·黑话下集"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小米",
+   "desc": "弥洱米顿级 盖伦特战列巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小平顶",
+   "desc": "尼铎格尔级米玛塔尔航空母舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小托",
+   "desc": "托勒克斯级 盖伦特巡洋舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "小小黑手耶V稣",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#142"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "小云图",
+   "desc": "据说是此人开战列堵门没带反跳的故事。由此引申出了“自古战忽出云图，万王堵门不带反，童颜巨乳欠中出”“吓得我抱紧了我的小云图”等梗。",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#20"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "xiao-yun-tu",
+    "title": "小云图",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "心动频道",
+   "desc": "在游戏中一个由玩家创建的物品交易频道，目前人气最高的交易频道。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "心中的白虎",
+   "desc": "《FDK夕阳有点红》言论的发表者怒火白虎，为FBP成员。PF击败FBP之后，某次PF大会上，PIBC现任CEO军用馒头告诫成员，要小心“心中的白虎”不要因为一时的胜利而忘乎所以洋洋得意。该语句随即蹿红。白虎的文章很多，著名的除了夕阳红还有站在《O-Y我藐视一切敌对》，结果O-Y被PIBC为首的西联速",
+   "sources": [
+    "词条",
+    "百科·梗#25"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "xin-zhong-de-bai-hu",
+    "title": "心中的白虎",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "心中的白喵",
+   "desc": "《FDK夕阳有点红》言论的发表者怒火白虎，为FBP成员。PF击败FBP之后，某次PF大会上，PIBC现任CEO军用馒头告诫成员，要小心“心中的白虎”不要因为一时的胜利而忘乎所以洋洋得意。该语句随即蹿红。白虎的文章很多，著名的除了夕阳红还有站在《O-Y我藐视一切敌对》，结果O-Y被PIBC为首的西联速",
+   "sources": [
+    "别名",
+    "百科·梗#25（别名）"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "xin-zhong-de-bai-hu",
+    "title": "心中的白虎",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "信党信国信王师",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#143"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "星河淫传薪然妃",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#144"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "星门痴汉",
+   "desc": "此词汇用来形容低安堵门党：你在星门那头，我在星门这头，我看着星门，等你跳过来，可你迟迟不跳…我看着星门，等你跳过来，可你就是不跳…这种盯着星门长达几小时的人就叫星门痴汉",
+   "sources": [
+    "词条",
+    "百科·梗#38"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "xing-men-chi-han",
+    "title": "星门痴汉",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "星门炮",
+   "desc": "位于低安星门和空间站附近，火力一般，会攻击在他附近主动开火违法的目标。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "胸降飞机找E呆",
+   "desc": "PIBC暗月军团总监，人称e萌 e呆，EVE数年中从未在YY说过话，常年制造毒品，传说是平胸",
+   "sources": [
+    "百科·梗#145"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "雪白雪白的大馒头",
+   "desc": "12年北方战争某一次会战舰队长要求全体改名雪白雪白的大馒头",
+   "sources": [
+    "百科·梗#72"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "雪寒顿悟",
+   "desc": "在论坛上说自己是月入四万五的科长，然后就被记住了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "4w5-ke-zhang",
+    "title": "4w5 科长",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "血脉不详久居必亡",
+   "desc": "EVE诅咒之一，还有一个就是维纳尔的诅咒，意思就是在血脉的大联盟最后都死了。。。历史证明，也确实在血脉的土地上多家联盟政权更迭，风云变幻。而血脉不详久居必亡这句话的最初提及在 一个纪实帖子里提及，此贴也一定程度的反映出了血脉的真实情况。 http://tieba.baidu.com/p/298679",
+   "sources": [
+    "百科·梗#175"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "训练河蚌",
+   "desc": "贴吧上的一问：如何训练河蚌，或与河蚌建立友谊？",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "he-bang",
+    "title": "河蚌",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "眼睛",
+   "desc": "开个小号飞过去看本地有谁——顺便被 CEO 撞见了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "yan-jing-hao",
+    "title": "眼睛号",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "眼睛号",
+   "desc": "PVP中一方可以开一个新号，只用新手船即可，飞到对方星系观察本地状况的号，就叫眼睛号。另一个梗是某次收割队在TGA地盘收割时，有人在本地打字说看到了TGA的舰队，然后在本地拖出了刚好在本地的TGA联盟CEO天神索隆的ID，说：“看，这就是他们的眼睛号”索隆非常无语的在本地回复：“我就只配当个眼睛号？",
+   "sources": [
+    "词条",
+    "百科·梗#29"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yan-jing-hao",
+    "title": "眼睛号",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "养怪",
+   "desc": "一个异常空间内，留下一些小怪不打，过段时间就会刷新出新的海盗。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "摇修",
+   "desc": "一般指后勤的远程修理，可以在远处给其他队友恢复护盾量或装甲量",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "装备",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "摇修飞袖李的蛋",
+   "desc": "无法用词语解释，听一下录音就知道 http://www.56.com/u11/v_MTEyODgyOTY4.html http://v.youku.com/v_show/id_XNzEyNjM0MTUy.html",
+   "sources": [
+    "词条",
+    "百科·梗#31"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yao-xiu-fei-xiu-li-de-dan",
+    "title": "摇修飞袖李的蛋",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "摇修老李的蛋",
+   "desc": "救援没赶上，最后给一颗蛋挂上了摇修。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yao-xiu-fei-xiu-li-de-dan",
+    "title": "摇修飞袖李的蛋",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "爷爷一路走好",
+   "desc": "某天玩家深蓝决战到底的爷爷去世，然后其要求全联盟的人改空间站名字吊唁其爷爷，并抛出“空间站改名，不改后果自负”，一时间玩家上线后看到整个联盟的所有空间站都统一改名为：爷爷一路走好。另外有玩家在回贴中说“馒头死了？”（因为玩家一直说蓝色联邦抱馒头大腿，说馒头是深蓝决战到底的爷爷），原贴已被删。也因此事",
+   "sources": [
+    "百科·梗#67"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "耶稣的热力学",
+   "desc": "耶稣泰坦被剧本的时候，他放出了自己视角的视频，在被集火超载低槽抗性的时候，屏幕中间不停的弹出，你需要热力学I才能超载该装备的提示。由于泰坦驾驶员往往技能过E，而耶稣却连超载的技能都没有，这个词有嘲讽之意",
+   "sources": [
+    "词条",
+    "百科·梗#46"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "ye-su-de-re-li-xue",
+    "title": "耶稣的热力学",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "一场YY欢唱会引发的惨案",
+   "desc": "一场 YY 歌会调麦序，最后打成联军被围的会战。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "sha-mei-mei-zhan-zheng",
+    "title": "傻妹妹战争",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "一入拂晓深似海",
+   "desc": "拂晓军团，因为其军团群中各势力混杂，聊天内容全无节操",
+   "sources": [
+    "百科·梗#146"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "一笑倾城有丫头",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#147"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "一致对外称北盟",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#148"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "以上所列皆凡人",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#149"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "因尼亚吃屎战",
+   "desc": "2014-10-26萨科齐主权退增强，pibc集结200+人马过去但是一个指挥都没有。结果馒头亲自带小航队，被妇联吊打，结果馒头说：“看我这口型，你们都去吃屎！这很重要！我再重复一遍，你们都去吃屎！待会我让黑总再重复下我的口型，你们都去吃屎！” http://www.bilibili.com/vid",
+   "sources": [
+    "别名",
+    "百科·梗#52（别名）"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "kan-wo-de-kou-xing",
+    "title": "看我的口型",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "隐轰守主权",
+   "desc": "有诗：“先笑月型冲冲冲，又笑王师在甩葱，四九超旗卖队友，如今守家靠隐轰。”指COA联盟在49决战战败后联军体系崩散，TGA进攻COA主权时，COA联盟组了80隐轰防守主权",
+   "sources": [
+    "词条",
+    "百科·梗#32"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yin-hong-shou-zhu-quan",
+    "title": "隐轰守主权",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "影响力",
+   "desc": "放话要入侵源泉，随后在北线节节败退。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
+    "title": "我相信我有这个影响力",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "影响力高台风姨",
+   "desc": "出自FBP势力星华军团玩家夺米台风，北方战争期间他曾威胁要入侵PIBC源泉星域，原话里 有“相信我我有这个影响力”故此得名。后来随着FBP北方战败，这样的威胁也就成为了笑柄。",
+   "sources": [
+    "别名",
+    "百科·梗#6（别名）"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
+    "title": "我相信我有这个影响力",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "永不分裂泛银河",
+   "desc": "出自当时的一首反讽打油诗：天下布武斐德克，永不分裂泛银河，诚实守信巴贝尔，带头大哥是月形。大概是嘲讽PIBC的联盟管理的，每次PIBC有军团脱离或者馒头开大会就会用这个嘲讽。事实上FDK那时候是商业联盟，宣称永不扩张，PIBC刚刚分裂，NBBE欠荣耀的LOGO设计费50亿不给，月形是FBP体系中最弱",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#1；百科·梗#150"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yong-bu-fen-lie-fan-yin-he",
+    "title": "永不分裂泛银河",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "永远休闲是星华",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#151"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "勇当先锋馒大林",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#152"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "勇刚正面RAC",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#153"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "勇猛无畏艾米亚",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#154"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "幽灵狂傲",
+   "desc": "在全频道广播里被骂到忍不住的一句回嘴，最后骂散了一个联盟。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "lao-yang-ni-fan-bu-fan",
+    "title": "老杨你烦不烦",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "又臭又硬",
+   "desc": "FBP 指挥点名先打最硬的万古级，一边打一边嫌火力差。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "annob-de-wan-gu-ji",
+    "title": "annob 的万古级",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "宇宙大帝馒大林",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#155"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "宇宙人民齐欢庆",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#156"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "语言文明深蓝邦",
+   "desc": "因为蓝色联邦CEO深蓝决战到底（人称蓝二）说话经常爆粗口",
+   "sources": [
+    "百科·梗#157"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "玉碎",
+   "desc": "开小船去抓小航，支援没到，人先没了。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "yu-sui-da-jiang-jun",
+    "title": "玉碎大将军",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "玉碎大将军",
+   "desc": "七月的屋蓝，屋蓝经常开小船去月形抓小航，然后在支援来之前挂掉",
+   "sources": [
+    "词条",
+    "百科·梗#35"
+   ],
+   "group": "舰长轶事",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yu-sui-da-jiang-jun",
+    "title": "玉碎大将军",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "玉碎队",
+   "desc": "通常指该舰队就没打算活着回来，接战便战斗至死。",
+   "sources": [
+    "词条",
+    "百科·梗#43"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yu-sui-dui",
+    "title": "玉碎队",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "原文链接",
+   "desc": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "手游黑话",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "源泉是南方",
+   "desc": "起源于PIBC一次CEO总监大会。会开到一半馒头全屏广播说：“以后不要再问我源泉是不是南方这种213的问题。请你们打开星图看一下，源泉是不是南方？我说了多少次源泉是南方，不知道你们吃颗药就知道了，2！13！们！”",
+   "sources": [
+    "词条",
+    "百科·梗#37"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "yuan-quan-shi-nan-fang",
+    "title": "源泉是南方",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "源泉太子寂寞哥",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#158"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "月卡",
+   "desc": "Omega 克隆。如果没有月卡，科技等级会被限制在 T7，并且无法使用势力装备和势力船。月卡又分大月卡和小月卡；作者建议萌新氪小月卡就够了。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "月月灭灯布兰迪",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#159"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "云图",
+   "desc": "开战列堵门却没带反跳的那个人，以及他留下的一串段子。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "xiao-yun-tu",
+    "title": "小云图",
+    "category": "舰长轶事"
+   }
+  },
+  {
+   "term": "再笑倾国看冰冰",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#160"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "早睡早起叫步兵",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#161"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "炸弹船",
+   "desc": "高槽塞满立体炸弹的战列，蹲在星门等着把路过的船连人带蛋一起炸。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "zha-dan-kuang-mo",
+    "title": "炸弹狂魔",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "炸弹狂魔",
+   "desc": "指的是在低安星门蹲守高槽配的全是立体炸弹的战列舰，只要是路过的战列级以下的舰船都会被其快速击毁爆船爆蛋。另一个梗是某次官方活动在高安某个星系GM在太空丢奖品让玩家捡，由于GM会不断的跃迁，所以很多玩家使用了小舰参加活动，就在这时，有几个玩家使用了装满立体炸弹的战列跳进了人群并激活炸弹，瞬间参加活动的",
+   "sources": [
+    "词条",
+    "百科·梗#39"
+   ],
+   "group": "玩法",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "zha-dan-kuang-mo",
+    "title": "炸弹狂魔",
+    "category": "玩法"
+   }
+  },
+  {
+   "term": "战损",
+   "desc": "PVP过程中的损失。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "战友情深RAC",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#162"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "战争狂人索恩公",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#163"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "站长",
+   "desc": "是指整天呆在空间站里不出站的一群人。这群人有的是军团CEO，为了军团的名誉不出站防止被爆;有的是专门搞制造研究的;有的是专门挂技能的;等等。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "长反",
+   "desc": "指跃迁扰断器，它的射程较长，但是造成的跃迁干扰强度较低，并且无法关闭微型跃迁推进器（微曲）。",
+   "sources": [
+    "百科·习语；小米·手游黑话；B站·黑话上集"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "找坑找骗COA",
+   "desc": "（百科仅列名，未给解释）",
+   "sources": [
+    "百科·梗#164"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "镇南天王套司令",
+   "desc": "TGA南方某军团CEO套索。因为其军团很大，超旗众多，军团镇守南方与RAC交界处，被称为镇南王",
+   "sources": [
+    "百科·梗#165"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "只为帮顶野男人",
+   "desc": "“著名帮顶联盟”野男人部落，没人知道这个联盟是怎么来的，EVE里忽然就出现了这么一个联盟，每当全宇宙有哪里没有势力或因军团失误导致主权下线，这个军团就会去点上自己的主权，即使之后被推掉也无所谓。贴吧中常常出现他们的招新，EVE最大的联盟野男人部落帮顶。人称帮顶联盟",
+   "sources": [
+    "百科·梗#166"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "制导计算机",
+   "desc": "比索敌复杂，能增加自身导弹的飞行时间、爆炸速度，并降低爆炸半径。",
+   "sources": [
+    "B站·黑话上集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
+   "meme": null
+  },
+  {
+   "term": "中白",
+   "desc": "姐妹会巡洋舰。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "种菜",
+   "desc": "星际资源采集，资源不同星系特产不同，产量也不同，一般安全等级越低点地方产量越高。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "种子大帝宁波兄",
+   "desc": "浪莎军团管理/指挥宁波哥哥。喜欢开着夜神在低安乱跑，买过120E的骗子合同复仇者级，",
+   "sources": [
+    "百科·梗#167"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "重攻",
+   "desc": "重型攻击型导弹",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "重拦",
+   "desc": "拦截型巡洋舰，可以装备跃迁扰断立场发生器（相当于可移动泡泡），立场内所有舰船无法跃迁，一般用于抓人。",
+   "sources": [
+    "小米·手游黑话；B站·黑话下集"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "重网",
+   "desc": "停滞捕捉光束",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "重吸",
+   "desc": "重型掠能器",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "抓泥鳅",
+   "desc": "两个梗一个是原先FBP阵营打架的时候让妹子唱抓泥鳅这个歌，稍有点成人歌曲。另一个就是指：将敌对舰队击溃后在星系内抓四散的敌对舰船因为敌对会到处乱跑，所以俗称抓泥鳅。",
+   "sources": [
+    "百科·梗#172"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "抓人",
+   "desc": "追击目标舰船，常需反跳、网子等控制装备配合。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "转火",
+   "desc": "转移火力，改为攻击另一个单位。常见喊法就是让所有人“转火”某个目标。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "足智多谋蓝老板",
+   "desc": "就是蓝二，在3P方猛攻七月联盟进入尾声时，蓝二使用一些手段取得了七月联盟执行CEO权限，瞬间灭灯七月同盟",
+   "sources": [
+    "百科·梗#168"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "最佳战损NPC",
+   "desc": "说低安的NPC军团还是指的KB上的NPC因为每周的排行榜，各种NPC肯定都有位于前列的",
+   "sources": [
+    "百科·梗#169"
+   ],
+   "group": "梗名",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": null
+  },
+  {
+   "term": "A/C/G/M族",
+   "desc": "分别为艾玛、加达里、盖伦特和米玛塔尔，由其英文开头而命名。",
+   "sources": [
+    "小米·手游黑话"
+   ],
+   "group": "日常",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "A/C/M/G族",
+   "desc": "A族：艾玛;C族：加达里;M族：米玛塔尔;G族：盖伦特。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "A后面一个字母",
+   "desc": "有人问源泉属不属于南方，馒头用全频道广播回答了他。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yuan-quan-shi-nan-fang",
+    "title": "源泉是南方",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "ABD",
+   "desc": "艾玛战列舰“亚巴顿”。在脚本耕地还没有被官方制裁的时候，很多挂脚本的玩家使用亚巴顿，因为它不但便宜，而且非常肉。",
+   "sources": [
+    "百科·习语；B站·黑话下集"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "annob 的万古级",
+   "desc": "在2R圣坛那场远古大战中，FBP指挥带领舰队进场后，选择的第一攻击目标是ANOOB的万古级，一边打还一边说，火力怎么这么差。由于万古级是最硬的超旗，该指挥错误的点名策略沦为笑谈，ANOOB的万古级也成为又臭又硬的代名词",
+   "sources": [
+    "词条",
+    "百科·梗#47"
+   ],
+   "group": "名场面",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "annob-de-wan-gu-ji",
+    "title": "annob 的万古级",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "ANOOB",
+   "desc": "FBP 指挥点名先打最硬的万古级，一边打一边嫌火力差。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "annob-de-wan-gu-ji",
+    "title": "annob 的万古级",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "ASM",
+   "desc": "突袭者势力巡洋舰。因为 ASM 也是“阿萨姆”的缩写，有玩家会戏称它为“奶茶”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "ASS",
+   "desc": "莫德团巡洋舰“奥苏斯”。它是风筝类型的巡洋船，船体相比其他势力巡洋更脆，但风筝能力强。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "awwbwg",
+   "desc": "为“爱玩玩不玩滚”的缩写，最早是因为很多玻璃心新手到处发帖因为自己不懂规则诉苦 然后各种说老人无道德eve新手难活 由此而来的词汇，老人多用此来调侃那些玻璃心新手。变种：爱万王不万古",
+   "sources": [
+    "词条",
+    "百科·梗#10"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "awwbwg",
+    "title": "awwbwg",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "BC",
+   "desc": "战列巡洋舰 Battle Cruiser",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BCU",
+   "desc": "弹道控制系统Ballistic Control system",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BM",
+   "desc": "宇宙坐标记录 Bookmark",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "Boss",
+   "desc": "一种特殊的NPC海盗，有特殊的前缀，古斯塔、血袭者、萨沙、天使、天蛇的NPC海盗BOSS名字前缀分别是恐惧、黑暗、爱国者、主天使和暗影。击毁这些Boss的船只后，一定几率获得势力装备。",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BP",
+   "desc": "指北方联盟与泛银河商业共同体的联军。（时代的眼泪）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BPC",
+   "desc": "蓝图副本 Blueprint Copy",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BPO",
+   "desc": "蓝图原本 Blueprint Original",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "BS、BB",
+   "desc": "战列舰 Battleship",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "Bug龙",
+   "desc": "巴戈龙级 血袭者战列舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "CO",
+   "desc": "隐形船 Covert-ops",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "COA",
+   "desc": "City of Angels(已灭灯)（已团灭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "CR",
+   "desc": "巡洋舰 Cruiser",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "D3",
+   "desc": "指第三世界联盟（已灭灯）(已团灭)",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "DD、DDG",
+   "desc": "驱逐舰 Destroy",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "DEN抗战熊",
+   "desc": "因为口音，一支「盾抗战巡重突队」变成了「凳抗战熊种兔队」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "deng-kang-zhan-xiong",
+    "title": "凳抗战熊种兔队",
+    "category": "名场面"
+   }
+  },
+  {
+   "term": "ECF",
+   "desc": "EVE China Fans Site的缩写，CEVE玩家聚集的热门FANS站点。（已关闭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "ECM",
+   "desc": "电子雷达干涉波 Electronic Counter Measures",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "FDK",
+   "desc": "指斐德克联盟（已灭灯）（已团灭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "FDK 夕阳有点红",
+   "desc": "FBP势力在发动对FDK联盟的作战前曾有FBP军团CEO在论坛发帖《FDK的夕阳有点红》、《FDK灭灯前的一点杂谈》。言论中充满对于FDK的蔑视。而后FBP势力战败，此言论也就成为了PF势力反讽FBP的一句宣传语。http://bbs.eve-china.com/forum.php?mod=view",
+   "sources": [
+    "词条",
+    "百科·梗#24"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "fdk-xi-yang-you-dian-hong",
+    "title": "FDK 夕阳有点红",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "FOF",
+   "desc": "涅槃之源",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "FR、FF",
+   "desc": "护卫舰 Frigate",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "HOT",
+   "desc": "指用大量廉价舰船（常用驱逐）强换战损比的行为",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "ISK 和黄币",
+   "desc": "游戏里通用的货币。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "JST",
+   "desc": "吉斯特/吉斯塔姆系列装备简称(例如JST超大X=吉斯特超大型护盾回充增量器 X型)",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏物品类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "KFC",
+   "desc": "最早的典故据说是某军团总监遇到了CEO，双方相约去吃饭，可惜囊中羞涩，万般无奈之下，只得卖掉军团物资然后去买kfc。后多指出卖军团物资来获得现实收益。特指游戏内担任军团或者联盟管理层的人员，利用职务之便将军团联盟物资私下倒卖换取经济利益的行为。普遍认为只有那些真正的穷屌丝（贬义）才会去搞这种道德败坏",
+   "sources": [
+    "词条",
+    "百科·梗#11"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "kfc",
+    "title": "KFC",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "KM",
+   "desc": "击杀报告，点击人物就可以看见。",
+   "sources": [
+    "小米·手游黑话；B站·黑话下集"
+   ],
+   "group": "战斗常用",
+   "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
+   "meme": null
+  },
+  {
+   "term": "LP",
+   "desc": "忠诚点 Loyal Points",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "MWD",
+   "desc": "微型曲跃推进器 Micro WarpDrive",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "MX",
+   "desc": "魔像级加达里掠夺舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "PG",
+   "desc": "能量栅格 Power Grid",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "PIBC",
+   "desc": "泛银河商业共同体",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "PIBC 损失惨重",
+   "desc": "在PIBC、FDK、3V和FBP的对抗中，由于大家印象中3V是海盗FDK是肉盟，往往以PIBC为主体代称。每场会战结束后对于战斗的结果双方经常各持一词，由于实际上PIBC方常常取得战斗胜利，FBP方对战争结果的描述“PIBC损失惨重”渐渐变为一种嘲讽，渐渐的不管谁输谁赢大家都会说PIBC损失惨重。 ",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#9"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "pibc-sun-shi-can-zhong",
+    "title": "PIBC 损失惨重",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "PLD",
+   "desc": "帕拉丁级艾玛掠夺舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "poi",
+   "desc": "PIBC 求了个舰娘账号，从此改名叫 POIBC。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "poibc",
+    "title": "poibc",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "poibc",
+   "desc": "poi是动漫《舰队collection》中驱逐舰夕立的口癖，有“……的样子”的意思。夕立总是喜欢在自己说话的时候句尾加上poi，赋予不同的语气，尤其是表达情感的时候，有时表疑惑，有时表紧张，总给人萌萌哒的样子。某天有玩家把馒头在PIBC军团CEO群里面求日服舰娘的激活码和账号，然后被玩家戏称PIBC",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#56"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "poibc",
+    "title": "poibc",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "R",
+   "desc": "“R”为RAC联盟简称，1单位R=68.75e isk，49决战后联军战败，联军体系分崩离析，RAC联盟的CEO幽灵老妖离任，新任联盟CEO公布总联盟资产现金只有68.75e，之前联盟各家军团集资的数KE ISK和战备物资都不翼而飞。用以嘲讽该联盟高层侵吞联盟资产。",
+   "sources": [
+    "词条",
+    "百科·梗#14"
+   ],
+   "group": "组织政治",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "r-rac",
+    "title": "R",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "RAC",
+   "desc": "Royal Angel Corps(已灭灯)（未团灭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "RMT",
+   "desc": "虽不算EVE专属词汇，但是在EVE中也算非常常见，意为用直接使用RMB交易游戏道具及货币，用PLEX换ISK不算RMT，在EVE中RMT是违规行为。",
+   "sources": [
+    "词条",
+    "别名",
+    "百科·梗#12"
+   ],
+   "group": "社区文化",
+   "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "rmt",
+    "title": "RMT",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "RP",
+   "desc": "研究点数，Research Points",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "SB",
+   "desc": "隐形轰炸舰 Stealth Bomber",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "SNB",
+   "desc": "天使势力巡洋舰。材料音作“萨拉波/塞纳波”。",
+   "sources": [
+    "B站·黑话下集"
+   ],
+   "group": "视频黑话",
+   "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
+   "meme": null
+  },
+  {
+   "term": "SP",
+   "desc": "技能点数 Skill Point",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "T/B/M/K ISK",
+   "desc": "1T = 1000B = 1,000,000M = 1,000,000,000K = 1,000,000,000,000 ISK [记忆方法：K有1个逗号，M有2个，B有3个，T有4个]（国服更习惯直接按E（亿）KW（千万）W（万）进行计算）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏缩写类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "TGA",
+   "desc": "星河V联邦（南望王师又一年！王师？没了~）（已团灭）",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "TUF",
+   "desc": "联合阵线，又名脚本阵线",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "游戏通用类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  },
+  {
+   "term": "VVV真脏",
+   "desc": "蓝加不可信的最老版本：先别防火防盗，防 3V。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "fang-huo-fang-dao-fang-3v",
+    "title": "防火防盗防 3V",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "YST",
+   "desc": "伊什塔级盖伦特重型突击舰",
+   "sources": [
+    "百科·习语"
+   ],
+   "group": "舰船类",
+   "url": "https://evepc.baike.163.com/ziliao/48.html",
+   "meme": null
+  }
+ ]
+}

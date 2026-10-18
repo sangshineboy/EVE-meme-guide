@@ -2,23 +2,39 @@
 layout: base.njk
 bodyClass: page-sources
 pageTitle: 出处总表 — EVE 梗指南
-pageDescription: 全站词条引用过的公开来源，按站点归拢。
+pageDescription: 全站词条引用过的公开来源，按站点归拢，同一链接只列一次。
 ---
 {%- set rows = collections.memes | sourceIndex -%}
+{%- set hosts = [] -%}
+{%- for r in rows -%}
+  {%- if not hosts.includes(r.host) -%}{%- set hosts = (hosts.push(r.host), hosts) -%}{%- endif -%}
+{%- endfor -%}
 <section class="intro">
   <h1>出处总表</h1>
-  <p>全站 {{ collections.memes.length }} 条词条共引用 {{ rows.length }} 条来源（同一链接在多条词条里出现会重复列出）。按站点归拢，方便核对与批量回查。</p>
+  <p>
+    全站 {{ collections.memes.length }} 条词条共引用 <strong>{{ rows.length }}</strong> 个链接，来自 <strong>{{ hosts.length }}</strong> 个站点。
+    同一链接只列一次，后面标出被几条词条引用。
+  </p>
+  <p class="intro-note">
+    这里的链接都做过可达性体检：<strong>死链不作出处</strong>。一手页面失效、只剩二手转述的，词条正文里会注明「原链接已失效」，证据等级只能是「社区流传」。
+  </p>
 </section>
 
 {% if rows.length %}
 <table class="src-table">
-  <thead><tr><th>来源</th><th>站点</th><th>用于词条</th></tr></thead>
+  <thead><tr><th>来源</th><th>站点</th><th>引用词条</th></tr></thead>
   <tbody>
   {%- for r in rows %}
     <tr>
-      <td><a href="{{ r.url }}" rel="noopener">{{ r.title }}</a></td>
-      <td class="src-host">{{ r.url | hostname }}</td>
-      <td><a href="{{ ('/m/' + r.meme.slug + '/') | url }}">{{ r.meme.title }}</a></td>
+      <td><a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.title }}</a></td>
+      <td class="src-host">{{ r.host }}</td>
+      <td>
+        <span class="src-count">{{ r.memes.length }} 条</span>
+        {%- for m in r.memes.slice(0, 6) %}
+        <a href="{{ ('/m/' + m.slug + '/') | url }}">{{ m.title }}</a>{% if not loop.last %}、{% endif %}
+        {%- endfor %}
+        {%- if r.memes.length > 6 %}…等 {{ r.memes.length }} 条{% endif %}
+      </td>
     </tr>
   {%- endfor %}
   </tbody>

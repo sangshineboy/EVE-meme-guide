@@ -8,7 +8,7 @@
   <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
 </head>
-<body class="{{ bodyClass or 'page-plain' }}">
+<body class="{{ bodyClass or 'page-plain' }}"{% if consentExempt %} data-consent-exempt="1"{% endif %}>
   <header class="site-head" data-pagefind-ignore>
     <a class="brand" href="{{ '/' | url }}">
       <span class="seal" aria-hidden="true">{{ site.seal }}</span>
@@ -22,6 +22,7 @@
       <a href="{{ '/lexicon/' | url }}">黑话索引</a>
       <a href="{{ '/sources/' | url }}">出处总表</a>
       <a href="{{ '/random/' | url }}" id="js-random" data-slugs="{{ '/slugs.json' | url }}">随机一条</a>
+      <a href="{{ '/about/' | url }}" class="nav-about">关于作者</a>
     </nav>
   </header>
 
@@ -30,10 +31,45 @@
   </main>
 
   <footer class="site-foot" data-pagefind-ignore>
-    <p>{{ site.title }} —— 社区词条，非官方资料。出处逐条列在每页正文与<a href="{{ '/sources/' | url }}">出处总表</a>。EVE Online 及相关名称为 CCP Games 所有，本站与 CCP 无关。</p>
-    <p class="foot-note">内容来自公开社区资料，多为一说之辞；发现错误或想补一条，改 <code>src/memes/&lt;slug&gt;/</code> 即可，构建时会自动校验格式。</p>
+    <p>{{ site.title }} —— 社区词条，非官方资料。出处逐条列在每页正文与<a href="{{ '/sources/' | url }}">出处总表</a>。EVE Online 及相关名称为 CCP Games 所有，本站与 CCP Games 无关。</p>
+    <p class="foot-note">
+      <a class="foot-gh" href="https://github.com/sangshineboy/EVE-meme-guide" target="_blank" rel="noopener noreferrer" title="在新标签页打开 GitHub 仓库">
+        <svg viewBox="0 0 16 16" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        <span>GitHub 仓库</span>
+      </a>
+      <span class="foot-sep" aria-hidden="true">·</span>
+      <a class="foot-gh" href="https://github.com/sangshineboy/EVE-meme-guide/issues/new" target="_blank" rel="noopener noreferrer" title="在 GitHub 上提 Issue：报错、纠错、补料都可以（新标签页打开）">
+        <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.5 9.5a2 2 0 0 1-2 2H5l-3 2.5v-10a2 2 0 0 1 2-2h7.5a2 2 0 0 1 2 2Z"/><path d="M8 4.2v3.4"/><path d="M8 9.4h.01"/></svg>
+        <span>问题反馈</span>
+      </a>
+    </p>
   </footer>
 
+  <div class="consent" id="consent" role="dialog" aria-modal="true" aria-labelledby="consent-title" aria-describedby="consent-desc" hidden>
+    <div class="consent-box">
+      <h2 id="consent-title">进站前请先看一眼</h2>
+      <p id="consent-desc">
+        本站的词条由 <b>AI 从公开网络搜集、摘要并改写</b>，再由人工核对格式与出处。
+        AI 会出错，也可能把未经证实的说法写得像定论——<b>内容仅供参考</b>，请回到每条词条「出处与来历」里的原页面自行判断。
+      </p>
+      <p class="consent-sub">本站与 CCP Games 无关。详见 <a href="{{ '/terms/' | url }}" target="_blank" rel="noopener noreferrer" title="在新标签页打开">《使用条款》</a>。</p>
+      <label class="consent-check">
+        <input type="checkbox" id="consent-agree">
+        <span>我已阅读并同意<a href="{{ '/terms/' | url }}" target="_blank" rel="noopener noreferrer" title="在新标签页打开">《使用条款》</a>，理解本站内容由 AI 生成、仅供参考。</span>
+      </label>
+      <div class="consent-actions">
+        <button type="button" id="consent-ok" disabled>同意并进入</button>
+        <a href="{{ '/about/' | url }}" target="_blank" rel="noopener noreferrer" title="在新标签页打开">关于本站</a>
+      </div>
+    </div>
+  </div>
+
+  <a class="fab-submit" href="https://docs.qq.com/form/page/DWUdkb3dxRHhRbkVi#/fill" target="_blank" rel="noopener noreferrer" data-pagefind-ignore title="把你知道的梗和出处投给我们（腾讯文档表单，新标签页打开）">
+    <svg class="fab-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+    <span class="fab-label">投稿梗素材</span>
+  </a>
+
+  <script src="{{ '/assets/js/consent.js' | url }}?v={{ site.build }}"></script>
   <script src="{{ '/assets/js/random.js' | url }}?v={{ site.build }}" defer></script>
 </body>
 </html>

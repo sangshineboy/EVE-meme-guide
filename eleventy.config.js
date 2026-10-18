@@ -132,15 +132,37 @@ export default function (eleventyConfig) {
     typeof m === "object" && Array.isArray(m?.sources) ? m.sources.length : linksOf(rawOf(m)).length,
   );
 
-  // 全部来源（出处总表用）
+  // 全部来源（出处总表用）：**按链接去重**，每条链接带上引用它的词条列表。
+  // 之前是按「词条×链接」平铺，58 条词条引用同一个百科页就会出现 58 行一样的记录。
   eleventyConfig.addFilter("sourceIndex", (memes) => {
-    const rows = [];
+    const byUrl = new Map();
     for (const raw of memes) {
       const m = d(raw);
-      for (const s of linksOf(rawOf(raw))) rows.push({ ...s, meme: m });
+      for (const s of linksOf(rawOf(raw))) {
+        const key = String(s.url).replace(/^https?:\/\//i, "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
+        const cur = byUrl.get(key);
+        if (!cur) byUrl.set(key, { ...s, memes: [m], titles: new Set([s.title]) });
+        else {
+          cur.titles.add(s.title);
+          if (!cur.memes.some((x) => x.slug === m.slug)) cur.memes.push(m);
+        }
+      }
     }
-    return rows.sort(
-      (a, b) => a.host.localeCompare(b.host, "en") || a.meme.title.localeCompare(b.meme.title, "zh"),
+    for (const r of byUrl.values()) {
+      // 同一链接被不同词条起了不同标题（例如百科页被逐条标成「第 N 条」）时，改用页面路径当标签
+      if (r.titles.size > 1) {
+        try {
+          r.title = `${r.host}${new URL(r.url).pathname}`;
+        } catch {
+          r.title = [...r.titles][0];
+        }
+      } else {
+        r.title = [...r.titles][0];
+      }
+      r.memes.sort((a, b) => a.title.localeCompare(b.title, "zh"));
+    }
+    return [...byUrl.values()].sort(
+      (a, b) => a.host.localeCompare(b.host, "en") || a.title.localeCompare(b.title, "zh"),
     );
   });
 

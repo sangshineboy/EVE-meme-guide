@@ -21,5 +21,6 @@ updated_at: 2026-10-17
 > 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，故整体按社区流传记录。
 
 - [163百科《EVE的各种梗》第 31 条](https://evepc.baike.163.com/ziliao/66.html)
-- [原始录音（56.com）](http://www.56.com/u11/v_MTEyODgyOTY4.html)
 - [原始录音（优酷）](http://v.youku.com/v_show/id_XNzEyNjM0MTUy.html)
+
+> 注：原 56.com 页面返回「您访问的页面不存在」，已删除；优酷那版仍在，见上。

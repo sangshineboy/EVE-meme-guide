@@ -21,4 +21,6 @@ updated_at: 2026-10-17
 > 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，故整体按社区流传记录。
 
 - [163百科《EVE的各种梗》第 58 条](https://evepc.baike.163.com/ziliao/66.html)
-- [节目片段（AcFun）](http://www.acfun.tv/v/ac441880)
+- [节目片段（B站，局座原话）](https://www.bilibili.com/video/BV1qW411M7dK/)
+
+> 注：原 AcFun 稿件（ac441880）已 404，改用 B站 同段节目 BV1qW411M7dK（165467 播放，2018-03-25 发布）。

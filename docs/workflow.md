@@ -40,7 +40,8 @@
 | 查重 | `scripts/find-meme.mjs` | 在标题、别名、标签、分类、正文里找关键词 |
 | 环境预检 | `scripts/doctor.mjs` | Node 版本、依赖、规格文件完整性 |
 | **B 站采集** | `tools/bili.mjs` | `search` / `video` / `replies` / `collect`：走公开数据接口搜视频、读热评；内置 3 秒间隔与 20 次/轮预算 |
-| 术语表生成 | `tools/gen-lexicon.mjs` | 从本仓库词条生成 `docs/lexicon.md`（术语与别名总表） |
+| 术语表生成 | `tools/gen-lexicon.mjs` | 合并词条别名 + `参考文献` 术语，生成 `docs/lexicon.md` 与站点数据 `src/_data/lexicon.json` |
+| 参考文献导入 | `tools/import-refs.py` | 只在 `参考文献/` 更新后跑一次：把术语抽到 `tools/data/lexicon-refs.json`（该文件要提交，CI 上没有 `参考文献/`） |
 | 待补清单生成 | `tools/gen-pending.mjs` | 从词条数据生成 `docs/pending.md`（谁还欠来源/别名/用法） |
 
 **为什么规格只有一个文件**：校验脚本、站点数据、建条目脚本三处都必须遵守同一套字段。规格写进 `schema.mjs` 后，三处引用同一份枚举，就不会出现「校验放行了、站点读不出来」这类漂移。
@@ -123,6 +124,6 @@ npm run serve     # 预览
 | 加一个站点页面 | 新增 `src/<page>.njk`；需要新过滤逻辑时加到 `eleventy.config.js` |
 | 换站名、印章字 | `src/_data/site.js` |
 | 换配色 | `src/assets/css/site.css` 顶部的 CSS 变量 |
-| 术语与别名总表要更新 | 改词条本身，再跑 `node tools/gen-lexicon.mjs`（表是生成的，不手改） |
+| 术语与别名总表要更新 | 改词条，或更新 `参考文献/` 后先跑 `python tools/import-refs.py` 再跑 `node tools/gen-lexicon.mjs`（表是生成的，不手改） |
 
 改完任何一处，都要 `npm run check && npm test && npm run build` 三连。

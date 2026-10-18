@@ -2,27 +2,62 @@
 layout: base.njk
 bodyClass: page-lexicon
 pageTitle: 黑话与别名索引 — EVE 梗指南
-pageDescription: 按别名、英文原词和黑话查 EVE 梗词条。
+pageDescription: EVE 中文社区的黑话、别名与术语索引：来自词条与参考文献，含释义与出处。
 ---
-{%- set rows = collections.memes | aliasIndex -%}
 <section class="intro">
   <h1>黑话与别名索引</h1>
-  <p>同一件事在群里可能有三四个叫法。这里把全部别名、英文原词与变体摊平，按名称排序；点进去就是词条。</p>
+  <p>同一件事在群里可能有三四个叫法。这里把词条别名与参考文献里的术语一起摊平，按名称排序——能对上词条的直接链过去，对不上的给出处。</p>
+  <p class="intro-note">
+    共 <strong>{{ lexicon.stats.terms }}</strong> 个术语，其中 <strong>{{ lexicon.stats.linked }}</strong> 个已立词条；
+    另有 <strong>{{ lexicon.stats.refTerms }}</strong> 条来自 <code>参考文献/</code>。生成于 {{ lexicon.generated }}。
+  </p>
 </section>
 
-{% if rows.length %}
-<table class="lex-table">
-  <thead><tr><th>别名 / 黑话</th><th>对应词条</th><th>分类</th></tr></thead>
+<div class="toolbar" role="search">
+  <input id="lex-filter" type="search" placeholder="筛选术语或释义…" autocomplete="off" aria-label="筛选术语">
+  <span class="lex-count" id="lex-count">{{ lexicon.stats.terms }} 个</span>
+</div>
+
+<table class="lex-table" id="lex-table">
+  <thead>
+    <tr><th>术语 / 黑话</th><th>释义</th><th>分组</th><th>来源</th><th>词条</th></tr>
+  </thead>
   <tbody>
-  {%- for r in rows %}
-    <tr>
-      <td class="lex-alias">{{ r.alias }}</td>
-      <td><a href="{{ ('/m/' + r.meme.slug + '/') | url }}">{{ r.meme.title }}</a></td>
-      <td><span class="badge badge-cat">{{ r.meme.category }}</span></td>
+  {%- for r in lexicon.rows %}
+    <tr data-key="{{ r.term | lower }} {{ r.desc | lower }}">
+      <td class="lex-alias">{{ r.term }}</td>
+      <td class="lex-desc">{{ r.desc }}</td>
+      <td><span class="badge badge-cat">{{ r.group or "—" }}</span></td>
+      <td class="lex-src">{{ r.sources | join("；") }}</td>
+      <td>
+        {%- if r.meme %}
+        <a href="{{ ('/m/' + r.meme.slug + '/') | url }}">{{ r.meme.title }}</a>
+        {%- elif r.url %}
+        <a href="{{ r.url }}" rel="noreferrer" target="_blank">原页</a>
+        {%- else %}—{% endif %}
+      </td>
     </tr>
   {%- endfor %}
   </tbody>
 </table>
-{% else %}
-<p class="empty">还没有词条登记别名。</p>
-{% endif %}
+
+<script>
+  (function () {
+    var input = document.getElementById("lex-filter");
+    var rows = Array.prototype.slice.call(document.querySelectorAll("#lex-table tbody tr"));
+    var count = document.getElementById("lex-count");
+    if (!input) return;
+    function apply() {
+      var q = input.value.trim().toLowerCase().replace(/\s+/g, "");
+      var shown = 0;
+      for (var i = 0; i < rows.length; i++) {
+        var ok = !q || rows[i].dataset.key.replace(/\s+/g, "").indexOf(q) !== -1;
+        rows[i].hidden = !ok;
+        if (ok) shown++;
+      }
+      count.textContent = shown + " 个";
+    }
+    input.addEventListener("input", apply);
+    apply();
+  })();
+</script>

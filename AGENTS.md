@@ -206,7 +206,8 @@ src/_data/tagMap.js       标签 → 词条映射（生成标签页）
 src/_includes/            base / meme / card
 src/memes/<slug>/         词条与素材
 src/assets/               样式、脚本、图标
-tools/gen-lexicon.mjs     从词条数据生成 docs/lexicon.md（术语与别名索引）
+tools/import-refs.py      从 参考文献/ 抽术语到 tools/data/lexicon-refs.json（只在文献更新后手动跑）
+tools/gen-lexicon.mjs     合并词条别名与参考文献术语，生成 docs/lexicon.md 与 src/_data/lexicon.json
 tools/gen-pending.mjs     从词条数据生成 docs/pending.md（待补清单）
 docs/                     词条模板、术语表、工作流说明、共享来源
 ```
@@ -215,11 +216,14 @@ docs/                     词条模板、术语表、工作流说明、共享来
 | --- | --- |
 | `/` | 目录：分类分组、关键词筛选、分类/等级筛选、来源数排序、随机排序 |
 | `/m/<slug>/` | 词条页：定义、正文、来源数、related、前后翻页 |
-| `/lexicon/` | 别名与黑话索引（全部 aliases 摊平） |
+| `/lexicon/` | 黑话与别名索引（词条别名 + 参考文献术语，带释义与来源，可筛选） |
 | `/sources/` | 出处总表（全站来源按站点归拢） |
 | `/tags/` | 标签云与标签页 |
 | `/search/` | Pagefind 全文搜索 |
+| `/about/` | 关于作者：EVE 履历、建站原因、B站与 QQ 群联系方式 |
+| `/terms/` | 使用条款：AI 生成、仅供参考、出处以原页为准、与 CCP 无关 |
 | `/random/` | 随机翻一条 |
+| 首访弹窗 | 全站布局里带 `#consent`，勾选同意《使用条款》后写入 `localStorage`（key `eve-meme-consent-v1`）才放行；`?reset-consent` 可重置 |
 
 ## 7. 已知的坑
 
