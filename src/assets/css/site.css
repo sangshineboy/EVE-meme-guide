@@ -271,7 +271,7 @@ html.consent-open, html.consent-open body { overflow: hidden; }
 
 /* ---------- 左下角「投稿梗素材」浮动按钮 ---------- */
 .fab-submit {
-  position: fixed; left: 18px; bottom: 18px; z-index: 90;
+  position: fixed; right: 18px; bottom: 18px; z-index: 90;
   display: inline-flex; align-items: center; gap: 7px;
   padding: 9px 15px; border-radius: 999px;
   background: var(--accent); color: #fff; font-size: 14px; line-height: 1.4;
@@ -283,7 +283,7 @@ html.consent-open, html.consent-open body { overflow: hidden; }
 /* 弹窗打开时收起来，免得压在遮罩下面若隐若现 */
 html.consent-open .fab-submit { display: none; }
 @media (max-width: 520px) {
-  .fab-submit { left: 12px; bottom: 12px; padding: 8px 12px; font-size: 13px; }
+  .fab-submit { right: 12px; bottom: 12px; padding: 8px 12px; font-size: 13px; }
   .fab-submit .fab-icon { font-size: 14px; }
 }
 @media print { .fab-submit { display: none; } }
