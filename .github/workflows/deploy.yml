@@ -1,16 +1,16 @@
 name: 构建与发布
 
-# 默认行为：**只构建校验**（每次 push / PR 都跑，能立刻看出格式或渲染是否坏掉）。
-# 发布到 GitHub Pages 需要显式打开开关，因为：
-#   · 私有仓库 + 免费账号不支持 Pages；
-#   · 未开启 Pages 时，configure-pages 步骤会直接失败，让每次 push 都变红。
+# 分支模型：
+#   release —— 对外发布分支。push 到这里 = 构建 + 部署到 GitHub Pages（用户看的版本）。
+#   develop —— 开发分支。push 只跑构建与测试（自己看，不上线）。
+#   main    —— 已冻结为历史主线，不再触发部署；后续以 develop → release 的方式合入。
+#   pull_request —— 任何 PR 都只构建校验。
 #
-# 要发布时：仓库 Settings → Secrets and variables → Actions → Variables
-#   新增仓库变量 ENABLE_PAGES = true
-# 再去 Settings → Pages 把 Source 选成 "GitHub Actions"。
+# 发布仍需仓库变量 ENABLE_PAGES = true（Settings → Secrets and variables → Actions → Variables），
+# 并在 Settings → Pages 把 Source 选成 "GitHub Actions"。
 on:
   push:
-    branches: [main]
+    branches: [release, develop, main]
   pull_request:
   workflow_dispatch:
 
@@ -37,25 +37,29 @@ jobs:
       - run: npm ci
       - run: npm run doctor && npm test
 
-      # 只有显式开启时才准备 Pages（否则此步会失败）
+      # 只有 release 分支且显式开启时才准备 Pages（否则此步会失败）
       - id: pages
-        if: vars.ENABLE_PAGES == 'true'
+        if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true'
         uses: actions/configure-pages@v5
 
       - run: npm run build
         env:
           # 未开启 Pages 时按根路径构建（与 npm run serve 口径一致）
-          PATH_PREFIX: ${{ vars.ENABLE_PAGES == 'true' && steps.pages.outputs.base_path || '/' }}
+          PATH_PREFIX: ${{ steps.pages.outputs.base_path || '/' }}
 
-      - if: vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
+      - if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
-      - if: vars.ENABLE_PAGES != 'true'
-        run: echo "未开启发布（ENABLE_PAGES != true）：本次只做构建校验。要上线请看本文件顶部说明。"
+
+      - if: github.ref != 'refs/heads/release'
+        run: echo "非 release 分支：本次只做构建校验，不部署。"
+
+      - if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES != 'true'
+        run: echo "release 分支但未开启发布（ENABLE_PAGES != true）：本次只做构建校验。要上线请看本文件顶部说明。"
 
   deploy:
-    if: vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

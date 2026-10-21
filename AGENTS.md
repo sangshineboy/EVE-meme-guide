@@ -190,6 +190,18 @@ npm run serve                           # 本地预览 http://localhost:8080/
 
 改动完成后：`git diff --check` → `npm test` → `npm run build` → 通读受影响的页面（`_site/m/<slug>/index.html`）。**不提交、不推送，也不问要不要提交**，改完留在工作区。
 
+### 分支模型
+
+| 分支 | 谁看 | 行为 |
+| --- | --- | --- |
+| `release` | 用户 | **push 即构建并部署到 GitHub Pages**；只有这个分支会发布 |
+| `develop` | 自己 | push 只跑 `doctor` / `test` / `build` 校验，**不部署** |
+| `main` | 历史 | 已冻结，不再触发部署；留作旧线参照 |
+
+- 日常改动在 `develop` 上做；要上线时把它合并进 `release`：`git checkout release && git merge develop && git push`。
+- 部署仍受仓库变量 `ENABLE_PAGES = true` 控制，且 `Settings → Pages` 的 Source 必须是 "GitHub Actions"。
+- 若部署报 `not allowed to deploy to github-pages`，去 `Settings → Environments → github-pages → Deployment branches` 把 `release` 加进允许列表。
+
 ## 6. 技术结构
 
 Eleventy 3（Nunjucks + Markdown）+ Pagefind 全文搜索，GitHub Actions 部署（PR 只构建）。
