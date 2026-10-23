@@ -195,15 +195,15 @@ npm run serve                           # 本地预览 http://localhost:8080/
 | 分支 | 谁看 | 行为 |
 | --- | --- | --- |
 | `main` | 用户 | **push 即构建并部署到 GitHub Pages**；只有这个分支会发布 |
-| `release` | 发布候选 | push 只跑 `doctor` / `test` / `build` 校验，**不部署** |
 | `develop` | 自己 | push 只跑 `doctor` / `test` / `build` 校验，**不部署** |
 
 - 日常改动在 `develop` 上做；要上线时合并进 `main`：`git checkout main && git merge develop && git push`。
 - 部署仍受仓库变量 `ENABLE_PAGES = true` 控制，且 `Settings → Pages` 的 Source 必须是 "GitHub Actions"。
-- **为什么发布走 main**：仓库的 `github-pages` 环境策略只允许 `main` 部署，`release` 会被拒：
+- **为什么发布走 main**：仓库的 `github-pages` 环境策略只允许 `main` 部署，其它分支会被拒：
   `Branch "release" is not allowed to deploy to github-pages due to environment protection rules`。
-  以后若在 `Settings → Environments → github-pages → Deployment branches` 里加上 `release`，
-  把 `.github/workflows/deploy.yml` 里的 `refs/heads/main` 换成 `refs/heads/release` 即可切回。
+  这条限制在 `Settings → Environments → github-pages → Deployment branches` 里改。
+- `release` 分支已于 2026-10-23 删除（它只是 `main` 的副本，推送只多跑一遍校验）。
+  需要发布候选时重建即可：`git branch release develop`。
 
 ## 6. 技术结构
 

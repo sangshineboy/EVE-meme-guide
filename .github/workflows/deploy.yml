@@ -2,19 +2,21 @@ name: 构建与发布
 
 # 分支模型（2026-10-23 调整）：
 #   main    —— **发布分支**。push 到这里 = 构建 + 部署到 GitHub Pages（用户看的版本）。
-#              之所以改回 main：仓库的 github-pages 环境策略只允许 main 部署
+#              之所以走 main：仓库的 github-pages 环境策略只允许 main 部署
 #              （报错原文：Branch "release" is not allowed to deploy to github-pages
-#              due to environment protection rules）。若以后把 release 加进允许列表，
-#              把下面的 main 换成 release 即可。
-#   release —— 发布候选，push 只跑构建校验（与 develop 同等待遇）。
+#              due to environment protection rules）。若以后放开策略上的分支限制，
+#              把下面的 refs/heads/main 换成别的分支即可。
 #   develop —— 开发分支，push 只跑构建与测试。
 #   pull_request —— 任何 PR 都只构建校验。
+#
+# 注：release 分支已于 2026-10-23 删除——它只是 main 的副本，推送只多跑一遍校验。
+#     真要「发布候选」，随时可重建：git branch release develop
 #
 # 发布仍需仓库变量 ENABLE_PAGES = true（Settings → Secrets and variables → Actions → Variables），
 # 并在 Settings → Pages 把 Source 选成 "GitHub Actions"。
 on:
   push:
-    branches: [main, develop, release]
+    branches: [main, develop]
   pull_request:
   workflow_dispatch:
 
