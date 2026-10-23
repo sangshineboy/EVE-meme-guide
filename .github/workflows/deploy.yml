@@ -1,16 +1,20 @@
 name: 构建与发布
 
-# 分支模型：
-#   release —— 对外发布分支。push 到这里 = 构建 + 部署到 GitHub Pages（用户看的版本）。
-#   develop —— 开发分支。push 只跑构建与测试（自己看，不上线）。
-#   main    —— 已冻结为历史主线，不再触发部署；后续以 develop → release 的方式合入。
+# 分支模型（2026-10-23 调整）：
+#   main    —— **发布分支**。push 到这里 = 构建 + 部署到 GitHub Pages（用户看的版本）。
+#              之所以改回 main：仓库的 github-pages 环境策略只允许 main 部署
+#              （报错原文：Branch "release" is not allowed to deploy to github-pages
+#              due to environment protection rules）。若以后把 release 加进允许列表，
+#              把下面的 main 换成 release 即可。
+#   release —— 发布候选，push 只跑构建校验（与 develop 同等待遇）。
+#   develop —— 开发分支，push 只跑构建与测试。
 #   pull_request —— 任何 PR 都只构建校验。
 #
 # 发布仍需仓库变量 ENABLE_PAGES = true（Settings → Secrets and variables → Actions → Variables），
 # 并在 Settings → Pages 把 Source 选成 "GitHub Actions"。
 on:
   push:
-    branches: [release, develop, main]
+    branches: [main, develop, release]
   pull_request:
   workflow_dispatch:
 
@@ -37,9 +41,9 @@ jobs:
       - run: npm ci
       - run: npm run doctor && npm test
 
-      # 只有 release 分支且显式开启时才准备 Pages（否则此步会失败）
+      # 只有 main 分支且显式开启时才准备 Pages（否则此步会失败）
       - id: pages
-        if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true'
+        if: github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true'
         uses: actions/configure-pages@v5
 
       - run: npm run build
@@ -47,19 +51,19 @@ jobs:
           # 未开启 Pages 时按根路径构建（与 npm run serve 口径一致）
           PATH_PREFIX: ${{ steps.pages.outputs.base_path || '/' }}
 
-      - if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
+      - if: github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-      - if: github.ref != 'refs/heads/release'
-        run: echo "非 release 分支：本次只做构建校验，不部署。"
+      - if: github.ref != 'refs/heads/main'
+        run: echo "非 main 分支：本次只做构建校验，不部署。"
 
-      - if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES != 'true'
-        run: echo "release 分支但未开启发布（ENABLE_PAGES != true）：本次只做构建校验。要上线请看本文件顶部说明。"
+      - if: github.ref == 'refs/heads/main' && vars.ENABLE_PAGES != 'true'
+        run: echo "main 分支但未开启发布（ENABLE_PAGES != true）：本次只做构建校验。要上线请看本文件顶部说明。"
 
   deploy:
-    if: github.ref == 'refs/heads/release' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
