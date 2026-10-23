@@ -128,13 +128,15 @@ a:hover { text-decoration: underline; }
 .chip.is-active small { color: rgba(6, 19, 31, .7); }
 
 /* ---------- 工具栏 ---------- */
-.toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 10px; }
+/* 工具栏：桌面端搜索框限宽，手机端整条不换行（搜索框让位、按钮不被压扁） */
+.toolbar { display: flex; flex-wrap: nowrap; align-items: stretch; gap: 8px; margin: 18px 0 10px; }
 .toolbar input[type="search"] {
-  flex: 1 1 260px; min-width: 0; padding: 9px 12px; font-size: 15px;
+  flex: 1 1 auto; min-width: 0; max-width: 420px; padding: 9px 12px; font-size: 15px;
   background: var(--bg-soft); color: var(--fg); border: 1px solid var(--line); border-radius: var(--radius);
 }
 .toolbar input[type="search"]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 .toolbar button {
+  flex: none; white-space: nowrap;
   padding: 9px 12px; font-size: 14px; background: var(--bg-soft); color: var(--fg-dim);
   border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer;
 }
@@ -298,3 +300,36 @@ html.consent-open .fab-submit { display: none; }
 .site-foot .foot-gh svg { flex: none; opacity: .85; }
 
 .site-foot .foot-sep { margin: 0 10px; color: var(--line); }
+
+/* 热度档位徽章（按播放量 + 引用数排名）：夯 / 顶级 / 人上人 / NPC / 拉完了 */
+.badge-tier { border-color: transparent; font-weight: 600; white-space: nowrap; }
+.badge-tier[data-tier="夯"] { background: #f8cbad; color: #7a3a14; }
+.badge-tier[data-tier="顶级"] { background: #ffe699; color: #6b5308; }
+.badge-tier[data-tier="人上人"] { background: #e2efda; color: #3f6b2c; }
+.badge-tier[data-tier="NPC"] { background: #ddebf7; color: #2b5876; }
+.badge-tier[data-tier="拉完了"] { background: #f2f2f2; color: #7a7a7a; }
+
+/* 手机端工具栏：搜索框不设上限，按钮收紧，四个元素挤在一行 */
+@media (max-width: 520px) {
+  .toolbar { gap: 6px; margin: 14px 0 8px; }
+  .toolbar input[type="search"] { max-width: none; font-size: 14px; padding: 8px 10px; }
+  .toolbar button { padding: 8px 9px; font-size: 13px; }
+}
+
+/* 筛选折叠面板：默认收起，只有一行「筛选 + 当前条件」 */
+.fold { margin: 12px 0 4px; }
+.fold > .fold-sum {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px; cursor: pointer; list-style: none;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--bg-soft); color: var(--fg-dim); font-size: 14px;
+}
+.fold > .fold-sum::-webkit-details-marker { display: none; }
+.fold > .fold-sum:hover { color: var(--fg); border-color: var(--accent); }
+.fold > .fold-sum:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.fold-title { font-weight: 600; color: var(--fg); }
+.fold-state { margin-left: auto; color: var(--fg-faint); font-size: 13px; }
+.fold-arrow { transition: transform .15s ease; font-size: 12px; color: var(--fg-faint); }
+.fold[open] > .fold-sum .fold-arrow { transform: rotate(180deg); }
+.fold[open] > .fold-sum { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.fold[open] .tag-wrap { border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--radius) var(--radius); padding: 10px 12px; }

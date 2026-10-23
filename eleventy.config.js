@@ -1,6 +1,12 @@
 // 站点数据：排序规则、集合、过滤器。
+import fs from "node:fs";
 import path from "node:path";
 import site from "./src/_data/site.js";
+
+// 梗排名（tools/gen-ranking.py 生成）：slug → { rank, tier, ... }
+const ranking = JSON.parse(
+  fs.readFileSync(new URL("./src/_data/ranking.json", import.meta.url), "utf8"),
+);
 
 export default function (eleventyConfig) {
   // 模板里拿到的可能是「全局数据对象」（src/_data/memes.js）或「Eleventy 页面对象」，
@@ -40,6 +46,17 @@ export default function (eleventyConfig) {
       .getFilteredByGlob("src/memes/*/*.md")
       .filter((p) => path.basename(p.inputPath, ".md") === p.data.slug)
       .sort((a, b) => a.data.title.localeCompare(b.data.title, "zh")),
+  );
+
+  // 按热度（播放量 + 引用数算出的名次）排序；没有名次的排最后
+  eleventyConfig.addFilter("byRank", (memes) =>
+    [...memes]
+      .map(d)
+      .sort(
+        (a, b) =>
+          (ranking[a.slug]?.rank ?? 999) - (ranking[b.slug]?.rank ?? 999) ||
+          a.title.localeCompare(b.title, "zh"),
+      ),
   );
 
   // 分类 → 词条，按 site.categoryOrder 排序
@@ -86,6 +103,18 @@ export default function (eleventyConfig) {
     return [...groups]
       .map(([scope, items]) => ({ scope, items }))
       .sort((a, b) => site.scopeOrder.indexOf(a.scope) - site.scopeOrder.indexOf(b.scope));
+  });
+
+  // 热度档位 → 词条（夯 → 顶级 → 人上人 → NPC → 拉完了）
+  eleventyConfig.addFilter("groupByTier", (memes) => {
+    const ORDER = ["夯", "顶级", "人上人", "NPC", "拉完了"];
+    const groups = new Map(ORDER.map((t) => [t, []]));
+    for (const raw of memes) {
+      const m = d(raw);
+      const tier = ranking[m.slug]?.tier;
+      if (tier && groups.has(tier)) groups.get(tier).push(m);
+    }
+    return ORDER.map((tier) => ({ tier, items: groups.get(tier) })).filter((g) => g.items.length);
   });
 
   // 服务器归属 → 词条

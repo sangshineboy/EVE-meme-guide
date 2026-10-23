@@ -14,6 +14,9 @@ bodyClass: page-meme
       <span class="badge badge-cat">{{ category }}</span>
       <span class="badge badge-scope badge-scope-{{ scope }}">{{ scope }}</span>
       <span class="badge badge-server">{{ server }}</span>
+      {%- if ranking[page.fileSlug] and ranking[page.fileSlug].tier %}
+      <span class="badge badge-tier" data-tier="{{ ranking[page.fileSlug].tier }}" title="热度档位：按播放量与引用数排名（第 {{ ranking[page.fileSlug].rank }} 名）">{{ ranking[page.fileSlug].tier }}</span>
+      {%- endif %}
     </p>
     <h1 class="meme-title"><span data-pagefind-meta="title">{{ title }}</span></h1>
     {% if aliases and aliases.length %}

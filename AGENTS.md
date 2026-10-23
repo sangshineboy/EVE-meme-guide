@@ -221,6 +221,7 @@ src/assets/               样式、脚本、图标
 tools/import-refs.py      从 参考文献/ 抽术语到 tools/data/lexicon-refs.json（只在文献更新后手动跑）
 tools/gen-lexicon.mjs     合并词条别名与参考文献术语，生成 docs/lexicon.md 与 src/_data/lexicon.json
 tools/gen-pending.mjs     从词条数据生成 docs/pending.md（待补清单）
+tools/gen-ranking.py      按「播放量 + 引用数」算排名，生成 src/_data/ranking.json 与 参考文献/EVE梗排名-播放量与引用.xlsx
 docs/                     词条模板、术语表、工作流说明、共享来源
 ```
 

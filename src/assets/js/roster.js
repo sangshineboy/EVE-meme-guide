@@ -3,17 +3,20 @@ const roster = document.getElementById("roster");
 const cards = [...roster.querySelectorAll(".card")];
 const input = document.getElementById("filter");
 const status = document.getElementById("filter-status");
-const orderBtn = document.getElementById("order");
+const foldState = document.getElementById("fold-state");
+const orderBtns = [...document.querySelectorAll("[data-order]")];
 const shuffleBtn = document.getElementById("shuffle");
 const catBtns = [...document.querySelectorAll("[data-filter-cat]")];
 const scopeBtns = [...document.querySelectorAll("[data-filter-scope]")];
 const serverBtns = [...document.querySelectorAll("[data-filter-server]")];
+const tierBtns = [...document.querySelectorAll("[data-filter-tier]")];
 
 let category = "";
 let scope = "";
 let server = "";
-let order = "title"; // title | sources
-let desc = false;
+let tier = "";
+let order = "rank"; // rank=热度（默认）｜ title=名称；热度按播放量与引用数的名次
+let desc = false; // false=正序，true=倒序
 let shuffled = null;
 
 const normalize = (s) => s.toLowerCase().replace(/\s+/g, "");
@@ -27,7 +30,8 @@ function apply() {
     const okCat = !category || card.dataset.category === category;
     const okScope = !scope || card.dataset.scope === scope;
     const okServer = !server || card.dataset.server === server;
-    const visible = okQ && okCat && okScope && okServer;
+    const okTier = !tier || card.dataset.tier === tier;
+    const visible = okQ && okCat && okScope && okServer && okTier;
     card.hidden = !visible;
     if (visible) shown++;
   }
@@ -36,19 +40,25 @@ function apply() {
   if (category) parts.push(`分类 ${category}`);
   if (scope) parts.push(scope);
   if (server) parts.push(server);
+  if (tier) parts.push(tier);
   status.hidden = false;
   status.textContent = parts.length ? `${parts.join(" · ")}：${shown} 条` : `共 ${shown} 条`;
+  if (foldState) foldState.textContent = parts.length ? parts.join(" · ") : "全部";
 }
 
 function sortCards() {
   const list = shuffled ? [...shuffled] : [...cards];
   list.sort((a, b) => {
     if (shuffled) return 0;
-    const cmp =
-      order === "sources"
-        ? Number(b.dataset.sources) - Number(a.dataset.sources) ||
-          a.dataset.title.localeCompare(b.dataset.title, "zh")
-        : a.dataset.title.localeCompare(b.dataset.title, "zh");
+    let cmp;
+    if (order === "rank") {
+      // 热度：名次小的靠前；没有名次的（999）垫底，同档按标题
+      cmp =
+        Number(a.dataset.rank) - Number(b.dataset.rank) ||
+        a.dataset.title.localeCompare(b.dataset.title, "zh");
+    } else {
+      cmp = a.dataset.title.localeCompare(b.dataset.title, "zh");
+    }
     return desc ? -cmp : cmp;
   });
   for (const card of list) roster.append(card);
@@ -73,25 +83,35 @@ function wire(buttons, dataKey, set) {
 wire(catBtns, "filterCat", (v) => (category = v));
 wire(scopeBtns, "filterScope", (v) => (scope = v));
 wire(serverBtns, "filterServer", (v) => (server = v));
-orderBtn.addEventListener("click", () => {
-  if (order === "title" && !desc) {
-    order = "sources";
-    orderBtn.textContent = "来源 ↓";
-  } else if (order === "sources" && !desc) {
-    order = "sources";
-    desc = true;
-    orderBtn.textContent = "来源 ↑";
-  } else {
-    order = "title";
-    desc = false;
-    orderBtn.textContent = "名称 ↑";
-  }
-  orderBtn.setAttribute("aria-pressed", "true");
-  shuffled = null;
-  shuffleBtn.classList.remove("is-active");
-  shuffleBtn.setAttribute("aria-pressed", "false");
-  sortCards();
-});
+wire(tierBtns, "filterTier", (v) => (tier = v));
+// 排序按钮：热度 / 名称。点一次按该维度正序，再点一次转倒序，箭头显示当前方向。
+for (const btn of orderBtns) {
+  btn.dataset.label = btn.textContent.trim(); // 记住基础文字（热度 / 名称）
+  btn.addEventListener("click", () => {
+    if (order === btn.dataset.order) {
+      desc = !desc; // 同一个维度：正序 ⇄ 倒序
+    } else {
+      order = btn.dataset.order;
+      desc = false;
+    }
+    for (const b of orderBtns) {
+      const active = b === btn;
+      b.classList.toggle("is-active", active);
+      b.setAttribute("aria-pressed", String(active));
+      b.textContent = active ? `${b.dataset.label} ${desc ? "↓" : "↑"}` : b.dataset.label;
+      b.setAttribute("aria-label", active ? `${b.dataset.label}，当前${desc ? "倒序" : "正序"}，再点切换` : b.dataset.label);
+    }
+    shuffled = null;
+    shuffleBtn.classList.remove("is-active");
+    shuffleBtn.setAttribute("aria-pressed", "false");
+    sortCards();
+  });
+}
+// 初始化：给默认激活的「热度」补上方向箭头
+for (const b of orderBtns) {
+  const active = b.dataset.order === order;
+  b.textContent = active ? `${b.dataset.label} ${desc ? "↓" : "↑"}` : b.dataset.label;
+}
 shuffleBtn.addEventListener("click", () => {
   shuffled = [...cards].sort(() => Math.random() - 0.5);
   shuffleBtn.classList.toggle("is-active", !!shuffled);
@@ -100,3 +120,4 @@ shuffleBtn.addEventListener("click", () => {
 });
 
 apply();
+sortCards();
