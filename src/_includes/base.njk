@@ -7,6 +7,15 @@
   <meta name="description" content="{{ pageDescription or site.description }}">
   <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
+  <script>
+    /* 主题预置：在首屏渲染前套上 data-theme，避免闪白/闪黑 */
+    (function () {
+      try {
+        var t = localStorage.getItem("eve-meme-theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body class="{{ bodyClass or 'page-plain' }}"{% if consentExempt %} data-consent-exempt="1"{% endif %}>
   <header class="site-head" data-pagefind-ignore>
@@ -24,6 +33,20 @@
       <a href="{{ '/random/' | url }}" id="js-random" data-slugs="{{ '/slugs.json' | url }}">随机一条</a>
       <a href="{{ '/about/' | url }}" class="nav-about">关于作者</a>
     </nav>
+    <div class="theme-switch" role="group" aria-label="配色">
+      <button type="button" data-theme-set="light" aria-pressed="false" title="亮色">
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1.6v1.6M8 12.8v1.6M1.6 8h1.6M12.8 8h1.6M3.5 3.5l1.1 1.1M11.4 11.4l1.1 1.1M12.5 3.5l-1.1 1.1M4.6 11.4l-1.1 1.1"/></svg>
+        <span>亮色</span>
+      </button>
+      <button type="button" data-theme-set="auto" aria-pressed="true" title="跟随系统">
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.8" y="2.6" width="12.4" height="8" rx="1.2"/><path d="M5.4 13.4h5.2"/></svg>
+        <span>自动</span>
+      </button>
+      <button type="button" data-theme-set="dark" aria-pressed="false" title="暗色">
+        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.4 9.6A5.6 5.6 0 0 1 6.4 2.6a5.6 5.6 0 1 0 7 7Z"/></svg>
+        <span>暗色</span>
+      </button>
+    </div>
   </header>
 
   <main class="wrap">
@@ -55,7 +78,7 @@
       <h2 id="consent-title">进站前请先看一眼</h2>
       <p id="consent-desc">
         本站的词条由 <b>AI 从公开网络搜集、摘要并改写</b>，再由人工核对格式与出处。
-        AI 会出错，也可能把未经证实的说法写得像定论——<b>内容仅供参考</b>，请回到每条词条「出处与来历」里的原页面自行判断。
+        AI 会出错，也可能把未经证实的说法写得像定论——<b>内容仅供参考</b>，请回到每条词条「参考文献」里的原页面自行判断。
       </p>
       <p class="consent-sub">本站与 CCP Games 无关。详见 <a href="{{ '/terms/' | url }}" target="_blank" rel="noopener noreferrer" title="在新标签页打开">《使用条款》</a>。</p>
       <label class="consent-check">
@@ -74,6 +97,7 @@
     <span class="fab-label">投稿梗素材</span>
   </a>
 
+  <script src="{{ '/assets/js/theme.js' | url }}?v={{ site.build }}"></script>
   <script src="{{ '/assets/js/consent.js' | url }}?v={{ site.build }}"></script>
   <script src="{{ '/assets/js/random.js' | url }}?v={{ site.build }}" defer></script>
 </body>

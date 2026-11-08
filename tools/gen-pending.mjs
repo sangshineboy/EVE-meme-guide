@@ -4,7 +4,7 @@
 //
 // 判据（全部来自词条本身，不靠人工维护第二份清单）：
 //   - 证据等级为「社区流传」的，需要找一条可核对来源
-//   - 缺来源链接、来源偏少、别名偏少、没写「怎么用」的
+//   - 缺来源链接、来源偏少、别名偏少、没写「用法」的
 //   - related 为空的孤立词条
 import fs from "node:fs";
 import path from "node:path";
@@ -23,7 +23,7 @@ for (const e of entries) {
   if (d.confidence === "社区流传") needs.push("找一条可核对来源");
   if (links === 0) needs.push("补来源链接");
   if (!(d.aliases ?? []).length) needs.push("补别名（影响搜索命中）");
-  if (!/^##\s+怎么用/m.test(e.body)) needs.push("补「怎么用」");
+  if (!/^##\s+用法/m.test(e.body)) needs.push("补「用法」");
   if (!(d.related ?? []).length) needs.push("补相关词条");
   if (d.confidence === "已确认" && links < 2) needs.push("已确认但只有一条来源，建议加一条");
   if (needs.length) rows.push({ title: d.title, slug: e.slug, cat: d.category, conf: d.confidence, links, needs });

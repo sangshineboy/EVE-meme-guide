@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { readAll } from "./loader.mjs";
-import { validateEntry } from "./schema.mjs";
+import { validateEntry, sectionsOf } from "./schema.mjs";
 
 // 仓库级基线：真实词条必须全部合规，且不得出现重复 slug / 别名。
 test("全部词条通过校验", () => {
@@ -48,13 +48,23 @@ test("Markdown 渲染配置为 breaks + 表格/删除线", async () => {
   assert.match(cfg, /enable\(\[[^\]]*"table"/, "必须启用 table（否则 Markdown 表格不渲染）");
 });
 
-test("每个「怎么用」小节都标注了示例性质", async () => {
-  const { readAll } = await import("./loader.mjs");
+test("每个词条的「参考文献」都排在最后", () => {
   const offenders = [];
   for (const e of readAll()) {
     if (e.error) continue;
-    if (!/^##\s+怎么用\s*$/m.test(e.body)) continue;
-    if (!e.body.includes("说明性写法")) offenders.push(e.slug);
+    const secs = sectionsOf(e.body);
+    if (!secs.length) continue;
+    if (secs[secs.length - 1] !== "参考文献") offenders.push(e.slug);
   }
-  assert.deepEqual(offenders, [], "这些词条的「怎么用」缺少示例性质说明");
+  assert.deepEqual(offenders, [], "这些词条的最后一个小节不是「参考文献」");
+});
+
+test("每个词条都从「定性」开篇", () => {
+  const offenders = [];
+  for (const e of readAll()) {
+    if (e.error) continue;
+    const secs = sectionsOf(e.body);
+    if (secs.length && secs[0] !== "定性") offenders.push(e.slug);
+  }
+  assert.deepEqual(offenders, [], "这些词条的第一个小节不是「定性」");
 });

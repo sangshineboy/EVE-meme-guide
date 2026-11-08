@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-22",
+ "generated": "2026-10-24",
  "stats": {
-  "terms": 604,
-  "entries": 163,
-  "linked": 404,
+  "terms": 615,
+  "entries": 166,
+  "linked": 415,
   "refTerms": 380
  },
  "groups": [
@@ -13,15 +13,15 @@
   },
   {
    "name": "组织政治",
-   "count": 96
+   "count": 98
   },
   {
    "name": "名场面",
-   "count": 54
+   "count": 58
   },
   {
    "name": "社区文化",
-   "count": 51
+   "count": 56
   },
   {
    "name": "玩法",
@@ -705,6 +705,20 @@
    }
   },
   {
+   "term": "不许录音",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
+    "title": "这个频道不许录音",
+    "category": "名场面"
+   }
+  },
+  {
    "term": "步兵",
    "desc": "百科收录的评语句，对象是「步兵」，未给解释。",
    "sources": [
@@ -913,7 +927,7 @@
   },
   {
    "term": "吃KFC",
-   "desc": "把军团物资卖了换一顿肯德基——腐败的最小单位。",
+   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
    "sources": [
     "别名"
    ],
@@ -3013,7 +3027,7 @@
   },
   {
    "term": "肯德基",
-   "desc": "把军团物资卖了换一顿肯德基——腐败的最小单位。",
+   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
    "sources": [
     "别名"
    ],
@@ -3567,6 +3581,20 @@
    }
   },
   {
+   "term": "馒皇",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
+    "title": "这个频道不许录音",
+    "category": "名场面"
+   }
+  },
+  {
    "term": "馒头",
    "desc": "PIBC 的 CEO 军用馒头的外号来源：内部纠纷与外交事件都由他出面或背锅。",
    "sources": [
@@ -3875,6 +3903,20 @@
    "meme": {
     "slug": "xin-zhong-de-bai-hu",
     "title": "心中的白虎",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "欧服十国联军",
+   "desc": "华人玩家对 2017 年欧服那场围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "shi-guo-lian-jun",
+    "title": "十国联军",
     "category": "组织政治"
    }
   },
@@ -4593,6 +4635,20 @@
    "meme": {
     "slug": "sheng-li-dang-shu-tga",
     "title": "胜利当属TGA",
+    "category": "组织政治"
+   }
+  },
+  {
+   "term": "十国联军",
+   "desc": "华人玩家对 2017 年欧服那场围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "sources": [
+    "词条"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "shi-guo-lian-jun",
+    "title": "十国联军",
     "category": "组织政治"
    }
   },
@@ -6388,6 +6444,20 @@
    }
   },
   {
+   "term": "永动机",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jesus-n",
+    "title": "JESUS N!",
+    "category": "社区文化"
+   }
+  },
+  {
    "term": "永远休闲是星华",
    "desc": "百科收录的评语句，说星华军团「永远休闲」，未给解释。",
    "sources": [
@@ -6853,6 +6923,20 @@
     "slug": "zhao-keng-zhao-pian-coa",
     "title": "找坑找骗COA",
     "category": "组织政治"
+   }
+  },
+  {
+   "term": "这个频道不许录音",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "sources": [
+    "词条"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
+    "title": "这个频道不许录音",
+    "category": "名场面"
    }
   },
   {
@@ -7478,6 +7562,20 @@
    "meme": null
   },
   {
+   "term": "EVE 皇帝",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
+    "title": "这个频道不许录音",
+    "category": "名场面"
+   }
+  },
+  {
    "term": "FBP",
    "desc": "FBP 阵营军团多、成分杂、内部腐化，常有总监把军团资产或产出换成人民币。",
    "sources": [
@@ -7557,6 +7655,34 @@
    "meme": null
   },
   {
+   "term": "JB永动机",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jesus-n",
+    "title": "JESUS N!",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "JESUS N!",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jesus-n",
+    "title": "JESUS N!",
+    "category": "社区文化"
+   }
+  },
+  {
    "term": "johsonzyb",
    "desc": "FDK 前 CEO johsonzyb 在 2014 年元旦带队背弃八年盟友 PIBC，「深情」是反话。",
    "sources": [
@@ -7579,6 +7705,20 @@
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null
+  },
+  {
+   "term": "JUSES N",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jesus-n",
+    "title": "JESUS N!",
+    "category": "社区文化"
+   }
   },
   {
    "term": "JZV 保卫战",
@@ -7617,6 +7757,20 @@
    ],
    "group": "社区文化",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
+   "meme": {
+    "slug": "kfc",
+    "title": "KFC",
+    "category": "社区文化"
+   }
+  },
+  {
+   "term": "KFC 全家桶",
+   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
    "meme": {
     "slug": "kfc",
     "title": "KFC",

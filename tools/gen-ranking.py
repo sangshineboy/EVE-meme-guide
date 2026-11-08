@@ -28,6 +28,14 @@ TITLE_FONT = Font(bold=True, size=13, color="1F4E79")
 thin = Side(style="thin", color="D9D9D9")
 BORDER = Border(left=thin, right=thin, top=thin, bottom=thin)
 
+# 人工定档：机械分数压不住时用手工认定，表格里会标「人工」
+# 判据：有百万播放的视频专门讲这条梗（视频标题/简介点名，不是弹幕顺口一提）
+TIER_OVERRIDE = {
+    "shi-guo-lian-jun": "夯",          # BV1rx41147vd，395 万播放，标题就是「决战十国联军」
+    "zhe-ge-pin-dao-bu-xu-lu-yin": "夯",  # 三条视频合计约 220 万播放，其中剪辑版 156 万
+    "jesus-n": "夯",                   # BV11Q4y127tg，把联盟 CEO 做成宣发物料的代表样本
+}
+
 TIERS = [
     ("夯", 8.0, PatternFill("solid", fgColor="F8CBAD")),
     ("顶级", 6.0, PatternFill("solid", fgColor="FFE699")),
@@ -161,6 +169,13 @@ n = len(rows)
 for i, r in enumerate(rows):
     q = i / n
     r["tier"] = "夯" if q < 0.10 else "顶级" if q < 0.30 else "人上人" if q < 0.70 else "NPC" if q < 0.90 else "拉完了"
+    r["tier_source"] = "分位"
+    if r["slug"] in TIER_OVERRIDE:
+        if r["tier"] != TIER_OVERRIDE[r["slug"]]:
+            r["tier_source"] = f"人工（原{ r['tier'] }）"
+        else:
+            r["tier_source"] = "人工确认"
+        r["tier"] = TIER_OVERRIDE[r["slug"]]
 
 print("\n=== 夯（前 12）===")
 for r in rows[:12]:
@@ -171,7 +186,7 @@ for r in rows[-8:]:
 
 # 站内排序用的数据：slug → 排名 / 档位 / 分数
 rank_map = {
-    r["slug"]: {"rank": i + 1, "tier": r["tier"], "total": r["total"],
+    r["slug"]: {"rank": i + 1, "tier": r["tier"], "tierSource": r.get("tier_source", "分位"), "total": r["total"],
                  "views": r["views"], "citations": r["citations"]}
     for i, r in enumerate(rows)
 }
@@ -188,7 +203,7 @@ print(f"有视频覆盖的词条：{len(with_video)} / {len(rows)}")
 wb = Workbook()
 ws = wb.active
 ws.title = "梗排名"
-cols = ["排名", "档", "综合分", "词条", "分类", "播放量合计", "涉及视频数", "引用数", "出处链接", "语料命中", "播放分", "引用分", "匹配方式", "命中语料", "涉及视频"]
+cols = ["排名", "档", "定档", "综合分", "词条", "分类", "播放量合计", "涉及视频数", "引用数", "出处链接", "语料命中", "播放分", "引用分", "匹配方式", "命中语料", "涉及视频"]
 ws.append(cols)
 for c in ws[1]:
     c.fill, c.font, c.border = HEAD_FILL, HEAD_FONT, BORDER
@@ -197,7 +212,7 @@ ws.row_dimensions[1].height = 28
 
 tier_fill = {name: fill for name, _, fill in TIERS}
 for i, r in enumerate(rows, 1):
-    ws.append([i, r["tier"], r["total"], r["title"], r["category"], r["views"], r["videoCount"],
+    ws.append([i, r["tier"], r.get("tier_source", "分位"), r["total"], r["title"], r["category"], r["views"], r["videoCount"],
                r["citations"], r["links"], r["corpora"], r["viewScore"], r["citeScore"], r["matchedBy"],
                r["corpusNames"], r["videoTitles"]])
     row = ws.max_row
@@ -206,12 +221,12 @@ for i, r in enumerate(rows, 1):
     for col in range(1, len(cols) + 1):
         cell = ws.cell(row, col)
         cell.border = BORDER
-        cell.alignment = Alignment(vertical="top", wrap_text=col in (4, 13, 14),
-                                   horizontal="center" if col not in (4, 5, 13, 14) else "left")
+        cell.alignment = Alignment(vertical="top", wrap_text=col in (5, 14, 15),
+                                   horizontal="center" if col not in (2, 3, 5, 6, 14, 15) else "left")
 
 for col, w in zip("ABCDEFGHIJKLMNO", (6, 5, 7, 32, 11, 12, 10, 7, 8, 8, 7, 7, 9, 32, 40)):
     ws.column_dimensions[col].width = w
-ws.freeze_panes = "D2"
+ws.freeze_panes = "E2"
 ws.auto_filter.ref = f"A1:O{ws.max_row}"
 
 # 口径页

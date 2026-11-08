@@ -22,9 +22,20 @@ export const SCOPES = ["端游", "手游", "通用"];
 /** 服务器归属：国服（晨曦）/ 欧服（宁静）/ 未标（来源没交代服务器时不猜） */
 export const SERVERS = ["国服", "欧服", "未标"];
 
-/** 词条文件里必须出现的正文小节（第二项是“找不到就报错”的必填标记） */
-export const REQUIRED_SECTIONS = ["这个梗", "出处与来历"];
-export const OPTIONAL_SECTIONS = ["怎么用", "变体与近亲", "为什么好笑"];
+/**
+ * 正文小节（2026-10-25 定版）：
+ *   定性 → 溯源 → 用法 → 演变 → AI评价 → 参考文献
+ * 「参考文献」必须排在最后。
+ * 「定性」「参考文献」必填；「溯源」「用法」「演变」「AI评价」可缺——
+ * 缺了就是这条还没写到，不是格式错误。
+ */
+export const REQUIRED_SECTIONS = ["定性", "参考文献"];
+export const OPTIONAL_SECTIONS = ["溯源", "用法", "演变", "AI评价"];
+/** 正文小节允许的顺序（未出现的小节跳过） */
+export const SECTION_ORDER = ["定性", "溯源", "用法", "演变", "AI评价", "参考文献"];
+
+/** AI评价的统一落款：这一节写的是观点，不是史实 */
+export const AI_REVIEW_MARK = "（AI 观点，不构成事实陈述。）";
 
 /** front matter 允许的字段（白名单，多写或拼错即报错） */
 export const FIELDS = {
@@ -62,9 +73,9 @@ export const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
 /**
  * 校验一条正文里的来源清单。
- * 正文「出处与来历」小节必须至少有一个 Markdown 链接，形如：
+ * 正文「参考文献」小节必须至少有一个 Markdown 链接，形如：
  *   - [标题](https://…) —— 媒体/站点/文件
- * 链接数 = 来源条数，正文里没有链接就说明没留出处。
+ * 链接数 = 来源条数，参考文献里没有链接就说明没留出处。
  */
 export function countSourceLinks(body) {
   return (body.match(/\]\(https?:\/\/[^)\s]+\)/g) ?? []).length;
@@ -73,6 +84,27 @@ export function countSourceLinks(body) {
 /** 从正文抽取小节标题（`## 标题`） */
 export function sectionsOf(body) {
   return [...body.matchAll(/^##\s+(.+?)\s*$/gm)].map((m) => m[1].trim());
+}
+
+/**
+ * 取出某个小节的正文（到下一个 `## ` 为止）。
+ * 小节不存在时返回空字符串。
+ */
+export function sectionText(body, name) {
+  const lines = body.split(/\r?\n/);
+  const start = lines.findIndex((l) => {
+    const m = /^##\s+(.+?)\s*$/.exec(l);
+    return m && m[1].trim() === name;
+  });
+  if (start === -1) return "";
+  let end = lines.length;
+  for (let i = start + 1; i < lines.length; i++) {
+    if (/^##\s/.test(lines[i])) {
+      end = i;
+      break;
+    }
+  }
+  return lines.slice(start + 1, end).join("\n").trim();
 }
 
 /**
@@ -120,11 +152,25 @@ export function validateEntry({ data, body, slug, files = [] }) {
   const sections = sectionsOf(body);
   for (const want of REQUIRED_SECTIONS) {
     if (!sections.includes(want)) errs.push(`正文缺少必填小节 "## ${want}"`);
+    else if (!sectionText(body, want)) errs.push(`必填小节 "## ${want}" 是空的`);
   }
   for (const s of sections) {
     if (!REQUIRED_SECTIONS.includes(s) && !OPTIONAL_SECTIONS.includes(s)) {
       errs.push(`未知小节 "## ${s}"（只能是 ${[...REQUIRED_SECTIONS, ...OPTIONAL_SECTIONS].join(" / ")}）`);
     }
+  }
+  // 顺序：按 SECTION_ORDER 依次出现，且「参考文献」必须在最后
+  const positions = sections
+    .filter((s) => SECTION_ORDER.includes(s))
+    .map((s) => SECTION_ORDER.indexOf(s));
+  if (positions.some((v, i) => i > 0 && v < positions[i - 1])) {
+    errs.push(`小节顺序不对（应为 ${SECTION_ORDER.join(" → ")}）`);
+  }
+  if (sections.length && sections[sections.length - 1] !== "参考文献") {
+    errs.push("「参考文献」必须放在正文最后一个小节");
+  }
+  if (sections.length && sections[0] !== "定性") {
+    errs.push("「定性」必须是正文第一个小节");
   }
 
   // 一句话定义：正文第一段必须存在，且不超过 60 字
@@ -135,9 +181,14 @@ export function validateEntry({ data, body, slug, files = [] }) {
   if (!firstPara) errs.push("正文缺少开头的一句话定义");
   else if (firstPara.length > 60) errs.push(`开头定义 ${firstPara.length} 字，超过 60 字上限`);
 
-  // 出处
-  const links = countSourceLinks(body);
-  if (links === 0) errs.push("正文一个来源链接都没有：请在小节里写 - [标题](https://…)");
+  // 出处：参考文献小节里至少一个链接
+  const refs = sectionText(body, "参考文献");
+  const links = countSourceLinks(refs);
+  if (!refs) {
+    // 缺小节已在上面报过
+  } else if (links === 0) {
+    errs.push("「参考文献」里一个来源链接都没有：请写 - [标题](https://…)");
+  }
 
   // 目录内容
   const hasMaterial = files.some((f) => f === `sources-${slug}.md`);

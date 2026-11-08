@@ -16,8 +16,9 @@
   --mono: ui-monospace, SFMono-Regular, "Cascadia Mono", Consolas, monospace;
 }
 
+/* 浅色变量：只在「跟随系统且系统为浅色」或「手动选浅色」时生效 */
 @media (prefers-color-scheme: light) {
-  :root {
+  :root:not([data-theme]) {
     --bg: #f7f8fa;
     --bg-soft: #ffffff;
     --bg-card: #ffffff;
@@ -31,6 +32,38 @@
     --warn: #9a6a10;
     --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 20px rgba(16, 24, 40, .08);
   }
+}
+
+/* 手动指定浅色（无视系统设置） */
+:root[data-theme="light"] {
+  --bg: #f7f8fa;
+  --bg-soft: #ffffff;
+  --bg-card: #ffffff;
+  --line: #dde3ea;
+  --fg: #1b2430;
+  --fg-dim: #5a6775;
+  --fg-faint: #8b98a6;
+  --accent: #1668b3;
+  --accent-soft: #e3eef8;
+  --ok: #2f7d52;
+  --warn: #9a6a10;
+  --shadow: 0 1px 2px rgba(16, 24, 40, .06), 0 8px 20px rgba(16, 24, 40, .08);
+}
+
+/* 手动指定深色（系统是浅色时也能压住） */
+:root[data-theme="dark"] {
+  --bg: #0d1117;
+  --bg-soft: #151b23;
+  --bg-card: #171e27;
+  --line: #263140;
+  --fg: #e6edf3;
+  --fg-dim: #9aa7b4;
+  --fg-faint: #6b7885;
+  --accent: #58b0f0;
+  --accent-soft: #1e3a52;
+  --ok: #6cc08b;
+  --warn: #e0b055;
+  --shadow: 0 1px 0 rgba(255, 255, 255, .03), 0 8px 24px rgba(0, 0, 0, .35);
 }
 
 * { box-sizing: border-box; }
@@ -333,3 +366,28 @@ html.consent-open .fab-submit { display: none; }
 .fold[open] > .fold-sum .fold-arrow { transform: rotate(180deg); }
 .fold[open] > .fold-sum { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .fold[open] .tag-wrap { border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--radius) var(--radius); padding: 10px 12px; }
+
+/* ---------- 主题切换（亮色 / 自动 / 暗色） ---------- */
+.theme-switch {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 2px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg-soft);
+}
+.theme-switch button {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 8px; border: 0; border-radius: 6px;
+  background: transparent; color: var(--fg-faint);
+  font-size: 12.5px; line-height: 1.6; cursor: pointer;
+  white-space: nowrap;
+}
+.theme-switch button:hover { color: var(--fg); }
+.theme-switch button[aria-pressed="true"] {
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--accent);
+}
+.theme-switch svg { flex: none; opacity: .9; }
+/* 手机上只显示图标，省空间 */
+@media (max-width: 640px) {
+  .theme-switch button span { display: none; }
+  .theme-switch button { padding: 5px 7px; }
+}
