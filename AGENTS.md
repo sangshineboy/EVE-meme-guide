@@ -120,7 +120,8 @@ updated_at: 2026-10-13     # 可选，本次取材核对日期
 ### 允许的入口
 
 1. **本仓库已有词条**（先跑 `npm run find -- "关键词"` 查重，别另立重复条目）。
-2. **公开网络**：贴吧（eve吧 / eve欧服吧）、B 站、知乎、NGA、Reddit r/Eve、EVE 官方论坛与官方新闻、主流游戏媒体、zKillboard / EveWho / DOTLAN 等公开数据。
+2. **本仓库已有素材**（`npm run rag -- "关键词"` 在 `参考文献/` 里检索，命中给出文件·表·行号；说明见 `docs/rag.md`）。
+3. **公开网络**：贴吧（eve吧 / eve欧服吧）、B 站、知乎、NGA、Reddit r/Eve、EVE 官方论坛与官方新闻、主流游戏媒体、zKillboard / EveWho / DOTLAN 等公开数据。
 
 ### 联网纪律
 
@@ -182,6 +183,8 @@ updated_at: 2026-10-13     # 可选，本次取材核对日期
 npm ci                                  # 装依赖
 npm run doctor                          # 环境与指令副本预检
 npm run find -- "关键词"                 # 查重
+npm run rag -- "关键词"                  # 在参考文献/里检索素材（见 docs/rag.md）
+npm run rag:build                       # 参考文献/ 有改动后重建索引（写 .cache/，不进 git）
 npm run new -- "词条名" --slug x --category 名场面 --scope 端游 --server 未标
 # 填 <slug>.md 与 sources-<slug>.md
 npm run check                           # 离线校验
@@ -227,6 +230,7 @@ tools/import-refs.py      从 参考文献/ 抽术语到 tools/data/lexicon-refs
 tools/gen-lexicon.mjs     合并词条别名与参考文献术语，生成 docs/lexicon.md 与 src/_data/lexicon.json
 tools/gen-pending.mjs     从词条数据生成 docs/pending.md（待补清单）
 tools/gen-ranking.py      按「播放量 + 引用数」算排名，生成 src/_data/ranking.json 与 参考文献/EVE梗排名-播放量与引用.xlsx
+tools/rag/                参考文献/ 的本地检索（BM25 + 中文 bigram）：build.mjs 建索引，query.mjs 检索，lib/ 里是零依赖的 xlsx 读取、切块与排序
 docs/                     词条模板、术语表、工作流说明、共享来源
 ```
 

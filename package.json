@@ -14,6 +14,8 @@
     "gen:lexicon": "node tools/gen-lexicon.mjs",
     "gen:pending": "node tools/gen-pending.mjs",
     "gen:docs": "npm run gen:lexicon && npm run gen:pending",
+    "rag:build": "node tools/rag/build.mjs",
+    "rag": "node tools/rag/query.mjs",
     "build": "npm run check && eleventy && pagefind --site _site",
     "serve": "npm run build && eleventy --serve"
   },
