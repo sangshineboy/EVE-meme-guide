@@ -3,7 +3,6 @@ slug: xin-zhong-de-bai-hu
 title: 心中的白虎
 aliases: ["心中的白喵", "怒火白虎"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: [163百科, PIBC, FBP, 国服]
@@ -27,7 +26,7 @@ PF 击败 FBP 之后，某次 PF 大会上，PIBC 的 CEO 军用馒头告诫成�
 
 ## 参考文献
 
-> 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，故整体按社区流传记录。
+> 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，所以这里写的是它上面怎么说的。
 
 - [163百科《EVE的各种梗》第 25 条](https://evepc.baike.163.com/ziliao/66.html)
 

@@ -76,21 +76,6 @@ export default function (eleventyConfig) {
       });
   });
 
-  // 证据等级 → 词条
-  eleventyConfig.addFilter("groupByConfidence", (memes) => {
-    const groups = new Map();
-    for (const raw of memes) {
-      const m = d(raw);
-      if (!groups.has(m.confidence)) groups.set(m.confidence, []);
-      groups.get(m.confidence).push(m);
-    }
-    return [...groups]
-      .map(([confidence, items]) => ({ confidence, items }))
-      .sort(
-        (a, b) =>
-          site.confidenceOrder.indexOf(a.confidence) - site.confidenceOrder.indexOf(b.confidence),
-      );
-  });
 
   // 适用范围（端游/手游/通用）→ 词条
   eleventyConfig.addFilter("groupByScope", (memes) => {
@@ -198,8 +183,7 @@ export default function (eleventyConfig) {
   // 供筛选用的检索串（首页即时筛选）
   eleventyConfig.addFilter("searchKey", (raw) => {
     const m = d(raw);
-    // 不再拼 confidence：证据等级已从界面移除，检索键里留着会让「已确认」还能筛出东西
-    return [m.title, ...(m.aliases ?? []), m.category, m.scope, m.server, ...(m.labels ?? []), m.summary]
+      return [m.title, ...(m.aliases ?? []), m.category, m.scope, m.server, ...(m.labels ?? []), m.summary]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -236,8 +220,13 @@ export default function (eleventyConfig) {
   // 注意：Eleventy 默认给的是 markdown-it 的 "default" preset，**不含**表格、删除线、
   // 也不开 `breaks`——不显式设置的话，中文写作里「单个换行即换行」的习惯会失效，
   // 一行一句的引用/口诀会被合并成一段。这里显式打开。
+  //
+  // `html: false`：正文一律不允许内联 HTML。
+  // 词条正文是 AI 从公开网络抓取改写的，若混进 <img onerror=…> 或 <script>，
+  // 经 meme.njk / base.njk 的 `| safe` 就会直出到全站——关掉这层渲染即从源头失效。
+  // 需要内联 HTML 时（目前没有），改为在 schema 白名单里显式放行。
   eleventyConfig.amendLibrary("md", (md) => {
-    md.set({ breaks: true, linkify: false, html: true });
+    md.set({ breaks: true, linkify: false, html: false });
     md.enable(["table", "strikethrough"]);
   });
 

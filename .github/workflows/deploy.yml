@@ -20,10 +20,9 @@ on:
   pull_request:
   workflow_dispatch:
 
+# 最小权限：workflow 默认只有读权限；写 Pages 的权限下沉到 deploy job
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages-${{ github.ref }}
@@ -32,6 +31,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # configure-pages / upload-pages-artifact 的官方示例要求 pages: write，保留；
+      # 真正敏感的 id-token（OIDC 令牌）只给 deploy job。
+      pages: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -68,6 +72,9 @@ jobs:
     if: github.ref == 'refs/heads/main' && vars.ENABLE_PAGES == 'true' && github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write # 只有这一步需要写 Pages
+      id-token: write # OIDC 令牌，deploy-pages 用
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

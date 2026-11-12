@@ -3,7 +3,6 @@ slug: sheng-li-dang-shu-tga
 title: 胜利当属TGA
 aliases: ["TGA"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

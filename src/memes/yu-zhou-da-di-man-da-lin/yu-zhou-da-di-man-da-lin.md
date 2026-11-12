@@ -2,7 +2,6 @@
 slug: yu-zhou-da-di-man-da-lin
 title: 宇宙大帝馒大林
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

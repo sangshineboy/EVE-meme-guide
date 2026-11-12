@@ -3,7 +3,6 @@ slug: yong-yuan-xiu-xian-shi-xing-hua
 title: 永远休闲是星华
 aliases: ["星华军团"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

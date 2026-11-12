@@ -8,7 +8,6 @@ const base = (over = {}) => ({
     slug: "test-meme",
     title: "测试梗",
     category: CATEGORIES[0],
-    confidence: "已确认",
     scope: SCOPES[0],
     server: SERVERS[0],
     ...over,
@@ -30,6 +29,19 @@ const base = (over = {}) => ({
 
 test("合规词条没有错误", () => {
   const e = base();
+  assert.deepEqual(validateEntry({ ...e, slug: e.data.slug }), []);
+});
+
+test("正文出现内联 HTML 被拒绝", () => {
+  const e = base();
+  e.body = e.body.replace("正文。", '正文。<img src="x" onerror="alert(1)">');
+  const errs = validateEntry({ ...e, slug: e.data.slug });
+  assert.ok(errs.some((x) => x.includes("禁止内联 HTML")), errs.join(" / "));
+});
+
+test("自动链接与代码里的尖括号不算内联 HTML", () => {
+  const e = base();
+  e.body = e.body.replace("正文。", "见 <https://example.com/y> 与 `a < b > c`。");
   assert.deepEqual(validateEntry({ ...e, slug: e.data.slug }), []);
 });
 

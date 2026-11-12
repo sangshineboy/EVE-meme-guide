@@ -27,7 +27,7 @@ for (const e of entries) {
   const where = [];
   if (String(e.data.title).toLowerCase().includes(q)) where.push("标题");
   if ((e.data.aliases ?? []).some((a) => a.toLowerCase().includes(q))) where.push("别名");
-  if ((e.data.tags ?? []).some((t) => t.toLowerCase().includes(q))) where.push("标签");
+  if ((e.data.labels ?? []).some((t) => t.toLowerCase().includes(q))) where.push("标签");
   if (String(e.data.category).includes(q)) where.push("分类");
   if (e.body.toLowerCase().includes(q)) where.push("正文");
   if (where.length) hits.push({ title: e.data.title, slug: e.slug, where });

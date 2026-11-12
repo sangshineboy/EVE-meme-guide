@@ -3,7 +3,6 @@ slug: zao-shui-zao-qi-jiao-bu-bing
 title: 早睡早起叫步兵
 aliases: ["步兵"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

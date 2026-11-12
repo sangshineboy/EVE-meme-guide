@@ -2,7 +2,6 @@
 slug: yu-zhou-ren-min-qi-huan-qing
 title: 宇宙人民齐欢庆
 category: 社区文化
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

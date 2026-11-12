@@ -3,7 +3,6 @@ slug: bang-zhu-meng-xin-jiao-sha-shou
 title: 帮助萌新叫杀手
 aliases: ["杀手军团"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

@@ -3,7 +3,6 @@ slug: zai-xiao-qing-guo-kan-bing-bing
 title: 再笑倾国看冰冰
 aliases: ["看冰冰"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

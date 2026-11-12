@@ -67,7 +67,7 @@ npm run find -- "关键词"
 
 ### 步骤 3：归档
 ```bash
-npm run new -- "词条名" --slug <slug> --category 名场面 --confidence 社区流传 --aliases "a,b" --tags "贴吧,欧服"
+npm run new -- "词条名" --slug <slug> --category 名场面 --aliases "a,b" --tags "贴吧,欧服"
 ```
 会生成两个文件：
 
@@ -103,7 +103,7 @@ npm run serve     # 预览
 | --- | --- | --- |
 | front matter 多了个字段（比如把来源写成 `source:`） | `npm run check` | 「未知字段 …（允许的字段：…）」 |
 | `slug` 与目录名不一致 | `npm run check` | 「slug 与目录名不一致」 |
-| 分类或证据等级填了枚举外的值 | `npm run check` | 「category … 无效（只能是 …）」 |
+| 分类、适用范围或服务器填了枚举外的值 | `npm run check` | 「category … 无效（只能是 …）」 |
 | 正文缺 `## 定性` / `## 参考文献`，或参考文献里没有链接 | `npm run check` | 「正文缺少必填小节」/「参考文献里一个来源链接都没有」 |
 | 一句话定义超过 60 字 | `npm run check` | 「开头定义 N 字，超过 60 字上限」 |
 | 忘了建 `sources-<slug>.md` | `npm run check` | 「缺少素材文件 …」 |

@@ -3,7 +3,6 @@ slug: example-slug
 title: 词条名（中文优先，英文原名可写进括号）
 aliases: [别名一, 别名二, English Name]
 category: 社区文化   # 名场面 / 历史事件 / 组织政治 / 玩法 / 机制 / 舰船 / 社区文化 / 舰长轶事
-confidence: 社区流传 # 已确认 / 社区流传
 scope: 端游          # 端游 / 手游（无尽银河）/ 通用
 server: 国服         # 国服（晨曦）/ 欧服（宁静）/ 未标
 labels: [贴吧, 国服]

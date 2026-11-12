@@ -3,7 +3,6 @@ slug: kuang-gong-zhi-you-sai-de-na
 title: 矿工之友赛德娜
 aliases: ["赛德娜"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

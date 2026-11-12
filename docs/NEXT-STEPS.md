@@ -2,6 +2,8 @@
 
 > 生成时间：2026-10-14 深夜 ｜ **最后更新：2026-10-17 深夜** ｜ 状态：暂停，随时可续
 > 用途：明天从哪接着干。**按优先级排**，每项都写了「为什么」和「怎么开始」。
+> **2026-11 说明**：证据分级（已确认 / 社区流传）已从词条规格中删除，下文出现的「社区流传」「已确认」与条目数（58 条等）都是当时的历史记录，仅存档参考。
+
 > 规范看 [AGENTS.md](../AGENTS.md)；入口与工具用法看 [docs/workflow.md](workflow.md)。
 
 ---
@@ -56,7 +58,7 @@
 
 ---
 
-## 1. 🔴 优先：把「社区流传」升级为「已确认」（23 条）
+## 1. 🔴（历史）把「社区流传」升级为「已确认」——分级已取消，此节仅存档
 
 **为什么**：这 23 条目前只有**一个原帖**当来源。规则允许这样标，但每升一条，词条可信度就上一档。
 
@@ -73,7 +75,7 @@
 ```bash
 npm run find -- "关键词"        # 先查重
 node tools/bili.mjs collect "梗的原句" 2
-# 找到第二来源后，改该词条的 confidence 与出处列表，再 npm run check
+# 找到第二来源后，把链接补进该词条的「参考文献」，再 npm run check
 ```
 
 ---
@@ -126,7 +128,7 @@ node .cache/read-tieba-forum.mjs "eve欧服" 2 20   # 翻吧列表发现新帖
 | `hr`（`---` 分隔线）可用 | 我在新项目 README／样式里提过分隔线，但**没有词条实际用过**；写个样例确认 |
 | 「删除线」已启用 | 已 `enable(["strikethrough"])`，但**没有词条用过** |
 | `docs/workflow.md` 里写的「自动拦住你的地方」表格 | 逐条对着 `validate-memes.mjs` 与 `repo.test.mjs` 核对，避免又出现承诺与实现不符 |
-| `npm run new` 生成的骨架是否符合新字段（`scope`/`server`） | 跑一次 `npm run new -- "测试" --slug test-x --category 玩法 --confidence 社区流传`，检查产出后删掉 |
+| `npm run new` 生成的骨架是否符合新字段（`scope`/`server`） | 跑一次 `npm run new -- "测试" --slug test-x --category 玩法 --scope 端游 --server 未标`，检查产出后删掉 |
 
 ---
 

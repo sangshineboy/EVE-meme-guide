@@ -3,7 +3,6 @@ slug: wu-tong-jia-hou-feng-huang-jie
 title: 梧桐佳后凤凰姐
 aliases: ["凤凰姐"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

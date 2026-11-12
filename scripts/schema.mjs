@@ -13,9 +13,6 @@ export const CATEGORIES = [
   "舰长轶事",
 ];
 
-/** 证据等级：只有两档，避免“大概也许”式含糊 */
-export const CONFIDENCE = ["已确认", "社区流传"];
-
 /** 适用范围：端游 / 手游（EVE 端游与「无尽银河」手游的梗不通用，必须分开标） */
 export const SCOPES = ["端游", "手游", "通用"];
 
@@ -43,7 +40,6 @@ export const FIELDS = {
   title: "必填，词条名（中文优先，英文原文可放括号里）",
   aliases: "可选，别名 / 英文原词 / 常见变体，字符串列表",
   category: `必填，取值只能是：${CATEGORIES.join(" / ")}`,
-  confidence: `必填，取值只能是：${CONFIDENCE.join(" / ")}`,
   scope: `必填，取值只能是：${SCOPES.join(" / ")}（端游 / 手游「无尽银河」/ 通用）`,
   server: `必填，取值只能是：${SERVERS.join(" / ")}（来源没交代服务器就写 未标，不要猜）`,
   labels: "可选，标签列表（不能含 / \\ ? # %）。注意：字段名用 labels，不要用 tags——Eleventy 会用 tags 建集合",
@@ -128,9 +124,6 @@ export function validateEntry({ data, body, slug, files = [] }) {
   if (!CATEGORIES.includes(data.category)) {
     errs.push(`category "${data.category ?? ""}" 无效（只能是 ${CATEGORIES.join(" / ")}）`);
   }
-  if (!CONFIDENCE.includes(data.confidence)) {
-    errs.push(`confidence "${data.confidence ?? ""}" 无效（只能是 ${CONFIDENCE.join(" / ")}）`);
-  }
   if (!SCOPES.includes(data.scope)) {
     errs.push(`scope "${data.scope ?? ""}" 无效（只能是 ${SCOPES.join(" / ")}）`);
   }
@@ -180,6 +173,13 @@ export function validateEntry({ data, body, slug, files = [] }) {
     .find((l) => l && !l.startsWith("#") && !l.startsWith("-") && !l.startsWith(">"));
   if (!firstPara) errs.push("正文缺少开头的一句话定义");
   else if (firstPara.length > 60) errs.push(`开头定义 ${firstPara.length} 字，超过 60 字上限`);
+
+  // 正文禁止内联 HTML：markdown-it 已设 html:false，这里再把源码堵一遍，
+  // 免得有人为了「渲染出来好看」偷偷加回 HTML（那会重新打开注入面）。
+  // 排除自动链接 <https://…> 与代码反引号里的内容。
+  const stripped = body.replace(/`[^`]*`/g, "").replace(/<https?:\/\/[^>\s]+>/g, "");
+  const tag = /<\/?([a-zA-Z][a-zA-Z0-9-]*)(?:\s[^>]*)?\/?>/.exec(stripped);
+  if (tag) errs.push(`正文禁止内联 HTML（发现 <${tag[1]}>）；需要排版请用 Markdown 语法`);
 
   // 出处：参考文献小节里至少一个链接
   const refs = sectionText(body, "参考文献");

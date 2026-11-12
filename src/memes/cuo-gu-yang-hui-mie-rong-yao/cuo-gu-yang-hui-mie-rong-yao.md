@@ -3,7 +3,6 @@ slug: cuo-gu-yang-hui-mie-rong-yao
 title: 挫骨扬灰灭荣耀
 aliases: ["荣耀"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

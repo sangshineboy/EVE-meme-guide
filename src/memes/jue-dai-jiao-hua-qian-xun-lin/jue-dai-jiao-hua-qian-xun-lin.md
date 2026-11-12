@@ -3,7 +3,6 @@ slug: jue-dai-jiao-hua-qian-xun-lin
 title: 绝代娇花千寻琳
 aliases: ["千寻琳"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

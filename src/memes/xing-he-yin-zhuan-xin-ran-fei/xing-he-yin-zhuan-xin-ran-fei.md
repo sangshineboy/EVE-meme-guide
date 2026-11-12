@@ -3,7 +3,6 @@ slug: xing-he-yin-zhuan-xin-ran-fei
 title: 星河淫传薪然妃
 aliases: ["薪然妃"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

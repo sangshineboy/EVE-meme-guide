@@ -3,7 +3,6 @@ slug: zhe-ge-pin-dao-bu-xu-lu-yin
 title: 这个频道不许录音
 aliases: ["不许录音", "EVE 皇帝", "馒皇"]
 category: 名场面
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["B站", "国服", "录音"]

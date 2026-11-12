@@ -3,7 +3,6 @@ slug: tou-song-tai-tan
 title: 投送泰坦把自己投出去了
 aliases: ["泰坦操作理论5", "手滑泰坦", "把自己投出去了"]
 category: 名场面
-confidence: 社区流传
 scope: 端游
 server: 未标
 labels: ["B站", "超旗"]

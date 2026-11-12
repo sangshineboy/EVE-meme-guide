@@ -3,7 +3,6 @@ slug: fei-bu-qi-lai
 title: 飞不起来
 aliases: ["飞不起来级", "乌鸦飞不起来"]
 category: 舰船
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: [163百科, 乌鸦级, 局座, 国服]
@@ -27,7 +26,7 @@ updated_at: 2026-10-17
 
 ## 参考文献
 
-> 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，故整体按社区流传记录。
+> 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，所以这里写的是它上面怎么说的。
 
 - [163百科《EVE的各种梗》第 58 条](https://evepc.baike.163.com/ziliao/66.html)
 - [节目片段（B站，局座原话）](https://www.bilibili.com/video/BV1qW411M7dK/)

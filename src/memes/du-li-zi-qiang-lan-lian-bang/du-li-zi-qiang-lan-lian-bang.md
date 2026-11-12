@@ -3,7 +3,6 @@ slug: du-li-zi-qiang-lan-lian-bang
 title: 独立自强蓝联邦
 aliases: ["蓝色联邦"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

@@ -3,7 +3,6 @@ slug: re-qing-hao-ke-ai-ma-ke
 title: 热情好客埃玛克
 aliases: ["埃玛克"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

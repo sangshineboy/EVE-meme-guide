@@ -3,7 +3,6 @@ slug: yong-meng-wu-wei-ai-mi-ya
 title: 勇猛无畏艾米亚
 aliases: ["艾米亚"]
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

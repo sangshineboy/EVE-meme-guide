@@ -3,7 +3,6 @@ slug: shi-guo-lian-jun
 title: 十国联军
 aliases: ["欧服十国联军"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 欧服
 labels: ["B站", "欧服"]

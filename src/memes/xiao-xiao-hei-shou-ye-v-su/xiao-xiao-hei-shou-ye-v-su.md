@@ -2,7 +2,6 @@
 slug: xiao-xiao-hei-shou-ye-v-su
 title: 小小黑手耶V稣
 category: 舰长轶事
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

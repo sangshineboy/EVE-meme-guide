@@ -3,7 +3,6 @@ slug: wo-shi-liang-min-coa
 title: 我是良民COA
 aliases: ["COA"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

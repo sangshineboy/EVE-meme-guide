@@ -3,7 +3,6 @@ slug: yi-zhi-dui-wai-cheng-bei-meng
 title: 一致对外称北盟
 aliases: ["北盟", "北方联盟"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]

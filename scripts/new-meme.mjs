@@ -1,11 +1,10 @@
 // 新建梗词条：从模板生成 src/memes/<slug>/<slug>.md 与 sources-<slug>.md
 //
-//   npm run new -- "遥修老李的蛋" --category 名场面 --confidence 社区流传
 //   npm run new -- "Drake 能行" --slug drake-can-do --aliases "Drake,德雷克"
 //
 import fs from "node:fs";
 import path from "node:path";
-import { CATEGORIES, CONFIDENCE, SLUG_RE } from "./schema.mjs";
+import { CATEGORIES, SCOPES, SERVERS, SLUG_RE } from "./schema.mjs";
 import { MEMES_DIR } from "./loader.mjs";
 import "./runtime.mjs";
 
@@ -19,9 +18,8 @@ const flag = (name, fallback = null) => {
 if (!title) {
   console.error(
     [
-      "用法：npm run new -- \"<词条名>\" [--slug <slug>] [--category <分类>] [--confidence <等级>] [--aliases \"a,b\"] [--tags \"x,y\"]",
+      "用法：npm run new -- \"<词条名>\" [--slug <slug>] [--category <分类>] [--scope <端游|手游|通用>] [--server <国服|欧服|未标>] [--aliases \"a,b\"] [--labels \"x,y\"]",
       `分类：${CATEGORIES.join(" / ")}`,
-      `等级：${CONFIDENCE.join(" / ")}`,
     ].join("\n"),
   );
   process.exit(1);
@@ -37,13 +35,20 @@ if (!slug || !SLUG_RE.test(slug)) {
 }
 
 const category = flag("category", "社区文化");
-const confidence = flag("confidence", "社区流传");
 if (!CATEGORIES.includes(category)) {
   console.error(`分类 "${category}" 无效，只能是：${CATEGORIES.join(" / ")}`);
   process.exit(1);
 }
-if (!CONFIDENCE.includes(confidence)) {
-  console.error(`等级 "${confidence}" 无效，只能是：${CONFIDENCE.join(" / ")}`);
+
+// scope / server 是必填字段，必须显式给——此前生成的骨架漏了这两个，产物过不了 check
+const scope = flag("scope", "端游");
+const server = flag("server", "未标");
+if (!SCOPES.includes(scope)) {
+  console.error(`适用范围 "${scope}" 无效，只能是：${SCOPES.join(" / ")}`);
+  process.exit(1);
+}
+if (!SERVERS.includes(server)) {
+  console.error(`服务器 "${server}" 无效，只能是：${SERVERS.join(" / ")}`);
   process.exit(1);
 }
 
@@ -58,21 +63,23 @@ const listOf = (name) =>
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
+// 一律 JSON.stringify：双引号是合法 YAML，且不会被 `#` `:` 之类的字符截断
 const optLine = (key, values) =>
-  values.length ? `${key}: [${values.map((v) => (v.includes(":") || v.includes("#") ? JSON.stringify(v) : v)).join(", ")}]` : null;
+  values.length ? `${key}: [${values.map((v) => JSON.stringify(v)).join(", ")}]` : null;
 
 const today = new Date().toISOString().slice(0, 10);
 const aliases = listOf("aliases");
-const tags = listOf("tags");
+const labels = listOf("labels");
 const related = listOf("related");
 const article = [
   "---",
   `slug: ${slug}`,
-  `title: ${title.includes(":") ? JSON.stringify(title) : title}`,
+  `title: ${JSON.stringify(title)}`,
   ...(optLine("aliases", aliases) ? [optLine("aliases", aliases)] : []),
   `category: ${category}`,
-  `confidence: ${confidence}`,
-  ...(optLine("tags", tags) ? [optLine("tags", tags)] : []),
+  `scope: ${scope}`,
+  `server: ${server}`,
+  ...(optLine("labels", labels) ? [optLine("labels", labels)] : []),
   ...(optLine("related", related) ? [optLine("related", related)] : []),
   `updated_at: ${today}`,
   "---",
@@ -113,7 +120,6 @@ const material = [
   `# ${title} —— 取材记录`,
   "",
   `- 取材日期：${today}`,
-  `- 证据等级：${confidence}`,
   `- 词条：src/memes/${slug}/${slug}.md`,
   "",
   "## 已核来源",

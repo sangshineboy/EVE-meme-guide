@@ -3,7 +3,6 @@ slug: tie-xue-zhen-xian-tuf
 title: 铁血阵线TUF
 aliases: ["TUF"]
 category: 组织政治
-confidence: 社区流传
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]
