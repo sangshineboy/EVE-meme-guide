@@ -5,7 +5,7 @@ import { stripBody, splitSentences, analyze, HARD } from "../tools/style-check.m
 // 体检工具的回归：切正文、切句、计次、触发阈值。
 
 test("stripBody 去掉 front matter、参考文献与固定落款", () => {
-  const md = ["---", "slug: x", "title: X", "---", "正文第一句。", "", "## 定性", "这是定义。", "", "## 参考文献", "- [a](https://e.com)", "（AI 观点，不构成事实陈述。）"].join("\n");
+  const md = ["---", "slug: x", "title: X", "---", "正文第一句。", "", "## 定义", "这是定义。", "", "## 参考文献", "- [a](https://e.com)", "（AI 观点，不构成事实陈述。）"].join("\n");
   const body = stripBody(md);
   assert.ok(!body.includes("slug: x"), "front matter 没去掉");
   assert.ok(!body.includes("参考文献"), "参考文献小节没去掉");

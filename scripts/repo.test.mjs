@@ -59,12 +59,12 @@ test("每个词条的「参考文献」都排在最后", () => {
   assert.deepEqual(offenders, [], "这些词条的最后一个小节不是「参考文献」");
 });
 
-test("每个词条都从「定性」开篇", () => {
+test("每个词条都从「定义」开篇", () => {
   const offenders = [];
   for (const e of readAll()) {
     if (e.error) continue;
     const secs = sectionsOf(e.body);
-    if (secs.length && secs[0] !== "定性") offenders.push(e.slug);
+    if (secs.length && secs[0] !== "定义") offenders.push(e.slug);
   }
-  assert.deepEqual(offenders, [], "这些词条的第一个小节不是「定性」");
+  assert.deepEqual(offenders, [], "这些词条的第一个小节不是「定义」");
 });

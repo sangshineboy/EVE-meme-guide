@@ -47,7 +47,7 @@ const RE = {
   firstPerson: /我(们)?/g,
 };
 
-/** 去掉 front matter、参考文献整节、AI评价的固定落款，只留正文。 */
+/** 去掉 front matter、参考文献整节、AI吐槽的固定落款，只留正文。 */
 export function stripBody(md) {
   let t = String(md ?? "");
   if (t.startsWith("---")) {

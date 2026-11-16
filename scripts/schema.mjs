@@ -21,17 +21,17 @@ export const SERVERS = ["国服", "欧服", "未标"];
 
 /**
  * 正文小节（2026-10-25 定版）：
- *   定性 → 溯源 → 用法 → 演变 → AI评价 → 参考文献
+ *   定义 → 溯源 → 用法 → 演变 → AI吐槽 → 参考文献
  * 「参考文献」必须排在最后。
- * 「定性」「参考文献」必填；「溯源」「用法」「演变」「AI评价」可缺——
+ * 「定义」「参考文献」必填；「溯源」「用法」「演变」「AI吐槽」可缺——
  * 缺了就是这条还没写到，不是格式错误。
  */
-export const REQUIRED_SECTIONS = ["定性", "参考文献"];
-export const OPTIONAL_SECTIONS = ["溯源", "用法", "演变", "AI评价"];
+export const REQUIRED_SECTIONS = ["定义", "参考文献"];
+export const OPTIONAL_SECTIONS = ["溯源", "用法", "演变", "AI吐槽"];
 /** 正文小节允许的顺序（未出现的小节跳过） */
-export const SECTION_ORDER = ["定性", "溯源", "用法", "演变", "AI评价", "参考文献"];
+export const SECTION_ORDER = ["定义", "溯源", "用法", "演变", "AI吐槽", "参考文献"];
 
-/** AI评价的统一落款：这一节写的是观点，不是史实 */
+/** AI吐槽的统一落款：这一节写的是观点，不是史实 */
 export const AI_REVIEW_MARK = "（AI 观点，不构成事实陈述。）";
 
 /** front matter 允许的字段（白名单，多写或拼错即报错） */
@@ -162,8 +162,8 @@ export function validateEntry({ data, body, slug, files = [] }) {
   if (sections.length && sections[sections.length - 1] !== "参考文献") {
     errs.push("「参考文献」必须放在正文最后一个小节");
   }
-  if (sections.length && sections[0] !== "定性") {
-    errs.push("「定性」必须是正文第一个小节");
+  if (sections.length && sections[0] !== "定义") {
+    errs.push("「定义」必须是正文第一个小节");
   }
 
   // 一句话定义：正文第一段必须存在，且不超过 60 字

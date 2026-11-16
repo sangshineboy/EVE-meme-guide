@@ -62,7 +62,7 @@ const missing = [];
 for (const [slug, entry] of entries) {
   const raw = fs.readFileSync(path.join(entry.dir, `${slug}.md`), "utf8");
   const body = raw;
-  if (/^##\s+AI评价\s*$/m.test(body)) {
+  if (/^##\s+AI吐槽\s*$/m.test(body)) {
     stats.skipped++;
     continue;
   }
@@ -77,7 +77,7 @@ for (const [slug, entry] of entries) {
     problems.push(`${slug}：找不到「## 参考文献」`);
     continue;
   }
-  const section = `\n## AI评价\n\n${review}\n\n${AI_REVIEW_MARK}\n`;
+  const section = `\n## AI吐槽\n\n${review}\n\n${AI_REVIEW_MARK}\n`;
   const next = body.slice(0, at) + section + body.slice(at);
   if (WRITE) fs.writeFileSync(path.join(entry.dir, `${slug}.md`), next, "utf8");
   stats.applied++;

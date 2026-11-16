@@ -15,7 +15,7 @@ const base = (over = {}) => ({
   body: [
     "一句话说清这是什么。",
     "",
-    "## 定性",
+    "## 定义",
     "",
     "正文。",
     "",
@@ -81,27 +81,27 @@ test("缺少必填小节与来源被拒绝", () => {
   const e = base();
   e.body = "只有一句话定义。";
   const errs = validateEntry({ ...e, slug: e.data.slug });
-  assert.ok(errs.some((x) => x.includes("## 定性")));
+  assert.ok(errs.some((x) => x.includes("## 定义")));
   assert.ok(errs.some((x) => x.includes("## 参考文献")));
 });
 
 test("参考文献里没有链接被拒绝", () => {
   const e = base();
-  e.body = "一句话说清这是什么。\n\n## 定性\n\n正文。\n\n## 参考文献\n\n只有说明，没有链接。\n";
+  e.body = "一句话说清这是什么。\n\n## 定义\n\n正文。\n\n## 参考文献\n\n只有说明，没有链接。\n";
   const errs = validateEntry({ ...e, slug: e.data.slug });
   assert.ok(errs.some((x) => x.includes("来源链接")));
 });
 
 test("参考文献必须排在最后", () => {
   const e = base();
-  e.body = "一句话。\n\n## 定性\n\n正文。\n\n## 参考文献\n\n- [来源](https://example.com/x)\n\n## 用法\n\n用法。\n";
+  e.body = "一句话。\n\n## 定义\n\n正文。\n\n## 参考文献\n\n- [来源](https://example.com/x)\n\n## 用法\n\n用法。\n";
   const errs = validateEntry({ ...e, slug: e.data.slug });
   assert.ok(errs.some((x) => x.includes("最后一个小节")));
 });
 
 test("小节顺序不对被拒绝", () => {
   const e = base();
-  e.body = "一句话。\n\n## 定性\n\n正文。\n\n## 演变\n\n演变。\n\n## 溯源\n\n溯源。\n\n## 参考文献\n\n- [来源](https://example.com/x)\n";
+  e.body = "一句话。\n\n## 定义\n\n正文。\n\n## 演变\n\n演变。\n\n## 溯源\n\n溯源。\n\n## 参考文献\n\n- [来源](https://example.com/x)\n";
   const errs = validateEntry({ ...e, slug: e.data.slug });
   assert.ok(errs.some((x) => x.includes("小节顺序")));
 });
@@ -115,7 +115,7 @@ test("未知小节被拒绝", () => {
 
 test("一句话定义超过 60 字被拒绝", () => {
   const e = base();
-  e.body = `${"很长".repeat(31)}\n\n## 定性\n\nx\n\n## 参考文献\n\n- [s](https://example.com)\n`;
+  e.body = `${"很长".repeat(31)}\n\n## 定义\n\nx\n\n## 参考文献\n\n- [s](https://example.com)\n`;
   const errs = validateEntry({ ...e, slug: e.data.slug });
   assert.ok(errs.some((x) => x.includes("60 字")));
 });
