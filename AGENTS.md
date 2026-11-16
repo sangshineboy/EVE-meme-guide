@@ -169,6 +169,7 @@ updated_at: 2026-10-13     # 可选，本次取材核对日期
 ## 4. 写作
 
 - **戏谑但事实准确**：先讲事，再损一句。笑点长在事实上，不靠形容词。
+- **句子别左右摆**：破折号插入语、分号并列、「不是 A 而是 B」是 AI 腔的重灾区，写完跑 `npm run style:check`，硬指标超标的条目按 `docs/style.md` 改。
 - **一句话定义要狠**：≤60 字，说清是什么、梗在哪；不写「这是一个常见的梗」这种废话。
 - **来源交代一次就继续讲事**，不要在正文里反复辩护；核查缺口与不确定项全部留在素材文件。
 - **引用要分清原话与转述**：正文里用 `>` 引起来的句子必须是来源里真实出现过的话；自己编的示例句式不要加引用符号，也不要写成「某某说过」的口气。示例里出现具体人名、数字、事件时，必须是正文里有出处的，并就地标明来源。
@@ -185,6 +186,7 @@ npm run doctor                          # 环境与指令副本预检
 npm run find -- "关键词"                 # 查重
 npm run rag -- "关键词"                  # 在参考文献/里检索素材（见 docs/rag.md）
 npm run rag:build                       # 参考文献/ 有改动后重建索引（写 .cache/，不进 git）
+npm run style:check                     # 写完查「AI 味」：破折号/分号/「不是…而是」超标就改（见 docs/style.md）
 npm run new -- "词条名" --slug x --category 名场面 --scope 端游 --server 未标
 # 填 <slug>.md 与 sources-<slug>.md
 npm run check                           # 离线校验
@@ -231,6 +233,7 @@ tools/gen-lexicon.mjs     合并词条别名与参考文献术语，生成 docs/
 tools/gen-pending.mjs     从词条数据生成 docs/pending.md（待补清单）
 tools/gen-ranking.py      按「播放量 + 引用数」算排名，生成 src/_data/ranking.json 与 参考文献/EVE梗排名-播放量与引用.xlsx
 tools/rag/                参考文献/ 的本地检索（BM25 + 中文 bigram）：build.mjs 建索引，query.mjs 检索，lib/ 里是零依赖的 xlsx 读取、切块与排序
+tools/style-check.mjs     词条「AI 味」体检：破折号 / 分号 / 「不是…而是」按次数挑出最像 AI 的条目，阈值与真人基准见 docs/style.md
 docs/                     词条模板、术语表、工作流说明、共享来源
 ```
 

@@ -17,8 +17,7 @@
 
 ## 待核
 
-- 百科条目内引用的原始链接（贴吧 / NGA / 视频）本次未验证可达性，正文已标注：
-  - [现场视频（百科所引，土豆）](http://www.tudou.com/programs/view/VFP8PZNnIHo/) —— 本次未验证可达性
+- 2026-11-16 实测百科所引土豆现场视频 `http://www.tudou.com/programs/view/VFP8PZNnIHo/`：重定向至土豆首页 `https://www.tudou.com/`（原视频已失效），已从正文参考文献移出。
 
 ## 排除记录
 
