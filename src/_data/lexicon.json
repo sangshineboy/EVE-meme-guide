@@ -1,31 +1,35 @@
 {
  "generated": "2026-11-25",
  "stats": {
-  "terms": 615,
-  "entries": 166,
-  "linked": 415,
+  "terms": 715,
+  "entries": 182,
+  "linked": 515,
   "refTerms": 380
  },
  "groups": [
   {
    "name": "舰长轶事",
-   "count": 151
+   "count": 159
   },
   {
    "name": "组织政治",
-   "count": 98
+   "count": 113
   },
   {
    "name": "名场面",
-   "count": 58
+   "count": 75
   },
   {
    "name": "社区文化",
-   "count": 56
+   "count": 72
   },
   {
    "name": "玩法",
-   "count": 38
+   "count": 47
+  },
+  {
+   "name": "历史事件",
+   "count": 33
   },
   {
    "name": "游戏通用类",
@@ -65,11 +69,11 @@
   },
   {
    "name": "舰船",
-   "count": 9
+   "count": 10
   },
   {
-   "name": "历史事件",
-   "count": 5
+   "name": "机制",
+   "count": 6
   },
   {
    "name": "星域",
@@ -91,6 +95,21 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "00报点",
+   "desc": "00 区刷怪被抓时只喊「我被抓了」屁用没有，高燃救航母录音直接骂出四条新手保命报点铁律。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wo-bei-zhua-le",
+    "title": "我被抓了（00 报点铁律）",
+    "category": "玩法"
+   },
+   "year": 2024
   },
   {
    "term": "1R",
@@ -137,6 +156,66 @@
     "category": "玩法"
    },
    "year": 2014
+  },
+  {
+   "term": "200 人打 30 暴风",
+   "desc": "把「我们要集 140 人」错听成「对面 140 人」，全盟停工拉出近 200 人杀过去吓傻对面 30 条暴风。",
+   "sources": [
+    "词条"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "200-ren-da-30-bao-feng",
+    "title": "200 人打 30 暴风",
+    "category": "名场面"
+   },
+   "year": 2024
+  },
+  {
+   "term": "200人VS30人",
+   "desc": "把「我们要集 140 人」错听成「对面 140 人」，全盟停工拉出近 200 人杀过去吓傻对面 30 条暴风。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "200-ren-da-30-bao-feng",
+    "title": "200 人打 30 暴风",
+    "category": "名场面"
+   },
+   "year": 2024
+  },
+  {
+   "term": "2023 北方战争与 B3 覆灭",
+   "desc": "2023 年蜜蜂北伐退兵后，放过和谈鸽子的 B3 联盟群遭 N 老板拒和，半年内被熊猫联盟彻底打散。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "b3-fu-mie",
+    "title": "2023 北方战争与 B3 覆灭",
+    "category": "历史事件"
+   },
+   "year": 2023
+  },
+  {
+   "term": "2026 万人星城狂怒海",
+   "desc": "2026 年 4 月蜜蜂与凛冬开战首场万人星城战，压垮服务器后凛冬凭廉价狂怒海硬磨掉敌方星城。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "2026-wan-ren-xing-cheng-zhan",
+    "title": "2026 万人星城狂怒海",
+    "category": "历史事件"
+   },
+   "year": 2021
   },
   {
    "term": "25",
@@ -208,6 +287,21 @@
    "year": 2019
   },
   {
+   "term": "3V联盟",
+   "desc": "国服老牌海盗雇佣军 3V 联盟的外号，仗着能打又爱到处插一脚低安战事得名。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "di-an-zhi-fa-you-3v",
+    "title": "低安执法有 3V",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
    "term": "425",
    "desc": "425mm 磁轨炮的绰号，附一首控诉它打不中的长诗。",
    "sources": [
@@ -240,7 +334,7 @@
   },
   {
    "term": "49-U6U 会战",
-   "desc": "2014 年 2 至 3 月，南北联盟轴心国围攻 PIBC 的 49-U6U 战役，EVE 史上伤亡最重的一场会战。",
+   "desc": "2014 年 2 至 3 月国服 49-U6U 超旗决战，PIBC 与 3V 击溃南北联军并开启国服近八年独大格局。",
    "sources": [
     "别名"
    ],
@@ -551,6 +645,21 @@
    "year": 2014
   },
   {
+   "term": "爆船下班",
+   "desc": "千人卡顿会战里帧数跌成 PPT，船被打爆反倒能秒回家领补损，队友齐声祝贺「恭喜下班、出狱了」。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-xia-ban",
+    "title": "爆船下班",
+    "category": "社区文化"
+   },
+   "year": 2024
+  },
+  {
    "term": "北方联盟",
    "desc": "百科收录的评语句：「一致对外」是北盟的口号式说法，未给解释。",
    "sources": [
@@ -564,6 +673,21 @@
     "category": "组织政治"
    },
    "year": 2014
+  },
+  {
+   "term": "北方战争",
+   "desc": "2023 年蜜蜂北伐退兵后，放过和谈鸽子的 B3 联盟群遭 N 老板拒和，半年内被熊猫联盟彻底打散。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "b3-fu-mie",
+    "title": "2023 北方战争与 B3 覆灭",
+    "category": "历史事件"
+   },
+   "year": 2023
   },
   {
    "term": "北境之王黑老三",
@@ -654,6 +778,21 @@
    "year": 2014
   },
   {
+   "term": "闭上你的嘴报点",
+   "desc": "00 区刷怪被抓时只喊「我被抓了」屁用没有，高燃救航母录音直接骂出四条新手保命报点铁律。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wo-bei-zhua-le",
+    "title": "我被抓了（00 报点铁律）",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
    "term": "避风避雨避馒头",
    "desc": "老牌联盟PIBC的CEO军用馒头，人称主席。因为PIBC的外交事件以及各种内部纠纷均由馒头出面或背锅，就像柯南走哪哪出事一样……",
    "sources": [
@@ -692,6 +831,21 @@
    "year": 2019
   },
   {
+   "term": "表格模拟器",
+   "desc": "EVE 最出圈的跨服自嘲外号，调侃硬核沙盒玩到最后全是在拉表格算账和挂机吹水。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "excel-mo-ni-qi",
+    "title": "Excel 模拟器",
+    "category": "社区文化"
+   },
+   "year": 2026
+  },
+  {
    "term": "不吃超旗萨科齐",
    "desc": "低安海盗军团，以多次用无畏「剧本」超旗出名。",
    "sources": [
@@ -722,6 +876,21 @@
     "category": "组织政治"
    },
    "year": 2014
+  },
+  {
+   "term": "不管任何人住在这里都比你强",
+   "desc": "2023 年蜜蜂北伐退兵后，放过和谈鸽子的 B3 联盟群遭 N 老板拒和，半年内被熊猫联盟彻底打散。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "b3-fu-mie",
+    "title": "2023 北方战争与 B3 覆灭",
+    "category": "历史事件"
+   },
+   "year": 2023
   },
   {
    "term": "不能运作RAC",
@@ -870,6 +1039,21 @@
    "year": 2014
   },
   {
+   "term": "晨曦剿匪",
+   "desc": "百科收录的一句口号式评语，指「剿匪」这类行动，未留解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "chen-xi-jiao-fei",
+    "title": "晨曦剿匪指日归",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
    "term": "晨曦剿匪指日归",
    "desc": "百科收录的一句口号式评语，指「剿匪」这类行动，未留解释。",
    "sources": [
@@ -929,7 +1113,7 @@
   },
   {
    "term": "诚实守信三个V",
-   "desc": "蓝加不可信的最老版本：先别防火防盗，防 3V。",
+   "desc": "国服「蓝加不可信」最老的警句，防火防盗之前先防 3V。",
    "sources": [
     "别名"
    ],
@@ -1049,6 +1233,21 @@
     "category": "舰长轶事"
    },
    "year": 2014
+  },
+  {
+   "term": "出狱",
+   "desc": "千人卡顿会战里帧数跌成 PPT，船被打爆反倒能秒回家领补损，队友齐声祝贺「恭喜下班、出狱了」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-xia-ban",
+    "title": "爆船下班",
+    "category": "社区文化"
+   },
+   "year": 2024
   },
   {
    "term": "船插",
@@ -1240,6 +1439,21 @@
    "year": 2014
   },
   {
+   "term": "大型宇宙背景聊天室",
+   "desc": "EVE 最出圈的跨服自嘲外号，调侃硬核沙盒玩到最后全是在拉表格算账和挂机吹水。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "excel-mo-ni-qi",
+    "title": "Excel 模拟器",
+    "category": "社区文化"
+   },
+   "year": 2026
+  },
+  {
    "term": "大修",
    "desc": "大型装甲维修器",
    "sources": [
@@ -1306,6 +1520,21 @@
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
    "meme": null,
    "year": 2022
+  },
+  {
+   "term": "带头大哥",
+   "desc": "百科收录的评语句，把月形联盟称作「带头大哥」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "dai-tou-da-ge-yue-xing",
+    "title": "带头大哥是月形",
+    "category": "组织政治"
+   },
+   "year": 2014
   },
   {
    "term": "带头大哥是月形",
@@ -1458,7 +1687,7 @@
   },
   {
    "term": "灯灭了",
-   "desc": "联盟的主权星系被打光——在星图上看，就是一盏盏灯灭掉。",
+   "desc": "联盟的主权星系被打光，在星图上看，就是一盏盏灯灭掉。",
    "sources": [
     "别名"
    ],
@@ -1469,7 +1698,7 @@
     "title": "灭灯",
     "category": "组织政治"
    },
-   "year": 2014
+   "year": 2008
   },
   {
    "term": "凳抗战熊种兔队",
@@ -1500,7 +1729,7 @@
   },
   {
    "term": "低安执法",
-   "desc": "老牌海盗联盟 VVV 的外号：战斗力不弱，又爱插一脚低安的各种架。",
+   "desc": "国服老牌海盗雇佣军 3V 联盟的外号，仗着能打又爱到处插一脚低安战事得名。",
    "sources": [
     "别名"
    ],
@@ -1545,6 +1774,36 @@
    "year": 2014
   },
   {
+   "term": "第二次蜜蜂大战",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
+  },
+  {
+   "term": "第二次世界蜜蜂大战",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
+  },
+  {
    "term": "电池",
    "desc": "指电容器电池，装备以后能够提高一定程度的舰船电容上限，在主动开启以后会得到一部分临时电量（无法被毁电影响，持续25秒）",
    "sources": [
@@ -1554,6 +1813,21 @@
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
    "meme": null,
    "year": 2022
+  },
+  {
+   "term": "电子表格模拟器",
+   "desc": "EVE 最出圈的跨服自嘲外号，调侃硬核沙盒玩到最后全是在拉表格算账和挂机吹水。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "excel-mo-ni-qi",
+    "title": "Excel 模拟器",
+    "category": "社区文化"
+   },
+   "year": 2026
   },
   {
    "term": "屌丝鲤鱼",
@@ -1930,7 +2204,7 @@
   },
   {
    "term": "飞不起来级",
-   "desc": "局座在电视上指着乌鸦级模型说：这个在大气层内飞不起来。",
+   "desc": "局座在电视节目上指着乌鸦级战列舰模型断言，这个在大气层内飞不起来。",
    "sources": [
     "别名",
     "百科·习语"
@@ -1946,7 +2220,7 @@
   },
   {
    "term": "飞袖子",
-   "desc": "救援没赶上，最后给一颗蛋挂上了摇修。",
+   "desc": "队友救援慢了半拍，船已经炸成逃生舱，语音里还在拼命喊着给老李的蛋挂遥修。",
    "sources": [
     "别名"
    ],
@@ -2030,6 +2304,21 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "妇联之歌",
+   "desc": "用来吐槽某个人的发音。百科只留下了这一句和原帖链接。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "qian-cheng-si-jin",
+    "title": "前程似锦",
+    "category": "社区文化"
+   },
+   "year": 2014
   },
   {
    "term": "盖子",
@@ -2191,6 +2480,36 @@
    "year": 2019
   },
   {
+   "term": "恭喜出狱",
+   "desc": "千人卡顿会战里帧数跌成 PPT，船被打爆反倒能秒回家领补损，队友齐声祝贺「恭喜下班、出狱了」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-xia-ban",
+    "title": "爆船下班",
+    "category": "社区文化"
+   },
+   "year": 2024
+  },
+  {
+   "term": "恭喜下班",
+   "desc": "千人卡顿会战里帧数跌成 PPT，船被打爆反倒能秒回家领补损，队友齐声祝贺「恭喜下班、出狱了」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-xia-ban",
+    "title": "爆船下班",
+    "category": "社区文化"
+   },
+   "year": 2024
+  },
+  {
    "term": "古兔子",
    "desc": "古斯塔斯，npc海盗势力，由其图标像带着一个兔耳朵而得名。",
    "sources": [
@@ -2278,6 +2597,21 @@
    "year": 2022
   },
   {
+   "term": "国服最强大脑",
+   "desc": "晕 3D 的国服元老级后勤大佬，靠一手 Excel 表格从低安肥羊逆袭，并促成 3V 联盟诞生。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "qiao-liang-sui-dao-guan-li-ju",
+    "title": "桥梁隧道管理局局长",
+    "category": "舰长轶事"
+   },
+   "year": 2006
+  },
+  {
    "term": "过门",
    "desc": "过星门。",
    "sources": [
@@ -2358,6 +2692,21 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "和平发展魔神",
+   "desc": "前 FBP 阵营的 CEO，后随军团 25 去了 RAC，现已 AFK。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "mo-shen",
+    "title": "和平发展属魔神",
+    "category": "舰长轶事"
+   },
+   "year": 2014
   },
   {
    "term": "和平发展属魔神",
@@ -2479,6 +2828,21 @@
    "year": 2014
   },
   {
+   "term": "黑手耶V稣",
+   "desc": "与「南北指挥耶 V 稣」同一对象的一句评语：「小小黑手」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "xiao-xiao-hei-shou-ye-v-su",
+    "title": "小小黑手耶V稣",
+    "category": "舰长轶事"
+   },
+   "year": 2014
+  },
+  {
    "term": "红盾/红甲",
    "desc": "指自适应全能力场和自适应装甲增强器，主动开启后会大幅度提高舰船护盾抗性或者装甲抗性。",
    "sources": [
@@ -2546,6 +2910,21 @@
     "category": "社区文化"
    },
    "year": 2014
+  },
+  {
+   "term": "后半夜集结1600人",
+   "desc": "2025 年 5 月凛冬在最弱势的凌晨三点拉响 Max CTA，极限集结 1,600 人打赢三千人会战立威全时区。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hou-ban-ye-1600-ren",
+    "title": "凌晨三点 Max CTA",
+    "category": "名场面"
+   },
+   "year": 2017
   },
   {
    "term": "后勤",
@@ -2649,6 +3028,36 @@
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
    "meme": null,
    "year": 2022
+  },
+  {
+   "term": "火星文防机翻",
+   "desc": "欧服华人联盟用中文谐音字与形近字发内部通知，把敌方间谍的机器翻译直接干成乱码。",
+   "sources": [
+    "词条"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "huo-xing-wen-fang-ji-fan",
+    "title": "火星文防机翻",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
+   "term": "火星文集结",
+   "desc": "欧服华人联盟用中文谐音字与形近字发内部通知，把敌方间谍的机器翻译直接干成乱码。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "huo-xing-wen-fang-ji-fan",
+    "title": "火星文防机翻",
+    "category": "玩法"
+   },
+   "year": 2024
   },
   {
    "term": "鸡副主席",
@@ -2911,6 +3320,36 @@
    "year": 2014
   },
   {
+   "term": "剿匪指日归",
+   "desc": "百科收录的一句口号式评语，指「剿匪」这类行动，未留解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "chen-xi-jiao-fei",
+    "title": "晨曦剿匪指日归",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "皆凡人",
+   "desc": "百科收录的一句收尾式评语：前面列的那些，都只是凡人。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "yi-shang-suo-lie-jie-fan-ren",
+    "title": "以上所列皆凡人",
+    "category": "社区文化"
+   },
+   "year": 2014
+  },
+  {
    "term": "接战至死",
    "desc": "不打算活着回来的舰队：接战就打到死。",
    "sources": [
@@ -2924,6 +3363,36 @@
     "category": "玩法"
    },
    "year": 2014
+  },
+  {
+   "term": "借洛奇服务器",
+   "desc": "世纪天成代理国服时期的传闻老梗，每逢 EVE 打大会战就传说要从隔壁《洛奇英雄传》抽服务器救火。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jie-luo-qi-fu-wu-qi",
+    "title": "借洛奇服务器",
+    "category": "社区文化"
+   },
+   "year": 2026
+  },
+  {
+   "term": "借洛奇英雄传服务器",
+   "desc": "世纪天成代理国服时期的传闻老梗，每逢 EVE 打大会战就传说要从隔壁《洛奇英雄传》抽服务器救火。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "jie-luo-qi-fu-wu-qi",
+    "title": "借洛奇服务器",
+    "category": "社区文化"
+   },
+   "year": 2026
   },
   {
    "term": "金鳞",
@@ -3030,6 +3499,21 @@
    "year": 2014
   },
   {
+   "term": "局长",
+   "desc": "晕 3D 的国服元老级后勤大佬，靠一手 Excel 表格从低安肥羊逆袭，并促成 3V 联盟诞生。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "qiao-liang-sui-dao-guan-li-ju",
+    "title": "桥梁隧道管理局局长",
+    "category": "舰长轶事"
+   },
+   "year": 2006
+  },
+  {
    "term": "绝代娇花千寻琳",
    "desc": "百科收录的评语句，对象是玩家千寻琳，未给解释。",
    "sources": [
@@ -3091,6 +3575,36 @@
     "category": "社区文化"
    },
    "year": 2014
+  },
+  {
+   "term": "军用馒头",
+   "desc": "国服玩家给 PIBC 掌门军用馒头起的帝王系戏称，常与「馒吉思汗」「国服皇帝」成组出现。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yu-zhou-da-di-man-da-lin",
+    "title": "宇宙大帝馒大林",
+    "category": "组织政治"
+   },
+   "year": 2008
+  },
+  {
+   "term": "开个导biubiubiu",
+   "desc": "国服玩家给 PIBC 掌门军用馒头起的帝王系戏称，常与「馒吉思汗」「国服皇帝」成组出现。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yu-zhou-da-di-man-da-lin",
+    "title": "宇宙大帝馒大林",
+    "category": "组织政治"
+   },
+   "year": 2008
   },
   {
    "term": "开抗性",
@@ -3308,6 +3822,21 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "狂怒海",
+   "desc": "2026 年 4 月蜜蜂与凛冬开战首场万人星城战，压垮服务器后凛冬凭廉价狂怒海硬磨掉敌方星城。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "2026-wan-ren-xing-cheng-zhan",
+    "title": "2026 万人星城狂怒海",
+    "category": "历史事件"
+   },
+   "year": 2021
   },
   {
    "term": "矿工之友赛德娜",
@@ -3664,6 +4193,21 @@
    "year": 2014
   },
   {
+   "term": "联盟锦标赛",
+   "desc": "2023 年第 19 届 EVE 联盟锦标赛，全华班 FRT 代表队总决赛 0 比 2 让二追三逆转夺冠，圆梦二十年。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "at19-quan-hua-ban-duo-guan",
+    "title": "AT19 全华班夺冠",
+    "category": "历史事件"
+   },
+   "year": 2005
+  },
+  {
    "term": "烈火",
    "desc": "SPEED 神话的幕后老板、北方联盟的创立者，传说为打赢宿敌往游戏里投了数十万。",
    "sources": [
@@ -3692,6 +4236,21 @@
     "category": "舰长轶事"
    },
    "year": 2006
+  },
+  {
+   "term": "凌晨三点 Max CTA",
+   "desc": "2025 年 5 月凛冬在最弱势的凌晨三点拉响 Max CTA，极限集结 1,600 人打赢三千人会战立威全时区。",
+   "sources": [
+    "词条"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hou-ban-ye-1600-ren",
+    "title": "凌晨三点 Max CTA",
+    "category": "名场面"
+   },
+   "year": 2017
   },
   {
    "term": "另外半边天",
@@ -3849,6 +4408,21 @@
    "year": 2014
   },
   {
+   "term": "馒大林同志",
+   "desc": "国服玩家给 PIBC 掌门军用馒头起的帝王系戏称，常与「馒吉思汗」「国服皇帝」成组出现。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yu-zhou-da-di-man-da-lin",
+    "title": "宇宙大帝馒大林",
+    "category": "组织政治"
+   },
+   "year": 2008
+  },
+  {
    "term": "馒皇",
    "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。",
    "sources": [
@@ -3862,6 +4436,21 @@
     "category": "名场面"
    },
    "year": 2021
+  },
+  {
+   "term": "馒吉思汗",
+   "desc": "国服玩家给 PIBC 掌门军用馒头起的帝王系戏称，常与「馒吉思汗」「国服皇帝」成组出现。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "yu-zhou-da-di-man-da-lin",
+    "title": "宇宙大帝馒大林",
+    "category": "组织政治"
+   },
+   "year": 2008
   },
   {
    "term": "馒头",
@@ -3931,6 +4520,21 @@
    "year": 2019
   },
   {
+   "term": "蜜蜂大战",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
+  },
+  {
    "term": "秒跳",
    "desc": "飞船的速度达到满足跃迁的最低速度，即刻启动跃迁模式(启动跃迁需要速度，而以这个速度的最小值就起动的跃迁)",
    "sources": [
@@ -3956,7 +4560,7 @@
     "title": "灭灯",
     "category": "组织政治"
    },
-   "year": 2014
+   "year": 2008
   },
   {
    "term": "魔神",
@@ -4110,7 +4714,7 @@
   },
   {
    "term": "你们都去吃屎",
-   "desc": "馒头带小航队被打崩之后，全频道让所有人「看我的口型」。",
+   "desc": "2014 年馒头带小航队被吊打，全频道点名缺席高层并让所有人「看我的口型」。",
    "sources": [
     "别名"
    ],
@@ -4135,6 +4739,21 @@
     "slug": "ye-su-de-re-li-xue",
     "title": "耶稣的热力学",
     "category": "舰长轶事"
+   },
+   "year": 2014
+  },
+  {
+   "term": "你wish我前程似锦",
+   "desc": "用来吐槽某个人的发音。百科只留下了这一句和原帖链接。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "qian-cheng-si-jin",
+    "title": "前程似锦",
+    "category": "社区文化"
    },
    "year": 2014
   },
@@ -4200,7 +4819,7 @@
   },
   {
    "term": "欧服十国联军",
-   "desc": "华人玩家对 2017 年欧服那场围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "desc": "华人玩家对 2017 年欧服围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
    "sources": [
     "别名"
    ],
@@ -4258,6 +4877,21 @@
    "year": 2023
   },
   {
+   "term": "膨胀",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "别名"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
+  },
+  {
    "term": "皮",
    "desc": "皮特/皮特姆系列装备简称(例如皮超大X=皮特超大型护盾回充增量器 X型)",
    "sources": [
@@ -4267,6 +4901,51 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "皮尔米特星城",
+   "desc": "2022 年 4 月 22 日凌晨，3V 联军集结数千人推平 PIBC 皮尔米特贸易星城，终结国服八年霸权。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "pi-er-mi-te-xing-cheng-yun-luo",
+    "title": "皮尔米特星城陨落",
+    "category": "历史事件"
+   },
+   "year": 2014
+  },
+  {
+   "term": "皮尔米特星城陨落",
+   "desc": "2022 年 4 月 22 日凌晨，3V 联军集结数千人推平 PIBC 皮尔米特贸易星城，终结国服八年霸权。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "pi-er-mi-te-xing-cheng-yun-luo",
+    "title": "皮尔米特星城陨落",
+    "category": "历史事件"
+   },
+   "year": 2014
+  },
+  {
+   "term": "皮米星城",
+   "desc": "2022 年 4 月 22 日凌晨，3V 联军集结数千人推平 PIBC 皮尔米特贸易星城，终结国服八年霸权。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "pi-er-mi-te-xing-cheng-yun-luo",
+    "title": "皮尔米特星城陨落",
+    "category": "历史事件"
+   },
+   "year": 2014
   },
   {
    "term": "皮球",
@@ -4347,6 +5026,21 @@
     "slug": "shen-fu",
     "title": "坚持到底是神父",
     "category": "舰长轶事"
+   },
+   "year": 2014
+  },
+  {
+   "term": "齐欢庆",
+   "desc": "百科收录的一句口号式评语，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "yu-zhou-ren-min-qi-huan-qing",
+    "title": "宇宙人民齐欢庆",
+    "category": "社区文化"
    },
    "year": 2014
   },
@@ -4459,6 +5153,36 @@
    "year": 2014
   },
   {
+   "term": "桥梁隧道管理局",
+   "desc": "晕 3D 的国服元老级后勤大佬，靠一手 Excel 表格从低安肥羊逆袭，并促成 3V 联盟诞生。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "qiao-liang-sui-dao-guan-li-ju",
+    "title": "桥梁隧道管理局局长",
+    "category": "舰长轶事"
+   },
+   "year": 2006
+  },
+  {
+   "term": "桥梁隧道管理局局长",
+   "desc": "晕 3D 的国服元老级后勤大佬，靠一手 Excel 表格从低安肥羊逆袭，并促成 3V 联盟诞生。",
+   "sources": [
+    "词条"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "qiao-liang-sui-dao-guan-li-ju",
+    "title": "桥梁隧道管理局局长",
+    "category": "舰长轶事"
+   },
+   "year": 2006
+  },
+  {
    "term": "切糕队",
    "desc": "魔神大大组的队伍：金鹏加小马，巅峰时满编，团灭过 PIBC 重甲队，后来补不起就没了。",
    "sources": [
@@ -4548,6 +5272,21 @@
    "year": 2014
   },
   {
+   "term": "全华班世界冠军",
+   "desc": "2023 年第 19 届 EVE 联盟锦标赛，全华班 FRT 代表队总决赛 0 比 2 让二追三逆转夺冠，圆梦二十年。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "at19-quan-hua-ban-duo-guan",
+    "title": "AT19 全华班夺冠",
+    "category": "历史事件"
+   },
+   "year": 2005
+  },
+  {
    "term": "全抗",
    "desc": "全能力场/电压式适应性纳米薄膜/适应性纳米附甲，参见抗性装备。",
    "sources": [
@@ -4557,6 +5296,36 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "全频道广播泰坦被抓",
+   "desc": "2025 年 5 月凛冬在最弱势的凌晨三点拉响 Max CTA，极限集结 1,600 人打赢三千人会战立威全时区。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hou-ban-ye-1600-ren",
+    "title": "凌晨三点 Max CTA",
+    "category": "名场面"
+   },
+   "year": 2017
+  },
+  {
+   "term": "全时区统治",
+   "desc": "2025 年 5 月凛冬在最弱势的凌晨三点拉响 Max CTA，极限集结 1,600 人打赢三千人会战立威全时区。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hou-ban-ye-1600-ren",
+    "title": "凌晨三点 Max CTA",
+    "category": "名场面"
+   },
+   "year": 2017
   },
   {
    "term": "热力学I",
@@ -4789,6 +5558,21 @@
    "year": 2022
   },
   {
+   "term": "少谈主义多讲执行",
+   "desc": "2026 年 4 月蜜蜂与凛冬开战首场万人星城战，压垮服务器后凛冬凭廉价狂怒海硬磨掉敌方星城。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "2026-wan-ren-xing-cheng-zhan",
+    "title": "2026 万人星城狂怒海",
+    "category": "历史事件"
+   },
+   "year": 2021
+  },
+  {
    "term": "蛇",
    "desc": "古斯塔斯势力战列舰“响尾蛇”。响尾蛇船体有盾抗性加成，所以非常肉。有的大佬会用响尾蛇打副本冲榜，作者举例提到 B 站 UP 主朔雪。",
    "sources": [
@@ -4986,8 +5770,23 @@
    "year": 2014
   },
   {
+   "term": "十倍膨胀",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "别名"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
+  },
+  {
    "term": "十国联军",
-   "desc": "华人玩家对 2017 年欧服那场围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "desc": "华人玩家对 2017 年欧服围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
    "sources": [
     "词条"
    ],
@@ -5015,6 +5814,36 @@
     "category": "社区文化"
    },
    "year": 2014
+  },
+  {
+   "term": "时间膨胀",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "别名"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
+  },
+  {
+   "term": "时间膨胀（TiDi）",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "词条"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
   },
   {
    "term": "时尚凝",
@@ -5093,6 +5922,51 @@
     "category": "组织政治"
    },
    "year": 2014
+  },
+  {
+   "term": "曙光服",
+   "desc": "2022 年 8 月网易在国服老服「晨曦」之外另开的新宇宙，主打防强暴、限规模与船损恢复。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "shu-guang-fu",
+    "title": "曙光服",
+    "category": "历史事件"
+   },
+   "year": 2006
+  },
+  {
+   "term": "曙光服务器",
+   "desc": "2022 年 8 月网易在国服老服「晨曦」之外另开的新宇宙，主打防强暴、限规模与船损恢复。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "shu-guang-fu",
+    "title": "曙光服",
+    "category": "历史事件"
+   },
+   "year": 2006
+  },
+  {
+   "term": "曙光新服",
+   "desc": "2022 年 8 月网易在国服老服「晨曦」之外另开的新宇宙，主打防强暴、限规模与船损恢复。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "shu-guang-fu",
+    "title": "曙光服",
+    "category": "历史事件"
+   },
+   "year": 2006
   },
   {
    "term": "刷怪",
@@ -5558,6 +6432,21 @@
    "year": 2014
   },
   {
+   "term": "听错一句话",
+   "desc": "把「我们要集 140 人」错听成「对面 140 人」，全盟停工拉出近 200 人杀过去吓傻对面 30 条暴风。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "200-ren-da-30-bao-feng",
+    "title": "200 人打 30 暴风",
+    "category": "名场面"
+   },
+   "year": 2024
+  },
+  {
    "term": "偷菜",
    "desc": "顾名思义偷星际资源，玩家收取星际资源的时候本地资源会发射仓方式投入太空，附近玩家可以拾取发射仓。",
    "sources": [
@@ -5626,6 +6515,21 @@
    "year": 2014
   },
   {
+   "term": "万人星城战",
+   "desc": "2026 年 4 月蜜蜂与凛冬开战首场万人星城战，压垮服务器后凛冬凭廉价狂怒海硬磨掉敌方星城。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "2026-wan-ren-xing-cheng-zhan",
+    "title": "2026 万人星城狂怒海",
+    "category": "历史事件"
+   },
+   "year": 2021
+  },
+  {
    "term": "王嗒嗒",
    "desc": "PIBC 指挥一句口误，把自己喊成了无人机。",
    "sources": [
@@ -5667,6 +6571,21 @@
     "slug": "hong-guan-liang-cha",
     "title": "红罐凉茶",
     "category": "名场面"
+   },
+   "year": 2014
+  },
+  {
+   "term": "王权终结",
+   "desc": "2022 年 4 月 22 日凌晨，3V 联军集结数千人推平 PIBC 皮尔米特贸易星城，终结国服八年霸权。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "pi-er-mi-te-xing-cheng-yun-luo",
+    "title": "皮尔米特星城陨落",
+    "category": "历史事件"
    },
    "year": 2014
   },
@@ -5819,6 +6738,21 @@
    "year": 2014
   },
   {
+   "term": "我被抓了（00 报点铁律）",
+   "desc": "00 区刷怪被抓时只喊「我被抓了」屁用没有，高燃救航母录音直接骂出四条新手保命报点铁律。",
+   "sources": [
+    "词条"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wo-bei-zhua-le",
+    "title": "我被抓了（00 报点铁律）",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
    "term": "我就只配当个眼睛号",
    "desc": "开个小号飞过去看本地有谁，顺便被 CEO 撞见了。",
    "sources": [
@@ -5898,7 +6832,22 @@
   },
   {
    "term": "乌鸦飞不起来",
-   "desc": "局座在电视上指着乌鸦级模型说：这个在大气层内飞不起来。",
+   "desc": "局座在电视节目上指着乌鸦级战列舰模型断言，这个在大气层内飞不起来。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰船",
+   "url": "",
+   "meme": {
+    "slug": "fei-bu-qi-lai",
+    "title": "飞不起来",
+    "category": "舰船"
+   },
+   "year": 2014
+  },
+  {
+   "term": "乌鸦级",
+   "desc": "局座在电视节目上指着乌鸦级战列舰模型断言，这个在大气层内飞不起来。",
    "sources": [
     "别名"
    ],
@@ -6005,6 +6954,21 @@
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
    "meme": null,
    "year": 2022
+  },
+  {
+   "term": "物产丰富",
+   "desc": "百科收录的评语句：说 COA「物产丰富」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "wu-chan-feng-fu-coa",
+    "title": "物产丰富COA",
+    "category": "组织政治"
+   },
+   "year": 2014
   },
   {
    "term": "物产丰富COA",
@@ -6235,6 +7199,21 @@
    "year": 2019
   },
   {
+   "term": "小小黑手",
+   "desc": "与「南北指挥耶 V 稣」同一对象的一句评语：「小小黑手」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "xiao-xiao-hei-shou-ye-v-su",
+    "title": "小小黑手耶V稣",
+    "category": "舰长轶事"
+   },
+   "year": 2014
+  },
+  {
    "term": "小小黑手耶V稣",
    "desc": "与「南北指挥耶 V 稣」同一对象的一句评语：「小小黑手」，未给解释。",
    "sources": [
@@ -6283,6 +7262,21 @@
    "year": 2014
   },
   {
+   "term": "谐音字防间谍",
+   "desc": "欧服华人联盟用中文谐音字与形近字发内部通知，把敌方间谍的机器翻译直接干成乱码。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "huo-xing-wen-fang-ji-fan",
+    "title": "火星文防机翻",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
    "term": "心动频道",
    "desc": "在游戏中一个由玩家创建的物品交易频道，目前人气最高的交易频道。",
    "sources": [
@@ -6324,6 +7318,21 @@
     "category": "组织政治"
    },
    "year": 2014
+  },
+  {
+   "term": "新宇宙曙光",
+   "desc": "2022 年 8 月网易在国服老服「晨曦」之外另开的新宇宙，主打防强暴、限规模与船损恢复。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "shu-guang-fu",
+    "title": "曙光服",
+    "category": "历史事件"
+   },
+   "year": 2006
   },
   {
    "term": "薪然妃",
@@ -6484,6 +7493,21 @@
     "category": "社区文化"
    },
    "year": 2014
+  },
+  {
+   "term": "需要集140听成对面140",
+   "desc": "把「我们要集 140 人」错听成「对面 140 人」，全盟停工拉出近 200 人杀过去吓傻对面 30 条暴风。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "200-ren-da-30-bao-feng",
+    "title": "200 人打 30 暴风",
+    "category": "名场面"
+   },
+   "year": 2024
   },
   {
    "term": "雪白的大馒头",
@@ -6663,7 +7687,22 @@
   },
   {
    "term": "摇修老李的蛋",
-   "desc": "救援没赶上，最后给一颗蛋挂上了摇修。",
+   "desc": "队友救援慢了半拍，船已经炸成逃生舱，语音里还在拼命喊着给老李的蛋挂遥修。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yao-xiu-fei-xiu-li-de-dan",
+    "title": "摇修飞袖李的蛋",
+    "category": "名场面"
+   },
+   "year": 2014
+  },
+  {
+   "term": "遥修老李的蛋",
+   "desc": "队友救援慢了半拍，船已经炸成逃生舱，语音里还在拼命喊着给老李的蛋挂遥修。",
    "sources": [
     "别名"
    ],
@@ -6880,6 +7919,21 @@
    "year": 2014
   },
   {
+   "term": "营救小尼",
+   "desc": "00 区刷怪被抓时只喊「我被抓了」屁用没有，高燃救航母录音直接骂出四条新手保命报点铁律。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wo-bei-zhua-le",
+    "title": "我被抓了（00 报点铁律）",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
    "term": "影响力",
    "desc": "放话要入侵源泉，随后在北线节节败退。",
    "sources": [
@@ -7032,6 +8086,21 @@
    "year": 2014
   },
   {
+   "term": "幽灵泰坦",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "词条"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
+  },
+  {
    "term": "悠嘻猴",
    "desc": "论坛上一批玩家集体用悠嘻猴做头像，风格成派，被称为「猴子党」。",
    "sources": [
@@ -7108,7 +8177,7 @@
   },
   {
    "term": "宇宙大帝馒大林",
-   "desc": "百科收录的评语句，给馒头冠上「宇宙大帝」，未给解释。",
+   "desc": "国服玩家给 PIBC 掌门军用馒头起的帝王系戏称，常与「馒吉思汗」「国服皇帝」成组出现。",
    "sources": [
     "词条",
     "百科·梗#155"
@@ -7120,7 +8189,7 @@
     "title": "宇宙大帝馒大林",
     "category": "组织政治"
    },
-   "year": 2014
+   "year": 2008
   },
   {
    "term": "宇宙人民齐欢庆",
@@ -7135,6 +8204,21 @@
     "slug": "yu-zhou-ren-min-qi-huan-qing",
     "title": "宇宙人民齐欢庆",
     "category": "社区文化"
+   },
+   "year": 2014
+  },
+  {
+   "term": "宇宙修蛋第一人",
+   "desc": "队友救援慢了半拍，船已经炸成逃生舱，语音里还在拼命喊着给老李的蛋挂遥修。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "yao-xiu-fei-xiu-li-de-dan",
+    "title": "摇修飞袖李的蛋",
+    "category": "名场面"
    },
    "year": 2014
   },
@@ -7202,6 +8286,21 @@
    "year": 2014
   },
   {
+   "term": "预警频道报点",
+   "desc": "00 区刷怪被抓时只喊「我被抓了」屁用没有，高燃救航母录音直接骂出四条新手保命报点铁律。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "wo-bei-zhua-le",
+    "title": "我被抓了（00 报点铁律）",
+    "category": "玩法"
+   },
+   "year": 2024
+  },
+  {
    "term": "原文链接",
    "desc": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
    "sources": [
@@ -7266,6 +8365,21 @@
    "meme": {
     "slug": "da-yue-xing",
     "title": "钴蓝无敌大月形",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "月形带头大哥",
+   "desc": "百科收录的评语句，把月形联盟称作「带头大哥」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "dai-tou-da-ge-yue-xing",
+    "title": "带头大哥是月形",
     "category": "组织政治"
    },
    "year": 2014
@@ -7430,6 +8544,21 @@
    "year": 2019
   },
   {
+   "term": "找坑找骗",
+   "desc": "百科收录的评语句：说 COA「找坑找骗」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "zhao-keng-zhao-pian-coa",
+    "title": "找坑找骗COA",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
    "term": "找坑找骗COA",
    "desc": "百科收录的评语句：说 COA「找坑找骗」，未给解释。",
    "sources": [
@@ -7528,6 +8657,36 @@
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
    "meme": null,
    "year": 2023
+  },
+  {
+   "term": "中国时区",
+   "desc": "华人玩家对 2017 年欧服围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "shi-guo-lian-jun",
+    "title": "十国联军",
+    "category": "组织政治"
+   },
+   "year": 2017
+  },
+  {
+   "term": "中文加密",
+   "desc": "欧服华人联盟用中文谐音字与形近字发内部通知，把敌方间谍的机器翻译直接干成乱码。",
+   "sources": [
+    "别名"
+   ],
+   "group": "玩法",
+   "url": "",
+   "meme": {
+    "slug": "huo-xing-wen-fang-ji-fan",
+    "title": "火星文防机翻",
+    "category": "玩法"
+   },
+   "year": 2024
   },
   {
    "term": "种菜",
@@ -7747,6 +8906,21 @@
    "year": 2014
   },
   {
+   "term": "坐牢局",
+   "desc": "千人卡顿会战里帧数跌成 PPT，船被打爆反倒能秒回家领补损，队友齐声祝贺「恭喜下班、出狱了」。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "bao-chuan-xia-ban",
+    "title": "爆船下班",
+    "category": "社区文化"
+   },
+   "year": 2024
+  },
+  {
    "term": "A/C/G/M族",
    "desc": "分别为艾玛、加达里、盖伦特和米玛塔尔，由其英文开头而命名。",
    "sources": [
@@ -7848,6 +9022,36 @@
    "year": 2023
   },
   {
+   "term": "AT19",
+   "desc": "2023 年第 19 届 EVE 联盟锦标赛，全华班 FRT 代表队总决赛 0 比 2 让二追三逆转夺冠，圆梦二十年。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "at19-quan-hua-ban-duo-guan",
+    "title": "AT19 全华班夺冠",
+    "category": "历史事件"
+   },
+   "year": 2005
+  },
+  {
+   "term": "AT19 全华班夺冠",
+   "desc": "2023 年第 19 届 EVE 联盟锦标赛，全华班 FRT 代表队总决赛 0 比 2 让二追三逆转夺冠，圆梦二十年。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "at19-quan-hua-ban-duo-guan",
+    "title": "AT19 全华班夺冠",
+    "category": "历史事件"
+   },
+   "year": 2005
+  },
+  {
    "term": "awwbwg",
    "desc": "为“爱玩玩不玩滚”的缩写，最早是因为很多玻璃心新手到处发帖因为自己不懂规则诉苦 然后各种说老人无道德eve新手难活 由此而来的词汇，老人多用此来调侃那些玻璃心新手。变种：爱万王不万古",
    "sources": [
@@ -7862,6 +9066,21 @@
     "category": "社区文化"
    },
    "year": 2014
+  },
+  {
+   "term": "B3联盟覆灭",
+   "desc": "2023 年蜜蜂北伐退兵后，放过和谈鸽子的 B3 联盟群遭 N 老板拒和，半年内被熊猫联盟彻底打散。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "b3-fu-mie",
+    "title": "2023 北方战争与 B3 覆灭",
+    "category": "历史事件"
+   },
+   "year": 2023
   },
   {
    "term": "BC",
@@ -7978,6 +9197,21 @@
    "year": 2019
   },
   {
+   "term": "Chinese timezone",
+   "desc": "华人玩家对 2017 年欧服围剿 FRT 的多联盟联军的叫法，数字借的是「八国联军」的修辞。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "shi-guo-lian-jun",
+    "title": "十国联军",
+    "category": "组织政治"
+   },
+   "year": 2017
+  },
+  {
    "term": "clouds",
    "desc": "TGA 联盟指挥 clouds，外号大雨 C。",
    "sources": [
@@ -8015,6 +9249,36 @@
    "meme": {
     "slug": "wo-shi-liang-min-coa",
     "title": "我是良民COA",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "COA物产丰富",
+   "desc": "百科收录的评语句：说 COA「物产丰富」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "wu-chan-feng-fu-coa",
+    "title": "物产丰富COA",
+    "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "COA找坑找骗",
+   "desc": "百科收录的评语句：说 COA「找坑找骗」，未给解释。",
+   "sources": [
+    "别名"
+   ],
+   "group": "组织政治",
+   "url": "",
+   "meme": {
+    "slug": "zhao-keng-zhao-pian-coa",
+    "title": "找坑找骗COA",
     "category": "组织政治"
    },
    "year": 2014
@@ -8150,6 +9414,21 @@
    "year": 2021
   },
   {
+   "term": "Excel 模拟器",
+   "desc": "EVE 最出圈的跨服自嘲外号，调侃硬核沙盒玩到最后全是在拉表格算账和挂机吹水。",
+   "sources": [
+    "词条"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "excel-mo-ni-qi",
+    "title": "Excel 模拟器",
+    "category": "社区文化"
+   },
+   "year": 2026
+  },
+  {
    "term": "FBP",
    "desc": "FBP 阵营军团多、成分杂、内部腐化，常有总监把军团资产或产出换成人民币。",
    "sources": [
@@ -8161,6 +9440,21 @@
     "slug": "bu-chi-zha-ji",
     "title": "不吃炸鸡反 BP",
     "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "FBP魔神",
+   "desc": "前 FBP 阵营的 CEO，后随军团 25 去了 RAC，现已 AFK。",
+   "sources": [
+    "别名"
+   ],
+   "group": "舰长轶事",
+   "url": "",
+   "meme": {
+    "slug": "mo-shen",
+    "title": "和平发展属魔神",
+    "category": "舰长轶事"
    },
    "year": 2014
   },
@@ -8212,6 +9506,36 @@
    "url": "https://evepc.baike.163.com/ziliao/48.html",
    "meme": null,
    "year": 2019
+  },
+  {
+   "term": "FRT夺冠",
+   "desc": "2023 年第 19 届 EVE 联盟锦标赛，全华班 FRT 代表队总决赛 0 比 2 让二追三逆转夺冠，圆梦二十年。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "at19-quan-hua-ban-duo-guan",
+    "title": "AT19 全华班夺冠",
+    "category": "历史事件"
+   },
+   "year": 2005
+  },
+  {
+   "term": "Ghost Titans",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
   },
   {
    "term": "HOT",
@@ -8405,6 +9729,81 @@
    "year": 2019
   },
   {
+   "term": "M2-XFE",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
+  },
+  {
+   "term": "M2决战",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
+  },
+  {
+   "term": "M2太空监狱",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
+  },
+  {
+   "term": "M2越狱",
+   "desc": "2021 年 1 月第二次 M2-XFE 决战的服务器过载惨案，进场泰坦以无装备空船惨死又离奇传回原地。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "you-ling-tai-tan",
+    "title": "幽灵泰坦",
+    "category": "名场面"
+   },
+   "year": 2020
+  },
+  {
+   "term": "Max CTA",
+   "desc": "2025 年 5 月凛冬在最弱势的凌晨三点拉响 Max CTA，极限集结 1,600 人打赢三千人会战立威全时区。",
+   "sources": [
+    "别名"
+   ],
+   "group": "名场面",
+   "url": "",
+   "meme": {
+    "slug": "hou-ban-ye-1600-ren",
+    "title": "凌晨三点 Max CTA",
+    "category": "名场面"
+   },
+   "year": 2017
+  },
+  {
    "term": "MWD",
    "desc": "微型曲跃推进器 Micro WarpDrive",
    "sources": [
@@ -8477,6 +9876,21 @@
     "slug": "pibc-sun-shi-can-zhong",
     "title": "PIBC 损失惨重",
     "category": "组织政治"
+   },
+   "year": 2014
+  },
+  {
+   "term": "PIBC星城被拆",
+   "desc": "2022 年 4 月 22 日凌晨，3V 联军集结数千人推平 PIBC 皮尔米特贸易星城，终结国服八年霸权。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "pi-er-mi-te-xing-cheng-yun-luo",
+    "title": "皮尔米特星城陨落",
+    "category": "历史事件"
    },
    "year": 2014
   },
@@ -8612,6 +10026,21 @@
    "year": 2019
   },
   {
+   "term": "Spreadsheets in Space",
+   "desc": "EVE 最出圈的跨服自嘲外号，调侃硬核沙盒玩到最后全是在拉表格算账和挂机吹水。",
+   "sources": [
+    "别名"
+   ],
+   "group": "社区文化",
+   "url": "",
+   "meme": {
+    "slug": "excel-mo-ni-qi",
+    "title": "Excel 模拟器",
+    "category": "社区文化"
+   },
+   "year": 2026
+  },
+  {
    "term": "T/B/M/K ISK",
    "desc": "1T = 1000B = 1,000,000M = 1,000,000,000K = 1,000,000,000,000 ISK [记忆方法：K有1个逗号，M有2个，B有3个，T有4个]（国服更习惯直接按E（亿）KW（千万）W（万）进行计算）",
    "sources": [
@@ -8639,6 +10068,36 @@
    "year": 2014
   },
   {
+   "term": "TiDi",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "别名"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
+  },
+  {
+   "term": "Time Dilation",
+   "desc": "官方用科幻设定包装的服务器主动降速机制，千人同屏时最多把游戏放慢到十分之一速。",
+   "sources": [
+    "别名"
+   ],
+   "group": "机制",
+   "url": "",
+   "meme": {
+    "slug": "shi-jian-peng-zhang",
+    "title": "时间膨胀（TiDi）",
+    "category": "机制"
+   },
+   "year": 2024
+  },
+  {
    "term": "TUF",
    "desc": "百科收录的评语句，指向 TUF 这个组织，未给解释。",
    "sources": [
@@ -8656,7 +10115,7 @@
   },
   {
    "term": "VVV",
-   "desc": "老牌海盗联盟 VVV 的外号：战斗力不弱，又爱插一脚低安的各种架。",
+   "desc": "国服老牌海盗雇佣军 3V 联盟的外号，仗着能打又爱到处插一脚低安战事得名。",
    "sources": [
     "别名"
    ],
@@ -8671,7 +10130,7 @@
   },
   {
    "term": "VVV真脏",
-   "desc": "蓝加不可信的最老版本：先别防火防盗，防 3V。",
+   "desc": "国服「蓝加不可信」最老的警句，防火防盗之前先防 3V。",
    "sources": [
     "别名"
    ],
@@ -8683,6 +10142,51 @@
     "category": "组织政治"
    },
    "year": 2014
+  },
+  {
+   "term": "World War Bee 2",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
+  },
+  {
+   "term": "WWB2",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "别名"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
+  },
+  {
+   "term": "WWB2（第二次世界蜜蜂大战）",
+   "desc": "2020 至 2021 年席卷欧服全宇宙的大战，16 万人激战 57 周，全服联军围攻蜜蜂帝国一年却功亏一篑。",
+   "sources": [
+    "词条"
+   ],
+   "group": "历史事件",
+   "url": "",
+   "meme": {
+    "slug": "wwb2",
+    "title": "WWB2（第二次世界蜜蜂大战）",
+    "category": "历史事件"
+   },
+   "year": 2020
   },
   {
    "term": "YST",

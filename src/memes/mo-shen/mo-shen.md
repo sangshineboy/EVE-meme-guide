@@ -1,12 +1,13 @@
 ---
 slug: mo-shen
 title: 和平发展属魔神
+aliases: ["和平发展魔神", "FBP魔神"]
 category: 舰长轶事
 scope: 端游
 server: 国服
 labels: ["163百科", "国服"]
 related: [mo-te-le, qie-gao-dui]
-updated_at: 2026-10-22
+updated_at: 2026-11-25
 ---
 前 FBP 阵营的 CEO，后随军团 25 去了 RAC，现已 AFK。
 
@@ -16,11 +17,11 @@ updated_at: 2026-10-22
 
 ## 溯源
 
-后来随军团「25」去了 RAC，现在处于 AFK 状态。
+后来随军团「25」去了 RAC，百科记录时已处于 AFK 状态。
 
 ## 演变
 
-同一人的另一面： [酒胆雄心魔特勒](/m/mo-te-le/)；他组的队伍见 [金鹏小马切糕队](/m/qie-gao-dui/)。
+同一人的另一面见 [酒胆雄心魔特勒](/m/mo-te-le/)，他组过的队伍见 [金鹏小马切糕队](/m/qie-gao-dui/)。
 
 ## AI吐槽
 

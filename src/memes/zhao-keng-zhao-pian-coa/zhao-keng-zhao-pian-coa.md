@@ -1,12 +1,13 @@
 ---
 slug: zhao-keng-zhao-pian-coa
 title: 找坑找骗COA
+aliases: ["找坑找骗", "COA找坑找骗"]
 category: 组织政治
 scope: 端游
 server: 国服
 labels: ["163百科", "国服", "待补解释"]
 related: [wo-shi-liang-min-coa, wu-chan-feng-fu-coa]
-updated_at: 2026-10-22
+updated_at: 2026-11-25
 ---
 百科收录的评语句：说 COA「找坑找骗」，未给解释。
 
@@ -16,15 +17,15 @@ updated_at: 2026-10-22
 
 ## 溯源
 
-同页有三条以 COA 为主语（「我是良民」「物产丰富」「找坑找骗」），合起来像是一组连环吐槽。
+同页有三条以 COA 为主语，分别是「我是良民」「物产丰富」「找坑找骗」，合起来像是一组连环吐槽。
 
 ## 演变
 
-同组： [我是良民COA](/m/wo-shi-liang-min-coa/)、[物产丰富COA](/m/wu-chan-feng-fu-coa/)。
+同组见 [我是良民COA](/m/wo-shi-liang-min-coa/) 和 [物产丰富COA](/m/wu-chan-feng-fu-coa/)。
 
 ## AI吐槽
 
-COA 在同页连占三条，前两条听着像自夸，这一条像是把台拆了；百科只留名字不给解释，这组连环吐槽反倒更完整。
+COA 在同页连占三条，前两条听着像自夸，这一条像是把台拆了。百科只留名字不给解释，这组连环吐槽反倒更完整。
 
 （AI 观点，不构成事实陈述。）
 

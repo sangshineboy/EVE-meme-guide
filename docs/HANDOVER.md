@@ -168,8 +168,7 @@ npm run gen:docs          # 重新生成 docs/lexicon.md 与 docs/pending.md
 
 ## 8. 取材红线（不可越）
 
-1. **禁用仓库**：不得使用 `EVE-Online-Tranquility-Chinese-Personas`（「新伊甸野史」）的任何内容。
-   自查：`grep -rn "EVE-Online-Tranquility-Chinese-Personas" src docs` 必须无输出。
+1. **禁用仓库**：严禁使用第三方华人列传整理仓库（「新伊甸野史」）的任何内容，具体仓名与 `grep` 自查命令见根目录 `AGENTS.md` 第 3 节（`src` 与 `docs` 下必须零输出）。
 2. **死链不作出处**：外链写进「参考文献」前先验可达性；只剩二手来源时正文写明是转述。
 3. **不编造**：没有出处的事件、对话、时间、数字、当事人一律不写；查不到就写进 `sources-*.md` 的「待核」。
 4. **不写现实隐私**：真名、单位、住址、照片一律不写；不做地域、民族、性别、外貌歧视。

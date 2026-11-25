@@ -6,8 +6,8 @@ category: 社区文化
 scope: 端游
 server: 国服
 labels: ["163百科", "国服"]
-related: [nan-hua-da-xue]
-updated_at: 2026-10-22
+related: [nan-hua-da-xue, bao-chuan-xia-ban, yao-xiu-fei-xiu-li-de-dan]
+updated_at: 2026-11-25
 ---
 吐槽南华军团战术的一句话：只会往前冲，喊人修，最后自己先死。
 
@@ -18,6 +18,12 @@ updated_at: 2026-10-22
 ## 溯源
 
 三个短句把过程走完了：冲、喊修、死。
+
+## 用法
+
+用来调侃打架只顾闷头前冲、脱节挨打后才急着喊后勤加血、结果很快爆船的猛冲打法。
+
+原本针对国服南华军团的战术槽点，后来在日常收割或会战复盘里，碰到上头送船的队友也常拿这句话来打趣。
 
 ## 演变
 
