@@ -15,6 +15,7 @@
     "gen:pending": "node tools/gen-pending.mjs",
     "gen:docs": "npm run gen:lexicon && npm run gen:pending",
     "style:check": "node tools/style-check.mjs",
+    "bili:rank": "node tools/bili-ranking/build-ranking.mjs",
     "rag:build": "node tools/rag/build.mjs",
     "rag": "node tools/rag/query.mjs",
     "build": "npm run check && eleventy && pagefind --site _site",

@@ -29,4 +29,4 @@ updated_at: 2026-10-17
 > 说明：本条取自网易 EVE 百科《EVE的各种梗》条目；该页自述「本内容均为网上收集，不能保证所有内容的准确性（截至 2014-11-07）」，所以这里写的是它上面怎么说的。
 
 - [163百科《EVE的各种梗》第 50 条](https://evepc.baike.163.com/ziliao/66.html)
-- [当时的录音（优酷）](http://v.youku.com/v_show/id_XMjgwMzgyMzQ0.html)
+- [蓝色联邦轰洋鬼子加英文字幕版（优酷）](http://v.youku.com/v_show/id_XMjgwMzgyMzQ0.html)

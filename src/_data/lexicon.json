@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-25",
  "stats": {
   "terms": 615,
   "entries": 166,
@@ -89,7 +89,8 @@
    ],
    "group": "星域",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "1R",
@@ -103,7 +104,8 @@
     "slug": "r-rac",
     "title": "R",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "1v bug 矿",
@@ -118,7 +120,8 @@
     "slug": "1v-bug-kuang",
     "title": "1v bug 矿",
     "category": "历史事件"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "1VN",
@@ -132,7 +135,8 @@
     "slug": "wu-shuang",
     "title": "无双",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "25",
@@ -142,7 +146,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "25 / 二五仔",
@@ -156,7 +161,8 @@
     "slug": "er-wu-zai",
     "title": "25 / 二五仔",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "25仔",
@@ -170,7 +176,8 @@
     "slug": "er-wu-zai",
     "title": "25 / 二五仔",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "300E 滚滚",
@@ -186,7 +193,8 @@
     "slug": "300e-gun-gun",
     "title": "300E 滚滚",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "3V",
@@ -196,7 +204,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "425",
@@ -210,7 +219,8 @@
     "slug": "keng-die-425",
     "title": "坑爹 425",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "49 会战",
@@ -225,7 +235,8 @@
     "slug": "49-hui-zhan",
     "title": "49 会战",
     "category": "历史事件"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "49-U6U 会战",
@@ -239,7 +250,8 @@
     "slug": "49-hui-zhan",
     "title": "49 会战",
     "category": "历史事件"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "4w5 科长",
@@ -254,7 +266,8 @@
     "slug": "4w5-ke-zhang",
     "title": "4w5 科长",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "68.75e",
@@ -268,7 +281,8 @@
     "slug": "r-rac",
     "title": "R",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "80隐轰",
@@ -282,7 +296,8 @@
     "slug": "yin-hong-shou-zhu-quan",
     "title": "隐轰守主权",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "阿叉波波",
@@ -296,7 +311,8 @@
     "slug": "he-lian-she-zhu-bian",
     "title": "河联社主编",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "埃玛克",
@@ -310,7 +326,8 @@
     "slug": "re-qing-hao-ke-ai-ma-ke",
     "title": "热情好客埃玛克",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "艾米亚",
@@ -324,7 +341,8 @@
     "slug": "yong-meng-wu-wei-ai-mi-ya",
     "title": "勇猛无畏艾米亚",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爱玩玩不玩滚",
@@ -338,7 +356,8 @@
     "slug": "awwbwg",
     "title": "awwbwg",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爱万王不万古",
@@ -352,7 +371,8 @@
     "slug": "awwbwg",
     "title": "awwbwg",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爱洗机库幽灵妖",
@@ -367,7 +387,8 @@
     "slug": "you-ling-yao",
     "title": "爱洗机库幽灵妖",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爱因",
@@ -381,7 +402,8 @@
     "slug": "ai-yin-niang",
     "title": "绝世毒妇爱因娘",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爱因娘",
@@ -395,7 +417,8 @@
     "slug": "ai-yin-niang",
     "title": "绝世毒妇爱因娘",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "八年深情惜囧森",
@@ -410,7 +433,8 @@
     "slug": "ba-nian-shen-qing",
     "title": "八年深情惜囧森",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "巴贝尔",
@@ -424,7 +448,8 @@
     "slug": "cheng-shi-shou-xin-ba-bei-er",
     "title": "诚实守信巴贝尔",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "巴戈龙",
@@ -434,11 +459,12 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "把自己投出去了",
-   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。",
+   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。",
    "sources": [
     "别名"
    ],
@@ -448,7 +474,8 @@
     "slug": "tou-song-tai-tan",
     "title": "投送泰坦把自己投出去了",
     "category": "名场面"
-   }
+   },
+   "year": 2018
   },
   {
    "term": "白名",
@@ -458,7 +485,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "帮顶联盟",
@@ -472,7 +500,8 @@
     "slug": "bang-ding-ye-nan-ren",
     "title": "只为帮顶野男人",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "帮助萌新叫杀手",
@@ -487,7 +516,8 @@
     "slug": "bang-zhu-meng-xin-jiao-sha-shou",
     "title": "帮助萌新叫杀手",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宝船赠有缘人",
@@ -502,7 +532,8 @@
     "slug": "bao-chuan-zeng-you-yuan-ren",
     "title": "宝船赠有缘人",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宝船赠与有缘人",
@@ -516,7 +547,8 @@
     "slug": "bao-chuan-zeng-you-yuan-ren",
     "title": "宝船赠有缘人",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "北方联盟",
@@ -530,7 +562,8 @@
     "slug": "yi-zhi-dui-wai-cheng-bei-meng",
     "title": "一致对外称北盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "北境之王黑老三",
@@ -545,7 +578,8 @@
     "slug": "bei-jing-zhi-wang",
     "title": "北境之王黑老三",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "北萌/BM",
@@ -555,7 +589,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "北盟",
@@ -569,7 +604,8 @@
     "slug": "yi-zhi-dui-wai-cheng-bei-meng",
     "title": "一致对外称北盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "贝摄埃王",
@@ -583,7 +619,8 @@
     "slug": "bei-si-wang-ye",
     "title": "贝斯王爷传说笑",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "贝斯王",
@@ -597,7 +634,8 @@
     "slug": "bei-si-wang-ye",
     "title": "贝斯王爷传说笑",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "贝斯王爷传说笑",
@@ -612,7 +650,8 @@
     "slug": "bei-si-wang-ye",
     "title": "贝斯王爷传说笑",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "避风避雨避馒头",
@@ -627,7 +666,8 @@
     "slug": "bi-feng-bi-yu-bi-man-tou",
     "title": "避风避雨避馒头",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "标记",
@@ -637,7 +677,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "标题党",
@@ -647,7 +688,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "不吃超旗萨科齐",
@@ -662,7 +704,8 @@
     "slug": "sa-ke-qi",
     "title": "不吃超旗萨科齐",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "不吃炸鸡反 BP",
@@ -677,7 +720,8 @@
     "slug": "bu-chi-zha-ji",
     "title": "不吃炸鸡反 BP",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "不能运作RAC",
@@ -687,7 +731,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "不骑摩托神鸡鸡",
@@ -702,11 +747,12 @@
     "slug": "shen-ji-ji",
     "title": "不骑摩托神鸡鸡",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "不许录音",
-   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。",
    "sources": [
     "别名"
    ],
@@ -716,7 +762,8 @@
     "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
     "title": "这个频道不许录音",
     "category": "名场面"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "步兵",
@@ -730,7 +777,8 @@
     "slug": "zao-shui-zao-qi-jiao-bu-bing",
     "title": "早睡早起叫步兵",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "步兵团",
@@ -744,7 +792,8 @@
     "slug": "dan-shou-mie-meng-bu-bing-tuan",
     "title": "单手灭盟步兵团",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "采星者",
@@ -754,7 +803,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "菜",
@@ -764,7 +814,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "插件/插头/片片/头插/脑插",
@@ -774,7 +825,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "插针党",
@@ -788,7 +840,8 @@
     "slug": "tan-suo-dang",
     "title": "探索党",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "茶",
@@ -798,7 +851,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "茶叶神",
@@ -812,7 +866,8 @@
     "slug": "cha-ye-shen",
     "title": "南部乞丐茶叶神",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "晨曦剿匪指日归",
@@ -827,7 +882,8 @@
     "slug": "chen-xi-jiao-fei",
     "title": "晨曦剿匪指日归",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "诚实守信巴贝尔",
@@ -842,7 +898,8 @@
     "slug": "cheng-shi-shou-xin-ba-bei-er",
     "title": "诚实守信巴贝尔",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "诚实守信康师傅",
@@ -856,7 +913,8 @@
     "slug": "cheng-shi-shou-xin-kang-shi-fu",
     "title": "诚实守信康师傅",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "诚实守信康师傅（博）",
@@ -866,7 +924,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "诚实守信三个V",
@@ -880,7 +939,8 @@
     "slug": "fang-huo-fang-dao-fang-3v",
     "title": "防火防盗防 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吃不起饭 LG",
@@ -895,7 +955,8 @@
     "slug": "chi-bu-qi-fan-lg",
     "title": "吃不起饭 LG",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吃颗药就知道了",
@@ -909,7 +970,8 @@
     "slug": "yuan-quan-shi-nan-fang",
     "title": "源泉是南方",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吃翔",
@@ -923,11 +985,12 @@
     "slug": "wo-zhi-bo-chi-xiang",
     "title": "我直播吃翔",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吃KFC",
-   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
+   "desc": "EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。",
    "sources": [
     "别名"
    ],
@@ -937,7 +1000,8 @@
     "slug": "kfc",
     "title": "KFC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "痴汉",
@@ -951,7 +1015,8 @@
     "slug": "xing-men-chi-han",
     "title": "星门痴汉",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "冲冲冲，杀杀杀，修我修我，我死了",
@@ -966,7 +1031,8 @@
     "slug": "chong-chong-chong",
     "title": "冲冲冲，杀杀杀，修我修我，我死了",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "冲锋在前梅提督",
@@ -981,7 +1047,8 @@
     "slug": "mei-ti-du",
     "title": "冲锋在前梅提督",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "船插",
@@ -991,7 +1058,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "从不二逼脾气大",
@@ -1006,7 +1074,8 @@
     "slug": "pi-qi-da",
     "title": "从不二逼脾气大",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "挫骨扬灰灭荣耀",
@@ -1021,7 +1090,8 @@
     "slug": "cuo-gu-yang-hui-mie-rong-yao",
     "title": "挫骨扬灰灭荣耀",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "打10E给死机",
@@ -1035,7 +1105,8 @@
     "slug": "shi-yi-si-ji",
     "title": "十亿死机",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "打出屎来",
@@ -1050,7 +1121,8 @@
     "slug": "da-chu-shi-lai",
     "title": "打出屎来",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "打出翔来",
@@ -1064,7 +1136,8 @@
     "slug": "da-chu-shi-lai",
     "title": "打出屎来",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "打一炮就跑",
@@ -1078,7 +1151,8 @@
     "slug": "shuai-cong",
     "title": "甩葱",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "大/中/小白",
@@ -1088,7 +1162,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "大白",
@@ -1098,7 +1173,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "大鸡腿",
@@ -1108,7 +1184,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "大鲸鱼",
@@ -1118,7 +1195,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "大老板",
@@ -1132,7 +1210,8 @@
     "slug": "chi-bu-qi-fan-lg",
     "title": "吃不起饭 LG",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "大蘑菇",
@@ -1142,7 +1221,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "大奶牛亚布",
@@ -1156,7 +1236,8 @@
     "slug": "nai-niu-bu",
     "title": "神机妙算奶牛布",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "大修",
@@ -1166,7 +1247,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "大雨C",
@@ -1180,7 +1262,8 @@
     "slug": "da-yu-c",
     "title": "火锅骑士大雨C",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "呆蓝",
@@ -1194,7 +1277,8 @@
     "slug": "dai-lan-zhi",
     "title": "呆蓝汁",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "呆蓝汁",
@@ -1209,7 +1293,8 @@
     "slug": "dai-lan-zhi",
     "title": "呆蓝汁",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "带跳",
@@ -1219,7 +1304,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "带头大哥是月形",
@@ -1234,7 +1320,8 @@
     "slug": "dai-tou-da-ge-yue-xing",
     "title": "带头大哥是月形",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "戴老板",
@@ -1249,7 +1336,8 @@
     "slug": "dai-lao-ban",
     "title": "戴老板",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "戴笠头像",
@@ -1263,7 +1351,8 @@
     "slug": "dai-lao-ban",
     "title": "戴老板",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "单灭月形",
@@ -1277,7 +1366,8 @@
     "slug": "dan-mie-yue-xing",
     "title": "单灭月型属七月",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "单灭月型属七月",
@@ -1292,7 +1382,8 @@
     "slug": "dan-mie-yue-xing",
     "title": "单灭月型属七月",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "单手灭盟步兵团",
@@ -1307,7 +1398,8 @@
     "slug": "dan-shou-mie-meng-bu-bing-tuan",
     "title": "单手灭盟步兵团",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "箪食壶浆迎王师",
@@ -1317,7 +1409,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "蛋",
@@ -1327,7 +1420,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "蛋黄",
@@ -1337,7 +1431,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "导弹扰",
@@ -1347,7 +1442,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "导扰",
@@ -1357,7 +1453,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "灯灭了",
@@ -1371,7 +1468,8 @@
     "slug": "mie-deng",
     "title": "灭灯",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "凳抗战熊种兔队",
@@ -1386,7 +1484,8 @@
     "slug": "deng-kang-zhan-xiong",
     "title": "凳抗战熊种兔队",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "低安",
@@ -1396,7 +1495,8 @@
    ],
    "group": "星域",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "低安执法",
@@ -1410,7 +1510,8 @@
     "slug": "di-an-zhi-fa-you-3v",
     "title": "低安执法有 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "低安执法有 3V",
@@ -1425,7 +1526,8 @@
     "slug": "di-an-zhi-fa-you-3v",
     "title": "低安执法有 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "低调的荷兰人",
@@ -1439,7 +1541,8 @@
     "slug": "he-lan-ren",
     "title": "互帮互助荷兰人",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "电池",
@@ -1449,7 +1552,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "屌丝鲤鱼",
@@ -1463,7 +1567,8 @@
     "slug": "li-yu",
     "title": "鲤鱼",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "独立自强蓝联邦",
@@ -1478,7 +1583,8 @@
     "slug": "du-li-zi-qiang-lan-lian-bang",
     "title": "独立自强蓝联邦",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "堵门",
@@ -1488,7 +1594,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "堵门党",
@@ -1502,7 +1609,8 @@
     "slug": "xing-men-chi-han",
     "title": "星门痴汉",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "短反",
@@ -1512,7 +1620,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "对舞监国二达达",
@@ -1527,7 +1636,8 @@
     "slug": "er-da-da",
     "title": "对舞监国二达达",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "盾抗/甲抗",
@@ -1537,7 +1647,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "盾提",
@@ -1547,7 +1658,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "盾修",
@@ -1557,7 +1669,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "夺米台风",
@@ -1571,7 +1684,8 @@
     "slug": "li-yu",
     "title": "鲤鱼",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "恩公",
@@ -1586,7 +1700,8 @@
     "slug": "en-gong",
     "title": "恩公",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "恩公恩公",
@@ -1600,7 +1715,8 @@
     "slug": "en-gong",
     "title": "恩公",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "二达",
@@ -1614,7 +1730,8 @@
     "slug": "er-da-da",
     "title": "对舞监国二达达",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "二达达",
@@ -1628,7 +1745,8 @@
     "slug": "er-da-da",
     "title": "对舞监国二达达",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "二球",
@@ -1642,7 +1760,8 @@
     "slug": "er-qiu-mo",
     "title": "特纳寨主二球莫",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "二五",
@@ -1657,7 +1776,8 @@
     "slug": "er-wu-zai",
     "title": "25 / 二五仔",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "二五仔",
@@ -1671,7 +1791,8 @@
     "slug": "er-wu-zai",
     "title": "25 / 二五仔",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "反冲星门",
@@ -1681,7 +1802,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "反跳",
@@ -1691,7 +1813,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "反贴门",
@@ -1701,7 +1824,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "反应甲",
@@ -1711,7 +1835,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "防火防盗防 3V",
@@ -1726,7 +1851,8 @@
     "slug": "fang-huo-fang-dao-fang-3v",
     "title": "防火防盗防 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "放不出的王答答",
@@ -1741,7 +1867,8 @@
     "slug": "fang-chu-wang-da-da",
     "title": "放出王嗒嗒，协助无人机",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "放出王嗒嗒，协助无人机",
@@ -1756,7 +1883,8 @@
     "slug": "fang-chu-wang-da-da",
     "title": "放出王嗒嗒，协助无人机",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "放风筝",
@@ -1766,7 +1894,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "放松一下",
@@ -1780,7 +1909,8 @@
     "slug": "fang-song-yi-xia",
     "title": "申请纷飞放松下",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "飞不起来",
@@ -1795,7 +1925,8 @@
     "slug": "fei-bu-qi-lai",
     "title": "飞不起来",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "飞不起来级",
@@ -1810,7 +1941,8 @@
     "slug": "fei-bu-qi-lai",
     "title": "飞不起来",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "飞袖子",
@@ -1824,7 +1956,8 @@
     "slug": "yao-xiu-fei-xiu-li-de-dan",
     "title": "摇修飞袖李的蛋",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "粉红鱼雷打水沟",
@@ -1838,7 +1971,8 @@
     "slug": "fen-hong-yu-lei",
     "title": "吉他安民属鱼类",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "风华正茂油条妹",
@@ -1853,7 +1987,8 @@
     "slug": "you-tiao-mei",
     "title": "风华正茂油条妹",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "凤凰姐",
@@ -1867,7 +2002,8 @@
     "slug": "wu-tong-jia-hou-feng-huang-jie",
     "title": "梧桐佳后凤凰姐",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "拂晓军团",
@@ -1881,7 +2017,8 @@
     "slug": "fu-xiao-jun-tuan",
     "title": "一入拂晓深似海",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "妇联",
@@ -1891,7 +2028,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "盖子",
@@ -1901,7 +2039,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "高安",
@@ -1911,7 +2050,8 @@
    ],
    "group": "星域",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "高安强暴",
@@ -1925,7 +2065,8 @@
     "slug": "qiang-bao",
     "title": "强爆",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "高速党",
@@ -1935,7 +2076,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "歌唱和平索恩公",
@@ -1945,7 +2087,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "歌会麦序",
@@ -1959,7 +2102,8 @@
     "slug": "sha-mei-mei-zhan-zheng",
     "title": "傻妹妹战争",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "格兰屌多",
@@ -1973,7 +2117,8 @@
     "slug": "ge-lan-diao-duo-tuan",
     "title": "格兰屌多团",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "格兰屌多团",
@@ -1988,7 +2133,8 @@
     "slug": "ge-lan-diao-duo-tuan",
     "title": "格兰屌多团",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "格兰亚多",
@@ -2002,7 +2148,8 @@
     "slug": "ge-lan-diao-duo-tuan",
     "title": "格兰屌多团",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "嗝",
@@ -2018,7 +2165,8 @@
     "slug": "ge",
     "title": "嗝",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "耕地",
@@ -2028,7 +2176,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "攻导",
@@ -2038,7 +2187,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "古兔子",
@@ -2048,7 +2198,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "钴蓝无敌大月形",
@@ -2063,7 +2214,8 @@
     "slug": "da-yue-xing",
     "title": "钴蓝无敌大月形",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "怪",
@@ -2073,7 +2225,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "怪损",
@@ -2083,7 +2236,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "官员",
@@ -2093,7 +2247,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "光明磊落三个V",
@@ -2108,7 +2263,8 @@
     "slug": "fang-huo-fang-dao-fang-3v",
     "title": "防火防盗防 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "锅",
@@ -2118,7 +2274,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "过门",
@@ -2128,7 +2285,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "过门吃屎空V白",
@@ -2143,7 +2301,8 @@
     "slug": "shei-guo-men-shei-chi-shi",
     "title": "谁过门谁吃屎，我先过",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "海奥格",
@@ -2153,7 +2312,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "海鸟/海乌鸦",
@@ -2163,7 +2323,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "海启示",
@@ -2173,7 +2334,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "海万",
@@ -2183,7 +2345,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "海灾",
@@ -2193,7 +2356,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "和平发展属魔神",
@@ -2208,7 +2372,8 @@
     "slug": "mo-shen",
     "title": "和平发展属魔神",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "河蚌",
@@ -2223,7 +2388,8 @@
     "slug": "he-bang",
     "title": "河蚌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "河联社主编",
@@ -2237,7 +2403,8 @@
     "slug": "he-lian-she-zhu-bian",
     "title": "河联社主编",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "河联社主编（阿叉波波）",
@@ -2247,7 +2414,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "黑老三",
@@ -2261,7 +2429,8 @@
     "slug": "bei-jing-zhi-wang",
     "title": "北境之王黑老三",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "黑煤窑",
@@ -2276,7 +2445,8 @@
     "slug": "hei-mei-yao",
     "title": "黑煤窑",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "黑煤窑军团",
@@ -2290,7 +2460,8 @@
     "slug": "hei-mei-yao",
     "title": "黑煤窑",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "黑色三连星",
@@ -2304,7 +2475,8 @@
     "slug": "bei-jing-zhi-wang",
     "title": "北境之王黑老三",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "红盾/红甲",
@@ -2314,7 +2486,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "红罐凉茶",
@@ -2329,7 +2502,8 @@
     "slug": "hong-guan-liang-cha",
     "title": "红罐凉茶",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "红减",
@@ -2339,7 +2513,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "红颜",
@@ -2353,7 +2528,8 @@
     "slug": "hong-yan",
     "title": "唯我七月得红颜",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "猴子党",
@@ -2368,7 +2544,8 @@
     "slug": "hou-zi-dang",
     "title": "猴子党",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "后勤",
@@ -2378,7 +2555,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "互帮互助荷兰人",
@@ -2393,7 +2571,8 @@
     "slug": "he-lan-ren",
     "title": "互帮互助荷兰人",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "黄盾/黄甲",
@@ -2403,7 +2582,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "毁电",
@@ -2413,7 +2593,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "毁能/毁电",
@@ -2423,7 +2604,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "毁天灭地是威尔",
@@ -2438,7 +2620,8 @@
     "slug": "wei-er",
     "title": "毁天灭地是威尔",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "火锅骑士大雨C",
@@ -2453,7 +2636,8 @@
     "slug": "da-yu-c",
     "title": "火锅骑士大雨C",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "火力",
@@ -2463,7 +2647,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "鸡副主席",
@@ -2477,7 +2662,8 @@
     "slug": "shen-ji-ji",
     "title": "不骑摩托神鸡鸡",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "鸡窝",
@@ -2487,7 +2673,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "吉他",
@@ -2497,7 +2684,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "吉他安民属鱼类",
@@ -2512,11 +2700,12 @@
     "slug": "fen-hong-yu-lei",
     "title": "吉他安民属鱼类",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吉他霸主为金鳞",
-   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。",
+   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。",
    "sources": [
     "词条",
     "百科·梗#110"
@@ -2527,7 +2716,8 @@
     "slug": "jin-lin",
     "title": "吉他霸主为金鳞",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吉他科长四万五",
@@ -2542,7 +2732,8 @@
     "slug": "4w5-ke-zhang",
     "title": "4w5 科长",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "集火",
@@ -2552,7 +2743,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "寂静谷主熊老师",
@@ -2567,7 +2759,8 @@
     "slug": "xiong-lao-shi",
     "title": "寂静谷主熊老师",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "寂寞哥",
@@ -2581,7 +2774,8 @@
     "slug": "yuan-quan-tai-zi-ji-mo-ge",
     "title": "源泉太子寂寞哥",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "加力",
@@ -2591,7 +2785,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "伽玛安",
@@ -2605,7 +2800,8 @@
     "slug": "jia-ma-an",
     "title": "娃娃万岁伽玛安",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "家祭无忘告乃翁",
@@ -2615,7 +2811,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "架子",
@@ -2625,7 +2822,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "坚持到底是神父",
@@ -2640,7 +2838,8 @@
     "slug": "shen-fu",
     "title": "坚持到底是神父",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "坚若磐石团灭黑",
@@ -2655,7 +2854,8 @@
     "slug": "jian-ruo-pan-shi",
     "title": "坚若磐石团灭黑",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "舰刺",
@@ -2665,7 +2865,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "舰镰",
@@ -2675,7 +2876,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "僵尸跳，超旗爆",
@@ -2690,7 +2892,8 @@
     "slug": "jiang-shi-tiao-chao-qi-bao",
     "title": "僵尸跳，超旗爆",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "交不起就滚",
@@ -2704,7 +2907,8 @@
     "slug": "300e-gun-gun",
     "title": "300E 滚滚",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "接战至死",
@@ -2718,11 +2922,12 @@
     "slug": "yu-sui-dui",
     "title": "玉碎队",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "金鳞",
-   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。",
+   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。",
    "sources": [
     "别名"
    ],
@@ -2732,11 +2937,12 @@
     "slug": "jin-lin",
     "title": "吉他霸主为金鳞",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "金鳞盛宴",
-   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。",
+   "desc": "吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。",
    "sources": [
     "别名"
    ],
@@ -2746,7 +2952,8 @@
     "slug": "jin-lin",
     "title": "吉他霸主为金鳞",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "金鹏小马切糕队",
@@ -2761,7 +2968,8 @@
     "slug": "qie-gao-dui",
     "title": "金鹏小马切糕队",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "进退果敢时尚凝",
@@ -2776,7 +2984,8 @@
     "slug": "shi-shang-ning",
     "title": "进退果敢时尚凝",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "警察",
@@ -2786,7 +2995,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "囧森",
@@ -2800,7 +3010,8 @@
     "slug": "ba-nian-shen-qing",
     "title": "八年深情惜囧森",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "酒胆雄心魔特勒",
@@ -2815,7 +3026,8 @@
     "slug": "mo-te-le",
     "title": "酒胆雄心魔特勒",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "绝代娇花千寻琳",
@@ -2830,7 +3042,8 @@
     "slug": "jue-dai-jiao-hua-qian-xun-lin",
     "title": "绝代娇花千寻琳",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "绝地总兵王答答",
@@ -2845,7 +3058,8 @@
     "slug": "wang-da-da",
     "title": "绝地总兵王答答",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "绝世毒妇爱因娘",
@@ -2860,7 +3074,8 @@
     "slug": "ai-yin-niang",
     "title": "绝世毒妇爱因娘",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "军团无人机",
@@ -2874,7 +3089,8 @@
     "slug": "wu-ren-ji-ma-jia",
     "title": "无人机（论坛水军）",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "开抗性",
@@ -2884,7 +3100,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "开坛作法老僵尸",
@@ -2899,7 +3116,8 @@
     "slug": "jiang-shi-tiao-chao-qi-bao",
     "title": "僵尸跳，超旗爆",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "开推子",
@@ -2909,7 +3127,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "开无双",
@@ -2923,7 +3142,8 @@
     "slug": "wu-shuang",
     "title": "无双",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "看冰冰",
@@ -2937,7 +3157,8 @@
     "slug": "zai-xiao-qing-guo-kan-bing-bing",
     "title": "再笑倾国看冰冰",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "看我的口型",
@@ -2952,7 +3173,8 @@
     "slug": "kan-wo-de-kou-xing",
     "title": "看我的口型",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "康师傅",
@@ -2966,7 +3188,8 @@
     "slug": "cheng-shi-shou-xin-kang-shi-fu",
     "title": "诚实守信康师傅",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "康師博",
@@ -2980,7 +3203,8 @@
     "slug": "cheng-shi-shou-xin-kang-shi-fu",
     "title": "诚实守信康师傅",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "抗战熊",
@@ -2994,7 +3218,8 @@
     "slug": "deng-kang-zhan-xiong",
     "title": "凳抗战熊种兔队",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "可以刷 FDK 的人，不可以刷 FDK 的怪",
@@ -3009,7 +3234,8 @@
     "slug": "ke-yi-shua-fdk-de-ren",
     "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "可以刷我的人，但不能刷我的怪",
@@ -3023,11 +3249,12 @@
     "slug": "ke-yi-shua-fdk-de-ren",
     "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "肯德基",
-   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
+   "desc": "EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。",
    "sources": [
     "别名"
    ],
@@ -3037,7 +3264,8 @@
     "slug": "kfc",
     "title": "KFC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "坑爹 425",
@@ -3052,7 +3280,8 @@
     "slug": "keng-die-425",
     "title": "坑爹 425",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "坑爹四二五",
@@ -3066,7 +3295,8 @@
     "slug": "keng-die-425",
     "title": "坑爹 425",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "筷子",
@@ -3076,7 +3306,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "矿工之友赛德娜",
@@ -3091,7 +3322,8 @@
     "slug": "kuang-gong-zhi-you-sai-de-na",
     "title": "矿工之友赛德娜",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "溃不成军七月盟",
@@ -3106,7 +3338,8 @@
     "slug": "kui-bu-cheng-jun-qi-yue-meng",
     "title": "溃不成军七月盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "垃圾",
@@ -3116,7 +3349,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "蓝二",
@@ -3130,7 +3364,8 @@
     "slug": "lan-hui",
     "title": "蓝回",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝回",
@@ -3145,7 +3380,8 @@
     "slug": "lan-hui",
     "title": "蓝回",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝加",
@@ -3155,7 +3391,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "蓝井",
@@ -3169,7 +3406,8 @@
     "slug": "lan-hui",
     "title": "蓝回",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝老板",
@@ -3183,7 +3421,8 @@
     "slug": "lan-lao-ban",
     "title": "足智多谋蓝老板",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝老板喊人",
@@ -3197,7 +3436,8 @@
     "slug": "sun-zi-lian-meng",
     "title": "孙子联盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝色联邦",
@@ -3211,7 +3451,8 @@
     "slug": "du-li-zi-qiang-lan-lian-bang",
     "title": "独立自强蓝联邦",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蓝星",
@@ -3221,7 +3462,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "狼哭鬼嚎小女王",
@@ -3236,7 +3478,8 @@
     "slug": "xiao-nv-wang",
     "title": "狼哭鬼嚎小女王",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老僵尸法力无边",
@@ -3251,7 +3494,8 @@
     "slug": "jiang-shi-tiao-chao-qi-bao",
     "title": "僵尸跳，超旗爆",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老娘的大雕",
@@ -3265,7 +3509,8 @@
     "slug": "lao-niang-de-diao",
     "title": "老娘的大雕饥渴难耐，TM 还有心思开会",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老娘的大雕饥渴难耐，TM 还有心思开会",
@@ -3280,7 +3525,8 @@
     "slug": "lao-niang-de-diao",
     "title": "老娘的大雕饥渴难耐，TM 还有心思开会",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老杨，我跟你说，老杨",
@@ -3295,7 +3541,8 @@
     "slug": "lao-yang-wo-gen-ni-shuo",
     "title": "老杨，我跟你说，老杨",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老杨烦不烦",
@@ -3309,7 +3556,8 @@
     "slug": "lao-yang-ni-fan-bu-fan",
     "title": "老杨你烦不烦",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老杨你烦不烦",
@@ -3324,7 +3572,8 @@
     "slug": "lao-yang-ni-fan-bu-fan",
     "title": "老杨你烦不烦",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "老杨我跟你说",
@@ -3338,7 +3587,8 @@
     "slug": "lao-yang-wo-gen-ni-shuo",
     "title": "老杨，我跟你说，老杨",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "鲤鱼",
@@ -3353,7 +3603,8 @@
     "slug": "li-yu",
     "title": "鲤鱼",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "力挽狂澜屋蓝君",
@@ -3363,7 +3614,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "历史发明家",
@@ -3377,7 +3629,8 @@
     "slug": "nen-ku-lou",
     "title": "历史发明嫩骷髅",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "历史发明嫩骷髅",
@@ -3392,7 +3645,8 @@
     "slug": "nen-ku-lou",
     "title": "历史发明嫩骷髅",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "立体炸弹战列",
@@ -3406,7 +3660,8 @@
     "slug": "zha-dan-kuang-mo",
     "title": "炸弹狂魔",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "烈火",
@@ -3420,7 +3675,8 @@
     "slug": "lie-huo-di",
     "title": "穷困屌丝烈火帝",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2006
   },
   {
    "term": "烈火帝",
@@ -3434,7 +3690,8 @@
     "slug": "lie-huo-di",
     "title": "穷困屌丝烈火帝",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2006
   },
   {
    "term": "另外半边天",
@@ -3448,7 +3705,8 @@
     "slug": "he-bang",
     "title": "河蚌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "绿星",
@@ -3458,7 +3716,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "论坛无人机",
@@ -3472,7 +3731,8 @@
     "slug": "wu-ren-ji-ma-jia",
     "title": "无人机（论坛水军）",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "落地",
@@ -3482,7 +3742,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "马甲",
@@ -3492,7 +3753,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "马甲艹",
@@ -3506,7 +3768,8 @@
     "slug": "fang-song-yi-xia",
     "title": "申请纷飞放松下",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "马甲渗透",
@@ -3520,7 +3783,8 @@
     "slug": "dai-lao-ban",
     "title": "戴老板",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "买水果",
@@ -3535,7 +3799,8 @@
     "slug": "mai-shui-guo",
     "title": "买水果",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "卖水果",
@@ -3549,7 +3814,8 @@
     "slug": "mai-shui-guo",
     "title": "买水果",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "馒大林",
@@ -3563,7 +3829,8 @@
     "slug": "yong-dang-xian-feng-man-da-lin",
     "title": "勇当先锋馒大林",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "馒大林格勒会战",
@@ -3578,11 +3845,12 @@
     "slug": "49-hui-zhan",
     "title": "49 会战",
     "category": "历史事件"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "馒皇",
-   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。",
    "sources": [
     "别名"
    ],
@@ -3592,7 +3860,8 @@
     "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
     "title": "这个频道不许录音",
     "category": "名场面"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "馒头",
@@ -3606,7 +3875,8 @@
     "slug": "bi-feng-bi-yu-bi-man-tou",
     "title": "避风避雨避馒头",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "馒头/馒主席/馒大林",
@@ -3616,7 +3886,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "梅林阿瑟",
@@ -3630,7 +3901,8 @@
     "slug": "mei-ti-du",
     "title": "冲锋在前梅提督",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "梅提督",
@@ -3644,7 +3916,8 @@
     "slug": "mei-ti-du",
     "title": "冲锋在前梅提督",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "蜜蜂",
@@ -3654,7 +3927,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "秒跳",
@@ -3664,7 +3938,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "灭灯",
@@ -3680,7 +3955,8 @@
     "slug": "mie-deng",
     "title": "灭灯",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "魔神",
@@ -3694,7 +3970,8 @@
     "slug": "mo-te-le",
     "title": "酒胆雄心魔特勒",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "魔神大大",
@@ -3708,11 +3985,12 @@
     "slug": "mo-te-le",
     "title": "酒胆雄心魔特勒",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "南北指挥耶V稣",
-   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
+   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
    "sources": [
     "词条",
     "百科·梗#125"
@@ -3723,7 +4001,8 @@
     "slug": "ye-v-su",
     "title": "南北指挥耶V稣",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "南部乞丐茶叶神",
@@ -3738,11 +4017,12 @@
     "slug": "cha-ye-shen",
     "title": "南部乞丐茶叶神",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "南华大学",
-   "desc": "ECF 玩家南华上将的外号，因头像用南华大学；「有勇无谋」来自他看见泰坦只顾截图。",
+   "desc": "ECF 玩家南华上将的外号，因头像用南华大学。「有勇无谋」来自他看见泰坦只顾截图。",
    "sources": [
     "别名"
    ],
@@ -3752,7 +4032,8 @@
     "slug": "nan-hua-da-xue",
     "title": "南华大学，有勇无谋",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "南华大学，有勇无谋",
@@ -3767,11 +4048,12 @@
     "slug": "nan-hua-da-xue",
     "title": "南华大学，有勇无谋",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "南华上将",
-   "desc": "ECF 玩家南华上将的外号，因头像用南华大学；「有勇无谋」来自他看见泰坦只顾截图。",
+   "desc": "ECF 玩家南华上将的外号，因头像用南华大学。「有勇无谋」来自他看见泰坦只顾截图。",
    "sources": [
     "别名"
    ],
@@ -3781,7 +4063,8 @@
     "slug": "nan-hua-da-xue",
     "title": "南华大学，有勇无谋",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "脑插",
@@ -3791,7 +4074,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "嫩骷髅",
@@ -3805,7 +4089,8 @@
     "slug": "nen-ku-lou",
     "title": "历史发明嫩骷髅",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "你好，东部联邦",
@@ -3820,7 +4105,8 @@
     "slug": "ni-hao-dong-bu-lian-bang",
     "title": "你好，东部联邦",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "你们都去吃屎",
@@ -3834,7 +4120,8 @@
     "slug": "kan-wo-de-kou-xing",
     "title": "看我的口型",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "你需要热力学I",
@@ -3848,7 +4135,8 @@
     "slug": "ye-su-de-re-li-xue",
     "title": "耶稣的热力学",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "捏出汁",
@@ -3862,7 +4150,8 @@
     "slug": "dai-lan-zhi",
     "title": "呆蓝汁",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宁波哥哥",
@@ -3876,7 +4165,8 @@
     "slug": "ning-bo-xiong",
     "title": "种子大帝宁波兄",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宁波太子",
@@ -3890,7 +4180,8 @@
     "slug": "ning-bo-xiong",
     "title": "种子大帝宁波兄",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "怒火白虎",
@@ -3904,7 +4195,8 @@
     "slug": "xin-zhong-de-bai-hu",
     "title": "心中的白虎",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "欧服十国联军",
@@ -3918,7 +4210,8 @@
     "slug": "shi-guo-lian-jun",
     "title": "十国联军",
     "category": "组织政治"
-   }
+   },
+   "year": 2017
   },
   {
    "term": "判死刑",
@@ -3928,7 +4221,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "泡泡",
@@ -3938,7 +4232,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "炮扰",
@@ -3948,7 +4243,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "炮台船",
@@ -3958,7 +4254,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "皮",
@@ -3968,7 +4265,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "皮球",
@@ -3978,7 +4276,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "脾气君",
@@ -3992,7 +4291,8 @@
     "slug": "tai-tan-xian-feng-pi-qi-jun",
     "title": "泰坦先锋脾气君",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "脾气要改好",
@@ -4006,7 +4306,8 @@
     "slug": "pi-qi-da",
     "title": "从不二逼脾气大",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "骗红",
@@ -4016,7 +4317,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "七月溃败",
@@ -4030,7 +4332,8 @@
     "slug": "kui-bu-cheng-jun-qi-yue-meng",
     "title": "溃不成军七月盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "七月同盟",
@@ -4044,7 +4347,8 @@
     "slug": "shen-fu",
     "title": "坚持到底是神父",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "千寻琳",
@@ -4058,7 +4362,8 @@
     "slug": "jue-dai-jiao-hua-qian-xun-lin",
     "title": "绝代娇花千寻琳",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "前程似锦",
@@ -4073,7 +4378,8 @@
     "slug": "qian-cheng-si-jin",
     "title": "前程似锦",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "强爆",
@@ -4088,7 +4394,8 @@
     "slug": "qiang-bao",
     "title": "强爆",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "强爆货柜",
@@ -4102,7 +4409,8 @@
     "slug": "qiang-bao",
     "title": "强爆",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "强捞",
@@ -4117,7 +4425,8 @@
     "slug": "qiang-lao",
     "title": "强捞",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "强捞残骸",
@@ -4131,7 +4440,8 @@
     "slug": "qiang-lao",
     "title": "强捞",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "抢捞",
@@ -4145,7 +4455,8 @@
     "slug": "qiang-lao",
     "title": "强捞",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "切糕队",
@@ -4159,7 +4470,8 @@
     "slug": "qie-gao-dui",
     "title": "金鹏小马切糕队",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "轻拦",
@@ -4169,7 +4481,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "清正廉洁老幽灵",
@@ -4184,7 +4497,8 @@
     "slug": "you-ling-yao",
     "title": "爱洗机库幽灵妖",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "请把渔夫哥哥埋在静寂谷",
@@ -4199,7 +4513,8 @@
     "slug": "yu-fu-ge-ge",
     "title": "请把渔夫哥哥埋在静寂谷",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "穷困屌丝烈火帝",
@@ -4214,7 +4529,8 @@
     "slug": "lie-huo-di",
     "title": "穷困屌丝烈火帝",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2006
   },
   {
    "term": "球莫名堂",
@@ -4228,7 +4544,8 @@
     "slug": "er-qiu-mo",
     "title": "特纳寨主二球莫",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "全抗",
@@ -4238,7 +4555,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "热力学I",
@@ -4252,7 +4570,8 @@
     "slug": "ye-su-de-re-li-xue",
     "title": "耶稣的热力学",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "热情好客埃玛克",
@@ -4267,7 +4586,8 @@
     "slug": "re-qing-hao-ke-ai-ma-ke",
     "title": "热情好客埃玛克",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "人生赢家是星锁",
@@ -4282,7 +4602,8 @@
     "slug": "ren-sheng-ying-jia-xing-suo",
     "title": "人生赢家是星锁",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "人在塔在",
@@ -4297,7 +4618,8 @@
     "slug": "ren-zai-ta-zai",
     "title": "人在塔在",
     "category": "社区文化"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "日薄西山斐德克",
@@ -4312,7 +4634,8 @@
     "slug": "fdk-xi-yang-you-dian-hong",
     "title": "FDK 夕阳有点红",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "日不完",
@@ -4322,7 +4645,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "荣耀",
@@ -4336,7 +4660,8 @@
     "slug": "cuo-gu-yang-hui-mie-rong-yao",
     "title": "挫骨扬灰灭荣耀",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "萨科齐",
@@ -4350,7 +4675,8 @@
     "slug": "sa-ke-qi",
     "title": "不吃超旗萨科齐",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "萨沙",
@@ -4360,7 +4686,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "赛德娜",
@@ -4374,7 +4701,8 @@
     "slug": "kuang-gong-zhi-you-sai-de-na",
     "title": "矿工之友赛德娜",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "杀人放火神鸡鸡",
@@ -4389,7 +4717,8 @@
     "slug": "shen-ji-ji",
     "title": "不骑摩托神鸡鸡",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "杀手",
@@ -4399,7 +4728,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "杀手军团",
@@ -4413,7 +4743,8 @@
     "slug": "bang-zhu-meng-xin-jiao-sha-shou",
     "title": "帮助萌新叫杀手",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "傻妹妹",
@@ -4427,7 +4758,8 @@
     "slug": "sha-mei-mei-zhan-zheng",
     "title": "傻妹妹战争",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "傻妹妹战争",
@@ -4442,7 +4774,8 @@
     "slug": "sha-mei-mei-zhan-zheng",
     "title": "傻妹妹战争",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "闪红",
@@ -4452,7 +4785,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "蛇",
@@ -4462,7 +4796,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "谁过门谁吃屎，我先过",
@@ -4477,7 +4812,8 @@
     "slug": "shei-guo-men-shei-chi-shi",
     "title": "谁过门谁吃屎，我先过",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "谁喊人谁孙子",
@@ -4491,7 +4827,8 @@
     "slug": "sun-zi-lian-meng",
     "title": "孙子联盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "谁怂谁死",
@@ -4506,7 +4843,8 @@
     "slug": "shei-song-shei-si",
     "title": "谁怂谁死",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "申请纷飞放松下",
@@ -4521,7 +4859,8 @@
     "slug": "fang-song-yi-xia",
     "title": "申请纷飞放松下",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "深蓝决战到底",
@@ -4535,7 +4874,8 @@
     "slug": "shen-lan-bang",
     "title": "语言文明深蓝邦",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "神的鸡鸡",
@@ -4549,7 +4889,8 @@
     "slug": "shen-ji-ji",
     "title": "不骑摩托神鸡鸡",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "神父",
@@ -4563,7 +4904,8 @@
     "slug": "shen-fu",
     "title": "坚持到底是神父",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "神机妙算奶牛布",
@@ -4578,7 +4920,8 @@
     "slug": "nai-niu-bu",
     "title": "神机妙算奶牛布",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "圣捞",
@@ -4593,7 +4936,8 @@
     "slug": "sheng-lao",
     "title": "圣捞",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "圣捞船",
@@ -4607,7 +4951,8 @@
     "slug": "sheng-lao",
     "title": "圣捞",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "圣卒打捞船",
@@ -4621,7 +4966,8 @@
     "slug": "sheng-lao",
     "title": "圣捞",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "胜利当属TGA",
@@ -4636,7 +4982,8 @@
     "slug": "sheng-li-dang-shu-tga",
     "title": "胜利当属TGA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "十国联军",
@@ -4650,7 +4997,8 @@
     "slug": "shi-guo-lian-jun",
     "title": "十国联军",
     "category": "组织政治"
-   }
+   },
+   "year": 2017
   },
   {
    "term": "十亿死机",
@@ -4665,7 +5013,8 @@
     "slug": "shi-yi-si-ji",
     "title": "十亿死机",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "时尚凝",
@@ -4679,7 +5028,8 @@
     "slug": "shi-shang-ning",
     "title": "进退果敢时尚凝",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "势力装",
@@ -4689,7 +5039,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "势力装与死亡装",
@@ -4699,7 +5050,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "收割",
@@ -4709,11 +5061,12 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "手滑泰坦",
-   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。",
+   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。",
    "sources": [
     "别名"
    ],
@@ -4723,7 +5076,8 @@
     "slug": "tou-song-tai-tan",
     "title": "投送泰坦把自己投出去了",
     "category": "名场面"
-   }
+   },
+   "year": 2018
   },
   {
    "term": "守家靠隐轰",
@@ -4737,7 +5091,8 @@
     "slug": "yin-hong-shou-zhu-quan",
     "title": "隐轰守主权",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "刷怪",
@@ -4747,7 +5102,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "刷书",
@@ -4757,7 +5113,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "刷FDK的怪",
@@ -4771,7 +5128,8 @@
     "slug": "ke-yi-shua-fdk-de-ren",
     "title": "可以刷 FDK 的人，不可以刷 FDK 的怪",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "甩葱",
@@ -4786,7 +5144,8 @@
     "slug": "shuai-cong",
     "title": "甩葱",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "甩葱战术",
@@ -4800,7 +5159,8 @@
     "slug": "shuai-cong",
     "title": "甩葱",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "水分至高星空萌",
@@ -4815,7 +5175,8 @@
     "slug": "xing-kong-meng",
     "title": "水分至高星空萌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "水果",
@@ -4830,7 +5191,8 @@
     "slug": "mai-shui-guo",
     "title": "买水果",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "说道做到就下线",
@@ -4845,7 +5207,8 @@
     "slug": "shei-song-shei-si",
     "title": "谁怂谁死",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "死亡装",
@@ -4855,7 +5218,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "四万五科长",
@@ -4869,7 +5233,8 @@
     "slug": "4w5-ke-zhang",
     "title": "4w5 科长",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "随便锁一个",
@@ -4883,7 +5248,8 @@
     "slug": "sui-bian-suo-yi-ge-da",
     "title": "随便锁一个打",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "随便锁一个打",
@@ -4898,7 +5264,8 @@
     "slug": "sui-bian-suo-yi-ge-da",
     "title": "随便锁一个打",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "孙子联盟",
@@ -4913,7 +5280,8 @@
     "slug": "sun-zi-lian-meng",
     "title": "孙子联盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "损管/损控",
@@ -4923,7 +5291,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "损控",
@@ -4933,7 +5302,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "损失惨重泛银河",
@@ -4948,7 +5318,8 @@
     "slug": "pibc-sun-shi-can-zhong",
     "title": "PIBC 损失惨重",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "索敌计算机（索敌）",
@@ -4958,7 +5329,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "索明美/恩公",
@@ -4968,7 +5340,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "锁一个打",
@@ -4982,11 +5355,12 @@
     "slug": "sui-bian-suo-yi-ge-da",
     "title": "随便锁一个打",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "泰坦操作理论5",
-   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。",
+   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。",
    "sources": [
     "别名"
    ],
@@ -4996,7 +5370,8 @@
     "slug": "tou-song-tai-tan",
     "title": "投送泰坦把自己投出去了",
     "category": "名场面"
-   }
+   },
+   "year": 2018
   },
   {
    "term": "泰坦先锋脾气君",
@@ -5011,7 +5386,8 @@
     "slug": "tai-tan-xian-feng-pi-qi-jun",
     "title": "泰坦先锋脾气君",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "坦克船",
@@ -5021,7 +5397,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "坦克误国",
@@ -5035,7 +5412,8 @@
     "slug": "wu-guo",
     "title": "误国",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "探索党",
@@ -5050,7 +5428,8 @@
     "slug": "tan-suo-dang",
     "title": "探索党",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "套索",
@@ -5064,7 +5443,8 @@
     "slug": "tao-si-ling",
     "title": "镇南天王套司令",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "特纳呼叫支援",
@@ -5078,7 +5458,8 @@
     "slug": "te-na-xu-yao-zhi-yuan",
     "title": "特纳需要支援",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "特纳需要支援",
@@ -5093,7 +5474,8 @@
     "slug": "te-na-xu-yao-zhi-yuan",
     "title": "特纳需要支援",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "特纳寨主二球莫",
@@ -5108,7 +5490,8 @@
     "slug": "er-qiu-mo",
     "title": "特纳寨主二球莫",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "天下布武斐德克",
@@ -5122,7 +5505,8 @@
     "slug": "yong-bu-fen-lie-fan-yin-he",
     "title": "永不分裂泛银河",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "跳刀",
@@ -5132,7 +5516,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "跳一百",
@@ -5142,7 +5527,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "贴门",
@@ -5152,7 +5538,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "铁血阵线TUF",
@@ -5167,7 +5554,8 @@
     "slug": "tie-xue-zhen-xian-tuf",
     "title": "铁血阵线TUF",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "偷菜",
@@ -5177,11 +5565,12 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "投送泰坦把自己投出去了",
-   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。",
+   "desc": "泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。",
    "sources": [
     "词条"
    ],
@@ -5191,7 +5580,8 @@
     "slug": "tou-song-tai-tan",
     "title": "投送泰坦把自己投出去了",
     "category": "名场面"
-   }
+   },
+   "year": 2018
   },
   {
    "term": "团灭黑",
@@ -5205,7 +5595,8 @@
     "slug": "jian-ruo-pan-shi",
     "title": "坚若磐石团灭黑",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "推子",
@@ -5215,7 +5606,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "娃娃万岁伽玛安",
@@ -5230,7 +5622,8 @@
     "slug": "jia-ma-an",
     "title": "娃娃万岁伽玛安",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王嗒嗒",
@@ -5244,7 +5637,8 @@
     "slug": "fang-chu-wang-da-da",
     "title": "放出王嗒嗒，协助无人机",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王答答",
@@ -5258,7 +5652,8 @@
     "slug": "wang-da-da",
     "title": "绝地总兵王答答",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王老吉",
@@ -5272,7 +5667,8 @@
     "slug": "hong-guan-liang-cha",
     "title": "红罐凉茶",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王师",
@@ -5287,7 +5683,8 @@
     "slug": "wang-shi",
     "title": "王师",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王师北定中原日",
@@ -5301,7 +5698,8 @@
     "slug": "wang-shi",
     "title": "王师",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "王师北定中原日，家祭无忘告乃翁",
@@ -5316,7 +5714,8 @@
     "slug": "wang-shi",
     "title": "王师",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "网",
@@ -5326,7 +5725,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "网吧砸人",
@@ -5340,7 +5740,8 @@
     "slug": "hong-guan-liang-cha",
     "title": "红罐凉茶",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "网住",
@@ -5350,7 +5751,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "网子",
@@ -5360,7 +5762,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "威尔",
@@ -5374,7 +5777,8 @@
     "slug": "wei-er",
     "title": "毁天灭地是威尔",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "微曲",
@@ -5384,7 +5788,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "微驱",
@@ -5394,7 +5799,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "唯我七月得红颜",
@@ -5409,11 +5815,12 @@
     "slug": "hong-yan",
     "title": "唯我七月得红颜",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "我就只配当个眼睛号",
-   "desc": "开个小号飞过去看本地有谁——顺便被 CEO 撞见了。",
+   "desc": "开个小号飞过去看本地有谁，顺便被 CEO 撞见了。",
    "sources": [
     "别名"
    ],
@@ -5423,7 +5830,8 @@
     "slug": "yan-jing-hao",
     "title": "眼睛号",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "我是良民COA",
@@ -5438,7 +5846,8 @@
     "slug": "wo-shi-liang-min-coa",
     "title": "我是良民COA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "我死了",
@@ -5452,7 +5861,8 @@
     "slug": "chong-chong-chong",
     "title": "冲冲冲，杀杀杀，修我修我，我死了",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "我相信我有这个影响力",
@@ -5467,7 +5877,8 @@
     "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
     "title": "我相信我有这个影响力",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "我直播吃翔",
@@ -5482,7 +5893,8 @@
     "slug": "wo-zhi-bo-chi-xiang",
     "title": "我直播吃翔",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "乌鸦飞不起来",
@@ -5496,7 +5908,8 @@
     "slug": "fei-bu-qi-lai",
     "title": "飞不起来",
     "category": "舰船"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "屋蓝",
@@ -5510,7 +5923,8 @@
     "slug": "yu-sui-da-jiang-jun",
     "title": "玉碎大将军",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "无人机",
@@ -5520,7 +5934,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "无人机（论坛水军）",
@@ -5534,7 +5949,8 @@
     "slug": "wu-ren-ji-ma-jia",
     "title": "无人机（论坛水军）",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "无双",
@@ -5549,7 +5965,8 @@
     "slug": "wu-shuang",
     "title": "无双",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "梧桐佳后凤凰姐",
@@ -5564,7 +5981,8 @@
     "slug": "wu-tong-jia-hou-feng-huang-jie",
     "title": "梧桐佳后凤凰姐",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "武提",
@@ -5574,7 +5992,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "武装矿车",
@@ -5584,7 +6003,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "物产丰富COA",
@@ -5599,7 +6019,8 @@
     "slug": "wu-chan-feng-fu-coa",
     "title": "物产丰富COA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "误国",
@@ -5614,7 +6035,8 @@
     "slug": "wu-guo",
     "title": "误国",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "误国的坦克",
@@ -5628,7 +6050,8 @@
     "slug": "wu-guo",
     "title": "误国",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "吸电",
@@ -5638,7 +6061,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "席拉",
@@ -5648,7 +6072,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "下线女王",
@@ -5662,7 +6087,8 @@
     "slug": "shei-song-shei-si",
     "title": "谁怂谁死",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "现实货币交易",
@@ -5676,7 +6102,8 @@
     "slug": "rmt",
     "title": "RMT",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "箱子",
@@ -5686,7 +6113,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小白",
@@ -5696,7 +6124,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "小草",
@@ -5710,7 +6139,8 @@
     "slug": "fang-song-yi-xia",
     "title": "申请纷飞放松下",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "小德",
@@ -5720,7 +6150,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "小鲸鱼",
@@ -5730,7 +6161,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小克",
@@ -5740,7 +6172,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小马",
@@ -5750,7 +6183,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小米",
@@ -5760,7 +6194,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小女王",
@@ -5774,7 +6209,8 @@
     "slug": "xiao-nv-wang",
     "title": "狼哭鬼嚎小女王",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "小平顶",
@@ -5784,7 +6220,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小托",
@@ -5794,7 +6231,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "小小黑手耶V稣",
@@ -5809,7 +6247,8 @@
     "slug": "xiao-xiao-hei-shou-ye-v-su",
     "title": "小小黑手耶V稣",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "小云图",
@@ -5825,7 +6264,8 @@
     "slug": "xiao-yun-tu",
     "title": "小云图",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "笑总",
@@ -5839,7 +6279,8 @@
     "slug": "bei-si-wang-ye",
     "title": "贝斯王爷传说笑",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "心动频道",
@@ -5849,7 +6290,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "心中的白虎",
@@ -5864,7 +6306,8 @@
     "slug": "xin-zhong-de-bai-hu",
     "title": "心中的白虎",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "心中的白喵",
@@ -5879,7 +6322,8 @@
     "slug": "xin-zhong-de-bai-hu",
     "title": "心中的白虎",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "薪然妃",
@@ -5893,7 +6337,8 @@
     "slug": "xing-he-yin-zhuan-xin-ran-fei",
     "title": "星河淫传薪然妃",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "信党信国信王师",
@@ -5903,7 +6348,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "星河淫传薪然妃",
@@ -5918,7 +6364,8 @@
     "slug": "xing-he-yin-zhuan-xin-ran-fei",
     "title": "星河淫传薪然妃",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "星华军团",
@@ -5932,7 +6379,8 @@
     "slug": "yong-yuan-xiu-xian-shi-xing-hua",
     "title": "永远休闲是星华",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "星空萌",
@@ -5946,7 +6394,8 @@
     "slug": "xing-kong-meng",
     "title": "水分至高星空萌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "星门痴汉",
@@ -5961,7 +6410,8 @@
     "slug": "xing-men-chi-han",
     "title": "星门痴汉",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "星门炮",
@@ -5971,7 +6421,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "星锁",
@@ -5985,7 +6436,8 @@
     "slug": "ren-sheng-ying-jia-xing-suo",
     "title": "人生赢家是星锁",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "胸降飞机找 E 呆",
@@ -6000,7 +6452,8 @@
     "slug": "e-dai",
     "title": "胸降飞机找 E 呆",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "熊老师",
@@ -6014,7 +6467,8 @@
     "slug": "xiong-lao-shi",
     "title": "寂静谷主熊老师",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "修我修我",
@@ -6028,7 +6482,8 @@
     "slug": "chong-chong-chong",
     "title": "冲冲冲，杀杀杀，修我修我，我死了",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "雪白的大馒头",
@@ -6042,7 +6497,8 @@
     "slug": "xue-bai-da-man-tou",
     "title": "雪白雪白的大馒头",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "雪白雪白的大馒头",
@@ -6057,7 +6513,8 @@
     "slug": "xue-bai-da-man-tou",
     "title": "雪白雪白的大馒头",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "雪寒顿悟",
@@ -6071,7 +6528,8 @@
     "slug": "4w5-ke-zhang",
     "title": "4w5 科长",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "血脉不详久居必亡",
@@ -6086,7 +6544,8 @@
     "slug": "xue-mai-bu-xiang",
     "title": "血脉不详久居必亡",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "血脉的诅咒",
@@ -6100,7 +6559,8 @@
     "slug": "xue-mai-bu-xiang",
     "title": "血脉不详久居必亡",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "训练河蚌",
@@ -6114,7 +6574,8 @@
     "slug": "he-bang",
     "title": "河蚌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "亚布",
@@ -6128,11 +6589,12 @@
     "slug": "nai-niu-bu",
     "title": "神机妙算奶牛布",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "眼睛",
-   "desc": "开个小号飞过去看本地有谁——顺便被 CEO 撞见了。",
+   "desc": "开个小号飞过去看本地有谁，顺便被 CEO 撞见了。",
    "sources": [
     "别名"
    ],
@@ -6142,7 +6604,8 @@
     "slug": "yan-jing-hao",
     "title": "眼睛号",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "眼睛号",
@@ -6157,7 +6620,8 @@
     "slug": "yan-jing-hao",
     "title": "眼睛号",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "养怪",
@@ -6167,7 +6631,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "摇修",
@@ -6177,7 +6642,8 @@
    ],
    "group": "装备",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "摇修飞袖李的蛋",
@@ -6192,7 +6658,8 @@
     "slug": "yao-xiu-fei-xiu-li-de-dan",
     "title": "摇修飞袖李的蛋",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "摇修老李的蛋",
@@ -6206,7 +6673,8 @@
     "slug": "yao-xiu-fei-xiu-li-de-dan",
     "title": "摇修飞袖李的蛋",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爷爷一路走好",
@@ -6221,7 +6689,8 @@
     "slug": "ye-ye-yi-lu-zou-hao",
     "title": "爷爷一路走好",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "爷爷走了",
@@ -6235,11 +6704,12 @@
     "slug": "ye-ye-yi-lu-zou-hao",
     "title": "爷爷一路走好",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "耶稣",
-   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
+   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
    "sources": [
     "别名"
    ],
@@ -6249,7 +6719,8 @@
     "slug": "ye-v-su",
     "title": "南北指挥耶V稣",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "耶稣的热力学",
@@ -6264,11 +6735,12 @@
     "slug": "ye-su-de-re-li-xue",
     "title": "耶稣的热力学",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "耶v稣",
-   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
+   "desc": "COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。",
    "sources": [
     "别名"
    ],
@@ -6278,7 +6750,8 @@
     "slug": "ye-v-su",
     "title": "南北指挥耶V稣",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "野男人部落",
@@ -6292,7 +6765,8 @@
     "slug": "bang-ding-ye-nan-ren",
     "title": "只为帮顶野男人",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "一场YY欢唱会引发的惨案",
@@ -6306,7 +6780,8 @@
     "slug": "sha-mei-mei-zhan-zheng",
     "title": "傻妹妹战争",
     "category": "名场面"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "一入拂晓深似海",
@@ -6321,7 +6796,8 @@
     "slug": "fu-xiao-jun-tuan",
     "title": "一入拂晓深似海",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "一笑倾城有丫头",
@@ -6336,7 +6812,8 @@
     "slug": "yi-xiao-qing-cheng-you-ya-tou",
     "title": "一笑倾城有丫头",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "一致对外称北盟",
@@ -6351,7 +6828,8 @@
     "slug": "yi-zhi-dui-wai-cheng-bei-meng",
     "title": "一致对外称北盟",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "以上所列皆凡人",
@@ -6366,7 +6844,8 @@
     "slug": "yi-shang-suo-lie-jie-fan-ren",
     "title": "以上所列皆凡人",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "因尼亚吃屎战",
@@ -6381,7 +6860,8 @@
     "slug": "kan-wo-de-kou-xing",
     "title": "看我的口型",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "隐轰守主权",
@@ -6396,7 +6876,8 @@
     "slug": "yin-hong-shou-zhu-quan",
     "title": "隐轰守主权",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "影响力",
@@ -6410,7 +6891,8 @@
     "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
     "title": "我相信我有这个影响力",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "影响力高台风姨",
@@ -6425,7 +6907,8 @@
     "slug": "wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li",
     "title": "我相信我有这个影响力",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "永不分裂泛银河",
@@ -6441,11 +6924,12 @@
     "slug": "yong-bu-fen-lie-fan-yin-he",
     "title": "永不分裂泛银河",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "永动机",
-   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。",
    "sources": [
     "别名"
    ],
@@ -6455,7 +6939,8 @@
     "slug": "jesus-n",
     "title": "JESUS N!",
     "category": "社区文化"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "永远休闲是星华",
@@ -6470,7 +6955,8 @@
     "slug": "yong-yuan-xiu-xian-shi-xing-hua",
     "title": "永远休闲是星华",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "勇当先锋馒大林",
@@ -6485,7 +6971,8 @@
     "slug": "yong-dang-xian-feng-man-da-lin",
     "title": "勇当先锋馒大林",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "勇刚正面RAC",
@@ -6495,7 +6982,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "勇猛无畏艾米亚",
@@ -6510,7 +6998,8 @@
     "slug": "yong-meng-wu-wei-ai-mi-ya",
     "title": "勇猛无畏艾米亚",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "幽灵狂傲",
@@ -6524,7 +7013,8 @@
     "slug": "lao-yang-ni-fan-bu-fan",
     "title": "老杨你烦不烦",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "幽灵老妖",
@@ -6538,7 +7028,8 @@
     "slug": "you-ling-yao",
     "title": "爱洗机库幽灵妖",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "悠嘻猴",
@@ -6552,7 +7043,8 @@
     "slug": "hou-zi-dang",
     "title": "猴子党",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "油条妹",
@@ -6566,7 +7058,8 @@
     "slug": "you-tiao-mei",
     "title": "风华正茂油条妹",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "有丫头",
@@ -6580,7 +7073,8 @@
     "slug": "yi-xiao-qing-cheng-you-ya-tou",
     "title": "一笑倾城有丫头",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "又臭又硬",
@@ -6594,7 +7088,8 @@
     "slug": "annob-de-wan-gu-ji",
     "title": "annob 的万古级",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "渔夫哥哥",
@@ -6608,7 +7103,8 @@
     "slug": "yu-fu-ge-ge",
     "title": "请把渔夫哥哥埋在静寂谷",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宇宙大帝馒大林",
@@ -6623,7 +7119,8 @@
     "slug": "yu-zhou-da-di-man-da-lin",
     "title": "宇宙大帝馒大林",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "宇宙人民齐欢庆",
@@ -6638,7 +7135,8 @@
     "slug": "yu-zhou-ren-min-qi-huan-qing",
     "title": "宇宙人民齐欢庆",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "语言文明深蓝邦",
@@ -6653,7 +7151,8 @@
     "slug": "shen-lan-bang",
     "title": "语言文明深蓝邦",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "玉碎",
@@ -6667,7 +7166,8 @@
     "slug": "yu-sui-da-jiang-jun",
     "title": "玉碎大将军",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "玉碎大将军",
@@ -6682,7 +7182,8 @@
     "slug": "yu-sui-da-jiang-jun",
     "title": "玉碎大将军",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "玉碎队",
@@ -6697,7 +7198,8 @@
     "slug": "yu-sui-dui",
     "title": "玉碎队",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "原文链接",
@@ -6707,7 +7209,8 @@
    ],
    "group": "手游黑话",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "源泉是南方",
@@ -6722,7 +7225,8 @@
     "slug": "yuan-quan-shi-nan-fang",
     "title": "源泉是南方",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "源泉太子寂寞哥",
@@ -6737,7 +7241,8 @@
     "slug": "yuan-quan-tai-zi-ji-mo-ge",
     "title": "源泉太子寂寞哥",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "月卡",
@@ -6747,7 +7252,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "月形",
@@ -6761,7 +7267,8 @@
     "slug": "da-yue-xing",
     "title": "钴蓝无敌大月形",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "月形联盟",
@@ -6775,7 +7282,8 @@
     "slug": "da-yue-xing",
     "title": "钴蓝无敌大月形",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "月月灭灯布兰迪",
@@ -6785,7 +7293,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "云图",
@@ -6799,7 +7308,8 @@
     "slug": "xiao-yun-tu",
     "title": "小云图",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "再笑倾国看冰冰",
@@ -6814,7 +7324,8 @@
     "slug": "zai-xiao-qing-guo-kan-bing-bing",
     "title": "再笑倾国看冰冰",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "早睡早起叫步兵",
@@ -6829,7 +7340,8 @@
     "slug": "zao-shui-zao-qi-jiao-bu-bing",
     "title": "早睡早起叫步兵",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "炸弹船",
@@ -6843,7 +7355,8 @@
     "slug": "zha-dan-kuang-mo",
     "title": "炸弹狂魔",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "炸弹狂魔",
@@ -6858,7 +7371,8 @@
     "slug": "zha-dan-kuang-mo",
     "title": "炸弹狂魔",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "战损",
@@ -6868,7 +7382,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "战友情深RAC",
@@ -6878,7 +7393,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "战争狂人索恩公",
@@ -6888,7 +7404,8 @@
    ],
    "group": "梗名",
    "url": "https://evepc.baike.163.com/ziliao/66.html",
-   "meme": null
+   "meme": null,
+   "year": 2014
   },
   {
    "term": "站长",
@@ -6898,7 +7415,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "长反",
@@ -6908,7 +7426,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "找坑找骗COA",
@@ -6923,11 +7442,12 @@
     "slug": "zhao-keng-zhao-pian-coa",
     "title": "找坑找骗COA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "这个频道不许录音",
-   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。",
    "sources": [
     "词条"
    ],
@@ -6937,7 +7457,8 @@
     "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
     "title": "这个频道不许录音",
     "category": "名场面"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "镇南天王套司令",
@@ -6952,7 +7473,8 @@
     "slug": "tao-si-ling",
     "title": "镇南天王套司令",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "镇南王",
@@ -6966,7 +7488,8 @@
     "slug": "tao-si-ling",
     "title": "镇南天王套司令",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "只为帮顶野男人",
@@ -6981,7 +7504,8 @@
     "slug": "bang-ding-ye-nan-ren",
     "title": "只为帮顶野男人",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "制导计算机",
@@ -6991,7 +7515,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1dC4y1X7eP/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "中白",
@@ -7001,7 +7526,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "种菜",
@@ -7011,7 +7537,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "种子大帝宁波兄",
@@ -7026,7 +7553,8 @@
     "slug": "ning-bo-xiong",
     "title": "种子大帝宁波兄",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "重攻",
@@ -7036,7 +7564,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "重拦",
@@ -7046,7 +7575,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "重网",
@@ -7056,7 +7586,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "重吸",
@@ -7066,7 +7597,8 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "猪咪咪",
@@ -7080,7 +7612,8 @@
     "slug": "hong-yan",
     "title": "唯我七月得红颜",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "主编注意你的立场",
@@ -7094,7 +7627,8 @@
     "slug": "he-lian-she-zhu-bian",
     "title": "河联社主编",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "主席",
@@ -7108,7 +7642,8 @@
     "slug": "bi-feng-bi-yu-bi-man-tou",
     "title": "避风避雨避馒头",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "抓泥鳅",
@@ -7123,11 +7658,12 @@
     "slug": "zhua-ni-qiu",
     "title": "抓泥鳅",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "抓泥鳅歌",
-   "desc": "两种用法：FBP 打架时让妹子唱《抓泥鳅》助兴；或指击溃敌队后在星系里追抓四散的敌船。",
+   "desc": "两种用法：FBP 打架时让妹子唱《抓泥鳅》助兴，或指击溃敌队后在星系里追抓四散的敌船。",
    "sources": [
     "别名"
    ],
@@ -7137,7 +7673,8 @@
     "slug": "zhua-ni-qiu",
     "title": "抓泥鳅",
     "category": "玩法"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "抓人",
@@ -7147,7 +7684,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "转火",
@@ -7157,7 +7695,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "自由骑士",
@@ -7171,7 +7710,8 @@
     "slug": "ni-hao-dong-bu-lian-bang",
     "title": "你好，东部联邦",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "足智多谋蓝老板",
@@ -7187,7 +7727,8 @@
     "slug": "lan-lao-ban",
     "title": "足智多谋蓝老板",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "最佳战损 NPC",
@@ -7202,7 +7743,8 @@
     "slug": "zui-jia-zhan-sun-npc",
     "title": "最佳战损 NPC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "A/C/G/M族",
@@ -7212,7 +7754,8 @@
    ],
    "group": "日常",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "A/C/M/G族",
@@ -7222,7 +7765,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "A后面一个字母",
@@ -7236,7 +7780,8 @@
     "slug": "yuan-quan-shi-nan-fang",
     "title": "源泉是南方",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "ABD",
@@ -7246,7 +7791,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "annob 的万古级",
@@ -7261,7 +7807,8 @@
     "slug": "annob-de-wan-gu-ji",
     "title": "annob 的万古级",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "ANOOB",
@@ -7275,7 +7822,8 @@
     "slug": "annob-de-wan-gu-ji",
     "title": "annob 的万古级",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "ASM",
@@ -7285,7 +7833,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "ASS",
@@ -7295,7 +7844,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "awwbwg",
@@ -7310,7 +7860,8 @@
     "slug": "awwbwg",
     "title": "awwbwg",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "BC",
@@ -7320,7 +7871,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BCU",
@@ -7330,7 +7882,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BM",
@@ -7340,7 +7893,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "Boss",
@@ -7350,7 +7904,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BP",
@@ -7360,7 +7915,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BPC",
@@ -7370,7 +7926,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BPO",
@@ -7380,7 +7937,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "BS、BB",
@@ -7390,7 +7948,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "bug 矿",
@@ -7404,7 +7963,8 @@
     "slug": "1v-bug-kuang",
     "title": "1v bug 矿",
     "category": "历史事件"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "Bug龙",
@@ -7414,7 +7974,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "clouds",
@@ -7428,7 +7989,8 @@
     "slug": "da-yu-c",
     "title": "火锅骑士大雨C",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "CO",
@@ -7438,7 +8000,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "COA",
@@ -7453,7 +8016,8 @@
     "slug": "wo-shi-liang-min-coa",
     "title": "我是良民COA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "CR",
@@ -7463,7 +8027,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "D3",
@@ -7473,7 +8038,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "DD、DDG",
@@ -7483,7 +8049,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "DEN抗战熊",
@@ -7497,7 +8064,8 @@
     "slug": "deng-kang-zhan-xiong",
     "title": "凳抗战熊种兔队",
     "category": "名场面"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "DF WILL",
@@ -7511,11 +8079,12 @@
     "slug": "wei-er",
     "title": "毁天灭地是威尔",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "E 呆",
-   "desc": "PIBC 暗月军团总监，人称 e 萌 / e 呆；数年从未在 YY 说过话，常年制造毒品。",
+   "desc": "PIBC 暗月军团总监，人称 e 萌 / e 呆。数年从未在 YY 说过话，常年制造毒品。",
    "sources": [
     "别名"
    ],
@@ -7525,11 +8094,12 @@
     "slug": "e-dai",
     "title": "胸降飞机找 E 呆",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "e萌",
-   "desc": "PIBC 暗月军团总监，人称 e 萌 / e 呆；数年从未在 YY 说过话，常年制造毒品。",
+   "desc": "PIBC 暗月军团总监，人称 e 萌 / e 呆。数年从未在 YY 说过话，常年制造毒品。",
    "sources": [
     "别名"
    ],
@@ -7539,7 +8109,8 @@
     "slug": "e-dai",
     "title": "胸降飞机找 E 呆",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "ECF",
@@ -7549,7 +8120,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "ECM",
@@ -7559,11 +8131,12 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "EVE 皇帝",
-   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。",
+   "desc": "馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。",
    "sources": [
     "别名"
    ],
@@ -7573,7 +8146,8 @@
     "slug": "zhe-ge-pin-dao-bu-xu-lu-yin",
     "title": "这个频道不许录音",
     "category": "名场面"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "FBP",
@@ -7587,7 +8161,8 @@
     "slug": "bu-chi-zha-ji",
     "title": "不吃炸鸡反 BP",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "FDK",
@@ -7597,7 +8172,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "FDK 夕阳有点红",
@@ -7612,7 +8188,8 @@
     "slug": "fdk-xi-yang-you-dian-hong",
     "title": "FDK 夕阳有点红",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "FOF",
@@ -7622,7 +8199,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "FR、FF",
@@ -7632,7 +8210,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "HOT",
@@ -7642,7 +8221,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "ISK 和黄币",
@@ -7652,11 +8232,12 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "JB永动机",
-   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。",
    "sources": [
     "别名"
    ],
@@ -7666,11 +8247,12 @@
     "slug": "jesus-n",
     "title": "JESUS N!",
     "category": "社区文化"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "JESUS N!",
-   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。",
    "sources": [
     "词条"
    ],
@@ -7680,7 +8262,8 @@
     "slug": "jesus-n",
     "title": "JESUS N!",
     "category": "社区文化"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "johsonzyb",
@@ -7694,7 +8277,8 @@
     "slug": "ba-nian-shen-qing",
     "title": "八年深情惜囧森",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "JST",
@@ -7704,11 +8288,12 @@
    ],
    "group": "游戏物品类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "JUSES N",
-   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。",
+   "desc": "用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。",
    "sources": [
     "别名"
    ],
@@ -7718,7 +8303,8 @@
     "slug": "jesus-n",
     "title": "JESUS N!",
     "category": "社区文化"
-   }
+   },
+   "year": 2021
   },
   {
    "term": "JZV 保卫战",
@@ -7732,7 +8318,8 @@
     "slug": "ren-zai-ta-zai",
     "title": "人在塔在",
     "category": "社区文化"
-   }
+   },
+   "year": 2012
   },
   {
    "term": "kelly 星空",
@@ -7746,7 +8333,8 @@
     "slug": "xing-kong-meng",
     "title": "水分至高星空萌",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "KFC",
@@ -7761,11 +8349,12 @@
     "slug": "kfc",
     "title": "KFC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "KFC 全家桶",
-   "desc": "EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。",
+   "desc": "EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。",
    "sources": [
     "别名"
    ],
@@ -7775,7 +8364,8 @@
     "slug": "kfc",
     "title": "KFC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "KM",
@@ -7785,7 +8375,8 @@
    ],
    "group": "战斗常用",
    "url": "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16",
-   "meme": null
+   "meme": null,
+   "year": 2022
   },
   {
    "term": "LG",
@@ -7799,7 +8390,8 @@
     "slug": "chi-bu-qi-fan-lg",
     "title": "吃不起饭 LG",
     "category": "舰长轶事"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "LP",
@@ -7809,7 +8401,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "MWD",
@@ -7819,7 +8412,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "MX",
@@ -7829,7 +8423,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "NPC 战损",
@@ -7843,7 +8438,8 @@
     "slug": "zui-jia-zhan-sun-npc",
     "title": "最佳战损 NPC",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "PG",
@@ -7853,7 +8449,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "PIBC",
@@ -7863,7 +8460,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "PIBC 损失惨重",
@@ -7879,7 +8477,8 @@
     "slug": "pibc-sun-shi-can-zhong",
     "title": "PIBC 损失惨重",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "PLD",
@@ -7889,7 +8488,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "poi",
@@ -7903,7 +8503,8 @@
     "slug": "poibc",
     "title": "poibc",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "poibc",
@@ -7919,7 +8520,8 @@
     "slug": "poibc",
     "title": "poibc",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "R",
@@ -7934,7 +8536,8 @@
     "slug": "r-rac",
     "title": "R",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "RAC",
@@ -7944,7 +8547,8 @@
    ],
    "group": "游戏通用类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "RMT",
@@ -7960,7 +8564,8 @@
     "slug": "rmt",
     "title": "RMT",
     "category": "社区文化"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "RP",
@@ -7970,7 +8575,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "SB",
@@ -7980,7 +8586,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "SNB",
@@ -7990,7 +8597,8 @@
    ],
    "group": "视频黑话",
    "url": "https://www.bilibili.com/video/BV1pN4y1474K/",
-   "meme": null
+   "meme": null,
+   "year": 2023
   },
   {
    "term": "SP",
@@ -8000,7 +8608,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "T/B/M/K ISK",
@@ -8010,7 +8619,8 @@
    ],
    "group": "游戏缩写类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   },
   {
    "term": "TGA",
@@ -8025,7 +8635,8 @@
     "slug": "sheng-li-dang-shu-tga",
     "title": "胜利当属TGA",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "TUF",
@@ -8040,7 +8651,8 @@
     "slug": "tie-xue-zhen-xian-tuf",
     "title": "铁血阵线TUF",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "VVV",
@@ -8054,7 +8666,8 @@
     "slug": "di-an-zhi-fa-you-3v",
     "title": "低安执法有 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "VVV真脏",
@@ -8068,7 +8681,8 @@
     "slug": "fang-huo-fang-dao-fang-3v",
     "title": "防火防盗防 3V",
     "category": "组织政治"
-   }
+   },
+   "year": 2014
   },
   {
    "term": "YST",
@@ -8078,7 +8692,8 @@
    ],
    "group": "舰船类",
    "url": "https://evepc.baike.163.com/ziliao/48.html",
-   "meme": null
+   "meme": null,
+   "year": 2019
   }
  ]
 }

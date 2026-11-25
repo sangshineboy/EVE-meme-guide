@@ -8,11 +8,12 @@
   <link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | url }}?v={{ site.build }}">
   <script>
-    /* 主题预置：在首屏渲染前套上 data-theme，避免闪白/闪黑 */
+    /* 主题预置：默认亮色；仅在用户显式切过暗色时在首屏渲染前套上 data-theme="dark" */
     (function () {
       try {
-        var t = localStorage.getItem("eve-meme-theme");
-        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+        if (localStorage.getItem("eve-meme-theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
       } catch (e) {}
     })();
   </script>
@@ -26,25 +27,17 @@
         <small>{{ site.subtitle }}</small>
       </span>
     </a>
-    <nav class="site-nav">
-      <a href="{{ '/' | url }}">首页</a>
-      <a href="{{ '/lexicon/' | url }}">黑话索引</a>
-      <a href="{{ '/sources/' | url }}">出处总表</a>
-      <a href="{{ '/random/' | url }}" id="js-random" data-slugs="{{ '/slugs.json' | url }}">随机一条</a>
-      <a href="{{ '/about/' | url }}" class="nav-about">关于作者</a>
-    </nav>
-    <div class="theme-switch" role="group" aria-label="配色">
-      <button type="button" data-theme-set="light" aria-pressed="false" title="亮色">
-        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1.6v1.6M8 12.8v1.6M1.6 8h1.6M12.8 8h1.6M3.5 3.5l1.1 1.1M11.4 11.4l1.1 1.1M12.5 3.5l-1.1 1.1M4.6 11.4l-1.1 1.1"/></svg>
-        <span>亮色</span>
-      </button>
-      <button type="button" data-theme-set="auto" aria-pressed="true" title="跟随系统">
-        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.8" y="2.6" width="12.4" height="8" rx="1.2"/><path d="M5.4 13.4h5.2"/></svg>
-        <span>自动</span>
-      </button>
-      <button type="button" data-theme-set="dark" aria-pressed="false" title="暗色">
-        <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.4 9.6A5.6 5.6 0 0 1 6.4 2.6a5.6 5.6 0 1 0 7 7Z"/></svg>
-        <span>暗色</span>
+    <div class="head-right">
+      <nav class="site-nav">
+        <a href="{{ '/' | url }}">首页</a>
+        <a href="{{ '/lexicon/' | url }}">黑话索引</a>
+        <a href="{{ '/sources/' | url }}">出处总表</a>
+        <a href="{{ '/random/' | url }}" id="js-random" data-slugs="{{ '/slugs.json' | url }}">随机一条</a>
+        <a href="{{ '/about/' | url }}" class="nav-about">关于作者</a>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="切换到暗色模式" title="切换到暗色模式">
+        <svg class="i-moon" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13.4 9.6A5.6 5.6 0 0 1 6.4 2.6a5.6 5.6 0 1 0 7 7Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><path d="M8 1.6v1.6M8 12.8v1.6M1.6 8h1.6M12.8 8h1.6M3.5 3.5l1.1 1.1M11.4 11.4l1.1 1.1M12.5 3.5l-1.1 1.1M4.6 11.4l-1.1 1.1"/></svg>
       </button>
     </div>
   </header>

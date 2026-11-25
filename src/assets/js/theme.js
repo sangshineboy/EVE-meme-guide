@@ -1,38 +1,34 @@
-// 主题切换：亮色 / 自动 / 暗色。写入 <html data-theme> 与 localStorage。
-// 「自动」= 不设 data-theme，交给 prefers-color-scheme。
+// 主题切换：默认亮色，单图标一键切换亮色 / 暗色。写入 <html data-theme> 与 localStorage。
 (function () {
   var KEY = "eve-meme-theme";
   var root = document.documentElement;
-  var btns = [].slice.call(document.querySelectorAll("[data-theme-set]"));
+  var btn = document.getElementById("theme-toggle");
+  if (!btn) return;
 
-  function current() {
-    var v = null;
+  function isDark() {
+    return root.getAttribute("data-theme") === "dark";
+  }
+
+  function apply(dark) {
+    if (dark) root.setAttribute("data-theme", "dark");
+    else root.removeAttribute("data-theme");
+    var tip = dark ? "切换到亮色模式" : "切换到暗色模式";
+    btn.setAttribute("aria-label", tip);
+    btn.setAttribute("title", tip);
+    btn.setAttribute("aria-pressed", dark ? "true" : "false");
+  }
+
+  btn.addEventListener("click", function () {
+    var nextDark = !isDark();
     try {
-      v = localStorage.getItem(KEY);
+      localStorage.setItem(KEY, nextDark ? "dark" : "light");
     } catch (e) {}
-    return v === "light" || v === "dark" ? v : "auto";
-  }
+    apply(nextDark);
+  });
 
-  function apply(theme) {
-    if (theme === "auto") root.removeAttribute("data-theme");
-    else root.setAttribute("data-theme", theme);
-
-    for (var i = 0; i < btns.length; i++) {
-      var on = btns[i].getAttribute("data-theme-set") === theme;
-      btns[i].setAttribute("aria-pressed", on ? "true" : "false");
-    }
-  }
-
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function () {
-      var theme = this.getAttribute("data-theme-set");
-      try {
-        if (theme === "auto") localStorage.removeItem(KEY);
-        else localStorage.setItem(KEY, theme);
-      } catch (e) {}
-      apply(theme);
-    });
-  }
-
-  apply(current());
+  var stored = null;
+  try {
+    stored = localStorage.getItem(KEY);
+  } catch (e) {}
+  apply(stored === "dark");
 })();

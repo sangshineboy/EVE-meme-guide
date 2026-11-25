@@ -1,4 +1,4 @@
-<li class="card" data-key="{{ m | searchKey }}" data-category="{{ m.category }}" data-scope="{{ m.scope }}" data-server="{{ m.server }}" data-labels="{{ (m.labels or []) | join(',') }}" data-title="{{ m.title }}" data-sources="{{ m | sourceCount }}" data-rank="{{ ranking[m.slug].rank or 999 }}" data-tier="{{ ranking[m.slug].tier or '' }}">
+<li class="card" data-key="{{ m | searchKey }}" data-category="{{ m.category }}" data-scope="{{ m.scope }}" data-server="{{ m.server }}" data-labels="{{ (m.labels or []) | join(',') }}" data-title="{{ m.title }}" data-sources="{{ m | sourceCount }}" data-rank="{{ ranking[m.slug].rank or 999 }}" data-tier="{{ ranking[m.slug].tier or '' }}" data-year="{{ m.year }}">
   <a class="card-link" href="{{ ('/m/' + m.slug + '/') | url }}">
     <h3 class="card-title">{{ m.title }}</h3>
     <p class="card-summary">{{ m.summary }}</p>
@@ -9,7 +9,7 @@
       {%- if ranking[m.slug].tier %}
       <span class="badge badge-tier" data-tier="{{ ranking[m.slug].tier }}" title="热度档位：按播放量与引用数排名（第 {{ ranking[m.slug].rank }} 名）">{{ ranking[m.slug].tier }}</span>
       {%- endif %}
-      <span class="card-src">源 {{ m | sourceCount }}</span>
+      <span class="card-src">{{ m.year }} · 源 {{ m | sourceCount }}</span>
     </p>
   </a>
 </li>

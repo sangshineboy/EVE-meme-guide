@@ -8,7 +8,7 @@
 | 来源 | 链接 | 读出什么 | 缺口 |
 | --- | --- | --- | --- |
 | 163百科《EVE的各种梗》第 31 条 | https://evepc.baike.163.com/ziliao/66.html | 见正文 | — |
-| 原始录音（优酷） | http://v.youku.com/v_show/id_XNzEyNjM0MTUy.html | 见正文 | — |
+| 老李的蛋字幕版（优酷） | http://v.youku.com/v_show/id_XNzEyNjM0MTUy.html | 见正文 | — |
 
 ## 说明
 

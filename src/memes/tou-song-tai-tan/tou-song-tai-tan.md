@@ -42,6 +42,6 @@ updated_at: 2026-11-16
 
 > 说明：以下三条 B 站视频为社区上传的现场录屏与复盘，均非官方；机制解释来自评论区，正文已标明。
 
-- [【EVE欧服】N老板的黑历史（BV1eW41137i1）](https://www.bilibili.com/video/BV1eW41137i1) —— 2018 年那次，播放最高
-- [【EVE】红光一闪居然是手滑泰坦？？？（BV1zu6eYKEnY）](https://www.bilibili.com/video/BV1zu6eYKEnY) —— 2024 年复盘，简介判断「投送的又把自己投出去了」
-- [【EVE】泰坦投送把自己投出去了 我方视角（BV1mH4y1N7eF）](https://www.bilibili.com/video/BV1mH4y1N7eF) —— 2024 年现场，简介附 zKillboard 战损链接
+- [【EVE欧服】N老板的黑历史（B站）](https://www.bilibili.com/video/BV1eW41137i1) —— 2018 年那次，播放最高
+- [【EVE】红光一闪居然是手滑泰坦？？？（B站）](https://www.bilibili.com/video/BV1zu6eYKEnY) —— 2024 年复盘，简介判断「投送的又把自己投出去了」
+- [【EVE】泰坦投送把自己投出去了 我方视角（B站）](https://www.bilibili.com/video/BV1mH4y1N7eF) —— 2024 年现场，简介附 zKillboard 战损链接

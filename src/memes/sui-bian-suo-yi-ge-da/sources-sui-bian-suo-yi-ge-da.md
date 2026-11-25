@@ -8,7 +8,7 @@
 | 来源 | 链接 | 读出什么 | 缺口 |
 | --- | --- | --- | --- |
 | 163百科《EVE的各种梗》第 50 条 | https://evepc.baike.163.com/ziliao/66.html | 见正文 | — |
-| 当时的录音（优酷） | http://v.youku.com/v_show/id_XMjgwMzgyMzQ0.html | 见正文 | — |
+| 蓝色联邦轰洋鬼子加英文字幕版（优酷） | http://v.youku.com/v_show/id_XMjgwMzgyMzQ0.html | 见正文 | — |
 
 ## 说明
 

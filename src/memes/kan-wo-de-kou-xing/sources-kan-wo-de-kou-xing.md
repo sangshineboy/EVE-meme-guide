@@ -8,7 +8,7 @@
 | 来源 | 链接 | 读出什么 | 缺口 |
 | --- | --- | --- | --- |
 | 163百科《EVE的各种梗》第 51 条 | https://evepc.baike.163.com/ziliao/66.html | 见正文 | — |
-| 当时的视频（B站） | http://www.bilibili.com/video/av1662881/ | 见正文 | — |
+| 【军用馒头】《因尼亚吃屎战》（B站） | http://www.bilibili.com/video/av1662881/ | 见正文 | — |
 
 ## 说明
 

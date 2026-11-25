@@ -17,16 +17,39 @@ export default function (eleventyConfig) {
       .split(/\r?\n/)
       .map((l) => l.trim())
       .find((l) => l && !l.startsWith("#") && !l.startsWith("-") && !l.startsWith(">")) ?? "";
+  const SITE_FIRST_YEAR = 2026;
+  const SOURCE_URL_YEARS = {
+    "https://evepc.baike.163.com/ziliao/66.html": 2014,
+    "https://evepc.baike.163.com/ziliao/48.html": 2019,
+    "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16": 2022,
+    "https://www.bilibili.com/video/BV1dC4y1X7eP/": 2023,
+    "https://www.bilibili.com/video/BV1pN4y1474K/": 2023,
+  };
+  const YEAR_RE = /(?<!\d)(200[3-9]|201\d|202[0-6])(?:\s*年|-(?:0[1-9]|1[0-2]))/g;
+  const yearOf = (raw) => {
+    const text = String(raw ?? "");
+    const [beforeRef, refPart = ""] = text.split(/^## 参考文献/m);
+    const years = [
+      ...[...beforeRef.matchAll(YEAR_RE)].map((x) => Number(x[1])),
+      ...[...refPart.matchAll(YEAR_RE)].map((x) => Number(x[1])),
+    ];
+    for (const [u, y] of Object.entries(SOURCE_URL_YEARS)) {
+      if (refPart.includes(u)) years.push(y);
+    }
+    return years.length ? Math.min(...years) : SITE_FIRST_YEAR;
+  };
   const cache = new WeakMap();
   const d = (m) => {
     if (!m || typeof m !== "object") return m;
     if (cache.has(m)) return cache.get(m);
     const data = m.data && m.data.slug ? m.data : m;
+    const raw = m.rawInput ?? data.body ?? "";
     const rich = {
       ...data,
       summary: data.summary ?? summaryOf(m.rawInput),
       sources: data.sources ?? linksOf(m.rawInput),
       sourceCount: data.sourceCount ?? linksOf(m.rawInput).length,
+      year: data.year ?? yearOf(raw),
     };
     cache.set(m, rich);
     return rich;
@@ -162,14 +185,17 @@ export default function (eleventyConfig) {
         }
       }
     }
-    for (const r of byUrl.values()) {
-      // 同一链接被不同词条起了不同标题（例如百科页被逐条标成「第 N 条」）时，改用页面路径当标签
-      if (r.titles.size > 1) {
-        try {
-          r.title = `${r.host}${new URL(r.url).pathname}`;
-        } catch {
-          r.title = [...r.titles][0];
-        }
+    // 已知汇总页在出处总表中的统一标题（避免因各词条写成「第 N 条」而被降级成裸 URL）
+    const CANONICAL_SOURCE_TITLES = {
+      "evepc.baike.163.com/ziliao/66.html": "《EVE的各种梗》（163百科）",
+      "evepc.baike.163.com/ziliao/48.html": "《游戏习语》（163百科）",
+    };
+    for (const [key, r] of byUrl.entries()) {
+      if (CANONICAL_SOURCE_TITLES[key]) {
+        r.title = CANONICAL_SOURCE_TITLES[key];
+      } else if (r.titles.size > 1) {
+        // 同一链接在正文与参考文献里写法不同时，保留信息最完整的标题
+        r.title = [...r.titles].sort((a, b) => b.length - a.length)[0];
       } else {
         r.title = [...r.titles][0];
       }

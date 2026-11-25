@@ -44,6 +44,6 @@ updated_at: 2026-10-23
 
 > 说明：下面三条是同一起事件的不同形态。原话以录音本身为准；文字引文来自第三条解说视频的转述，已注明。
 
-- [【EVE】这个频道不许录音（BV1ZQ4y1a7Sn）](https://www.bilibili.com/video/BV1ZQ4y1a7Sn) —— 原始录音，约 41 分钟，播放 3.5 万
-- [到底得多大本事，玩个游戏才能这么嚣张！（BV15B4y197MR）](https://www.bilibili.com/video/BV15B4y197MR) —— 剪成 2 分 40 秒的版本，播放 156 万；简介里列的素材 AV 号包含上面那条
-- [这个频道不许录音！最嚣张的网游「皇帝」终于垮台了！（BV1Ji4y1X7TR）](https://www.bilibili.com/video/BV1Ji4y1X7TR) —— 8 分钟解说，播放约 59 万；上面那段引文出自这条的转述
+- [【EVE】这个频道不许录音（B站）](https://www.bilibili.com/video/BV1ZQ4y1a7Sn) —— 原始录音，约 41 分钟，播放 3.5 万
+- [到底得多大本事，玩个游戏才能这么嚣张！（B站）](https://www.bilibili.com/video/BV15B4y197MR) —— 剪成 2 分 40 秒的版本，播放 156 万；简介里列的素材 AV 号包含上面那条
+- [这个频道不许录音！最嚣张的网游「皇帝」终于垮台了！（B站）](https://www.bilibili.com/video/BV1Ji4y1X7TR) —— 8 分钟解说，播放约 59 万；上面那段引文出自这条的转述

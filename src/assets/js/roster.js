@@ -3,7 +3,8 @@ const roster = document.getElementById("roster");
 const cards = [...roster.querySelectorAll(".card")];
 const input = document.getElementById("filter");
 const status = document.getElementById("filter-status");
-const foldState = document.getElementById("fold-state");
+const filterPanel = document.getElementById("filters");
+const filterToggle = document.getElementById("filter-toggle");
 const orderBtns = [...document.querySelectorAll("[data-order]")];
 const shuffleBtn = document.getElementById("shuffle");
 const catBtns = [...document.querySelectorAll("[data-filter-cat]")];
@@ -43,7 +44,9 @@ function apply() {
   if (tier) parts.push(tier);
   status.hidden = false;
   status.textContent = parts.length ? `${parts.join(" · ")}：${shown} 条` : `共 ${shown} 条`;
-  if (foldState) foldState.textContent = parts.length ? parts.join(" · ") : "全部";
+  if (filterToggle) {
+    filterToggle.classList.toggle("has-active", !!(scope || server || tier));
+  }
 }
 
 function sortCards() {
@@ -55,6 +58,10 @@ function sortCards() {
       // 热度：名次小的靠前；没有名次的（999）垫底，同档按标题
       cmp =
         Number(a.dataset.rank) - Number(b.dataset.rank) ||
+        a.dataset.title.localeCompare(b.dataset.title, "zh");
+    } else if (order === "year") {
+      cmp =
+        Number(a.dataset.year) - Number(b.dataset.year) ||
         a.dataset.title.localeCompare(b.dataset.title, "zh");
     } else {
       cmp = a.dataset.title.localeCompare(b.dataset.title, "zh");
@@ -118,6 +125,18 @@ shuffleBtn.addEventListener("click", () => {
   shuffleBtn.setAttribute("aria-pressed", String(!!shuffled));
   sortCards();
 });
+
+// 筛选区展开 / 收起：收起时固定露出第一行，展开时显示全部筛选条件
+if (filterPanel && filterToggle) {
+  const labelEl = filterToggle.querySelector(".filter-more-label");
+  const arrowEl = filterToggle.querySelector(".filter-more-arrow");
+  filterToggle.addEventListener("click", () => {
+    const open = filterPanel.classList.toggle("is-open");
+    filterToggle.setAttribute("aria-expanded", String(open));
+    if (labelEl) labelEl.textContent = open ? "收起" : "展开";
+    if (arrowEl) arrowEl.textContent = open ? "▴" : "▾";
+  });
+}
 
 apply();
 sortCards();

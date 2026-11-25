@@ -7,48 +7,62 @@ bodyClass: page-index
   <h1>{{ site.title }}</h1>
   <p>{{ site.description }}共收 <strong>{{ memes.length }}</strong> 条。</p>
   <p class="intro-note">每条词条都在正文里列出出处（原帖、官方公告或媒体报道），逐条可点。<a href="{{ '/sources/' | url }}">出处总表 →</a></p>
+  <div class="visit-counter" id="visit-counter" data-endpoint="{{ site.counterEndpoint }}" aria-live="polite" hidden>
+    <span class="visit-counter-total">
+      <span class="visit-counter-dot" aria-hidden="true"></span>
+      <strong class="visit-counter-value" id="visit-total">0</strong>
+      <span class="visit-counter-label">累计访问人数</span>
+    </span>
+    <span class="visit-counter-sep" aria-hidden="true"></span>
+    <span class="visit-counter-today" title="每日按北京时间 00:00 重置">
+      <span class="visit-counter-label">今日访问人数</span>
+      <strong class="visit-counter-today-value" id="visit-today">0</strong>
+    </span>
+  </div>
 </section>
 
 <div class="toolbar" role="search">
   <input id="filter" type="search" placeholder="查询：词条名、别名、标签、分类…" autocomplete="off" aria-label="按词条名或标签筛选">
   <button type="button" data-order="rank" aria-pressed="true" class="is-active" title="按热度排：播放量与引用数算出的名次，从夯到拉">热度</button>
+  <button type="button" data-order="year" aria-pressed="false" title="按年份排（不清楚时间的取来源或本站最早更新年份）">时间</button>
   <button type="button" data-order="title" aria-pressed="false" title="按名称排">名称</button>
   <button id="shuffle" type="button" aria-pressed="false" title="随机排序，再点重新洗牌">随机</button>
 </div>
 
-<details class="fold" id="filters">
-  <summary class="fold-sum">
-    <span class="fold-title">筛选</span>
-    <span class="fold-state" id="fold-state">全部</span>
-    <span class="fold-arrow" aria-hidden="true">▾</span>
-  </summary>
-  <div class="tag-wrap">
-    <nav class="tag-bar" id="cat-bar" aria-label="按分类筛选">
+<section class="filter-panel" id="filters" aria-label="词条筛选">
+  <div class="filter-rows">
+    <nav class="tag-bar filter-primary" id="cat-bar" aria-label="按分类筛选">
       <button type="button" class="chip is-active" data-filter-cat="" aria-pressed="true">全部分类<small>{{ memes.length }}</small></button>
       {%- for g in memes | groupByCategory %}
       <button type="button" class="chip" data-filter-cat="{{ g.category }}" aria-pressed="false">{{ g.category }}<small>{{ g.items.length }}</small></button>
       {%- endfor %}
     </nav>
-    <nav class="tag-bar" id="scope-bar" aria-label="按端游／手游筛选">
-      <button type="button" class="chip is-active" data-filter-scope="" aria-pressed="true">端游＋手游</button>
-      {%- for g in memes | groupByScope %}
-      <button type="button" class="chip" data-filter-scope="{{ g.scope }}" aria-pressed="false">{{ g.scope }}<small>{{ g.items.length }}</small></button>
-      {%- endfor %}
-    </nav>
-    <nav class="tag-bar" id="tier-bar" aria-label="按热度档位筛选">
-      <button type="button" class="chip is-active" data-filter-tier="" aria-pressed="true">从夯到拉</button>
-      {%- for g in memes | groupByTier %}
-      <button type="button" class="chip" data-filter-tier="{{ g.tier }}" aria-pressed="false">{{ g.tier }}<small>{{ g.items.length }}</small></button>
-      {%- endfor %}
-    </nav>
-    <nav class="tag-bar" id="server-bar" aria-label="按服务器筛选">
-      <button type="button" class="chip is-active" data-filter-server="" aria-pressed="true">全部服务器</button>
-      {%- for g in memes | groupByServer %}
-      <button type="button" class="chip" data-filter-server="{{ g.server }}" aria-pressed="false">{{ g.server }}<small>{{ g.items.length }}</small></button>
-      {%- endfor %}
-    </nav>
+    <div class="filter-extra" id="filter-extra">
+      <nav class="tag-bar" id="scope-bar" aria-label="按端游／手游筛选">
+        <button type="button" class="chip is-active" data-filter-scope="" aria-pressed="true">端游＋手游</button>
+        {%- for g in memes | groupByScope %}
+        <button type="button" class="chip" data-filter-scope="{{ g.scope }}" aria-pressed="false">{{ g.scope }}<small>{{ g.items.length }}</small></button>
+        {%- endfor %}
+      </nav>
+      <nav class="tag-bar" id="tier-bar" aria-label="按热度档位筛选">
+        <button type="button" class="chip is-active" data-filter-tier="" aria-pressed="true">从夯到拉</button>
+        {%- for g in memes | groupByTier %}
+        <button type="button" class="chip" data-filter-tier="{{ g.tier }}" aria-pressed="false">{{ g.tier }}<small>{{ g.items.length }}</small></button>
+        {%- endfor %}
+      </nav>
+      <nav class="tag-bar" id="server-bar" aria-label="按服务器筛选">
+        <button type="button" class="chip is-active" data-filter-server="" aria-pressed="true">全部服务器</button>
+        {%- for g in memes | groupByServer %}
+        <button type="button" class="chip" data-filter-server="{{ g.server }}" aria-pressed="false">{{ g.server }}<small>{{ g.items.length }}</small></button>
+        {%- endfor %}
+      </nav>
+    </div>
   </div>
-</details>
+  <button type="button" class="filter-more" id="filter-toggle" aria-expanded="false" aria-controls="filter-extra">
+    <span class="filter-more-label">展开</span>
+    <span class="filter-more-arrow" aria-hidden="true">▾</span>
+  </button>
+</section>
 <p id="filter-status" class="filter-status" aria-live="polite" hidden></p>
 
 <ol id="roster" class="cards">
@@ -58,3 +72,4 @@ bodyClass: page-index
 </ol>
 
 <script src="{{ '/assets/js/roster.js' | url }}?v={{ site.build }}" defer></script>
+<script src="{{ '/assets/js/counter.js' | url }}?v={{ site.build }}" defer></script>

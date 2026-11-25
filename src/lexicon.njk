@@ -15,18 +15,36 @@ pageDescription: EVE 中文社区的黑话、别名与术语索引：来自词�
 
 <div class="toolbar" role="search">
   <input id="lex-filter" type="search" placeholder="筛选术语或释义…" autocomplete="off" aria-label="筛选术语">
+  <button type="button" data-lex-order="name" aria-pressed="true" class="is-active" title="按名称排">名称</button>
+  <button type="button" data-lex-order="year" aria-pressed="false" title="按年份排（不清楚时间的取来源或本站最早更新年份）">时间</button>
   <span class="lex-count" id="lex-count">{{ lexicon.stats.terms }} 个</span>
 </div>
 
+<section class="filter-panel" id="lex-filters" aria-label="术语标签筛选">
+  <div class="filter-rows">
+    <nav class="tag-bar filter-primary" id="lex-group-bar" aria-label="按分组筛选">
+      <button type="button" class="chip is-active" data-lex-group="" aria-pressed="true">全部<small>{{ lexicon.stats.terms }}</small></button>
+      {%- for g in lexicon.groups %}
+      <button type="button" class="chip" data-lex-group="{{ g.name }}" aria-pressed="false">{{ g.name }}<small>{{ g.count }}</small></button>
+      {%- endfor %}
+    </nav>
+  </div>
+  <button type="button" class="filter-more" id="lex-filter-toggle" aria-expanded="false" aria-controls="lex-group-bar">
+    <span class="filter-more-label">展开</span>
+    <span class="filter-more-arrow" aria-hidden="true">▾</span>
+  </button>
+</section>
+
 <table class="lex-table" id="lex-table">
   <thead>
-    <tr><th>术语 / 黑话</th><th>释义</th><th>分组</th><th>来源</th><th>词条</th></tr>
+    <tr><th>术语 / 黑话</th><th>释义</th><th>年份</th><th>分组</th><th>来源</th><th>词条</th></tr>
   </thead>
   <tbody>
   {%- for r in lexicon.rows %}
-    <tr data-key="{{ r.term | lower }} {{ r.desc | lower }}">
+    <tr data-key="{{ r.term | lower }} {{ r.desc | lower }}" data-term="{{ r.term }}" data-year="{{ r.year }}" data-group="{{ r.group or '未分组' }}">
       <td class="lex-alias">{{ r.term }}</td>
       <td class="lex-desc">{{ r.desc }}</td>
+      <td class="lex-year">{{ r.year }}</td>
       <td><span class="badge badge-cat">{{ r.group or "—" }}</span></td>
       <td class="lex-src">{{ r.sources | join("；") }}</td>
       <td>
@@ -44,20 +62,97 @@ pageDescription: EVE 中文社区的黑话、别名与术语索引：来自词�
 <script>
   (function () {
     var input = document.getElementById("lex-filter");
-    var rows = Array.prototype.slice.call(document.querySelectorAll("#lex-table tbody tr"));
+    var tbody = document.querySelector("#lex-table tbody");
+    var rows = Array.prototype.slice.call(tbody.querySelectorAll("tr"));
     var count = document.getElementById("lex-count");
+    var panel = document.getElementById("lex-filters");
+    var toggle = document.getElementById("lex-filter-toggle");
+    var groupBtns = Array.prototype.slice.call(document.querySelectorAll("[data-lex-group]"));
+    var orderBtns = Array.prototype.slice.call(document.querySelectorAll("[data-lex-order]"));
     if (!input) return;
+
+    var curGroup = "";
+    var curOrder = "name";
+    var desc = false;
+
     function apply() {
       var q = input.value.trim().toLowerCase().replace(/\s+/g, "");
       var shown = 0;
       for (var i = 0; i < rows.length; i++) {
-        var ok = !q || rows[i].dataset.key.replace(/\s+/g, "").indexOf(q) !== -1;
-        rows[i].hidden = !ok;
+        var r = rows[i];
+        var okQ = !q || r.dataset.key.replace(/\s+/g, "").indexOf(q) !== -1;
+        var okG = !curGroup || r.dataset.group === curGroup;
+        var ok = okQ && okG;
+        r.hidden = !ok;
         if (ok) shown++;
       }
       count.textContent = shown + " 个";
     }
+
+    function sortRows() {
+      rows.sort(function (a, b) {
+        var cmp;
+        if (curOrder === "year") {
+          cmp = Number(a.dataset.year) - Number(b.dataset.year) ||
+            a.dataset.term.localeCompare(b.dataset.term, "zh");
+        } else {
+          cmp = a.dataset.term.localeCompare(b.dataset.term, "zh");
+        }
+        return desc ? -cmp : cmp;
+      });
+      for (var i = 0; i < rows.length; i++) tbody.appendChild(rows[i]);
+    }
+
+    function syncOrderBtns() {
+      for (var i = 0; i < orderBtns.length; i++) {
+        var b = orderBtns[i];
+        var on = b.getAttribute("data-lex-order") === curOrder;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+        b.textContent = on ? b.dataset.label + " " + (desc ? "↓" : "↑") : b.dataset.label;
+      }
+    }
+
+    for (var i = 0; i < orderBtns.length; i++) {
+      orderBtns[i].dataset.label = orderBtns[i].textContent.trim();
+      orderBtns[i].addEventListener("click", function () {
+        var target = this.getAttribute("data-lex-order");
+        if (curOrder === target) desc = !desc;
+        else {
+          curOrder = target;
+          desc = false;
+        }
+        syncOrderBtns();
+        sortRows();
+      });
+    }
+
+    for (var i = 0; i < groupBtns.length; i++) {
+      groupBtns[i].addEventListener("click", function () {
+        curGroup = this.getAttribute("data-lex-group") || "";
+        for (var j = 0; j < groupBtns.length; j++) {
+          var on = groupBtns[j] === this;
+          groupBtns[j].classList.toggle("is-active", on);
+          groupBtns[j].setAttribute("aria-pressed", on ? "true" : "false");
+        }
+        apply();
+      });
+    }
+
     input.addEventListener("input", apply);
+
+    if (panel && toggle) {
+      var labelEl = toggle.querySelector(".filter-more-label");
+      var arrowEl = toggle.querySelector(".filter-more-arrow");
+      toggle.addEventListener("click", function () {
+        var open = panel.classList.toggle("is-open");
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        if (labelEl) labelEl.textContent = open ? "收起" : "展开";
+        if (arrowEl) arrowEl.textContent = open ? "▴" : "▾";
+      });
+    }
+
+    syncOrderBtns();
     apply();
   })();
 </script>

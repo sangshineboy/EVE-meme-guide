@@ -2,7 +2,7 @@
 
 > 由 `node tools/gen-lexicon.mjs` 生成，**不要手改**。
 > 术语来自两处：本仓库词条的名称与别名、以及 `参考文献/` 里抽出的术语（脚本 `tools/import-refs.py`）。
-> 生成时间：2026-11-08 ｜ 术语 615 个（其中 415 个能对上词条）｜ 词条 166 条
+> 生成时间：2026-11-25 ｜ 术语 615 个（其中 415 个能对上词条）｜ 词条 166 条
 
 ## 这份表怎么用
 
@@ -61,7 +61,7 @@
 | 八年深情惜囧森 | FDK联盟前任CEO johsonzyb，在14年元旦时带领FDK联盟背叛盟友PIBC，参与到联军阵营对PIBC的围攻中，八年盟友终变敌对。帮助萌新叫杀手：杀手军团，吉他宣战党，因为其经常喜欢宣战新手团并打劫，美其名曰帮助新人。嘲讽之意 | 词条；百科·梗#79 | [八年深情惜囧森](../src/memes/ba-nian-shen-qing/ba-nian-shen-qing.md) |
 | 巴贝尔 | 与「诚实守信康师傅」同句式的评语，对象是玩家巴贝尔；百科未给解释。 | 别名 | [诚实守信巴贝尔](../src/memes/cheng-shi-shou-xin-ba-bei-er/cheng-shi-shou-xin-ba-bei-er.md) |
 | 巴戈龙 | 材料音作“八个龙”，指突袭者势力战列舰。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
-| 把自己投出去了 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
+| 把自己投出去了 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
 | 白名 | 路人，但有可能是敌对小号或攻击性极强，非高安区白名一律当红减处理。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 帮顶联盟 | 野男人部落，专挑没势力或主权掉线的星系「帮顶」上主权，被称「帮顶联盟」。 | 别名 | [只为帮顶野男人](../src/memes/bang-ding-ye-nan-ren/bang-ding-ye-nan-ren.md) |
 | 帮助萌新叫杀手 | 百科收录的评语句：把「宣战新手团、打劫新人」说成「帮助萌新」。 | 词条；百科·梗#80 | [帮助萌新叫杀手](../src/memes/bang-zhu-meng-xin-jiao-sha-shou/bang-zhu-meng-xin-jiao-sha-shou.md) |
@@ -81,7 +81,7 @@
 | 不吃炸鸡反 BP | FBP阵营，由于军团众多成分复杂，阵营内部腐化严重，经常有总监将军团资产或产出换为RMB | 词条；百科·梗#85 | [不吃炸鸡反 BP](../src/memes/bu-chi-zha-ji/bu-chi-zha-ji.md) |
 | 不能运作RAC | （百科仅列名，未给解释） | 百科·梗#86 | [原页](https://evepc.baike.163.com/ziliao/66.html) |
 | 不骑摩托神鸡鸡 | 3V 的 CEO「神的鸡鸡」，国服著名战斗指挥；因 3V 与 PIBC 的关系，人称鸡副主席。 | 词条；百科·梗#87 | [不骑摩托神鸡鸡](../src/memes/shen-ji-ji/shen-ji-ji.md) |
-| 不许录音 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
+| 不许录音 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
 | 步兵 | 百科收录的评语句，对象是「步兵」，未给解释。 | 别名 | [早睡早起叫步兵](../src/memes/zao-shui-zao-qi-jiao-bu-bing/zao-shui-zao-qi-jiao-bu-bing.md) |
 | 步兵团 | 百科收录的评语句：说步兵团「单手灭盟」，未给解释。 | 别名 | [单手灭盟步兵团](../src/memes/dan-shou-mie-meng-bu-bing-tuan/dan-shou-mie-meng-bu-bing-tuan.md) |
 | 采星者 | STARCHASER INC. （虫洞联盟，无主权） | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
@@ -98,7 +98,7 @@
 | 吃不起饭 LG | 联军围攻PIBC时联军阵营FOF的ceo，原先属于PIBC联盟。人称大老板，据说现实中做生意，投入大量RMB在eve中，几年来一直试图推翻PIBC联盟的馒头主席 | 词条；百科·梗#91 | [吃不起饭 LG](../src/memes/chi-bu-qi-fan-lg/chi-bu-qi-fan-lg.md) |
 | 吃颗药就知道了 | 有人问源泉属不属于南方，馒头用全频道广播回答了他。 | 别名 | [源泉是南方](../src/memes/yuan-quan-shi-nan-fang/yuan-quan-shi-nan-fang.md) |
 | 吃翔 | 玩家史累史打赌绕杆子一小时不可能赚到 5E，赌注是吃翔，结果对方真的做到了。 | 别名 | [我直播吃翔](../src/memes/wo-zhi-bo-chi-xiang/wo-zhi-bo-chi-xiang.md) |
-| 吃KFC | EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
+| 吃KFC | EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
 | 痴汉 | 你在星门那头，我在星门这头，可你就是不跳。 | 别名 | [星门痴汉](../src/memes/xing-men-chi-han/xing-men-chi-han.md) |
 | 冲冲冲，杀杀杀，修我修我，我死了 | 吐槽南华军团战术的一句话：只会往前冲，喊人修，最后自己先死。 | 词条；百科·梗#62 | [冲冲冲，杀杀杀，修我修我，我死了](../src/memes/chong-chong-chong/chong-chong-chong.md) |
 | 冲锋在前梅提督 | 隐星军团的带队指挥梅林阿瑟，外号梅提督。 | 词条；百科·梗#92 | [冲锋在前梅提督](../src/memes/mei-ti-du/mei-ti-du.md) |
@@ -224,7 +224,7 @@
 | 鸡窝 | 冥府级米玛塔尔超级航母 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 吉他 | 最大的贸易中心星系名。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 吉他安民属鱼类 | 吉他宣战军团「粉红鱼雷打水沟」，专门通过宣战在吉他堵空间站。 | 词条；百科·梗#109 | [吉他安民属鱼类](../src/memes/fen-hong-yu-lei/fen-hong-yu-lei.md) |
-| 吉他霸主为金鳞 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。 | 词条；百科·梗#110 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
+| 吉他霸主为金鳞 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。 | 词条；百科·梗#110 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
 | 吉他科长四万五 | 玩家雪寒顿悟在ECF论坛上的某贴中说自己的月入45000元的科长，由于玩家觉得他在炫耀，因而出名。 | 别名；百科·梗#40（别名） | [4w5 科长](../src/memes/4w5-ke-zhang/4w5-ke-zhang.md) |
 | 集火 | 多人同时攻击某一个目标。 | 小米·手游黑话；B站·黑话下集 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 寂静谷主熊老师 | PIBC 暗月军团的幕后人物，军团驻地静寂谷，人称熊老师。 | 词条；百科·梗#111 | [寂静谷主熊老师](../src/memes/xiong-lao-shi/xiong-lao-shi.md) |
@@ -240,8 +240,8 @@
 | 僵尸跳，超旗爆 | 老僵尸是星河联邦方在论坛最活跃的政工，每当他发表言论后必有超旗被爆的事件，此定律已经成为宇宙真理，最有名的一次是他表示年终奖是10条超旗，几天后的ZO一战，星联方损失泰坦加大航超越10条，成为星联战率转折点，无数星联勇士恨的牙痒痒，可惜不知道他游戏ID。http://tieba.baidu.com/ | 词条；百科·梗#75 | [僵尸跳，超旗爆](../src/memes/jiang-shi-tiao-chao-qi-bao/jiang-shi-tiao-chao-qi-bao.md) |
 | 交不起就滚 | 馒头在动员会上开的价：不上前线，就每月交 300E。 | 别名 | [300E 滚滚](../src/memes/300e-gun-gun/300e-gun-gun.md) |
 | 接战至死 | 不打算活着回来的舰队：接战就打到死。 | 别名 | [玉碎队](../src/memes/yu-sui-dui/yu-sui-dui.md) |
-| 金鳞 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。 | 别名 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
-| 金鳞盛宴 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏；与杀手是宣战关系。 | 别名 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
+| 金鳞 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。 | 别名 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
+| 金鳞盛宴 | 吉他宣战军团「金鳞盛宴」，号称要把 EVE 新人都打出游戏，与杀手是宣战关系。 | 别名 | [吉他霸主为金鳞](../src/memes/jin-lin/jin-lin.md) |
 | 金鹏小马切糕队 | 已故先帝魔神大大组的队伍，曾经的切糕队组出过满编…团灭过PIBC重甲队，最开始所向无敌，不过因为这种队伍实在补不起，后期就没这个兵种了 | 词条；百科·梗#74 | [金鹏小马切糕队](../src/memes/qie-gao-dui/qie-gao-dui.md) |
 | 进退果敢时尚凝 | 前 PF 阵营里 FDK 的著名指挥，因指挥果敢、打法扎实被称赞，现已 AFK。 | 词条；百科·梗#115 | [进退果敢时尚凝](../src/memes/shi-shang-ning/shi-shang-ning.md) |
 | 警察 | 统合部，会无情摧毁一切高安罪犯，绝无逃脱可能。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
@@ -262,7 +262,7 @@
 | 抗战熊 | 因为口音，一支「盾抗战巡重突队」变成了「凳抗战熊种兔队」。 | 别名 | [凳抗战熊种兔队](../src/memes/deng-kang-zhan-xiong/deng-kang-zhan-xiong.md) |
 | 可以刷 FDK 的人，不可以刷 FDK 的怪 | 这是个古老的故事……远古时代FDK由于立盟时主打商业，自称EVE的自由港，战斗力并不强，人称肉盟，后来在00区域被当时的FBP挤压，面临生存压力。某天FBP的矿工CH驾驶泰坦跳入FDK腹地2R，用末日武器击毁了一艘FDK的小航，之后在本地堂而皇之的刷怪。之后泰坦被抓，FDK最终决定用超旗捍卫尊严。当 | 词条；百科·梗#8 | [可以刷 FDK 的人，不可以刷 FDK 的怪](../src/memes/ke-yi-shua-fdk-de-ren/ke-yi-shua-fdk-de-ren.md) |
 | 可以刷我的人，但不能刷我的怪 | 被打到家门口的一方的底线：人你可以刷，怪是我的。 | 别名 | [可以刷 FDK 的人，不可以刷 FDK 的怪](../src/memes/ke-yi-shua-fdk-de-ren/ke-yi-shua-fdk-de-ren.md) |
-| 肯德基 | EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
+| 肯德基 | EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
 | 坑爹 425 | 此话所指425为425mm磁轨炮，由于之前425炮的属性比较抗爹因而得名。并有一诗说明原因： 坑爹四二五，联邦之耻辱， 磁轨专业五，打怪似爱抚， 翻阅炮击簿，心酸二百五， 计算机无数，炮塔似铁固， 右键看转速，零点零三五， 擦过多如鼠，超强指可数， 膛中联邦蛋，动热七比五， 凝眸向猎物，动热乃低属， | 词条；百科·梗#15 | [坑爹 425](../src/memes/keng-die-425/keng-die-425.md) |
 | 坑爹四二五 | 425mm 磁轨炮的绰号，附一首控诉它打不中的长诗。 | 别名 | [坑爹 425](../src/memes/keng-die-425/keng-die-425.md) |
 | 筷子 | 刽子手级护卫舰 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
@@ -303,7 +303,7 @@
 | 卖水果 | RMT 的暗语：卖的不是水果，是 ISK。 | 别名 | [买水果](../src/memes/mai-shui-guo/mai-shui-guo.md) |
 | 馒大林 | 百科收录的评语句，把馒头称作「馒大林」「勇当先锋」，未给解释。 | 别名 | [勇当先锋馒大林](../src/memes/yong-dang-xian-feng-man-da-lin/yong-dang-xian-feng-man-da-lin.md) |
 | 馒大林格勒会战 | 49-U6U馒大林格勒战役是第二次生死之战中南北联盟轴心国对泛银河商业共同体(简称PIBC)争夺逑瑞斯东部节点49-U6U星系馒大林格勒而进行的战役，时间自2014年2月28日到3月26日为止。馒大林格勒战役是第二次生死之战逑瑞斯东部战线的转折点，同盟国3P联军完全的掌握了战斗的主导权。从伤亡数字来 | 别名；百科·梗#61（别名） | [49 会战](../src/memes/49-hui-zhan/49-hui-zhan.md) |
-| 馒皇 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
+| 馒皇 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
 | 馒头 | PIBC 的 CEO 军用馒头的外号来源：内部纠纷与外交事件都由他出面或背锅。 | 别名 | [避风避雨避馒头](../src/memes/bi-feng-bi-yu-bi-man-tou/bi-feng-bi-yu-bi-man-tou.md) |
 | 馒头/馒主席/馒大林 | PIBC的CEO&lt;军用馒头&gt; | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 梅林阿瑟 | 隐星军团的带队指挥梅林阿瑟，外号梅提督。 | 别名 | [冲锋在前梅提督](../src/memes/mei-ti-du/mei-ti-du.md) |
@@ -313,11 +313,11 @@
 | 灭灯 | 指一个联盟所有的主权星系被攻占，自己没有任何主权星系。 在星图上看，就是一个一个的星系(灯)一个一个灭掉。 | 词条；别名 等 | [灭灯](../src/memes/mie-deng/mie-deng.md) |
 | 魔神 | 与「和平发展属魔神」是同一个人：喝完酒带队，风格异常勇猛，还常因此赢。 | 别名 | [酒胆雄心魔特勒](../src/memes/mo-te-le/mo-te-le.md) |
 | 魔神大大 | 与「和平发展属魔神」是同一个人：喝完酒带队，风格异常勇猛，还常因此赢。 | 别名 | [酒胆雄心魔特勒](../src/memes/mo-te-le/mo-te-le.md) |
-| 南北指挥耶V稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 词条；百科·梗#125 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
+| 南北指挥耶V稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 词条；百科·梗#125 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
 | 南部乞丐茶叶神 | PIBC 格拉亚多军团的富豪，EVE 国服著名富豪之一。 | 词条；百科·梗#126 | [南部乞丐茶叶神](../src/memes/cha-ye-shen/cha-ye-shen.md) |
-| 南华大学 | ECF 玩家南华上将的外号，因头像用南华大学；「有勇无谋」来自他看见泰坦只顾截图。 | 别名 | [南华大学，有勇无谋](../src/memes/nan-hua-da-xue/nan-hua-da-xue.md) |
+| 南华大学 | ECF 玩家南华上将的外号，因头像用南华大学。「有勇无谋」来自他看见泰坦只顾截图。 | 别名 | [南华大学，有勇无谋](../src/memes/nan-hua-da-xue/nan-hua-da-xue.md) |
 | 南华大学，有勇无谋 | ECF论坛上的superhyb玩家，游戏ID南华上将，经常发贴写玩EVE的心得，因为头像是南华大学，所以被叫南华大学。某日某时上将在YY鬼嚎：“泰坦！！我看见了泰坦！！在空间站门口50KM！！”众人：“总指挥好像说过弯刀能秒小航啊 不知道泰坦能不能秒掉呢？”过了几秒，上将：“泰坦跑了！！”指挥：“你 | 词条；百科·梗#68 | [南华大学，有勇无谋](../src/memes/nan-hua-da-xue/nan-hua-da-xue.md) |
-| 南华上将 | ECF 玩家南华上将的外号，因头像用南华大学；「有勇无谋」来自他看见泰坦只顾截图。 | 别名 | [南华大学，有勇无谋](../src/memes/nan-hua-da-xue/nan-hua-da-xue.md) |
+| 南华上将 | ECF 玩家南华上将的外号，因头像用南华大学。「有勇无谋」来自他看见泰坦只顾截图。 | 别名 | [南华大学，有勇无谋](../src/memes/nan-hua-da-xue/nan-hua-da-xue.md) |
 | 脑插 | 永久提升技能训练速度的植入体。脑插分为绿、蓝、紫，作者认为只买绿色的性价比最高。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
 | 嫩骷髅 | FBP 阵营的 ECF 政工，因发帖内容多有不实，被叫作「历史发明家」。 | 别名 | [历史发明嫩骷髅](../src/memes/nen-ku-lou/nen-ku-lou.md) |
 | 你好，东部联邦 | PIBC的自由骑士军团以前驻防求瑞斯，后来准备在源泉买站，结果通敌被踢，被踢后自由CEO加入东部联邦并发表了著名邮件《你好，东部联邦》表示要搞一中队超旗打回泉源，最终自由骑士成为星联十九常，东部联邦关闭，西联惶恐不安，馒头指示阿瑞斯猛造超旗应对威胁 | 词条；百科·梗#77 | [你好，东部联邦](../src/memes/ni-hao-dong-bu-lian-bang/ni-hao-dong-bu-lian-bang.md) |
@@ -388,7 +388,7 @@
 | 势力装 | 在击杀BOSS、官员后获得的特殊装备 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 势力装与死亡装 | 势力装右上角是绿色的，死亡装右上角是蓝色的。上集内容到这里结束。 | B站·黑话上集 | [原页](https://www.bilibili.com/video/BV1dC4y1X7eP/) |
 | 收割 | 有组织的一小队人针对性的对某些地区的玩家进行PVP活动。 | 百科·习语；小米·手游黑话 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
-| 手滑泰坦 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
+| 手滑泰坦 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
 | 守家靠隐轰 | 一首打油诗的最后一句：守家靠隐轰。 | 别名 | [隐轰守主权](../src/memes/yin-hong-shou-zhu-quan/yin-hong-shou-zhu-quan.md) |
 | 刷怪 | 打异常空间的海盗。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 刷书 | 去低安刷任务书。书可以在市场买到。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
@@ -409,7 +409,7 @@
 | 索敌计算机（索敌） | 提升自身炮台类武器的射程和跟踪速度；导弹也有自己的加成装置。 | B站·黑话上集 | [原页](https://www.bilibili.com/video/BV1dC4y1X7eP/) |
 | 索明美/恩公 | 前星河V联邦CEO&lt;天神索隆&gt;唱歌好听 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 锁一个打 | 老外 ID 全是外文读不出来，指挥怒了：随便锁一个打！ | 别名 | [随便锁一个打](../src/memes/sui-bian-suo-yi-ge-da/sui-bian-suo-yi-ge-da.md) |
-| 泰坦操作理论5 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
+| 泰坦操作理论5 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。 | 别名 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
 | 泰坦先锋脾气君 | 百科收录的评语句，对象是「脾气君」，「泰坦先锋」未展开。 | 词条；百科·梗#134 | [泰坦先锋脾气君](../src/memes/tai-tan-xian-feng-pi-qi-jun/tai-tan-xian-feng-pi-qi-jun.md) |
 | 坦克船 | 指通过提升舰船抗性，增加护盾/装甲HP而配置出的高防御高HP的舰船，主要用于进入死亡空间复合体后承担吸引火力责任的舰船。 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 坦克误国 | 会战打不动，因为人都去打坦克世界了。 | 别名 | [误国](../src/memes/wu-guo/wu-guo.md) |
@@ -424,7 +424,7 @@
 | 贴门 | 去接近某个星门。严谨说法是“贴近某某星门”；如果只说“贴门”，默认指最近的那个星门。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
 | 铁血阵线TUF | 百科收录的评语句，指向 TUF 这个组织，未给解释。 | 词条；百科·梗#136 | [铁血阵线TUF](../src/memes/tie-xue-zhen-xian-tuf/tie-xue-zhen-xian-tuf.md) |
 | 偷菜 | 顾名思义偷星际资源，玩家收取星际资源的时候本地资源会发射仓方式投入太空，附近玩家可以拾取发射仓。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
-| 投送泰坦把自己投出去了 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去——舰队还在原地。 | 词条 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
+| 投送泰坦把自己投出去了 | 泰坦开桥要投送舰队，操作一失误，把自己跳了出去，舰队还在原地。 | 词条 | [投送泰坦把自己投出去了](../src/memes/tou-song-tai-tan/tou-song-tai-tan.md) |
 | 团灭黑 | PF 打 FBP 时期的口号，说的是一位指挥：舰队常被先崩，但本人指挥扎实稳当。 | 别名 | [坚若磐石团灭黑](../src/memes/jian-ruo-pan-shi/jian-ruo-pan-shi.md) |
 | 推子 | 代指微型跃迁推进器和加力燃烧推进器两种装备，用于提高舰船飞行速度，使其飞得更快，但是在一般pvp作战中推子都通指微型跃迁推进器，当然也有喊微曲的。 | 小米·手游黑话；B站·黑话上集 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 娃娃万岁伽玛安 | FDK 前 CEO、著名指挥，后来离开 FDK 自建战斗联盟「特武」。 | 词条；百科·梗#137 | [娃娃万岁伽玛安](../src/memes/jia-ma-an/jia-ma-an.md) |
@@ -442,7 +442,7 @@
 | 微曲 | 指微型跃迁推进器，能极大提高舰船飞行速度，但是有着高额的信号半径惩罚和电容上限减少惩罚，常用于各种pvp或者pve中。 | 百科·习语；小米·手游黑话 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 微驱 | 微型跃迁推进器的简称。它比加力提升速度更多，但会被反跳关停；除非有“青花瓷核心”（氪佬）。它还会大幅放大船体信号，使敌方炮台更容易打中自己。 | B站·黑话上集 | [原页](https://www.bilibili.com/video/BV1dC4y1X7eP/) |
 | 唯我七月得红颜 | 红颜指的是前七月同盟外交官，ID 猪咪咪，女性玩家 | 词条；百科·梗#138 | [唯我七月得红颜](../src/memes/hong-yan/hong-yan.md) |
-| 我就只配当个眼睛号 | 开个小号飞过去看本地有谁——顺便被 CEO 撞见了。 | 别名 | [眼睛号](../src/memes/yan-jing-hao/yan-jing-hao.md) |
+| 我就只配当个眼睛号 | 开个小号飞过去看本地有谁，顺便被 CEO 撞见了。 | 别名 | [眼睛号](../src/memes/yan-jing-hao/yan-jing-hao.md) |
 | 我是良民COA | 百科收录的评语句：以 COA 的口吻自称「良民」，未给解释。 | 词条；百科·梗#139 | [我是良民COA](../src/memes/wo-shi-liang-min-coa/wo-shi-liang-min-coa.md) |
 | 我死了 | 吐槽南华军团战术的一句话：只会往前冲，喊人修，最后自己先死。 | 别名 | [冲冲冲，杀杀杀，修我修我，我死了](../src/memes/chong-chong-chong/chong-chong-chong.md) |
 | 我相信我有这个影响力 | 出自FBP势力星华军团玩家夺米台风，北方战争期间他曾威胁要入侵PIBC源泉星域，原话里 有“相信我我有这个影响力”故此得名。后来随着FBP北方战败，这样的威胁也就成为了笑柄。 | 词条；百科·梗#6 | [我相信我有这个影响力](../src/memes/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li.md) |
@@ -497,7 +497,7 @@
 | 血脉的诅咒 | 一句「诅咒」：在血脉星域立足的大联盟，最后都亡了。 | 别名 | [血脉不详久居必亡](../src/memes/xue-mai-bu-xiang/xue-mai-bu-xiang.md) |
 | 训练河蚌 | 贴吧上的一问：如何训练河蚌，或与河蚌建立友谊？ | 别名 | [河蚌](../src/memes/he-bang/he-bang.md) |
 | 亚布 | FDK 联盟总监亚布，人称大奶牛，因常年 8 开万古、又对数据与配置极敏感得名。 | 别名 | [神机妙算奶牛布](../src/memes/nai-niu-bu/nai-niu-bu.md) |
-| 眼睛 | 开个小号飞过去看本地有谁——顺便被 CEO 撞见了。 | 别名 | [眼睛号](../src/memes/yan-jing-hao/yan-jing-hao.md) |
+| 眼睛 | 开个小号飞过去看本地有谁，顺便被 CEO 撞见了。 | 别名 | [眼睛号](../src/memes/yan-jing-hao/yan-jing-hao.md) |
 | 眼睛号 | PVP中一方可以开一个新号，只用新手船即可，飞到对方星系观察本地状况的号，就叫眼睛号。另一个梗是某次收割队在TGA地盘收割时，有人在本地打字说看到了TGA的舰队，然后在本地拖出了刚好在本地的TGA联盟CEO天神索隆的ID，说：“看，这就是他们的眼睛号”索隆非常无语的在本地回复：“我就只配当个眼睛号？ | 词条；百科·梗#29 | [眼睛号](../src/memes/yan-jing-hao/yan-jing-hao.md) |
 | 养怪 | 一个异常空间内，留下一些小怪不打，过段时间就会刷新出新的海盗。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 摇修 | 一般指后勤的远程修理，可以在远处给其他队友恢复护盾量或装甲量 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
@@ -505,9 +505,9 @@
 | 摇修老李的蛋 | 救援没赶上，最后给一颗蛋挂上了摇修。 | 别名 | [摇修飞袖李的蛋](../src/memes/yao-xiu-fei-xiu-li-de-dan/yao-xiu-fei-xiu-li-de-dan.md) |
 | 爷爷一路走好 | 某天玩家深蓝决战到底的爷爷去世，然后其要求全联盟的人改空间站名字吊唁其爷爷，并抛出“空间站改名，不改后果自负”，一时间玩家上线后看到整个联盟的所有空间站都统一改名为：爷爷一路走好。另外有玩家在回贴中说“馒头死了？”（因为玩家一直说蓝色联邦抱馒头大腿，说馒头是深蓝决战到底的爷爷），原贴已被删。也因此事 | 词条；百科·梗#67 | [爷爷一路走好](../src/memes/ye-ye-yi-lu-zou-hao/ye-ye-yi-lu-zou-hao.md) |
 | 爷爷走了 | 玩家要求全联盟把空间站改名吊唁爷爷，一句「不改后果自负」，整个联盟的空间站都成了悼词。 | 别名 | [爷爷一路走好](../src/memes/ye-ye-yi-lu-zou-hao/ye-ye-yi-lu-zou-hao.md) |
-| 耶稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 别名 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
+| 耶稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 别名 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
 | 耶稣的热力学 | 耶稣泰坦被剧本的时候，他放出了自己视角的视频，在被集火超载低槽抗性的时候，屏幕中间不停的弹出，你需要热力学I才能超载该装备的提示。由于泰坦驾驶员往往技能过E，而耶稣却连超载的技能都没有，这个词有嘲讽之意 | 词条；百科·梗#46 | [耶稣的热力学](../src/memes/ye-su-de-re-li-xue/ye-su-de-re-li-xue.md) |
-| 耶v稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名；联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 别名 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
+| 耶v稣 | COA 联盟指挥耶 V 稣，因爆了 4 条泰坦出名。联军围攻 PIBC 时是南北联军指挥之一，带队很糟。 | 别名 | [南北指挥耶V稣](../src/memes/ye-v-su/ye-v-su.md) |
 | 野男人部落 | 野男人部落，专挑没势力或主权掉线的星系「帮顶」上主权，被称「帮顶联盟」。 | 别名 | [只为帮顶野男人](../src/memes/bang-ding-ye-nan-ren/bang-ding-ye-nan-ren.md) |
 | 一场YY欢唱会引发的惨案 | 一场 YY 歌会调麦序，最后打成联军被围的会战。 | 别名 | [傻妹妹战争](../src/memes/sha-mei-mei-zhan-zheng/sha-mei-mei-zhan-zheng.md) |
 | 一入拂晓深似海 | 拂晓军团，因为其军团群中各势力混杂，聊天内容全无节操 | 词条；百科·梗#146 | [一入拂晓深似海](../src/memes/fu-xiao-jun-tuan/fu-xiao-jun-tuan.md) |
@@ -519,7 +519,7 @@
 | 影响力 | 放话要入侵源泉，随后在北线节节败退。 | 别名 | [我相信我有这个影响力](../src/memes/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li.md) |
 | 影响力高台风姨 | 出自FBP势力星华军团玩家夺米台风，北方战争期间他曾威胁要入侵PIBC源泉星域，原话里 有“相信我我有这个影响力”故此得名。后来随着FBP北方战败，这样的威胁也就成为了笑柄。 | 别名；百科·梗#6（别名） | [我相信我有这个影响力](../src/memes/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li/wo-xiang-xin-wo-you-zhe-ge-ying-xiang-li.md) |
 | 永不分裂泛银河 | 出自当时的一首反讽打油诗：天下布武斐德克，永不分裂泛银河，诚实守信巴贝尔，带头大哥是月形。大概是嘲讽PIBC的联盟管理的，每次PIBC有军团脱离或者馒头开大会就会用这个嘲讽。事实上FDK那时候是商业联盟，宣称永不扩张，PIBC刚刚分裂，NBBE欠荣耀的LOGO设计费50亿不给，月形是FBP体系中最弱 | 词条；别名 等 | [永不分裂泛银河](../src/memes/yong-bu-fen-lie-fan-yin-he/yong-bu-fen-lie-fan-yin-he.md) |
-| 永动机 | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
+| 永动机 | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
 | 永远休闲是星华 | 百科收录的评语句，说星华军团「永远休闲」，未给解释。 | 词条；百科·梗#151 | [永远休闲是星华](../src/memes/yong-yuan-xiu-xian-shi-xing-hua/yong-yuan-xiu-xian-shi-xing-hua.md) |
 | 勇当先锋馒大林 | 百科收录的评语句，把馒头称作「馒大林」「勇当先锋」，未给解释。 | 词条；百科·梗#152 | [勇当先锋馒大林](../src/memes/yong-dang-xian-feng-man-da-lin/yong-dang-xian-feng-man-da-lin.md) |
 | 勇刚正面RAC | （百科仅列名，未给解释） | 百科·梗#153 | [原页](https://evepc.baike.163.com/ziliao/66.html) |
@@ -555,7 +555,7 @@
 | 站长 | 是指整天呆在空间站里不出站的一群人。这群人有的是军团CEO，为了军团的名誉不出站防止被爆;有的是专门搞制造研究的;有的是专门挂技能的;等等。 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 长反 | 指跃迁扰断器，它的射程较长，但是造成的跃迁干扰强度较低，并且无法关闭微型跃迁推进器（微曲）。 | 百科·习语；小米·手游黑话；B站·黑话上集 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | 找坑找骗COA | 百科收录的评语句：说 COA「找坑找骗」，未给解释。 | 词条；百科·梗#164 | [找坑找骗COA](../src/memes/zhao-keng-zhao-pian-coa/zhao-keng-zhao-pian-coa.md) |
-| 这个频道不许录音 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。 | 词条 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
+| 这个频道不许录音 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。 | 词条 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
 | 镇南天王套司令 | TGA南方某军团CEO套索。因为其军团很大，超旗众多，军团镇守南方与RAC交界处，被称为镇南王 | 词条；百科·梗#165 | [镇南天王套司令](../src/memes/tao-si-ling/tao-si-ling.md) |
 | 镇南王 | TGA 南方某军团 CEO 套索，军团大、超旗多、镇守南方与 RAC 交界，被称镇南王。 | 别名 | [镇南天王套司令](../src/memes/tao-si-ling/tao-si-ling.md) |
 | 只为帮顶野男人 | “著名帮顶联盟”野男人部落，没人知道这个联盟是怎么来的，EVE里忽然就出现了这么一个联盟，每当全宇宙有哪里没有势力或因军团失误导致主权下线，这个军团就会去点上自己的主权，即使之后被推掉也无所谓。贴吧中常常出现他们的招新，EVE最大的联盟野男人部落帮顶。人称帮顶联盟 | 词条；百科·梗#166 | [只为帮顶野男人](../src/memes/bang-ding-ye-nan-ren/bang-ding-ye-nan-ren.md) |
@@ -571,7 +571,7 @@
 | 主编注意你的立场 | ECF 上写长篇的政工「主编」，立场从坚定 FBP 变成泛北拥趸，「注意你的立场」说的就是他。 | 别名 | [河联社主编](../src/memes/he-lian-she-zhu-bian/he-lian-she-zhu-bian.md) |
 | 主席 | PIBC 的 CEO 军用馒头的外号来源：内部纠纷与外交事件都由他出面或背锅。 | 别名 | [避风避雨避馒头](../src/memes/bi-feng-bi-yu-bi-man-tou/bi-feng-bi-yu-bi-man-tou.md) |
 | 抓泥鳅 | 两个梗一个是原先FBP阵营打架的时候让妹子唱抓泥鳅这个歌，稍有点成人歌曲。另一个就是指：将敌对舰队击溃后在星系内抓四散的敌对舰船因为敌对会到处乱跑，所以俗称抓泥鳅。 | 词条；百科·梗#172 | [抓泥鳅](../src/memes/zhua-ni-qiu/zhua-ni-qiu.md) |
-| 抓泥鳅歌 | 两种用法：FBP 打架时让妹子唱《抓泥鳅》助兴；或指击溃敌队后在星系里追抓四散的敌船。 | 别名 | [抓泥鳅](../src/memes/zhua-ni-qiu/zhua-ni-qiu.md) |
+| 抓泥鳅歌 | 两种用法：FBP 打架时让妹子唱《抓泥鳅》助兴，或指击溃敌队后在星系里追抓四散的敌船。 | 别名 | [抓泥鳅](../src/memes/zhua-ni-qiu/zhua-ni-qiu.md) |
 | 抓人 | 追击目标舰船，常需反跳、网子等控制装备配合。 | 小米·手游黑话 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | 转火 | 转移火力，改为攻击另一个单位。常见喊法就是让所有人“转火”某个目标。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
 | 自由骑士 | 自由骑士 CEO 被踢后投东部联邦，发著名邮件《你好，东部联邦》，扬言用一中队超旗打回源泉。 | 别名 | [你好，东部联邦](../src/memes/ni-hao-dong-bu-lian-bang/ni-hao-dong-bu-lian-bang.md) |
@@ -604,11 +604,11 @@
 | DD、DDG | 驱逐舰 Destroy | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | DEN抗战熊 | 因为口音，一支「盾抗战巡重突队」变成了「凳抗战熊种兔队」。 | 别名 | [凳抗战熊种兔队](../src/memes/deng-kang-zhan-xiong/deng-kang-zhan-xiong.md) |
 | DF WILL | 传说中的 DF WILL，被称作「毁天灭地」。 | 别名 | [毁天灭地是威尔](../src/memes/wei-er/wei-er.md) |
-| E 呆 | PIBC 暗月军团总监，人称 e 萌 / e 呆；数年从未在 YY 说过话，常年制造毒品。 | 别名 | [胸降飞机找 E 呆](../src/memes/e-dai/e-dai.md) |
-| e萌 | PIBC 暗月军团总监，人称 e 萌 / e 呆；数年从未在 YY 说过话，常年制造毒品。 | 别名 | [胸降飞机找 E 呆](../src/memes/e-dai/e-dai.md) |
+| E 呆 | PIBC 暗月军团总监，人称 e 萌 / e 呆。数年从未在 YY 说过话，常年制造毒品。 | 别名 | [胸降飞机找 E 呆](../src/memes/e-dai/e-dai.md) |
+| e萌 | PIBC 暗月军团总监，人称 e 萌 / e 呆。数年从未在 YY 说过话，常年制造毒品。 | 别名 | [胸降飞机找 E 呆](../src/memes/e-dai/e-dai.md) |
 | ECF | EVE China Fans Site的缩写，CEVE玩家聚集的热门FANS站点。（已关闭） | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | ECM | 电子雷达干涉波 Electronic Counter Measures | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
-| EVE 皇帝 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」——录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
+| EVE 皇帝 | 馒头在联盟频道训话，末了补一句「这个频道不许录音」。录音还是流了出来，这句话反倒成了它的标题。 | 别名 | [这个频道不许录音](../src/memes/zhe-ge-pin-dao-bu-xu-lu-yin/zhe-ge-pin-dao-bu-xu-lu-yin.md) |
 | FBP | FBP 阵营军团多、成分杂、内部腐化，常有总监把军团资产或产出换成人民币。 | 别名 | [不吃炸鸡反 BP](../src/memes/bu-chi-zha-ji/bu-chi-zha-ji.md) |
 | FDK | 指斐德克联盟（已灭灯）（已团灭） | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | FDK 夕阳有点红 | FBP势力在发动对FDK联盟的作战前曾有FBP军团CEO在论坛发帖《FDK的夕阳有点红》、《FDK灭灯前的一点杂谈》。言论中充满对于FDK的蔑视。而后FBP势力战败，此言论也就成为了PF势力反讽FBP的一句宣传语。http://bbs.eve-china.com/forum.php?mod=view | 词条；百科·梗#24 | [FDK 夕阳有点红](../src/memes/fdk-xi-yang-you-dian-hong/fdk-xi-yang-you-dian-hong.md) |
@@ -616,15 +616,15 @@
 | FR、FF | 护卫舰 Frigate | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | HOT | 指用大量廉价舰船（常用驱逐）强换战损比的行为 | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
 | ISK 和黄币 | 游戏里通用的货币。 | B站·黑话下集 | [原页](https://www.bilibili.com/video/BV1pN4y1474K/) |
-| JB永动机 | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
-| JESUS N! | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。 | 词条 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
+| JB永动机 | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
+| JESUS N! | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。 | 词条 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
 | johsonzyb | FDK 前 CEO johsonzyb 在 2014 年元旦带队背弃八年盟友 PIBC，「深情」是反话。 | 别名 | [八年深情惜囧森](../src/memes/ba-nian-shen-qing/ba-nian-shen-qing.md) |
 | JST | 吉斯特/吉斯塔姆系列装备简称(例如JST超大X=吉斯特超大型护盾回充增量器 X型) | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |
-| JUSES N | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号；原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
+| JUSES N | 用颂歌体给欧服华人联盟的 CEO 致敬的短片，标题即口号。原片被下架，留传的是打码补档版。 | 别名 | [JESUS N!](../src/memes/jesus-n/jesus-n.md) |
 | JZV 保卫战 | 2012 年北方战争 JZV 保卫战里魔神大大喊出的口号，苦战四个月后主动放弃。 | 别名 | [人在塔在](../src/memes/ren-zai-ta-zai/ren-zai-ta-zai.md) |
 | kelly 星空 | kelly 星空，原 FDK 成员、后入 PIBC 阿瑞斯：在 ECF 大量灌水，却不做无脑喷子。 | 别名 | [水分至高星空萌](../src/memes/xing-kong-meng/xing-kong-meng.md) |
 | KFC | 最早的典故据说是某军团总监遇到了CEO，双方相约去吃饭，可惜囊中羞涩，万般无奈之下，只得卖掉军团物资然后去买kfc。后多指出卖军团物资来获得现实收益。特指游戏内担任军团或者联盟管理层的人员，利用职务之便将军团联盟物资私下倒卖换取经济利益的行为。普遍认为只有那些真正的穷屌丝（贬义）才会去搞这种道德败坏 | 词条；百科·梗#11 | [KFC](../src/memes/kfc/kfc.md) |
-| KFC 全家桶 | EVE 圈里说「KFC」，九成不是去吃肯德基，而是说高层把联盟的公共物资揣进了自己口袋。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
+| KFC 全家桶 | EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。炸鸡只是这笔钱的去向，罪名才是重点。 | 别名 | [KFC](../src/memes/kfc/kfc.md) |
 | KM | 击杀报告，点击人物就可以看见。 | 小米·手游黑话；B站·黑话下集 | [原页](https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16) |
 | LG | FOF 的 CEO，原属 PIBC，人称大老板，现实里做生意，多年试图推翻馒头的 PIBC。 | 别名 | [吃不起饭 LG](../src/memes/chi-bu-qi-fan-lg/chi-bu-qi-fan-lg.md) |
 | LP | 忠诚点 Loyal Points | 百科·习语 | [原页](https://evepc.baike.163.com/ziliao/48.html) |

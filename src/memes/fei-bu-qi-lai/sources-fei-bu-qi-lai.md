@@ -8,7 +8,7 @@
 | 来源 | 链接 | 读出什么 | 缺口 |
 | --- | --- | --- | --- |
 | 163百科《EVE的各种梗》第 58 条 | https://evepc.baike.163.com/ziliao/66.html | 见正文 | — |
-| 节目片段（B站，局座原话） | https://www.bilibili.com/video/BV1qW411M7dK/ | 见正文 | — |
+| 【千本科幻5】局座说飞不起来的EVE乌鸦级宇宙战舰【星舰母港5】（B站） | https://www.bilibili.com/video/BV1qW411M7dK/ | 见正文 | — |
 
 ## 说明
 

@@ -10,5 +10,7 @@ export default {
   categoryOrder: ["名场面", "历史事件", "组织政治", "玩法", "机制", "舰船", "社区文化", "舰长轶事"],
   scopeOrder: ["端游", "手游", "通用"],
   serverOrder: ["欧服", "国服", "未标"],
+  // 访问人数统计接口（腾讯云函数 SCF / EdgeOne URL；留空时自动隐藏计数器）
+  counterEndpoint: process.env.COUNTER_ENDPOINT || "https://1300580805-efaxp1dfbr.ap-nanjing.tencentscf.com",
   build: Date.now().toString(36), // 每次构建变化，用于给 CSS/JS 加版本号
 };

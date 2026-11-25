@@ -39,28 +39,77 @@ const summaryOf = (e) =>
     .map((l) => l.trim())
     .find((l) => l && !l.startsWith("#") && !l.startsWith("-") && !l.startsWith(">")) ?? "";
 
+const SITE_FIRST_YEAR = 2026; // 本站最早一次更新（首次提交 2026-10-14）
+
+// 参考文献来源页面的已知发布/最早更新年份（有据可查，不编造）
+const SOURCE_URL_YEARS = {
+  "https://evepc.baike.163.com/ziliao/66.html": 2014, // 自述截至 2014-11-07
+  "https://evepc.baike.163.com/ziliao/48.html": 2019, // 百科页面更新于 2019-02-25
+  "https://game.xiaomi.com/viewpoint/1103611977_1654096587098_16": 2022, // 2022-06-01
+  "https://www.bilibili.com/video/BV1dC4y1X7eP/": 2023, // 2023-12-10
+  "https://www.bilibili.com/video/BV1pN4y1474K/": 2023, // 2023-12-19
+};
+
+const YEAR_RE = /(?<!\d)(200[3-9]|201\d|202[0-6])(?:\s*年|-(?:0[1-9]|1[0-2]))/g;
+
+function extractYears(text) {
+  const ys = [];
+  for (const m of String(text ?? "").matchAll(YEAR_RE)) {
+    ys.push(Number(m[1]));
+  }
+  return ys;
+}
+
+function yearsFromSourceText(source, url) {
+  const ys = [];
+  if (url && SOURCE_URL_YEARS[url]) ys.push(SOURCE_URL_YEARS[url]);
+  const s = String(source ?? "");
+  if (s.includes("百科·梗")) ys.push(2014);
+  if (s.includes("百科·习语")) ys.push(2019);
+  if (s.includes("小米·手游黑话")) ys.push(2022);
+  if (s.includes("B站·黑话")) ys.push(2023);
+  return ys;
+}
+
+function yearOfEntry(e) {
+  const body = String(e.body ?? "");
+  const [beforeRef, refPart = ""] = body.split(/^## 参考文献/m);
+  const years = [...extractYears(beforeRef), ...extractYears(refPart)];
+  for (const [u, y] of Object.entries(SOURCE_URL_YEARS)) {
+    if (refPart.includes(u)) years.push(y);
+  }
+  return years.length ? Math.min(...years) : SITE_FIRST_YEAR;
+}
+
+function yearOfRef(r) {
+  const years = [...extractYears(r.desc), ...yearsFromSourceText(r.source, r.url)];
+  return years.length ? Math.min(...years) : SITE_FIRST_YEAR;
+}
+
 const rows = new Map(); // key -> row
 
-const push = (term, { desc = "", source, group = "", url = "", meme = null }) => {
+const push = (term, { desc = "", source, group = "", url = "", meme = null, year = SITE_FIRST_YEAR }) => {
   const key = norm(term);
   if (!key) return;
   const cur = rows.get(key);
   if (!cur) {
-    rows.set(key, { term: term.trim(), desc, sources: [source], group, url, meme });
+    rows.set(key, { term: term.trim(), desc, sources: [source], group, url, meme, year });
     return;
   }
   if (!cur.sources.includes(source)) cur.sources.push(source);
   if (desc && desc.length > (cur.desc?.length ?? 0)) cur.desc = desc;
   if (!cur.meme && meme) cur.meme = meme;
   if (!cur.url && url) cur.url = url;
+  if (year && (!cur.year || year < cur.year)) cur.year = year;
 };
 
 // 1) 词条：主名与别名
 for (const e of entries) {
   const meme = { slug: e.slug, title: e.data.title, category: e.data.category };
-  push(e.data.title, { desc: summaryOf(e), source: "词条", group: e.data.category, meme });
+  const year = yearOfEntry(e);
+  push(e.data.title, { desc: summaryOf(e), source: "词条", group: e.data.category, meme, year });
   for (const a of e.data.aliases ?? []) {
-    push(a, { desc: summaryOf(e), source: "别名", group: e.data.category, meme });
+    push(a, { desc: summaryOf(e), source: "别名", group: e.data.category, meme, year });
   }
 }
 
@@ -73,6 +122,7 @@ for (const r of refs) {
     group: r.group,
     url: r.url,
     meme: hit ?? null,
+    year: yearOfRef(r),
   });
 }
 
@@ -102,6 +152,7 @@ const payload = {
     group: r.group,
     url: r.url,
     meme: r.meme,
+    year: r.year,
   })),
 };
 fs.writeFileSync(OUT_JSON, JSON.stringify(payload, null, 1), "utf8");

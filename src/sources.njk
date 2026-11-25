@@ -22,12 +22,11 @@ pageDescription: 全站词条引用过的公开来源，按站点归拢，同一
 
 {% if rows.length %}
 <table class="src-table">
-  <thead><tr><th>来源</th><th>站点</th><th>引用词条</th></tr></thead>
+  <thead><tr><th>来源</th><th>引用词条</th></tr></thead>
   <tbody>
   {%- for r in rows %}
     <tr>
       <td><a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.title }}</a></td>
-      <td class="src-host">{{ r.host }}</td>
       <td>
         <span class="src-count">{{ r.memes.length }} 条</span>
         {%- for m in r.memes.slice(0, 6) %}

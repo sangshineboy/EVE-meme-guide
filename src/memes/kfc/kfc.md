@@ -51,7 +51,7 @@ EVE 圈里说「KFC」，指高层把联盟的公共物资揣进自己口袋。�
 
 - [163百科《EVE的各种梗》第 11 条](https://evepc.baike.163.com/ziliao/66.html) —— 版本 A 的原始定义；页面自述「网上收集，不保证准确性（截至 2014-11-07）」
 - [麦大麦《就因为吃了一顿肯德基被玩家们玩梗十几年》（网易号转载）](https://www.163.com/dy/article/GU65TTUJ05466P7Y.html) —— 版本 B 与时间线
-- [17173《EVE 编年史：凭着一己之力搞垮 FBP 体系，爆掉 6 艘泰坦》](https://news.17173.com/content/08142020/100857035.shtml) —— 魔神重生与 ZO 会战 6 艘泰坦
+- [《EVE 编年史：凭着一己之力搞垮 FBP 体系，爆掉 6 艘泰坦》（17173）](https://news.17173.com/content/08142020/100857035.shtml) —— 魔神重生与 ZO 会战 6 艘泰坦
 - [《EVE 中曾经最强的国服联盟是如何一步步走向衰败的？》（网易号）](https://www.163.com/dy/article/GTN3PGPC05466P7Y.html) —— PIBC 的税收与「馒头吃肯德基」舆论
-- [B站《惊！！！军用馒头亲口承认 KFC？》](https://www.bilibili.com/video/BV1xB4y127Yx/) —— 2020 年那轮「老梗复活」
-- [九游《EVE 手游常用术语大全》](https://www.9game.cn/news/5232513.html) —— 手游侧释义
+- [惊！！！军用馒头亲口承认 KFC？（B站）](https://www.bilibili.com/video/BV1xB4y127Yx/) —— 2020 年那轮「老梗复活」
+- [《EVE 手游常用术语大全》（九游）](https://www.9game.cn/news/5232513.html) —— 手游侧释义
